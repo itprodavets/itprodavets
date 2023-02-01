@@ -1,7 +1,6 @@
-<p>
+<p
+  align="center">
   <img
-    width="100%"
-    height="100%"
     src="https://readme-jokes.vercel.app/api"
     alt="Jokes Card"
   />
@@ -26,7 +25,7 @@
 
 <picture>
   <source
-    media="(prefers-color-scheme: dark)" 
+    media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
   <source
     media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itprodavets/itprodavets/output/github-contribution-grid-snake.svg">
