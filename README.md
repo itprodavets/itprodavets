@@ -25,12 +25,12 @@
 </br>
 
 <p
-  style="text-align:center">
+  align="center">
     <img
       src="https://komarev.com/ghpvc/?username=itprodavets&&style=flat-square"
     />
   <p
-    style="text-align:center">
+    align="center">
     <a
       href="https://www.buymeacoffee.com/itprodavets">
         <img
