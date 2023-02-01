@@ -1,16 +1,17 @@
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=256&section=header&text=Hello%20World!&fontSize=75&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile!%20Put%20stars,%20fork%20and%20contribute!&descAlignY=51&descAlign=62)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=256&section=header&text=Hey%20there!%20&fontSize=60&animation=fadeIn&fontAlignY=30&fontAlign=35&desc=I'm%20Denis%20Kharchenko👋&descSize=45&descAlignY=55&descAlign=55)
 
+## Jokes
 
 <p
   align="center">
   <img
+    width="80%"
+    height="100%"
     src="https://readme-jokes.vercel.app/api"
     alt="Jokes Card"
   />
 </p>
-
-# Hey there! I'm Denis Kharchenko👋
 
 ## GitHub Stats
 
