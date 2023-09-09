@@ -1,7 +1,8 @@
+<h1 align="center">Hi, I'm <a>Denis Kharchenko</a> 👋</h1>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=256&section=header&text=Hey%20there!%20&fontSize=60&animation=fadeIn&fontAlignY=30&fontAlign=35&desc=I'm%20Denis%20Kharchenko👋&descSize=45&descAlignY=55&descAlign=55)
 
-## Jokes
+<details open>
+<summary><h2>Jokes</h2></summary>
 
 <p
   align="center">
@@ -13,38 +14,57 @@
   />
 </p>
 
-## GitHub Stats
+</details>
 
-<a href="https://github.com/itprodavets">
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api?username=itprodavets&show_icons=true&theme=shades-of-purple&count_private=true"
-    alt="Denis Kharchenko GitHub Stats" />
-  <img
-    height="180"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=itprodavets&theme=shades-of-purple&layout=compact"
-    alt="Denis Kharchenko GitHub Top Languages" />
-</a>
+<details open>
+<summary><h2>GitHub Stats</h2></summary>
 
-</br>
-</br>
-</br>
+  <h3>🔥 Streak Stats</h3>
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/itprodavets/itprodavets/output/github-contribution-grid-snake-dark.svg">
-  <source
-    media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itprodavets/itprodavets/output/github-contribution-grid-snake.svg">
-  <img
-    alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/itprodavets/itprodavets/output/github-contribution-grid-snake-dark.svg">
-</picture>
+  <p>
+    <a href="https://github.com/itprodavets">
+      <img
+        height="180"
+        src="https://github-readme-streak-stats.herokuapp.com/?user=itprodavets&theme=merko"
+        alt="Denis Kharchenko GitHub" />
+    </a>
+  </p>
 
-</br>
-</br>
+  <h3>💻 GitHub Profile Stats</h3>
 
-![soft](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=Come%20again!&fontSize=40&animation=twinkling)
+  <a href="https://github.com/itprodavets">
+    <img
+      height="180"
+      src="https://github-readme-stats.vercel.app/api?username=itprodavets&show_icons=true&theme=merko&count_private=true&include_all_commits=true&show_owner=true"
+      alt="Denis Kharchenko GitHub Stats" />
+  </a>
+
+  <a href="https://github.com/itprodavets">
+    <img
+      height="180"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=itprodavets&theme=merko&layout=compact"
+      alt="Denis Kharchenko GitHub Top Languages" />
+  </a>
+
+  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
+  
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Denis Kharchenko Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=itprodavets&theme=merko" /></a>
+
+</details>
+
+<p
+  align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/itprodavets/itprodavets/output/github-contribution-grid-snake-dark.svg">
+    <source
+      media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itprodavets/itprodavets/output/github-contribution-grid-snake.svg">
+    <img
+      alt="github contribution grid snake animation"
+      src="https://raw.githubusercontent.com/itprodavets/itprodavets/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</p>
 
 <p
   align="center">
