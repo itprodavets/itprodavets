@@ -1,11 +1,6 @@
 <h1 align="center">Hi, I'm <a>Denis Kharchenko</a> 👋</h1>
 
-
-<details open>
-<summary><h2>Jokes</h2></summary>
-
-<p
-  align="center">
+<p align="center">
   <img
     width="80%"
     height="100%"
@@ -13,15 +8,12 @@
     alt="Jokes Card"
   />
 </p>
-
-</details>
-
 <details open>
 <summary><h2>GitHub Stats</h2></summary>
 
-  <h3>🔥 Streak Stats</h3>
+  <h3 align="center">🔥 Streak Stats</h3>
 
-  <p>
+  <p align="center">
     <a href="https://github.com/itprodavets">
       <img
         height="180"
@@ -30,30 +22,32 @@
     </a>
   </p>
 
-  <h3>💻 GitHub Profile Stats</h3>
+  <h3 align="center">💻 GitHub Profile Stats</h3>
 
-  <a href="https://github.com/itprodavets">
-    <img
-      height="180"
-      src="https://github-readme-stats.vercel.app/api?username=itprodavets&show_icons=true&theme=merko&count_private=true&include_all_commits=true&show_owner=true"
-      alt="Denis Kharchenko GitHub Stats" />
+  <p align="center">
+    <a href="https://github.com/itprodavets">
+      <img
+        height="180"
+        src="https://github-readme-stats.vercel.app/api?username=itprodavets&show_icons=true&theme=merko&count_private=true&include_all_commits=true&show_owner=true"
+        alt="Denis Kharchenko GitHub Stats" />
+    </a>
+    <a href="https://github.com/itprodavets">
+      <img
+        height="180"
+        src="https://github-readme-stats.vercel.app/api/top-langs/?username=itprodavets&theme=merko&layout=compact"
+        alt="Denis Kharchenko GitHub Top Languages" />
+    </a>
+  </p>
+<p align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img 
+      alt="Denis Kharchenko Activity Graph" 
+      src="https://github-readme-activity-graph.vercel.app/graph/?username=itprodavets&theme=merko" />
   </a>
-
-  <a href="https://github.com/itprodavets">
-    <img
-      height="180"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=itprodavets&theme=merko&layout=compact"
-      alt="Denis Kharchenko GitHub Top Languages" />
-  </a>
-
-  <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
-  
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Denis Kharchenko Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph/?username=itprodavets&theme=merko" /></a>
-
+</p>
 </details>
 
-<p
-  align="center">
+<p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
@@ -66,15 +60,12 @@
   </picture>
 </p>
 
-<p
-  align="center">
+<p align="center">
     <img
       src="https://komarev.com/ghpvc/?username=itprodavets&&style=flat-square"
     />
-  <p
-    align="center">
-    <a
-      href="https://www.buymeacoffee.com/itprodavets">
+  <p align="center">
+    <a href="https://www.buymeacoffee.com/itprodavets">
         <img
           src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
           height="50"
