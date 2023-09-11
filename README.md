@@ -11,8 +11,9 @@
 <details open>
 <summary><h2>GitHub Stats</h2></summary>
 
-  <h3 align="center">🔥 Streak Stats</h3>
+  <h3>🔥 Streak Stats</h3>
 
+___
   <p align="center">
     <a href="https://github.com/itprodavets">
       <img
@@ -22,8 +23,9 @@
     </a>
   </p>
 
-  <h3 align="center">💻 GitHub Profile Stats</h3>
+  <h3>💻 GitHub Profile Stats</h3>
 
+___
   <p align="center">
     <a href="https://github.com/itprodavets">
       <img
@@ -38,6 +40,8 @@
         alt="Denis Kharchenko GitHub Top Languages" />
     </a>
   </p>
+
+___
 <p align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img 
@@ -47,6 +51,7 @@
 </p>
 </details>
 
+___
 <p align="center">
   <picture>
     <source
@@ -60,6 +65,7 @@
   </picture>
 </p>
 
+___
 <p align="center">
     <img
       src="https://komarev.com/ghpvc/?username=itprodavets&&style=flat-square"
