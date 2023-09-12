@@ -4,8 +4,6 @@
   I'm a businessman, solution architect, team lead and full stack developer with professional experience. Currently, I specialize in creating new technological solutions.
 </p>
 
-
-
 <p align="center">
     <a href="https://www.linkedin.com/in/itprodavets/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=Flat-square&logo=linkedin&logoColor=white"/>
     </a>
@@ -22,8 +20,6 @@
     </a>
 </p>
 
-
-___
 <p align="center">
   <img
     width="80%"
@@ -46,7 +42,6 @@ ___
         alt="Denis Kharchenko GitHub" />
     </a>
   </p>
-
   <h3>💻 GitHub Profile Stats</h3>
 
 ___
@@ -73,7 +68,6 @@ ___
         src="https://github-readme-activity-graph.vercel.app/graph/?username=itprodavets&theme=merko" />
     </a>
   </p>
-
 </details>
 
 ___
