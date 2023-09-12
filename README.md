@@ -1,5 +1,29 @@
-<h1 align="center">Hi, I'm <a>Denis Kharchenko</a> 👋</h1>
+<h1 align="center">Hi, I'm <a href=""> Denis Kharchenko </a> 👋</h1>
 
+<p align="center">
+  I'm a businessman, solution architect, team lead and full stack developer with professional experience. Currently, I specialize in creating new technological solutions.
+</p>
+
+
+
+<p align="center">
+    <a href="https://www.linkedin.com/in/itprodavets/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=Flat-square&logo=linkedin&logoColor=white"/>
+    </a>
+    <a href="mailto:itprodavets@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=Flat-square&logo=gmail&logoColor=white"/>
+    </a>
+    <a href="https://t.me/itprodavets"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=Flat-square&logo=telegram&logoColor=white"/>
+    </a>
+</p>
+
+<p align="center">
+    more, you can read about my experience
+    <a href="/cv.md">
+      here
+    </a>
+</p>
+
+
+___
 <p align="center">
   <img
     width="80%"
@@ -42,13 +66,14 @@ ___
   </p>
 
 ___
-<p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img 
-      alt="Denis Kharchenko Activity Graph" 
-      src="https://github-readme-activity-graph.vercel.app/graph/?username=itprodavets&theme=merko" />
-  </a>
-</p>
+  <p align="center">
+    <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+      <img 
+        alt="Denis Kharchenko Activity Graph" 
+        src="https://github-readme-activity-graph.vercel.app/graph/?username=itprodavets&theme=merko" />
+    </a>
+  </p>
+
 </details>
 
 ___
