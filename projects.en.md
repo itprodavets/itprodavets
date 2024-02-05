@@ -1,6 +1,7 @@
 # Projects
 
 ## GZ DKH Innovation Technology (March 2022 – currently)
+
 ### Empire Of Bloom 
  - Role: Principal Software Developer 
  - Description: The central control unit responsible for coordinating and managing the operation of all internal devices within the container.
@@ -9,6 +10,7 @@
 ---
 
 ## KPMG (May 2017 – september 2019)
+
 ### BEPS Automation Tool
 - Role: Full-Stack Developer
 - Duration: 2017/05 - 2018/03
@@ -24,6 +26,7 @@
 ---
 
 ## ООО «Дом ПК» (April 2015 – april 2017)
+
 ### Information and analytic system
 - Role: Team Lead
 - Duration: 2016/05 - 2018/03
