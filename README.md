@@ -14,10 +14,7 @@
 </p>
 
 <p align="center">
-    more, you can read about my experience
-    <a href="/cv.md">
-      here
-    </a>
+    My professional background are comprehensively detailed in my resume, which is available in both <a href="/resume.en.md">English</a> and <a href="/resume.ru.md">Russian</a> for your convenience.
 </p>
 
 <p align="center">
