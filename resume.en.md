@@ -17,7 +17,7 @@ I thrive on solving complex technical challenges and am continually exploring ne
 
 ## Skills
 - Programming Languages: C, C++, C#, JavaScript, TypeScript
-- Frameworks: .NET, .NET Core, EF Core, Angular, VueJS, React, NextJS, Pinia
+- Frameworks: .NET, .NET Core, EF Core, Angular, React, NextJS, VueJS, NuxtJS, Pinia
 - Databases: MSSQL, PostgreSQL
 - Others: Docker, Apache Kafka, RabbitMQ, MQTT, Modbus
 
