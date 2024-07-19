@@ -14,7 +14,7 @@
 
 ## Навыки
 - Языки программирования: C, C++, C#, JavaScript, TypeScript
-- Фреймворки: .NET, .NET Core, EF Core, Angular, React, NextJS, Vue 3, Pinia
+- Фреймворки: .NET, .NET Core, EF Core, Angular, React, NextJS, VueJS, NuxtJS, Pinia
 - Базы данных: MSSQL, PostgreSQL
 - Другое: Docker, Apache Kafka, RabbitMQ, MQTT, Modbus
 
