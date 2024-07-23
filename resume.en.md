@@ -10,6 +10,8 @@ I enjoy tackling complex technical challenges and continuously explore new techn
 
 I quickly learn new programming languages and technologies, allowing me to adapt to any project requirements and achieve high results in complex and large-scale tasks.
 
+[List of projects](/projects.en.md), that I have implemented in various positions at organizations..
+
 ## Contact Information
 
 - GitHub: [itprodavets](https://github.com/itprodavets)
