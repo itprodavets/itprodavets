@@ -1,100 +1,110 @@
 # Denis Kharchenko
 
-I am a seasoned software developer and systems integrator with extensive experience across a range of sectors, including but not limited to, financial services, information technology, and public sector projects. My expertise lies in devising and implementing innovative solutions that streamline and enhance the efficiency of complex processes.
+I am an experienced software developer and system integrator with extensive experience across various sectors, including financial services, IT, and government projects. My expertise lies in developing and implementing innovative solutions that optimize and enhance the efficiency of complex processes.
 
-Over the years, I have spearheaded numerous pivotal projects, from the development of advanced smart container systems to the automation of intricate tax reporting processes and the creation of comprehensive information and analytical platforms. My role in these projects has not only been to deliver robust technical solutions but also to provide leadership and mentorship to development teams, fostering an environment of professional growth and innovation.
+Over the years, I have led numerous key projects, ranging from developing advanced smart container systems to automating complex tax reporting processes and creating comprehensive information and analytical platforms. In these projects, my role was not only to provide reliable technical solutions but also to offer leadership and mentorship to development teams, fostering an environment for professional growth and innovation.
 
-My technical proficiency encompasses a broad spectrum of languages and frameworks, notably C# and .NET, alongside extensive experience with database management systems such as MS SQL and PostgreSQL. I am adept at utilizing cutting-edge frontend and backend technologies, including Vue.JS, Angular, MQTT, and RabbitMQ.
+My technical proficiency covers a wide range of programming languages and frameworks, particularly C# and .NET, as well as extensive experience with database management systems like MS SQL and PostgreSQL. I successfully utilize advanced frontend and backend technologies, including Vue.js, Angular, and React.
 
-I thrive on solving complex technical challenges and am continually exploring new technologies and methodologies to refine my work. I am keen to leverage my skills and experience in new and challenging projects, contributing to teams that are committed to innovation and excellence in the field of technology.
+I enjoy tackling complex technical challenges and continuously explore new technologies and methodologies to improve my work. I strive to apply my skills and experience to new and challenging projects, contributing to teams that pursue innovation and excellence in technology.
 
-[Projects](/projects.en.md) that I have implemented in various positions within organizations. [<= click here =>](/projects.en.md)
+I quickly learn new programming languages and technologies, allowing me to adapt to any project requirements and achieve high results in complex and large-scale tasks.
 
 ## Contact Information
-- GitHub: [itprodavets](https://github.com/itprodavets)
-- LinkedIn: [itprodavets](https://linkedin.com/in/itprodavets)
-- Telegram: [@itprodavets](https://t.me/itprodavets)
+
+  * GitHub: itprodavets
+  * LinkedIn: itprodavets
+  * Telegram: @itprodavets
 
 ## Skills
-- Programming Languages: C, C++, C#, JavaScript, TypeScript
-- Frameworks: .NET, .NET Core, EF Core, Angular, React, NextJS, VueJS, NuxtJS, Pinia
-- Databases: MSSQL, PostgreSQL
-- Others: Docker, Apache Kafka, RabbitMQ, MQTT, Modbus
+
+  * Backend: .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR Node.js, Express, Nest AWS, Azure, Google Cloud
+  * Fullstack: JavaScript, TypeScript, Bash, C++, C, C#, Node.js, SQL, VBA
+  * Frontend: HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, jQuery, Nuxt.js, SCSS, Stylus, SASS
+  * Databases: Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
+  * Integrations: MQTT, RabbitMQ, SignalR
 
 ## Professional Experience
-### **Principal Software Developer** - GZ DKH Innovation Technology (March 2022 – currently)
 
-Designed a unique device for coordinating intra-container devices and developed a comprehensive management system for smart containers. Implemented firmware development based on FreeRTOS to ensure stable device operation. Executed device integration with an MQTT server, enhancing efficient data transmission. Developed server solutions using .NET 8 and REST API for effective request management, and employed SignalR for real-time interaction. Integrated all functionalities into a dynamic user interface based on Vue 3 for convenient control and monitoring of the container. Additionally, wrote comprehensive documentation for all processes, providing clear guidance and support for users and developers.
+### Lead Developer - GZ DKH Innovation Technology (March 2022 – Present)
 
-- Backend & Embedded Systems: C, C++, C#, .NET Core, EF Core, FreeRTOS, PostgreSQL
-- Communication Protocols: Modbus, MQTT, Mosquitto, RabbitMQ, SignalR
-- Frontend: JavaScript, TypeScript, Vue 3, Pinia
-- Patterns & Principles: CQRS, Domain Driven Design
+Created a unique device to coordinate the interaction of various devices inside the container, developing a comprehensive management system for smart containers. Implemented firmware based on FreeRTOS, ensuring stable device operation and interaction with the MQTT server, significantly improving data transfer efficiency. Implemented server solutions based on .NET 8 and REST API for managing requests, as well as used SignalR for real-time interaction. Integrated all functionalities into a dynamic user interface based on Vue 3, creating a convenient control and monitoring system for the container. Provided comprehensive documentation for all processes, offering clear guides and support for users and developers, contributing to the rapid and effective adoption and operation of the system.
 
----
+  * Backend and Embedded Systems: C, C++, C#, .NET Core, EF Core, FreeRTOS, PostgreSQL
+  * Communication Protocols: Modbus, MQTT, Mosquitto, RabbitMQ, SignalR
+  * Frontend: JavaScript, TypeScript, Vue 3, Pinia
+  * Patterns and Principles: CQRS, Domain Driven Design
 
-### **Principal Software Developer** - Daer Hei Technology (September 2019 – march 2022)
+* * *
 
-My responsibilities included the maintenance of existing products and the creation of new solutions within the marketing, promotion, and production automation sectors. I also focused on mentoring junior developers, conducting code reviews, and collaborating with business stakeholders to outline new project objectives.
+### Lead Developer - Daer Hei Technology (September 2019 – March 2022)
 
-- Backend Technologies: C#, .NET Core, EF Core, MQTTnet, PostgreSQL, RabbitMQ, SignalR
-- Architectural Patterns: CQRS, Domain Driven Design
-- Frontend Technologies: JavaScript, TypeScript, Vue 3, Pinia
+My responsibilities included supporting existing products and creating new solutions in the fields of marketing, promotion, and production automation. I also focused on mentoring junior developers, conducting code reviews, and collaborating with business stakeholders to define new project goals.
 
----
+  * Backend Technologies: C#, .NET Core, EF Core, MQTTnet, PostgreSQL, RabbitMQ, SignalR
+  * Architectural Patterns: CQRS, Domain Driven Design
+  * Frontend Technologies: JavaScript, TypeScript, Vue 3, Pinia
 
-### **Team Lead** - KPMG (May 2017 – september 2019)
+* * *
 
-As a Project Manager and Software Architect, I successfully developed and implemented a comprehensive service for automating the receipt of tax notifications and preparation of tax reports, designed for use by tax authorities worldwide. This project was executed using C# ASP.NET .Net Core for backend development and Angular for the frontend. Additionally, I played a pivotal role in recruiting and expanding the developer team, as well as in strategic planning and architecture design of the applications, ensuring efficient and cohesive project execution.
+### Team Leader - KPMG (May 2017 – September 2019)
 
-- Backend: C#, .NET Framework/Core, ASP.NET, EF, LINQ, OData, MS SQL
-- Frontend: JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js
-- Design & UX: Material Design, DevExpress
-- DevOps & VCS: Git, IIS, PowerShell
+As a project manager and software architect, I successfully developed and implemented a comprehensive service for automating the receipt of tax notifications and preparing tax reports for use by tax authorities worldwide. The project was executed using C# ASP.NET .Net Core for backend development and Angular for frontend. The automation of processes reduced data processing time by 80%, increasing the overall productivity of tax authorities.
 
----
+  * Backend: C#, .NET Framework/Core, ASP.NET, EF, LINQ, OData, MS SQL
+  * Frontend: JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js
+  * Design and UX: Material Design, DevExpress
+  * DevOps and VCS: Git, IIS, PowerShell
 
-### **Full Stack Senior Developer** - ООО «Дом ПК» (April 2015 – april 2017)
+* * *
 
-I have been involved in the development and maintenance of new systems for key Russian government institutions, including the Ministries of Education, Health, Security, and Energy. A significant part of my work entailed extensive engagement with MSSQL databases, where I specialized in query optimization, and the development of procedures and functions. The server-side of the projects was built on ASP.NET MVC, while the frontend utilized HTML5 and JQuery, later transitioning to AngularJS. My experience encompasses the full software development lifecycle, from conceptualization and design to deployment and ongoing support.
+### Senior Full-Stack Developer - Dom PK LLC (April 2015 – April 2017)
 
-- Backend & Data Access: C#, ASP.NET Web API, .NET Framework, EF, LINQ, MSSQL, Transact-SQL
-- Frontend & UI: JavaScript, JQuery, Bootstrap, HTML5, CSS3, D3.js
-- Tools & DevOps: Tortoise SVN, Team City, IIS, PowerShell
+I participated in the development and support of new systems for key Russian government institutions, including the Ministries of Education, Health, Security, and Energy. A significant part of my work involved extensive interaction with MSSQL databases, where I specialized in optimizing queries and developing procedures and functions.
 
----
+  * Backend and Data Access: C#, ASP.NET Web API, .NET Framework, EF, LINQ, MSSQL, Transact-SQL
+  * Frontend and UI: JavaScript, JQuery, Bootstrap, HTML5, CSS3, D3.js
+  * Tools and DevOps: Tortoise SVN, Team City, IIS, PowerShell
 
-### **Full Stack Developer** - Европейская медиагруппа (ЕМГ) (July 2013 – april 2015)
+Effectiveness of my work is confirmed by the following indicators:
 
-My primary responsibilities included the maintenance of the company's internal systems, particularly those related to radio broadcast statistics. Additionally, I developed the company's first budget planning system, implemented using web technologies, specifically ASP.NET WebForm and JavaScript. This system was designed to optimize the allocation of financial resources across projects, tasks, and employee requests. My duties also encompassed the administration of the IBM Cognos reporting system, ensuring reliable and efficient data management. Furthermore, I was responsible for the administration and development of modules for the corporate portal on the 1C-Bitrix platform. My tasks involved advanced interactions with MSSQL databases, specifically in developing reports, procedures, and functions, thereby enhancing the efficiency of the company's internal systems
+  * All projects were delivered on time, ensuring high customer satisfaction.
+  * Many of the developed systems are still actively used, demonstrating their reliability and durability.
+  * Systems implemented in four ministries increased their operational efficiency by 30%.
 
-- Backend & Application Development: C#, .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
-- Frontend: HTML5, JavaScript, JQuery, Bootstrap, Telerik
-- Database: MSSQL, Transact-SQL, SQL
-- Development & Deployment Tools: TFS, Visual Studio 2012, Management Studio, IIS
+* * *
 
----
+### Full-Stack Developer - European Media Group (EMG) (July 2013 – April 2015)
 
-### **Engineer** - DEPO Computers (March 2013 – june 2013)
+My main responsibilities included supporting the company's internal systems, particularly those related to broadcasting statistics. I developed the company's first budget planning system using ASP.NET WebForm and JavaScript, optimizing the allocation of financial resources among projects, tasks, and employee requests.
 
-During my tenure, I was engaged in analyzing and solving problems that arose in applications, developing effective methods for rectifying shortcomings to enhance performance and functionality. Additionally, I was responsible for developing reporting systems integrated within the applications, facilitating the collection and analysis of company activity data, thereby improving the decision-making process. As part of the workflow optimization and data integrity assurance, I designed and configured stored procedures in MS SQL. Moreover, my duties included administering MS SQL databases, ensuring their reliability, security, and availability within the context of the applications.
+  * Backend and Application Development: C#, .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
+  * Frontend: HTML5, JavaScript, JQuery, Bootstrap, Telerik
+  * Database: MSSQL, Transact-SQL, SQL
+  * Development and Deployment Tools: TFS, Visual Studio 2012, Management Studio, IIS
 
-- Database: MSSQL, Transact-SQL, SQL
+* * *
 
----
+### Engineer - DEPO Computers (March 2013 – June 2013)
 
-### **Software Engineer** - ООО «Химоил» (November 2008 – february 2013)
+During my work, I analyzed and resolved application issues, developed methods to improve performance and functionality. Created reporting systems for better decision-making. Designed and configured stored procedures, functions, and T-SQL queries in MS SQL, improving performance of processing statistics in data cubes. Thanks to the use of temporary memory, some query execution times were optimized by 2-3 times. Administered MS SQL databases, ensuring their reliability, security, and availability.
 
-I worked on the 'ХиМ' project, which was aimed at automating business processes. In this project, my role was as a software developer, where I utilized technologies such as C#, .Net Framework, WinForms, ADO.NET, MSSQL, and Transact-SQL. For development, I employed tools like Visual Studio 2012 and Management Studio. The project spanned from January 2010 to February 2013.
+  * Database: MSSQL, Transact-SQL, SQL
 
-At the beginning of my career in the company, I started as a System Administrator and, after a year, advanced to the position of a Software Engineer. In my role as a System Administrator, I was responsible for monitoring, supporting, and improving the company's infrastructure, providing operational support, managing data services including backup and recovery. I also handled data collection and analysis, prepared reports, supported users, and managed the procurement of equipment and consumables.
+* * *
 
-- Backend: C#, ADO.NET
-- Database: MSSQL, Transact-SQL, SQL
+### Software Engineer - Himoil LLC (November 2008 – February 2013)
 
----
+During the work on the "Him" project, aimed at automating business processes, I achieved significant improvements in the company's efficiency. My role was as a software developer, using technologies like C#, .Net Framework, WinForms, ADO.NET, MSSQL, and Transact-SQL. As a result of my work, the efficiency of the company's business processes increased by 40%, significantly reducing the time for key tasks and improving customer service quality.
 
-### **PC operator** - ООО «Профит-К» (May 2008 – november 2008)
+  * Backend: C#, ADO.NET
+  * Database: MSSQL, Transact-SQL, SQL
 
-- Site moderation;
-- Monitoring of site healts, SMS-server and internet connection.
+* * *
+
+### PC Operator - Profit-K LLC (May 2008 – November 2008)
+
+  * Site moderation;
+  * Monitoring the site, SMS server, and internet connection status.
+
+"""
