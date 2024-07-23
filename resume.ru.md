@@ -12,16 +12,12 @@
 .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR
 Node.js, Express, Nest
 AWS, Azure, Google Cloud
-
 **Fullstack:**
 JavaScript, TypeScript, Bash, C++, C, C#, Node.js, SQL, VBA
-
 **Frontend:**
 HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, jQuery, Nuxt.js, SCSS, Stylus, SASS
-
 **Базы данных:**
 Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
-
 **Интеграции:**
 MQTT, RabbitMQ, SignalR
 
