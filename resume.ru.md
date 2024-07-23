@@ -8,17 +8,17 @@
 
 Я наслаждаюсь решением сложных технических задач и постоянно исследую новые технологии и методологии для совершенствования своей работы. Я стремлюсь применять свои навыки и опыт в новых и сложных проектах, внося вклад в команды, которые стремятся к инновациям и превосходству в области технологий.
 
-**Backend:**
+- **Backend:**
 .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR
 Node.js, Express, Nest
 AWS, Azure, Google Cloud
-**Fullstack:**
+- **Fullstack:**
 JavaScript, TypeScript, Bash, C++, C, C#, Node.js, SQL, VBA
-**Frontend:**
+- **Frontend:**
 HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, jQuery, Nuxt.js, SCSS, Stylus, SASS
-**Базы данных:**
+- **Базы данных:**
 Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
-**Интеграции:**
+- **Интеграции:**
 MQTT, RabbitMQ, SignalR
 
 Легко обучаюсь новым языкам программирования и технологиям, что позволяет адаптироваться к любым требованиям проектов и достигать высоких результатов в сложных и масштабных задачах.
