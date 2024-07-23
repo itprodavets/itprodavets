@@ -18,18 +18,11 @@
 - Telegram: @itprodavets
 
 ## Навыки
-- **Backend:**
-.NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR
-Node.js, Express, Nest
-AWS, Azure, Google Cloud
-- **Fullstack:**
-JavaScript, TypeScript, Bash, C++, C, C#, Node.js, SQL, VBA
-- **Frontend:**
-HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, jQuery, Nuxt.js, SCSS, Stylus, SASS
-- **Базы данных:**
-Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
-- **Интеграции:**
-MQTT, RabbitMQ, SignalR
+- **Backend:** .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR Node.js, Express, Nest AWS, Azure, Google Cloud
+- **Fullstack:** JavaScript, TypeScript, Bash, C++, C, C#, Node.js, SQL, VBA
+- **Frontend:** HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, jQuery, Nuxt.js, SCSS, Stylus, SASS
+- **Базы данных:** Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
+- **Интеграции:** MQTT, RabbitMQ, SignalR
 
 ## Профессиональный опыт
 ### Ведущий программист - GZ DKH Innovation Technology (март 2022 – настоящее время)
@@ -65,15 +58,15 @@ MQTT, RabbitMQ, SignalR
 
 Я участвовал в разработке и поддержке новых систем для ключевых российских государственных учреждений, включая Министерства образования, здравоохранения, безопасности и энергетики. Значительная часть моей работы включала обширное взаимодействие с базами данных MSSQL, где я специализировался на оптимизации запросов и разработке процедур и функций.
 
+- Бэкенд и доступ к данным: C#, ASP.NET Web API, .NET Framework, EF, LINQ, MSSQL, Transact-SQL
+- Фронтенд и UI: JavaScript, JQuery, Bootstrap, HTML5, CSS3, D3.js
+- Инструменты и DevOps: Tortoise SVN, Team City, IIS, PowerShell
+
 Эффективность моей работы подтверждается следующими показателями:
 
 - Все проекты были сданы вовремя, что обеспечило высокую удовлетворенность заказчиков.
 - Многие из разработанных систем до сих пор активно используются, демонстрируя свою надежность и долговечность.
 - Системы, внедренные в четырех министерствах, повысили их операционную эффективность на 30%.
-
-- Бэкенд и доступ к данным: C#, ASP.NET Web API, .NET Framework, EF, LINQ, MSSQL, Transact-SQL
-- Фронтенд и UI: JavaScript, JQuery, Bootstrap, HTML5, CSS3, D3.js
-- Инструменты и DevOps: Tortoise SVN, Team City, IIS, PowerShell
 
 ---
 
