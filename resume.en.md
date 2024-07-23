@@ -107,4 +107,4 @@ During the work on the "Him" project, aimed at automating business processes, I 
   * Site moderation;
   * Monitoring the site, SMS server, and internet connection status.
 
-"""
+* * *
