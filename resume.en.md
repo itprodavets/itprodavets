@@ -12,9 +12,9 @@ I quickly learn new programming languages and technologies, allowing me to adapt
 
 ## Contact Information
 
-  * GitHub: itprodavets
-  * LinkedIn: itprodavets
-  * Telegram: @itprodavets
+- GitHub: [itprodavets](https://github.com/itprodavets)
+- LinkedIn: [itprodavets](https://www.linkedin.com/in/itprodavets/)
+- Telegram: [@itprodavets](https://t.me/itprodavets)
 
 ## Skills
 
