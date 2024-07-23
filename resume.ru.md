@@ -8,6 +8,16 @@
 
 Я наслаждаюсь решением сложных технических задач и постоянно исследую новые технологии и методологии для совершенствования своей работы. Я стремлюсь применять свои навыки и опыт в новых и сложных проектах, внося вклад в команды, которые стремятся к инновациям и превосходству в области технологий.
 
+Легко обучаюсь новым языкам программирования и технологиям, что позволяет адаптироваться к любым требованиям проектов и достигать высоких результатов в сложных и масштабных задачах.
+
+[Список проектов](/projects.en.md) , которые я реализовывал на различных должностях в организациях. [<= нажмите здесь =>](/projects.en.md)
+
+##  Контактная информация
+- GitHub: itprodavets
+- LinkedIn: itprodavets
+- Telegram: @itprodavets
+
+## Навыки
 - **Backend:**
 .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR
 Node.js, Express, Nest
@@ -20,21 +30,6 @@ HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, j
 Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
 - **Интеграции:**
 MQTT, RabbitMQ, SignalR
-
-Легко обучаюсь новым языкам программирования и технологиям, что позволяет адаптироваться к любым требованиям проектов и достигать высоких результатов в сложных и масштабных задачах.
-
-[Список проектов](/projects.en.md) , которые я реализовывал на различных должностях в организациях. [<= нажмите здесь =>](/projects.en.md)
-
-##  Контактная информация
-- GitHub: itprodavets
-- LinkedIn: itprodavets
-- Telegram: @itprodavets
-
-## Навыки
-- Языки программирования: C, C++, C#, JavaScript, TypeScript
-- Фреймворки: .NET, .NET Core, EF Core, Angular, React, NextJS, VueJS, NuxtJS, Pinia
-- Базы данных: MSSQL, PostgreSQL
-- Другое: Docker, Apache Kafka, RabbitMQ, MQTT, Modbus
 
 ## Профессиональный опыт
 ### Ведущий программист - GZ DKH Innovation Technology (март 2022 – настоящее время)
