@@ -1,14 +1,17 @@
 # Denis Kharchenko
 
-I am an experienced software developer and system integrator with extensive experience across various sectors, including financial services, IT, and government projects. My expertise lies in developing and implementing innovative solutions that optimize and enhance the efficiency of complex processes.
+Experienced software developer with extensive experience in the financial sector, IT, and government projects. Focused on developing and implementing solutions to optimize complex processes and improve business efficiency.
 
-Over the years, I have led numerous key projects, ranging from developing advanced smart container systems to automating complex tax reporting processes and creating comprehensive information and analytical platforms. In these projects, my role was not only to provide reliable technical solutions but also to offer leadership and mentorship to development teams, fostering an environment for professional growth and innovation.
+Key Achievements:
+- Increased efficiency in tax reporting processes.
+- Developed advanced smart container systems, reducing processing time.
+- Created information and analytical platforms that improved decision-making.
 
-My technical proficiency covers a wide range of programming languages and frameworks, particularly C# and .NET, as well as extensive experience with database management systems like MS SQL and PostgreSQL. I successfully utilize advanced frontend and backend technologies, including Vue.js, Angular, and React.
-
-I enjoy tackling complex technical challenges and continuously explore new technologies and methodologies to improve my work. I strive to apply my skills and experience to new and challenging projects, contributing to teams that pursue innovation and excellence in technology.
-
-I quickly learn new programming languages and technologies, allowing me to adapt to any project requirements and achieve high results in complex and large-scale tasks.
+Professional Qualities:
+- Leadership and mentoring in developer teams.
+- Solving complex technical challenges.
+- Quickly adapting to new technologies and methodologies.
+- Easily learning new programming languages and technologies, allowing for adaptability to any project requirements and achieving high results in complex and large-scale tasks.
 
 [List of projects](/projects.en.md), that I have implemented in various positions at organizations..
 
