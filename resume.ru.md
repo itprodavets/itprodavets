@@ -13,9 +13,10 @@
 [Список проектов](/projects.en.md), которые я реализовывал на различных должностях в организациях.
 
 ##  Контактная информация
-- GitHub: itprodavets
-- LinkedIn: itprodavets
-- Telegram: @itprodavets
+
+- GitHub: [itprodavets](https://github.com/itprodavets)
+- LinkedIn: [itprodavets](https://www.linkedin.com/in/itprodavets/)
+- Telegram: [@itprodavets](https://t.me/itprodavets)
 
 ## Навыки
 - **Backend:** .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR Node.js, Express, Nest AWS, Azure, Google Cloud
