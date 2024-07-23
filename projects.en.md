@@ -7,6 +7,11 @@
  - Description: The central control unit responsible for coordinating and managing the operation of all internal devices within the container.
  - Technologies: C, C++, C#, FreeRTOS, .NET Core, EF Core (Entity Framework Core), MQTTnet, CQRS (Command Query Responsibility Segregation), Domain Driven Design, PostgreSQL, Modbus, MQTT, Mosquitto (MQTT Broker), RabbitMQ (Message Broker), SignalR, JavaScript, TypeScript, Vue 3 (JavaScript Framework), Pinia (State Management for Vue)
 
+### eCommerce 
+- Role: Lead Developer
+- Description: Spearheaded the development of a multifaceted eCommerce solution, optimized for deployment on multiple platforms to enhance market penetration and drive sales growth.
+- Technologies: C#, .NET 8, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, TypeScript, NextJS 14, React
+
 ---
 
 ## KPMG (May 2017 – september 2019)
