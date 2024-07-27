@@ -3,88 +3,87 @@
 ## GZ DKH Innovation Technology (March 2022 – currently)
 
 ### Empire Of Bloom 
- - Role: Principal Software Developer 
- - Description: The central control unit responsible for coordinating and managing the operation of all internal devices within the container.
- - Technologies: C, C++, C#, FreeRTOS, .NET Core, EF Core (Entity Framework Core), MQTTnet, CQRS (Command Query Responsibility Segregation), Domain Driven Design, PostgreSQL, Modbus, MQTT, Mosquitto (MQTT Broker), RabbitMQ (Message Broker), SignalR, JavaScript, TypeScript, Vue 3 (JavaScript Framework), Pinia (State Management for Vue)
+ - Роль: Главный разработчик программного обеспечения 
+ - Описание: Центральный блок управления, отвечающий за координацию и управление работой всех внутренних устройств внутри контейнера.
+ - Технологии: C, C++, C#, FreeRTOS, .NET Core, EF Core (Entity Framework Core), MQTTnet, CQRS (Command Query Responsibility Segregation), Domain Driven Design, PostgreSQL, Modbus, MQTT, Mosquitto (MQTT Broker), RabbitMQ (Message Broker), SignalR, JavaScript, TypeScript, Vue 3 (JavaScript Framework), Pinia (State Management for Vue)
 
 ### eCommerce 
-- Role: Lead Developer
-- Description: Spearheaded the development of a multifaceted eCommerce solution, optimized for deployment on multiple platforms to enhance market penetration and drive sales growth.
-- Technologies: C#, .NET 8, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, TypeScript, NextJS 14, React
+- Роль: Ведущий разработчик
+- Описание: Руководил разработкой многогранного решения для электронной коммерции, оптимизированного для развертывания на нескольких платформах с целью повышения проникновения на рынок и стимулирования роста продаж.
+- Технологии: C#, .NET 8, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, TypeScript, NextJS 14, React
 
 ---
 
 ## KPMG (May 2017 – september 2019)
 
 ### BEPS Automation Tool
-- Role: Full-Stack Developer
-- Duration: 2017/05 - 2018/03
-- Description: BEPS Automation Tool is used to get tax notifications, prepare tax reports for tax authorities around the world. In this project, I've been the role of architect, team leader and senior developer of the web application.
-- Technologies: C#, .NET Framework, ASP.NET, EF (Entity Framework), LINQ, OData, CQRS (Command Query Responsibility Segregation), Domain Driven Design, MS SQL, JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js, Material Design, DevExpress, Git, Internet Information Services (IIS), PowerShell
+- Роль: Full-Stack разработчик
+- Продолжительность: 2017/05 - 2018/03
+- Описание: BEPS Automation Tool используется для получения налоговых уведомлений, подготовки налоговых отчетов для налоговых органов по всему миру. В этом проекте я выступал в роли архитектора, руководителя команды и старшего разработчика веб-приложения.
+- Технологии: C#, .NET Framework, ASP.NET, EF (Entity Framework), LINQ, OData, CQRS (Command Query Responsibility Segregation), Domain Driven Design, MS SQL, JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js, Material Design, DevExpress, Git, Internet Information Services (IIS), PowerShell
 
 ### Smart Tax Solution
- - Role: Team Lead
- - Duration: 2018/03 - 2019/09
- - Description: In this project, I've been the role of architect, team leader and senior developer of the web application.
- - Technologies: C#, .NET Core, ASP.NET, EF Core (Entity Framework Core), LINQ, OData, CQRS (Command Query Responsibility Segregation), Domain Driven Design, MS SQL, JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js, Material Design, DevExpress, Git, Internet Information Services (IIS), PowerShell
+- Руководитель группы
+- Продолжительность: 2018/03 - 2019/09
+- Описание: Smart Tax Solution - это веб-сервис, предназначенный для оптимизации налоговых процессов и обеспечения соответствия требованиям.
+- Технологии: C#, .NET Core, ASP.NET, EF Core (Entity Framework Core), LINQ, OData, CQRS (Command Query Responsibility Segregation), Domain Driven Design, MS SQL, JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js, Material Design, DevExpress, Git, Internet Information Services (IIS), PowerShell
 
 ---
 
 ## ООО «Дом ПК» (April 2015 – april 2017)
 
 ### Information and analytic system
-- Role: Team Lead
-- Duration: 2016/05 - 2018/03
-- Description: Software for information analysis, exchange and maintenance of regulatory reference information of Joint Information DB. Is used to follow main principles of blood donation, including: donor blood safety, voluntariness of blood donation, donors' health care, donors' social support and rights' protection, encouragement and support of blood donation.
-- Technologies: C#, ASP.NET Web API, .Net Framework, AutoMapper, Autofac, EF (Entity Framework), LINQ, MSSQL, Transact-SQL,JavaScript, JQuery, Bootstrap, HTML, HTML5, Telerik, DevExpress, Tortoise SVN, Team City, Internet Information Services (IIS), PowerShell, Unit Testing.
+- Роль: Team Lead
+- Продолжительность: 2016/05 - 2018/03
+- Описание: Программное обеспечение для анализа информации, обмена и ведения нормативно-справочной информации Объединенной информационной базы данных.Используется для соблюдения основных принципов донорства крови, в том числе: безопасность донорской крови, добровольность сдачи крови, охрана здоровья доноров, социальная поддержка и защита прав доноров, поощрение и поддержка донорства крови.
+- Технологии: C#, ASP.NET Web API, .Net Framework, AutoMapper, Autofac, EF (Entity Framework), LINQ, MSSQL, Transact-SQL,JavaScript, JQuery, Bootstrap, HTML, HTML5, Telerik, DevExpress, Tortoise SVN, Team City, Internet Information Services (IIS), PowerShell, Unit Testing.
 
 ### Monitoring of social and political situation in Russia
-- Role: Full-Stack Developer
-- Duration: 2016/09 - 2017/03
-- Description: Information and analytical system, used for monitoring of different metrics of social, economical and political situation in Russia, used for decision support of Russian officials. System allows to:
-    - Systematize data in form of single metric passport.
-    - Monitor achievement of target indicators and critical indicator values.
-- Technologies: C#, ASP.NET Web API, .Net Framework, Dapper, MSSQL, Transact-SQL, LINQ, AutoMapper, Autofac, JavaScript, JQuery, D3js, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing.
+- Роль: Full-Stack Developer
+- Продолжительность: 2016/09 - 2017/03
+- Описание: Информационно-аналитическая система, предназначенная для мониторинга различных показателей социальной, экономической и политической ситуации в России, используемая для поддержки принятия решений российскими чиновниками. Система позволяет:
+    - Систематизировать данные в виде единого метрического паспорта.
+    - Контролировать достижение целевых показателей и критических значений индикаторов.
+- Технологии: C#, ASP.NET Web API, .Net Framework, Dapper, MSSQL, Transact-SQL, LINQ, AutoMapper, Autofac, JavaScript, JQuery, D3js, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing.
 
 ### Balancing market portal
-- Role: Full-Stack Developer
-- Duration: 2015/09 - 2016/09
-- Description: Balancing market portal is used to notify market makers about operational data, documents and news, provide them with interfaces to create requests, provide stats of energy markets to.
-- Technologies: C#, .Net Framework, ASP.NET Web Forms, EF (Entity Framework), MSSQL, Transact-SQL, LINQ, AutoMapper, Autofac, JavaScript, JQuery, Telerik, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing, CryptoPro CSP, CryptoPro .Net.
+- Роль: Full-Stack Developer
+- Продолжительность: 2015/09 - 2016/09
+- Описание: Портал балансирующего рынка предназначен для оповещения участников рынка об оперативных данных, документах и новостях, предоставления им интерфейсов для формирования заявок, предоставления статистики энергетических рынков.
+- Технологии: C#, .Net Framework, ASP.NET Web Forms, EF (Entity Framework), MSSQL, Transact-SQL, LINQ, AutoMapper, Autofac, JavaScript, JQuery, Telerik, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing, CryptoPro CSP, CryptoPro .Net.
 
 ### System to prepare data for operational planning
-- Role: Full-Stack Developer
-- Duration: 2015/09 - 2016/09
-- Description: System is used to automate and speed up preparing actual calculated models, used in auction on balancing market of first sync zone of Energy System of Russia.
-- Technologies: C#, .Net Framework, ASP.NET Web API, Dapper, MSSQL, Transact-SQL, LINQ, AutoMapper, JavaScript, Angular.JS, JQuery, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing, CryptoPro CSP, CryptoPro .Net.
+- Роль: Full-Stack Developer
+- Продолжительность: 2015/09 - 2016/09
+- Описание: Система предназначена для автоматизации и ускорения подготовки актуальных расчетных моделей, используемых в торгах на балансирующем рынке первой зоны синхронизации Энергосистемы России.
+- Технологии: C#, .Net Framework, ASP.NET Web API, Dapper, MSSQL, Transact-SQL, LINQ, AutoMapper, JavaScript, Angular.JS, JQuery, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing, CryptoPro CSP, CryptoPro .Net.
 
 ### РОН ФИС ГИА 2015 ОВСУП
-- Role: Full-Stack Developer
-- Duration: 2015/04 - 2016/04
-- Description: Federal Information System for processing joint government exam and attestation to colleges and universities
-- Technologies: C#, .Net Framework, ASP.NET Web API, ADO.NET, MSSQL, Transact-SQL, LINQ, JavaScript, JQuery, Knockout JS, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing
+- Роль: Full-Stack Developer
+- Продолжительность: 2015/04 - 2016/04
+- Описание: Федеральная информационная система обработки результатов единого государственного экзамена и аттестации в колледжах и университетах.
+- Технологии: C#, .Net Framework, ASP.NET Web API, ADO.NET, MSSQL, Transact-SQL, LINQ, JavaScript, JQuery, Knockout JS, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing
 
 ---
 
 ## Европейская медиагруппа (ЕМГ) (July 2013 – april 2015)
 
 ### Web Expenses
-Duration: 2013/08 - 2015/09
-Role: Full-Stack Developer
-Description: Budget planning system, used for distribute budget to company's projects, tasks and employees' requests.
-Technologies: C#, .Net Framework, ASP.NET Web Forms, ADO.NET, MSSQL, Transact-SQL, LINQ, JavaScript, JQuery, Bootstrap, HTML, HTML5, CSS, CSS 3, TFS, Internet Information Services (IIS)
+Роль: Full-Stack Developer
+Продолжительность: 2013/08 - 2015/09
+Описание: Система бюджетного планирования, используемая для распределения бюджета по проектам, задачам и заявкам сотрудников компании.
+Технологии: C#, .Net Framework, ASP.NET Web Forms, ADO.NET, MSSQL, Transact-SQL, LINQ, JavaScript, JQuery, Bootstrap, HTML, HTML5, CSS, CSS 3, TFS, Internet Information Services (IIS)
 
 ### ITpedia
-Duration: 2014/05 - 2014/09
-Role: Developer
-Description: ITpedia is used for smart solution search, based on provided knowledge base and given user's situation definition.
-Technologies: C#, .Net Framework, WinForms, Telerik, ADO.NET, MSSQL, Transact-SQL, SQL, TFS
-Tools: Visual Studio 2012, Management Studio
+Роль: Developer
+Продолжительность: 2014/05 - 2014/09
+Описание: ITpedia используется для интеллектуального поиска решений, основанного на предоставленной базе знаний и определении ситуации пользователя.
+Технологии: C#, .Net Framework, WinForms, Telerik, ADO.NET, MSSQL, Transact-SQL, SQL, TFS
 
 ### HelpDesk + AddInn
-Duration: 2013/07 - 2014/07
-Role: Developer
-Description: Helpdesk and request-serving system for internal needs.
-Technologies: C#, .Net Framework, WinForms, Telerik, ADO.NET, MSSQL, Transact-SQL, SQL, TFS.
+Роль: Developer
+Продолжительность: 2013/07 - 2014/07
+Описание: Служба технической поддержки и система обслуживания запросов для внутренних нужд.
+Технологии: C#, .Net Framework, WinForms, Telerik, ADO.NET, MSSQL, Transact-SQL, SQL, TFS.
 
 ---
