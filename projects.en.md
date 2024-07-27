@@ -25,7 +25,7 @@
 ### Smart Tax Solution
  - Role: Team Lead
  - Duration: 2018/03 - 2019/09
- - Description: In this project, I've been the role of architect, team leader and senior developer of the web application.
+ - Description: Smart Tax Solution is a web-based service designed for optimizing tax processes and ensuring compliance.
  - Technologies: C#, .NET Core, ASP.NET, EF Core (Entity Framework Core), LINQ, OData, CQRS (Command Query Responsibility Segregation), Domain Driven Design, MS SQL, JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js, Material Design, DevExpress, Git, Internet Information Services (IIS), PowerShell
 
 ---
