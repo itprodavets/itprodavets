@@ -81,7 +81,7 @@ Description: ITpedia is used for smart solution search, based on provided knowle
 Technologies: C#, .Net Framework, WinForms, Telerik, ADO.NET, MSSQL, Transact-SQL, SQL, TFS
 Tools: Visual Studio 2012, Management Studio
 
-### HelpDesk + AddInn
+### HelpDesk
 Duration: 2013/07 - 2014/07
 Role: Developer
 Description: Helpdesk and request-serving system for internal needs.
