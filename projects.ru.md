@@ -1,6 +1,6 @@
 # Projects
 
-## GZ DKH Innovation Technology (March 2022 – currently)
+## GZ DKH Innovation Technology (Март 2022 – по настоящее время)
 
 ### Empire Of Bloom 
  - Роль: Главный разработчик программного обеспечения 
@@ -14,7 +14,7 @@
 
 ---
 
-## KPMG (May 2017 – september 2019)
+## KPMG (Май 2017 – Сентябрь 2019)
 
 ### BEPS Automation Tool
 - Роль: Full-Stack разработчик
@@ -30,7 +30,7 @@
 
 ---
 
-## ООО «Дом ПК» (April 2015 – april 2017)
+## ООО «Дом ПК» (Апрель 2015 – Апрель 2017)
 
 ### Information and analytic system
 - Роль: Team Lead
@@ -66,7 +66,7 @@
 
 ---
 
-## Европейская медиагруппа (ЕМГ) (July 2013 – april 2015)
+## Европейская медиагруппа (ЕМГ) (Июль 2013 – Апрель 2015)
 
 ### Web Expenses
 Роль: Full-Stack Developer
