@@ -40,8 +40,11 @@
 - **Языки программирования:** C, C++, C#, JavaScript, TypeScript
 - **Бэкенд-разработка:** .NET Core, Entity Framework Core, PostgreSQL
 - **Встраиваемые системы:** FreeRTOS, C/C++ (low-level programming)
-- **Фронтенд-разработка:** Vue 3, Pinia (State Management)
-- **Протоколы связи:** - Industrial: Modbus, IoT: MQTT (Mosquitto),  Message Brokers: RabbitMQ, SignalR  
+- **Фронтенд-разработка:** Vue 3, Pinia (State Management), Next.js
+- **Протоколы связи:**
+  - Industrial: Modbus
+  - IoT: MQTT (Mosquitto)
+  - Message Brokers: RabbitMQ, SignalR  
 - **Архитектура ПО:** CQRS, Domain-Driven Design (DDD)
 - **Базы данных:** PostgreSQL (реляционные СУБД)
 
@@ -51,9 +54,19 @@
 
 Мои обязанности включали поддержку существующих продуктов и создание новых решений в сферах маркетинга, продвижения и автоматизации производства. Также я сосредоточился на наставничестве младших разработчиков, проведении код-ревью и сотрудничестве с бизнес-заинтересованными сторонами для определения новых целей проекта.
 
-- Технологии бэкенда: C#, .NET Core, EF Core, MQTTnet, PostgreSQL, RabbitMQ, SignalR
-- Архитектурные паттерны: CQRS, Domain Driven Design
-- Технологии фронтенда: JavaScript, TypeScript, Vue 3, Pinia
+- **Языки программирования:** C#, JavaScript, TypeScript
+- **Бэкенд-разработка:**  
+  - .NET Core, Entity Framework (EF Core)  
+  - Message Brokers: RabbitMQ, SignalR  
+  - MQTT: MQTTnet (клиентская реализация)  
+- **Фронтенд-разработка:**  
+  - Vue 3 (Composition API, Vite)  
+  - Pinia (State Management)  
+  - TypeScript (строгая типизация)  
+- **Архитектура ПО:**  
+  - CQRS (Command Query Responsibility Segregation)  
+  - Domain-Driven Design (DDD)
+- **Базы данных:**  PostgreSQL (реляционные СУБД)
 
 ---
 
