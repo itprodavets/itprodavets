@@ -33,18 +33,13 @@
 ## Профессиональный опыт
 ### Ведущий программист - GZ DKH Innovation Technology (март 2022 – настоящее время)
 
-Создал уникальное устройство для координации взаимодействия различных устройств внутри контейнера, разработав комплексную систему управления для умных контейнеров. Реализовал прошивку на базе FreeRTOS, обеспечив стабильную работу устройства и его взаимодействие с сервером MQTT, что значительно повысило эффективность передачи данных.
-Внедрил серверные решения на основе .NET 8 и REST API для управления запросами, а также использовал SignalR для обеспечения взаимодействия в реальном времени. Интегрировал все функциональные возможности в динамичный пользовательский интерфейс на основе Vue 3, что позволило создать удобный контроль и мониторинг состояния контейнера.
-Написал исчерпывающую документацию по всем процессам, предоставив четкие руководства и поддержку для пользователей и разработчиков, что способствует быстрому и эффективному внедрению и эксплуатации системы.
+Создал уникальное устройство для координации взаимодействия различных устройств внутри контейнера, разработав комплексную систему управления для умных контейнеров. Реализовал прошивку на базе FreeRTOS, обеспечив стабильную работу устройства и его взаимодействие с сервером MQTT, что значительно повысило эффективность передачи данных. Внедрил серверные решения на основе .NET 9, REST API, gRPC, SignalR. Интегрировал функциональные возможности в динамичный пользовательский интерфейс на основе Next, что позволило создать удобный контроль и мониторинг состояния контейнера.
 
 - **Языки программирования:** Go (Golang), C, C++, C#, JavaScript, TypeScript
 - **Бэкенд-разработка:** .NET Core, Entity Framework Core, PostgreSQL
 - **Встраиваемые системы:** FreeRTOS, C/C++ (low-level programming)
 - **Фронтенд-разработка:** Vue 3, Pinia (State Management), Next.js
-- **Протоколы связи:**
-  - Industrial: Modbus
-  - IoT: MQTT (Mosquitto)
-  - Message Brokers: RabbitMQ, SignalR  
+- **Протоколы связи:** Промышленные: Modbus, IoT: MQTT (Mosquitto), Message Brokers: RabbitMQ, SignalR, gRPC  
 - **Архитектура ПО:** CQRS, Domain-Driven Design (DDD)
 - **Базы данных:** PostgreSQL (реляционные СУБД)
 
@@ -55,18 +50,10 @@
 Мои обязанности включали поддержку существующих продуктов и создание новых решений в сферах маркетинга, продвижения и автоматизации производства. Также я сосредоточился на наставничестве младших разработчиков, проведении код-ревью и сотрудничестве с бизнес-заинтересованными сторонами для определения новых целей проекта.
 
 - **Языки программирования:** Go (Golang), C#, JavaScript, TypeScript
-- **Бэкенд-разработка:**  
-  - .NET Core, Entity Framework (EF Core)  
-  - Message Brokers: RabbitMQ, SignalR  
-  - MQTT: MQTTnet (клиентская реализация)  
-- **Фронтенд-разработка:**  
-  - Vue 3 (Composition API, Vite)  
-  - Pinia (State Management)  
-  - TypeScript (строгая типизация)  
-- **Архитектура ПО:**  
-  - CQRS (Command Query Responsibility Segregation)  
-  - Domain-Driven Design (DDD)
-- **Базы данных:**  PostgreSQL (реляционные СУБД)
+- **Бэкенд-разработка:** .NET Core, Entity Framework (EF Core), Message Brokers: RabbitMQ, SignalR, MQTT: MQTTnet (клиентская реализация)  
+- **Фронтенд-разработка:** Vue 3 (Composition API, Vite), Pinia (State Management), TypeScript (строгая типизация)  
+- **Архитектура ПО:** CQRS (Command Query Responsibility Segregation), Domain-Driven Design (DDD)
+- **Базы данных:** PostgreSQL (реляционные СУБД)
 
 ---
 
@@ -75,25 +62,11 @@
 В качестве менеджера проекта и архитектора программного обеспечения я успешно разработал и внедрил комплексную услугу для автоматизации получения налоговых уведомлений и подготовки налоговых отчетов, предназначенную для использования налоговыми органами по всему миру. Проект был выполнен с использованием C# ASP.NET .Net Core для разработки бэкенда и Angular для фронтенда. Автоматизация процессов получения налоговых уведомлений и подготовки отчетов сократила время на обработку данных на 80%, повысив общую производительность налоговых органов.
 
 - **Языки программирования:** C#, JavaScript, TypeScript
-- **Бэкенд-разработка:**  
-  - .NET Framework/.NET Core, ASP.NET (MVC/WebAPI)  
-  - ORM: Entity Framework, LINQ  
-  - API: OData, REST  
-  - Databases: MS SQL (T-SQL, хранимые процедуры)
-- **Фронтенд-разработка:**  
-  - Frameworks: AngularJS, Angular 8+  
-  - Core: HTML5, TypeScript  
-  - Data Visualization: D3.js
-- **UI/UX Дизайн:**  
-  - Design Systems: Material Design  
-  - UI Frameworks: DevExpress
-- **DevOps и инфраструктура:**  
-  - Version Control: Git (GitFlow)  
-  - Web Servers: IIS  
-  - Automation: PowerShell scripting
-- **Архитектура:**  
-  - .NET Patterns: Repository, Unit of Work  
-  - API Design: RESTful principles
+- **Бэкенд-разработка:** .NET Framework/.NET Core, ASP.NET (MVC/WebAPI), ORM: Entity Framework, LINQ, API: OData, REST, Databases: MS SQL (T-SQL, хранимые процедуры)
+- **Фронтенд-разработка:** Frameworks: AngularJS, Angular 8+, Core: HTML5, TypeScript, Data Visualization: D3.js
+- **UI/UX Дизайн:** Design Systems: Material Design, UI Frameworks: DevExpress
+- **DevOps и инфраструктура:** Version Control: Git (GitFlow), Web Servers: IIS, Automation: PowerShell scripting
+- **Архитектура:** .NET Patterns: Repository, Unit of Work, API Design: RESTful principles
 
 ---
 
@@ -102,26 +75,11 @@
 Я участвовал в разработке и поддержке новых систем для ключевых российских государственных учреждений, включая Министерства образования, здравоохранения, безопасности и энергетики. Значительная часть моей работы включала обширное взаимодействие с базами данных MSSQL, где я специализировался на оптимизации запросов и разработке процедур и функций.
 
 - **Языки программирования:** C#, JavaScript, Transact-SQL
-- **Бэкенд-разработка:**  
-  - .NET Framework, ASP.NET Web API  
-  - ORM: Entity Framework (EF)  
-  - Запросы: LINQ  
-  - Протоколы: REST API
-- **Фронтенд-разработка:**  
-  - Базовые технологии: HTML5, CSS3  
-  - Фреймворки: jQuery, Bootstrap  
-  - Визуализация данных: D3.js
-- **Базы данных:**  
-  - MSSQL (Transact-SQL, хранимые процедуры)
-- **DevOps и инфраструктура:**  
-  - CI/CD: TeamCity  
-  - СУВ: Tortoise SVN  
-  - Веб-серверы: IIS  
-  - Автоматизация: PowerShell
-- **Дополнительные навыки:**  
-  - Работа с Legacy-системами  
-  - Оптимизация SQL-запросов  
-  - Кросс-браузерная верстка
+- **Бэкенд-разработка:** .NET Framework, ASP.NET Web API, ORM: Entity Framework (EF), Запросы: LINQ, Протоколы: REST API
+- **Фронтенд-разработка:** Базовые технологии: HTML5, CSS3, Фреймворки: jQuery, Bootstrap, Визуализация данных: D3.js
+- **Базы данных:** MSSQL (Transact-SQL, хранимые процедуры)
+- **DevOps и инфраструктура:** CI/CD: TeamCity, СУВ: Tortoise SVN, Веб-серверы: IIS, Автоматизация: PowerShell
+- **Дополнительные навыки:** Работа с Legacy-системами, Оптимизация SQL-запросов, Кросс-браузерная верстка
 
 Эффективность моей работы подтверждается следующими показателями:
 
@@ -136,24 +94,11 @@
 Мои основные обязанности включали поддержку внутренних систем компании, особенно тех, которые связаны со статистикой радиовещания. Я разработал первую в компании систему планирования бюджета, использовав ASP.NET WebForm и JavaScript, что оптимизировало распределение финансовых ресурсов между проектами, задачами и запросами сотрудников.
 
 - **Языки программирования:** C#, JavaScript, SQL
-- **Бэкенд-разработка:**  
-  - Платформы: .NET Framework, ASP.NET Web Forms, WinForms  
-  - Доступ к данным: ADO.NET (подключение к БД)
-- **Фронтенд-разработка:**  
-  - Базовые технологии: HTML5, JavaScript  
-  - Библиотеки: jQuery, Bootstrap  
-  - UI-компоненты: Telerik
-- **Базы данных:**  
-  - СУБД: MS SQL Server  
-  - Язык запросов: Transact-SQL (T-SQL)
-- **Инструменты и инфраструктура:**  
-  - IDE: Visual Studio 2012, SQL Server Management Studio  
-  - CI/CD: Team Foundation Server (TFS)  
-  - Веб-сервер: IIS
-- **Архитектурные решения:**  
-  - Многослойная архитектура  
-  - Паттерн "Репозиторий"  
-  - Связывание данных (Data Binding)
+- **Бэкенд-разработка:** Платформы: .NET Framework, ASP.NET Web Forms, WinForms, Доступ к данным: ADO.NET (подключение к БД)
+- **Фронтенд-разработка:** Базовые технологии: HTML5, JavaScript, Библиотеки: jQuery, Bootstrap, UI-компоненты: Telerik
+- **Базы данных:** СУБД: MS SQL Server, Язык запросов: Transact-SQL (T-SQL)
+- **Инструменты и инфраструктура:** IDE: Visual Studio 2012, SQL Server Management Studio, CI/CD: Team Foundation Server (TFS), Веб-сервер: IIS
+- **Архитектурные решения:** Многослойная архитектура, Паттерн "Репозиторий", Связывание данных (Data Binding)
 
 ---
 
