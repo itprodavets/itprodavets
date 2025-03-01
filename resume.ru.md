@@ -53,7 +53,7 @@
 - **Бэкенд-разработка:** .NET Core, Entity Framework (EF Core), Message Brokers: RabbitMQ, SignalR, MQTT: MQTTnet (клиентская реализация)  
 - **Фронтенд-разработка:** Vue 3 (Composition API, Vite), Pinia (State Management), TypeScript (строгая типизация)  
 - **Архитектура ПО:** CQRS (Command Query Responsibility Segregation), Domain-Driven Design (DDD)
-- **Базы данных:** PostgreSQL (реляционные СУБД)
+- **Базы данных:** PostgreSQL
 
 ---
 
