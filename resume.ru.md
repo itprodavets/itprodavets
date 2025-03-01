@@ -52,6 +52,14 @@
 - Архитектурные паттерны: CQRS, Domain Driven Design
 - Технологии фронтенда: JavaScript, TypeScript, Vue 3, Pinia
 
+- **Языки программирования:** C, C++, C#, JavaScript, TypeScript
+- **Backend разработка:** .NET Core, Entity Framework Core, PostgreSQL
+- **Embedded Systems:** FreeRTOS, C/C++ (low-level programming)
+- **Frontend разработка:** Vue 3, Pinia (State Management)
+- **Communication Protocols:** - Industrial: Modbus, IoT: MQTT (Mosquitto),  Message Brokers: RabbitMQ, SignalR  
+- **Software Architecture:** CQRS, Domain-Driven Design (DDD)
+- **Databases:** PostgreSQL (реляционные СУБД)
+
 ---
 
 ### Руководитель команды - KPMG (май 2017 – сентябрь 2019)
