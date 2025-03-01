@@ -22,11 +22,13 @@
 - Telegram: [@itprodavets](https://t.me/itprodavets)
 
 ## Навыки
-- **Backend:** .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR Node.js, Express, Nest AWS, Azure, Google Cloud
-- **Fullstack:** JavaScript, TypeScript, Bash, C++, C, C#, Node.js, SQL, VBA
-- **Frontend:** HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, jQuery, Nuxt.js, SCSS, Stylus, SASS
-- **Базы данных:** Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
-- **Интеграции:** MQTT, RabbitMQ, SignalR
+- **Языки программирования:** Go (Golang), C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash, VBA
+- **Бэкенд-разработка:** .NET Framework/.NET Core, ASP.NET (MVC/WEBAPI/Core), Node.js, Express/Nest, AWS/Azure/Google Cloud, Gin/Echo, gRPC, RabbitMQ
+- **Фулстек-разработка:** Go (Golang), .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Микросервисы, CI/CD (GitHub Actions)
+- **Фронтенд-разработка:** Vue.js/Next.js/Nuxt.js, React/Angular/AngulaJS, HTML5/CSS3 (SCSS/Stylus/SASS), jQuery/Knockout, WebSocket
+- **Базы данных:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB
+- **Интеграции:** MQTT, RabbitMQ, SignalR, gRPC, REST API
+- **Архитектура и DevOps:** Облачные приложения (Cloud-native), Распределённые системы, Высоконагруженные решения, Terraform, Prometheus/Grafana, Операторы Kubernetes (Kubernetes operators)
 
 ## Профессиональный опыт
 ### Ведущий программист - GZ DKH Innovation Technology (март 2022 – настоящее время)
