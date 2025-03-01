@@ -74,10 +74,26 @@
 
 В качестве менеджера проекта и архитектора программного обеспечения я успешно разработал и внедрил комплексную услугу для автоматизации получения налоговых уведомлений и подготовки налоговых отчетов, предназначенную для использования налоговыми органами по всему миру. Проект был выполнен с использованием C# ASP.NET .Net Core для разработки бэкенда и Angular для фронтенда. Автоматизация процессов получения налоговых уведомлений и подготовки отчетов сократила время на обработку данных на 80%, повысив общую производительность налоговых органов.
 
-- Бэкенд: C#, .NET Framework/Core, ASP.NET, EF, LINQ, OData, MS SQL
-- Фронтенд: JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js
-- Дизайн и UX: Material Design, DevExpress
-- DevOps и VCS: Git, IIS, PowerShell
+- **Языки программирования:** C#, JavaScript, TypeScript
+- **Бэкенд-разработка:**  
+  - .NET Framework/.NET Core, ASP.NET (MVC/WebAPI)  
+  - ORM: Entity Framework, LINQ  
+  - API: OData, REST  
+  - Databases: MS SQL (T-SQL, хранимые процедуры)
+- **Фронтенд-разработка:**  
+  - Frameworks: AngularJS, Angular 8+  
+  - Core: HTML5, TypeScript  
+  - Data Visualization: D3.js
+- **UI/UX Дизайн:**  
+  - Design Systems: Material Design  
+  - UI Frameworks: DevExpress
+- **DevOps и инфраструктура:**  
+  - Version Control: Git (GitFlow)  
+  - Web Servers: IIS  
+  - Automation: PowerShell scripting
+- **Архитектура:**  
+  - .NET Patterns: Repository, Unit of Work  
+  - API Design: RESTful principles
 
 ---
 
