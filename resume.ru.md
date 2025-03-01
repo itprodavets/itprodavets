@@ -37,10 +37,13 @@
 Внедрил серверные решения на основе .NET 8 и REST API для управления запросами, а также использовал SignalR для обеспечения взаимодействия в реальном времени. Интегрировал все функциональные возможности в динамичный пользовательский интерфейс на основе Vue 3, что позволило создать удобный контроль и мониторинг состояния контейнера.
 Написал исчерпывающую документацию по всем процессам, предоставив четкие руководства и поддержку для пользователей и разработчиков, что способствует быстрому и эффективному внедрению и эксплуатации системы.
 
-- Бэкенд и встроенные системы: C, C++, C#, .NET Core, EF Core, FreeRTOS, PostgreSQL
-- Протоколы связи: Modbus, MQTT, Mosquitto, RabbitMQ, SignalR
-- Фронтенд: JavaScript, TypeScript, Vue 3, Pinia
-- Паттерны и принципы: CQRS, Domain Driven Design
+- **Языки программирования:** C, C++, C#, JavaScript, TypeScript
+- **Бэкенд-разработка:** .NET Core, Entity Framework Core, PostgreSQL
+- **Встраиваемые системы:** FreeRTOS, C/C++ (low-level programming)
+- **Фронтенд-разработка:** Vue 3, Pinia (State Management)
+- **Протоколы связи:** - Industrial: Modbus, IoT: MQTT (Mosquitto),  Message Brokers: RabbitMQ, SignalR  
+- **Архитектура ПО:** CQRS, Domain-Driven Design (DDD)
+- **Базы данных:** PostgreSQL (реляционные СУБД)
 
 ---
 
@@ -51,14 +54,6 @@
 - Технологии бэкенда: C#, .NET Core, EF Core, MQTTnet, PostgreSQL, RabbitMQ, SignalR
 - Архитектурные паттерны: CQRS, Domain Driven Design
 - Технологии фронтенда: JavaScript, TypeScript, Vue 3, Pinia
-
-- **Языки программирования:** C, C++, C#, JavaScript, TypeScript
-- **Backend разработка:** .NET Core, Entity Framework Core, PostgreSQL
-- **Embedded Systems:** FreeRTOS, C/C++ (low-level programming)
-- **Frontend разработка:** Vue 3, Pinia (State Management)
-- **Communication Protocols:** - Industrial: Modbus, IoT: MQTT (Mosquitto),  Message Brokers: RabbitMQ, SignalR  
-- **Software Architecture:** CQRS, Domain-Driven Design (DDD)
-- **Databases:** PostgreSQL (реляционные СУБД)
 
 ---
 
