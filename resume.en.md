@@ -22,12 +22,13 @@ Professional Qualities:
 - Telegram: [@itprodavets](https://t.me/itprodavets)
 
 ## Skills
-
-  * Backend: .NET Framework, .NET Core, C#, ASP.NET MVC, ASP.NET WEBAPI, ASP.NET Core, SignalR Node.js, Express, Nest AWS, Azure, Google Cloud
-  * Fullstack: JavaScript, TypeScript, Bash, C++, C, C#, Node.js, SQL, VBA
-  * Frontend: HTML5, CSS3, JavaScript, Vue.js, Next.js, Angular, AngularJS, Knockout, React, jQuery, Nuxt.js, SCSS, Stylus, SASS
-  * Databases: Azure SQL, MySQL, MSSQL, PostgreSQL, Redis, MongoDB
-  * Integrations: MQTT, RabbitMQ, SignalR
+  * **Languages:** Go (Golang), C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash, VBA
+  * **Backend:** .NET Framework/.NET Core, ASP.NET (MVC/WEBAPI/Core), Node.js, Express/Nest, AWS/Azure/Google Cloud, Gin/Echo, gRPC, RabbitMQ
+  * **Fullstack:** Go (Golang), .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Microservices, CI/CD (GitHub Actions)
+  * **Frontend:** Vue.js/Next.js/Nuxt.js, React/Angular/AngularJS, HTML5/CSS3 (SCSS/Stylus/SASS), jQuery/Knockout, WebSocket
+  * **Databases:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB
+  * **Integrations:** MQTT, RabbitMQ, SignalR, gRPC, REST API
+  * **Architecture & DevOps:** Cloud-native apps, Distributed systems, High-load solutions, Terraform, Prometheus/Grafana, Kubernetes operators
 
 ## Professional Experience
 
