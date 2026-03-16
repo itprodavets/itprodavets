@@ -24,6 +24,8 @@
 - **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Архитектура и DevOps:** Cloud-native, Распределённые системы, Высоконагруженные решения, Terraform, Prometheus/Grafana, Kubernetes operators
 
+## Коммерческий опыт
+
 ### Ведущий программист - GZ DKH Innovation Technology (Secondment · Microsoft) (март 2022 – настоящее время)
 
 Проектировал микросервисную архитектуру и разрабатывал полный стек решений в области IoT и e-commerce: от low-level прошивки на FreeRTOS (C/C++) для координации устройств внутри контейнеров, до серверной части на .NET и Go (REST API, gRPC, SignalR), сбора и хранения телеметрии, и фронтенда на Vue 3, Next.js и React. Разработал AI-ассистент для операций на базе RAG с Azure OpenAI и векторным поиском для диагностики и формирования отчётов об инцидентах.

@@ -12,6 +12,8 @@ Backend developer with 15+ years of experience in C# and .NET ecosystem. Special
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
 - **Other:** Go, TypeScript, Keycloak (OIDC/OAuth2), OpenTelemetry, Serilog
 
+## Commercial Experience
+
 ### Lead Developer — GZ DKH Innovation Technology (Secondment · Microsoft) | Mar 2022 – Present
 
 Designed and built microservice backend for IoT platform managing smart container fleet. Developed REST API and gRPC services on .NET 8/9, telemetry ingestion pipeline, and real-time communication via SignalR. Built AI operations assistant using Semantic Kernel with RAG architecture (Azure OpenAI + Qdrant). Led e-commerce platform backend on .NET 8 with CQRS and DDD.
@@ -52,6 +54,8 @@ Developed analytical systems for government ministries (Education, Health, Energ
 ### Developer — European Media Group / DEPO Computers / Himoil LLC | 2008 – 2015
 
 Developed budget planning systems, helpdesk applications, reporting tools, and business process automation on C#/.NET/MSSQL stack. Optimized T-SQL queries and stored procedures for OLAP processing.
+
+## Personal Projects
 
 **thetea.app** — Multi-tenant SaaS platform (9+ microservices) for Telegram-based stores. C# 14, .NET 10, EF Core, RabbitMQ, gRPC, PostgreSQL, Redis, Keycloak, DDD, Docker.
 

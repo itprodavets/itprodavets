@@ -24,6 +24,8 @@ Professional Qualities:
   * **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
   * **Architecture & DevOps:** Cloud-native, Distributed systems, High-load, Terraform, Prometheus/Grafana, Kubernetes operators
 
+## Commercial Experience
+
 ### Lead Developer - GZ DKH Innovation Technology (Secondment · Microsoft) (March 2022 – Present)
 
 Designed microservice architecture and developed full-stack solutions in IoT and e-commerce: from low-level FreeRTOS firmware (C/C++) for device coordination within containers, to server-side on .NET and Go (REST API, gRPC, SignalR), telemetry collection and storage, and frontend on Vue 3, Next.js, and React. Built an AI operations assistant using RAG with Azure OpenAI and vector search for diagnostics and incident reporting.
