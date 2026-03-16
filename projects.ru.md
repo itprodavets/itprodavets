@@ -1,5 +1,21 @@
 # Projects
 
+## Личный проект
+
+### thetea.app
+- Роль: Основатель / Full-Stack архитектор
+- Описание: Мультитенантная SaaS-платформа для запуска и управления брендированными чайными магазинами в Telegram. Система включает Telegram Mini App для покупателей, админ-панель для управления магазинами, 9+ микросервисов с событийно-ориентированной архитектурой, gRPC-коммуникацию между сервисами и REST-шлюзы (BFF). Реализованы каталог товаров, корзина с резервированием остатков, оформление заказов, система отзывов, мультиязычность (EN/RU), 6 встроенных тем оформления и интеграция с Telegram Bot API.
+- Технологии: C# 14, .NET 10, Entity Framework Core, Dapper, MediatR (CQRS), FluentValidation, PostgreSQL, Redis, RabbitMQ (Outbox Pattern), gRPC, REST API, Keycloak (OIDC/OAuth2), JWT, Serilog, OpenTelemetry, Docker, Docker Compose, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, Feature-Sliced Design, Domain-Driven Design, xUnit, FluentAssertions, GitLab CI/CD, GitHub Actions
+- Ссылка: [thetea.app](https://thetea.app)
+
+### ai-docs-hub
+- Роль: Основатель / Full-Stack разработчик
+- Описание: Open-source платформа для создания AI-powered баз знаний из технической документации. Позволяет командам загружать документы (PDF, Markdown, экспорт из Confluence), автоматически разбивать и векторизовать их, а затем задавать вопросы через чат-интерфейс с указанием источников. Поддерживает мультитенантные рабочие пространства, ролевой доступ и подключаемые LLM-бэкенды (OpenAI, Azure OpenAI, локальные модели через Ollama).
+- Технологии: Go (Golang), Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain (Go), Ollama, Docker, Docker Compose, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE (Server-Sent Events), GitHub Actions
+- Ссылка: [github.com/itprodavets/ai-docs-hub](https://github.com/itprodavets/ai-docs-hub)
+
+---
+
 ## GZ DKH Innovation Technology (Март 2022 – по настоящее время)
 
 ### Empire Of Bloom 
@@ -7,10 +23,47 @@
  - Описание: Центральный блок управления, отвечающий за координацию и управление работой всех внутренних устройств внутри контейнера.
  - Технологии: C, C++, C#, FreeRTOS, .NET Core, EF Core (Entity Framework Core), MQTTnet, CQRS (Command Query Responsibility Segregation), Domain Driven Design, PostgreSQL, Modbus, MQTT, Mosquitto (MQTT Broker), RabbitMQ (Message Broker), SignalR, JavaScript, TypeScript, Vue 3 (JavaScript Framework), Pinia (State Management for Vue)
 
-### eCommerce 
+### eCommerce
 - Роль: Ведущий разработчик
 - Описание: Руководил разработкой многогранного решения для электронной коммерции, оптимизированного для развертывания на нескольких платформах с целью повышения проникновения на рынок и стимулирования роста продаж.
 - Технологии: C#, .NET 8, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, TypeScript, NextJS 14, React
+
+### Fleet Tracking Platform
+- Роль: Ведущий разработчик
+- Описание: Платформа отслеживания и управления парком умных контейнеров в реальном времени. Система агрегирует телеметрию с устройств (GPS, температура, влажность, состояние дверей), визуализирует маршруты и формирует аналитические отчёты для логистических операторов.
+- Технологии: Go (Golang), PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Pinia, Leaflet.js
+
+### Container Diagnostics Service
+- Роль: Ведущий разработчик
+- Описание: Микросервис удалённой диагностики умных контейнеров. Обеспечивает сбор логов с устройств, анализ состояния прошивки, удалённое обновление firmware (OTA) и оповещение инженеров о критических сбоях через систему алертов.
+- Технологии: C#, .NET 9, gRPC, SignalR, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Grafana
+
+### AI Operations Assistant
+- Роль: Ведущий разработчик
+- Описание: Внутренний AI-ассистент для операций с парком контейнеров. Использует RAG-архитектуру поверх технической документации, журналов обслуживания и данных телеметрии, помогая инженерам быстро диагностировать проблемы, находить нужные процедуры и генерировать отчёты об инцидентах. Интегрирован с Azure OpenAI для LLM-инференса, Qdrant для векторного поиска и существующими микросервисами через gRPC.
+- Технологии: C#, .NET 9, Semantic Kernel, Azure OpenAI (GPT-4o), Qdrant, pgvector, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js
+
+---
+
+## GZ DKH Innovation Technology (Secondment · Huawei) (Сентябрь 2019 – Март 2022)
+
+### Marketing Campaign Manager
+- Роль: Ведущий C# / Backend разработчик
+- Продолжительность: 2021/01 - 2022/03
+- Описание: Платформа управления маркетинговыми кампаниями для продвижения продуктов Huawei на различных рынках. Система позволяла планировать, запускать и анализировать рекламные кампании, управлять бюджетами, сегментировать целевую аудиторию и отслеживать конверсию в реальном времени.
+- Технологии: C#, .NET Core, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, SignalR, TypeScript, Vue 3, Pinia, Chart.js
+
+### Dealer Portal
+- Роль: Ведущий C# / Backend разработчик
+- Продолжительность: 2020/03 - 2021/06
+- Описание: Портал для дилеров и партнёров Huawei, обеспечивающий управление заказами, отслеживание поставок, доступ к маркетинговым материалам и программам лояльности. Включал интеграцию с внутренними ERP-системами и автоматизацию документооборота.
+- Технологии: C#, .NET Core, EF Core, PostgreSQL, RabbitMQ, MQTT (MQTTnet), TypeScript, Vue 3, Vite, Pinia
+
+### Production Line Monitor
+- Роль: Ведущий C# / Backend разработчик
+- Продолжительность: 2019/09 - 2020/06
+- Описание: Система мониторинга производственных линий в реальном времени. Собирала данные с IoT-датчиков, визуализировала ключевые метрики производства (OEE, время простоя, выход продукции) и формировала отчёты для руководства производственных площадок.
+- Технологии: C#, .NET Core, SignalR, MQTT (MQTTnet), PostgreSQL, Go (Golang), TypeScript, Vue 3, D3.js, Docker
 
 ---
 

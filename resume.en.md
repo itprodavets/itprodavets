@@ -1,6 +1,6 @@
 # Denis Kharchenko
 
-Experienced software developer with extensive experience in the financial sector, IT, and government projects. Focused on developing and implementing solutions to optimize complex processes and improve business efficiency.
+Software developer with years of hands-on experience in the financial sector, IT, and government projects. Focused on developing and implementing solutions to optimize complex processes and improve business efficiency.
 
 Key Achievements:
 - Increased efficiency in tax reporting processes.
@@ -10,10 +10,9 @@ Key Achievements:
 Professional Qualities:
 - Leadership and mentoring in developer teams.
 - Solving complex technical challenges.
-- Quickly adapting to new technologies and methodologies.
-- Easily learning new programming languages and technologies, allowing for adaptability to any project requirements and achieving high results in complex and large-scale tasks.
+- Quickly adopting new technologies, programming languages, and methodologies, enabling adaptability to any project requirements.
 
-[List of projects](/projects.en.md), that I have implemented in various positions at organizations..
+[List of projects](/projects.en.md) that I have implemented in various positions at organizations.
 
 ## Contact Information
 
@@ -28,103 +27,98 @@ Professional Qualities:
   * **Frontend:** Vue.js/Next.js/Nuxt.js, React/Angular/AngularJS, HTML5/CSS3 (SCSS/Stylus/SASS), jQuery/Knockout, WebSocket
   * **Databases:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB
   * **Integrations:** MQTT, RabbitMQ, SignalR, gRPC, REST API
+  * **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG (Retrieval-Augmented Generation), Vector Databases (Qdrant, pgvector), Embeddings, Prompt Engineering
   * **Architecture & DevOps:** Cloud-native apps, Distributed systems, High-load solutions, Terraform, Prometheus/Grafana, Kubernetes operators
 
 ## Professional Experience
 
-### Lead Developer - Microsoft (March 2022 – Present)
+### Lead Developer - GZ DKH Innovation Technology (Secondment · Microsoft) (March 2022 – Present)
 
-Created a unique device for coordinating the interaction of various devices within a container, developing a comprehensive control system for smart containers. Implemented FreeRTOS-based firmware, ensuring stable operation of the device and its interaction with the MQTT server, which significantly increased the efficiency of data transfer. Implemented server solutions based on .NET 9, REST API, gRPC, SignalR. Integrated functionality into a dynamic user interface based on Next, which allowed for easy control and monitoring of container status.
+Designed microservice architecture and developed full-stack solutions in IoT and e-commerce: from low-level FreeRTOS firmware (C/C++) for device coordination within containers, to server-side on .NET and Go (REST API, gRPC, SignalR), telemetry collection and storage, and frontend on Vue 3, Next.js, and React. Built an AI-powered operations assistant using RAG architecture with Azure OpenAI and vector search for diagnostics and incident reporting.
 
 - **Languages:** Go (Golang), C, C++, C#, JavaScript, TypeScript
-- **Backend development:** .NET Core, Entity Framework Core, PostgreSQL
+- **Backend:** .NET Core/.NET 8/.NET 9, Entity Framework Core, gRPC, REST API
 - **Embedded systems:** FreeRTOS, C/C++ (low-level programming)
-- **Frontend development:** Vue 3, Pinia (State Management), Next.js
-- **Communication Protocols:** Industrial: Modbus, IoT: MQTT (Mosquitto), Message Brokers: RabbitMQ, SignalR, gRPC  
-- **Software Architecture:** CQRS, Domain-Driven Design (DDD)
-- **Databases:** PostgreSQL (relational DBMS)
+- **Frontend:** Vue 3, Pinia, Next.js, React, Leaflet.js
+- **Communication Protocols:** Industrial: Modbus, IoT: MQTT (Mosquitto), Message Brokers: RabbitMQ, SignalR, gRPC
+- **Software Architecture:** CQRS, Domain-Driven Design (DDD), Microservices
+- **Databases:** PostgreSQL, TimescaleDB, Redis
+- **AI/ML:** Semantic Kernel, Azure OpenAI (GPT-4o), RAG, Qdrant, pgvector, Embeddings
+- **DevOps:** Docker, Kubernetes, Prometheus, Grafana
 
-* * *
+---
 
-### Lead Developer - Huawei (September 2019 – March 2022)
+### Lead C# / Backend Developer - GZ DKH Innovation Technology (Secondment · Huawei) (September 2019 – March 2022)
 
-My responsibilities included supporting existing products and creating new solutions in marketing, promotion, and production automation. I also focused on mentoring junior developers, conducting code reviews, and collaborating with business stakeholders to define new project goals.
+Designed and developed backend solutions in marketing, dealer sales, and production automation. Integrated IoT sensors via MQTT, implemented real-time data exchange through SignalR, built asynchronous service communication via RabbitMQ, and integrated with ERP systems. Mentored junior developers, conducted code reviews, collaborated with business on requirements.
 
 - **Languages:** Go (Golang), C#, JavaScript, TypeScript
-- **Backend development:** .NET Core, Entity Framework (EF Core), Message Brokers: RabbitMQ, SignalR, MQTT: MQTTnet (client implementation)  
-- **Frontend Development:** Vue 3 (Composition API, Vite), Pinia (State Management), TypeScript (strict typing)  
+- **Backend:** .NET Core, Entity Framework (EF Core), Message Brokers: RabbitMQ, SignalR, MQTT: MQTTnet (client implementation)
+- **Frontend:** Vue 3 (Composition API, Vite), Pinia, TypeScript, D3.js, Chart.js
 - **Software Architecture:** CQRS (Command Query Responsibility Segregation), Domain-Driven Design (DDD)
 - **Databases:** PostgreSQL
+- **DevOps:** Docker
 
-* * *
+---
 
 ### Lead Developer - KPMG (May 2017 – September 2019)
 
-Successfully developed and implemented a comprehensive service to automate the receipt of tax notices and preparation of tax reports for use by tax authorities worldwide. The project was executed using C# ASP.NET .Net Core for backend development and Angular for the frontend. The automation of tax notification and reporting processes reduced processing time by 80%, improving the overall productivity of tax authorities.
+Designed architecture and developed tax reporting automation and tax process optimization platforms for tax authorities worldwide. Built backend on ASP.NET with REST API and OData endpoints, frontend on Angular with D3.js data visualization. Migrated the codebase from .NET Framework to .NET Core. Led the development team, conducted code reviews.
 
 - **Languages:** C#, JavaScript, TypeScript
-- **Backend development:** .NET Framework/.NET Core, ASP.NET (MVC/WebAPI), ORM: Entity Framework, LINQ, API: OData, REST, Databases: MS SQL (T-SQL, stored procedures).
-- **Frontend Development:** Frameworks: AngularJS, Angular 8+, Core: HTML5, TypeScript, Data Visualization: D3.js
-- **UI/UX Design:** Design Systems: Material Design, UI Frameworks: DevExpress
-- **DevOps and Infrastructure:** Version Control: Git (GitFlow), Web Servers: IIS, Automation: PowerShell scripting
-- **Architecture:** .NET Patterns: Repository, Unit of Work, API Design: RESTful principles
+- **Backend:** .NET Framework/.NET Core, ASP.NET (MVC/WebAPI), Entity Framework/EF Core, LINQ, OData, REST
+- **Frontend:** AngularJS, Angular 8+, HTML5, TypeScript, D3.js, Material Design, DevExpress
+- **Software Architecture:** CQRS, Domain-Driven Design (DDD), Repository, Unit of Work
+- **Databases:** MS SQL
+- **DevOps:** Git (GitFlow), IIS, PowerShell
 
-* * *
+---
 
 ### Senior Full-Stack Developer - Dom PK LLC (April 2015 – April 2017)
 
-I was involved in the development and support of new systems for major Russian government institutions, including the Ministries of Education, Health, Security, and Energy. A significant portion of my work included extensive interaction with MSSQL databases, where I specialized in optimizing queries and developing procedures and functions.
+Developed information and analytical systems for government institutions (Ministries of Education, Health, and Energy). Built REST APIs, web applications, and interactive dashboards with data visualization. Specialized in MSSQL: schema design, query optimization, stored procedure development. Integrated CryptoPro digital signatures for document workflows. All projects delivered on time; many systems remain in active use.
 
 - **Languages:** C#, JavaScript, Transact-SQL
-- **Backend Development:** .NET Framework, ASP.NET Web API, ORM: Entity Framework (EF), Queries: LINQ, Protocols: REST API
-- **Frontend Development:** Basic Technologies: HTML5, CSS3, Frameworks: jQuery, Bootstrap, Data Visualization: D3.js
+- **Backend:** .NET Framework, ASP.NET Web API, ASP.NET Web Forms, Entity Framework, Dapper, ADO.NET, LINQ, AutoMapper, Autofac
+- **Frontend:** HTML5, CSS3, jQuery, Bootstrap, Angular.JS, Knockout JS, D3.js, Telerik, DevExpress
 - **Databases:** MSSQL (Transact-SQL, stored procedures)
-- **DevOps and infrastructure:** CI/CD: TeamCity, CMS: Tortoise SVN, Web servers: IIS, Automation: PowerShell
-- **Additional skills:** Working with Legacy systems, SQL query optimization, Cross-browser layout
+- **Security:** CryptoPro CSP, CryptoPro .NET
+- **DevOps:** TeamCity, Tortoise SVN, IIS, PowerShell, Unit Testing
 
-Effectiveness of my work is confirmed by the following indicators:
-
-  * All projects were delivered on time, ensuring high customer satisfaction.
-  * Many of the developed systems are still actively used, demonstrating their reliability and durability.
-  * Systems implemented in four ministries increased their operational efficiency by 30%.
-
-* * *
+---
 
 ### Full-Stack Developer - European Media Group (EMG) (July 2013 – April 2015)
 
-My primary responsibilities included supporting the company's internal systems, particularly those related to broadcasting statistics. I developed the company's first budget planning system using ASP.NET WebForms and JavaScript, optimizing the allocation of financial resources among projects, tasks, and employee requests.
+Built the company's first budget planning system on ASP.NET WebForms. Maintained internal broadcasting statistics systems. Developed desktop applications on WinForms for helpdesk and knowledge base.
 
 - **Languages:** C#, JavaScript, SQL
-- **Backend development:** Platforms: .NET Framework, ASP.NET Web Forms, WinForms, Data access: ADO.NET (database connection)
-- **Frontend development:** Basic technologies: HTML5, JavaScript, Libraries: jQuery, Bootstrap, UI components: Telerik
-- **Databases:**DBMS: MS SQL Server, Query Language: Transact-SQL (T-SQL)
-- **Tools and infrastructure:** IDE: Visual Studio 2012, SQL Server Management Studio, CI/CD: Team Foundation Server (TFS), Web server: IIS
-- **Architectural solutions:** Multi-layer architecture, Repository pattern, Data Binding.
+- **Backend:** .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
+- **Frontend:** HTML5, jQuery, Bootstrap, Telerik
+- **Databases:** MS SQL Server, Transact-SQL
+- **Infrastructure:** TFS, IIS
 
-* * *
+---
 
 ### Engineer - DEPO Computers (March 2013 – June 2013)
 
-During my work, I analyzed and resolved application issues and developed methods to improve performance and functionality. I created reporting systems for better decision-making and designed and configured stored procedures, functions, and T-SQL queries in MS SQL, enhancing the performance of processing statistics in data cubes. By utilizing temporary memory, I optimized some query execution times by 2-3 times. Additionally, I administered MS SQL databases, ensuring their reliability, security, and availability.
+Optimized stored procedures and T-SQL queries for OLAP cube statistics processing. Built reporting systems. Administered MS SQL databases.
 
 - **Languages:** Transact-SQL
 - **Databases:** MSSQL
 
-* * *
+---
 
 ### Software Engineer - Himoil LLC (November 2008 – February 2013)
 
-While working on the "Him" project, which aimed to automate business processes, I achieved significant improvements in the company's efficiency. As a software developer, I used technologies such as C#, .NET Framework, WinForms, ADO.NET, MSSQL, and Transact-SQL. My work resulted in a 40% increase in the efficiency of the company's business processes, significantly reducing the time required for key tasks and improving the quality of customer service.
+Developed a business process automation system on C#, .NET Framework, WinForms with MSSQL via ADO.NET. The deployed system significantly reduced task completion time and improved customer service quality.
 
 - **Languages:** C#, Transact-SQL
-- **Backend development:** ADO.NET, .NET
+- **Backend:** ADO.NET, .NET
 - **Databases:** MSSQL
 
-* * *
+---
 
 ### PC Operator - Profit-K LLC (May 2008 – November 2008)
 
-  * Site moderation;
-  * Monitoring the site, SMS server, and internet connection status.
-
-* * *
+- Site moderation;
+- Monitoring the site, SMS server, and internet connection status.

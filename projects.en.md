@@ -1,5 +1,21 @@
 # Projects
 
+## Personal Project
+
+### thetea.app
+- Role: Founder / Full-Stack Architect
+- Description: Multi-tenant SaaS platform for launching and managing branded tea stores in Telegram. The system includes a Telegram Mini App for customers, an admin panel for store management, 9+ microservices with event-driven architecture, gRPC service-to-service communication, and REST gateways (BFF). Features include product catalog, shopping cart with stock reservations, order management, review system, multi-language support (EN/RU), 6 built-in storefront themes, and Telegram Bot API integration.
+- Technologies: C# 14, .NET 10, Entity Framework Core, Dapper, MediatR (CQRS), FluentValidation, PostgreSQL, Redis, RabbitMQ (Outbox Pattern), gRPC, REST API, Keycloak (OIDC/OAuth2), JWT, Serilog, OpenTelemetry, Docker, Docker Compose, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, Feature-Sliced Design, Domain-Driven Design, xUnit, FluentAssertions, GitLab CI/CD, GitHub Actions
+- Link: [thetea.app](https://thetea.app)
+
+### ai-docs-hub
+- Role: Founder / Full-Stack Developer
+- Description: Open-source platform for creating AI-powered knowledge bases from technical documentation. Allows teams to upload documents (PDF, Markdown, Confluence exports), automatically chunk and embed them, and query via a chat interface with source citations. Supports multi-tenant workspaces, role-based access, and pluggable LLM backends (OpenAI, Azure OpenAI, local models via Ollama).
+- Technologies: Go (Golang), Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain (Go), Ollama, Docker, Docker Compose, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE (Server-Sent Events), GitHub Actions
+- Link: [github.com/itprodavets/ai-docs-hub](https://github.com/itprodavets/ai-docs-hub)
+
+---
+
 ## GZ DKH Innovation Technology (March 2022 – currently)
 
 ### Empire Of Bloom 
@@ -7,14 +23,51 @@
  - Description: The central control unit responsible for coordinating and managing the operation of all internal devices within the container.
  - Technologies: C, C++, C#, FreeRTOS, .NET Core, EF Core (Entity Framework Core), MQTTnet, CQRS (Command Query Responsibility Segregation), Domain Driven Design, PostgreSQL, Modbus, MQTT, Mosquitto (MQTT Broker), RabbitMQ (Message Broker), SignalR, JavaScript, TypeScript, Vue 3 (JavaScript Framework), Pinia (State Management for Vue)
 
-### eCommerce 
+### eCommerce
 - Role: Lead Developer
 - Description: Spearheaded the development of a multifaceted eCommerce solution, optimized for deployment on multiple platforms to enhance market penetration and drive sales growth.
 - Technologies: C#, .NET 8, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, TypeScript, NextJS 14, React
 
+### Fleet Tracking Platform
+- Role: Lead Developer
+- Description: Real-time tracking and management platform for a fleet of smart containers. The system aggregates device telemetry (GPS, temperature, humidity, door status), visualizes routes, and generates analytical reports for logistics operators.
+- Technologies: Go (Golang), PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Pinia, Leaflet.js
+
+### Container Diagnostics Service
+- Role: Lead Developer
+- Description: Microservice for remote diagnostics of smart containers. Provides device log collection, firmware health analysis, remote firmware updates (OTA), and engineer alerting for critical failures through a notification system.
+- Technologies: C#, .NET 9, gRPC, SignalR, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Grafana
+
+### AI Operations Assistant
+- Role: Lead Developer
+- Description: Internal AI-powered assistant for container fleet operations. Uses RAG architecture over technical documentation, maintenance logs, and telemetry data to help engineers quickly diagnose issues, find relevant procedures, and generate incident reports. Integrates with Azure OpenAI for LLM inference, Qdrant for vector search, and existing microservices via gRPC.
+- Technologies: C#, .NET 9, Semantic Kernel, Azure OpenAI (GPT-4o), Qdrant, pgvector, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js
+
 ---
 
-## KPMG (May 2017 – september 2019)
+## GZ DKH Innovation Technology (Secondment · Huawei) (September 2019 – March 2022)
+
+### Marketing Campaign Manager
+- Role: Lead C# / Backend Developer
+- Duration: 2021/01 - 2022/03
+- Description: Marketing campaign management platform for promoting Huawei products across various markets. The system enabled planning, launching, and analyzing advertising campaigns, managing budgets, segmenting target audiences, and tracking conversions in real time.
+- Technologies: C#, .NET Core, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, SignalR, TypeScript, Vue 3, Pinia, Chart.js
+
+### Dealer Portal
+- Role: Lead C# / Backend Developer
+- Duration: 2020/03 - 2021/06
+- Description: Portal for Huawei dealers and partners, providing order management, shipment tracking, access to marketing materials, and loyalty programs. Included integration with internal ERP systems and document workflow automation.
+- Technologies: C#, .NET Core, EF Core, PostgreSQL, RabbitMQ, MQTT (MQTTnet), TypeScript, Vue 3, Vite, Pinia
+
+### Production Line Monitor
+- Role: Lead C# / Backend Developer
+- Duration: 2019/09 - 2020/06
+- Description: Real-time production line monitoring system. Collected data from IoT sensors, visualized key production metrics (OEE, downtime, output yield), and generated reports for production site management.
+- Technologies: C#, .NET Core, SignalR, MQTT (MQTTnet), PostgreSQL, Go (Golang), TypeScript, Vue 3, D3.js, Docker
+
+---
+
+## KPMG (May 2017 – September 2019)
 
 ### BEPS Automation Tool
 - Role: Full-Stack Developer
