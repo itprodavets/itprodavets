@@ -26,9 +26,9 @@ jobs:
           rm -rf pdf
           mkdir -p pdf
 
-      - name: Generate PDFs
+      - name: Generate standard PDFs
         run: |
-          for file in resume.en.md resume.ru.md resume-csharp-backend.md resume-csharp-backend.ru.md projects.en.md projects.ru.md; do
+          for file in resume.en.md resume.ru.md projects.en.md projects.ru.md; do
             if [ -f "$file" ]; then
               echo "Converting $file..."
               pandoc "$file" \
@@ -38,6 +38,25 @@ jobs:
                 -V mainfont:"Noto Sans" \
                 -V monofont:"Noto Sans Mono" \
                 -V fontsize=10pt \
+                -V colorlinks=true \
+                -V linkcolor=blue \
+                -V urlcolor=blue
+            fi
+          done
+
+      - name: Generate one-page backend resume PDFs
+        run: |
+          for file in resume-csharp-backend.md resume-csharp-backend.ru.md; do
+            if [ -f "$file" ]; then
+              echo "Converting $file (compact)..."
+              pandoc "$file" \
+                -o "pdf/${file%.md}.pdf" \
+                --pdf-engine=xelatex \
+                -V geometry:margin=0.5in \
+                -V mainfont:"Noto Sans" \
+                -V monofont:"Noto Sans Mono" \
+                -V fontsize=8.5pt \
+                -V linestretch=0.9 \
                 -V colorlinks=true \
                 -V linkcolor=blue \
                 -V urlcolor=blue
