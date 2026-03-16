@@ -14,13 +14,7 @@ Professional Qualities:
 
 [List of projects](/projects.en.md) that I have implemented in various positions at organizations.
 
-## Contact Information
-
-- GitHub: [itprodavets](https://github.com/itprodavets)
-- LinkedIn: [itprodavets](https://www.linkedin.com/in/itprodavets/)
-- Telegram: [@itprodavets](https://t.me/itprodavets)
-
-## Skills
+[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets)
   * **Languages:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
   * **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ, Kafka
   * **Fullstack:** Go, .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Microservices, CI/CD
@@ -29,8 +23,6 @@ Professional Qualities:
   * **Integrations:** MQTT, RabbitMQ, Kafka, SignalR, gRPC, REST API
   * **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
   * **Architecture & DevOps:** Cloud-native, Distributed systems, High-load, Terraform, Prometheus/Grafana, Kubernetes operators
-
-## Professional Experience
 
 ### Lead Developer - GZ DKH Innovation Technology (Secondment · Microsoft) (March 2022 – Present)
 

@@ -14,13 +14,7 @@
 
 [Список проектов](/projects.ru.md), которые я реализовывал на различных должностях в организациях.
 
-## Контактная информация
-
-- GitHub: [itprodavets](https://github.com/itprodavets)
-- LinkedIn: [itprodavets](https://www.linkedin.com/in/itprodavets/)
-- Telegram: [@itprodavets](https://t.me/itprodavets)
-
-## Навыки
+[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets)
 - **Языки:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
 - **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ, Kafka
 - **Фулстек:** Go, .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Микросервисы, CI/CD
@@ -29,8 +23,6 @@
 - **Интеграции:** MQTT, RabbitMQ, Kafka, SignalR, gRPC, REST API
 - **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Архитектура и DevOps:** Cloud-native, Распределённые системы, Высоконагруженные решения, Terraform, Prometheus/Grafana, Kubernetes operators
-
-## Профессиональный опыт
 
 ### Ведущий программист - GZ DKH Innovation Technology (Secondment · Microsoft) (март 2022 – настоящее время)
 

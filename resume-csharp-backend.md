@@ -2,11 +2,7 @@
 
 [GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets) · [Telegram](https://t.me/itprodavets)
 
-## Summary
-
 Backend developer with 15+ years of experience in C# and .NET ecosystem. Specialize in designing microservice architectures, building high-load APIs, and integrating complex distributed systems. Proven track record leading teams and delivering enterprise solutions in IoT, e-commerce, fintech, and government sectors.
-
-## Skills
 
 - **Core:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
 - **Architecture:** Microservices, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
@@ -15,8 +11,6 @@ Backend developer with 15+ years of experience in C# and .NET ecosystem. Special
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, Embeddings
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
 - **Other:** Go, TypeScript, Keycloak (OIDC/OAuth2), OpenTelemetry, Serilog
-
-## Experience
 
 ### Lead Developer — GZ DKH Innovation Technology (Secondment · Microsoft) | Mar 2022 – Present
 
@@ -58,8 +52,6 @@ Developed analytical systems for government ministries (Education, Health, Energ
 ### Developer — European Media Group / DEPO Computers / Himoil LLC | 2008 – 2015
 
 Developed budget planning systems, helpdesk applications, reporting tools, and business process automation on C#/.NET/MSSQL stack. Optimized T-SQL queries and stored procedures for OLAP processing.
-
-## Personal Projects
 
 **thetea.app** — Multi-tenant SaaS platform (9+ microservices) for Telegram-based stores. C# 14, .NET 10, EF Core, RabbitMQ, gRPC, PostgreSQL, Redis, Keycloak, DDD, Docker.
 
