@@ -14,6 +14,16 @@
 - Технологии: Go, Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain, Ollama, Docker, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE, GitHub Actions
 
 
+### thetea-mcp
+- Роль: Основатель / Разработчик
+- Описание: MCP-сервер (Model Context Protocol) для платформы thetea.app. Позволяет AI-ассистентам просматривать каталог чая, искать товары, проверять наличие, управлять заказами и получать аналитику магазина через стандартизированный протокол. Для интеграции с Claude, ChatGPT и другими LLM-агентами.
+- Технологии: TypeScript, MCP SDK, REST API, OAuth2, Node.js, Docker
+
+### tea-assistant
+- Роль: Основатель / Разработчик
+- Описание: AI чат-бот консультант по чаю. Консультирует по сортам чая, техникам заваривания, чайным церемониям, культуре и истории чая, чайным путешествиям, сочетаниям с едой и персональным рекомендациям. RAG поверх курированной базы знаний о чае, дегустационных заметок и тревел-гидов.
+- Технологии: TypeScript, Next.js, React, OpenAI API, RAG, pgvector, PostgreSQL, Tailwind CSS, Vercel
+
 ---
 
 ## GZ DKH Innovation Technology (Secondment · Microsoft) (Март 2022 – по настоящее время)

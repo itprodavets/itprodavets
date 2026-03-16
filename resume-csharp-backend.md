@@ -56,3 +56,7 @@ Developed budget planning systems, helpdesk applications, reporting tools, and b
 **thetea.app** — Multi-tenant SaaS platform (9+ microservices) for Telegram-based stores. C# 14, .NET 10, EF Core, RabbitMQ, gRPC, PostgreSQL, Redis, Keycloak, DDD, Docker.
 
 **ai-docs-hub** — AI-powered knowledge base platform with RAG. Go, PostgreSQL, pgvector, OpenAI API, LangChain, Ollama.
+
+**thetea-mcp** — MCP server for thetea.app, enabling AI assistants to browse catalog, manage orders, and get analytics. TypeScript, MCP SDK, REST API, Node.js.
+
+**tea-assistant** — AI tea consultant chatbot with RAG over tea knowledge base: varieties, brewing, ceremonies, travel, pairing. TypeScript, Next.js, OpenAI API, pgvector, PostgreSQL.
