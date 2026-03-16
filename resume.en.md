@@ -22,11 +22,11 @@ Professional Qualities:
 
 ## Skills
   * **Languages:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
-  * **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ
+  * **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ, Kafka
   * **Fullstack:** Go, .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Microservices, CI/CD
   * **Frontend:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, jQuery/Knockout, WebSocket
-  * **Databases:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB
-  * **Integrations:** MQTT, RabbitMQ, SignalR, gRPC, REST API
+  * **Databases:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB, ClickHouse
+  * **Integrations:** MQTT, RabbitMQ, Kafka, SignalR, gRPC, REST API
   * **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
   * **Architecture & DevOps:** Cloud-native, Distributed systems, High-load, Terraform, Prometheus/Grafana, Kubernetes operators
 

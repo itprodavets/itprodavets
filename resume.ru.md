@@ -22,11 +22,11 @@
 
 ## Навыки
 - **Языки:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
-- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ
+- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ, Kafka
 - **Фулстек:** Go, .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Микросервисы, CI/CD
 - **Фронтенд:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, jQuery/Knockout, WebSocket
-- **Базы данных:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB
-- **Интеграции:** MQTT, RabbitMQ, SignalR, gRPC, REST API
+- **Базы данных:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB, ClickHouse
+- **Интеграции:** MQTT, RabbitMQ, Kafka, SignalR, gRPC, REST API
 - **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Архитектура и DevOps:** Cloud-native, Распределённые системы, Высоконагруженные решения, Terraform, Prometheus/Grafana, Kubernetes operators
 

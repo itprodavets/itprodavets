@@ -13,8 +13,8 @@ Backend developer with 15+ years of experience in C# and .NET ecosystem. Special
 
 - **Core:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
 - **Architecture:** Microservices, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
-- **Messaging & Real-time:** RabbitMQ, MQTT, SignalR, gRPC streaming
-- **Databases:** PostgreSQL, MSSQL, TimescaleDB, Redis, pgvector
+- **Messaging & Real-time:** RabbitMQ, Kafka, MQTT, SignalR, gRPC streaming
+- **Databases:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis, pgvector
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, Embeddings
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
 - **Other:** Go, TypeScript, Keycloak (OIDC/OAuth2), OpenTelemetry, Serilog
