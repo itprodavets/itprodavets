@@ -1,9 +1,6 @@
 # Denis Kharchenko — Senior C# Backend Developer
 
-## Contact
-- GitHub: [itprodavets](https://github.com/itprodavets)
-- LinkedIn: [itprodavets](https://www.linkedin.com/in/itprodavets)
-- Telegram: [@itprodavets](https://t.me/itprodavets)
+[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets) · [Telegram](https://t.me/itprodavets)
 
 ## Summary
 
