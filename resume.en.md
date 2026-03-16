@@ -32,7 +32,7 @@ Professional Qualities:
 
 ## Professional Experience
 
-### Lead Developer - GZ DKH Innovation Technology (March 2022 – Present)
+### Lead Developer - Microsoft (March 2022 – Present)
 
 Created a unique device for coordinating the interaction of various devices within a container, developing a comprehensive control system for smart containers. Implemented FreeRTOS-based firmware, ensuring stable operation of the device and its interaction with the MQTT server, which significantly increased the efficiency of data transfer. Implemented server solutions based on .NET 9, REST API, gRPC, SignalR. Integrated functionality into a dynamic user interface based on Next, which allowed for easy control and monitoring of container status.
 
@@ -46,7 +46,7 @@ Created a unique device for coordinating the interaction of various devices with
 
 * * *
 
-### Lead Developer - Daer Hei Technology (September 2019 – March 2022)
+### Lead Developer - Huawei (September 2019 – March 2022)
 
 My responsibilities included supporting existing products and creating new solutions in marketing, promotion, and production automation. I also focused on mentoring junior developers, conducting code reviews, and collaborating with business stakeholders to define new project goals.
 
