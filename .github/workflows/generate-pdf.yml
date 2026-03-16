@@ -1,0 +1,50 @@
+name: Generate PDF Resumes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "resume*.md"
+      - "projects*.md"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra fonts-noto fonts-noto-cjk
+
+      - name: Create output directory
+        run: mkdir -p pdf
+
+      - name: Generate PDFs
+        run: |
+          for file in resume.en.md resume.ru.md resume-csharp-backend.md resume-csharp-backend.ru.md projects.en.md projects.ru.md; do
+            if [ -f "$file" ]; then
+              echo "Converting $file..."
+              pandoc "$file" \
+                -o "pdf/${file%.md}.pdf" \
+                --pdf-engine=xelatex \
+                -V geometry:margin=0.8in \
+                -V mainfont:"Noto Sans" \
+                -V monofont:"Noto Sans Mono" \
+                -V fontsize=10pt \
+                -V colorlinks=true \
+                -V linkcolor=blue \
+                -V urlcolor=blue
+            fi
+          done
+
+      - name: Commit and push PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pdf/
+          git diff --staged --quiet || (git commit -m "Update PDF resumes" && git push)
