@@ -15,7 +15,7 @@
 
 ---
 
-## GZ DKH Innovation Technology (March 2022 – currently)
+## GZ DKH Innovation Technology (Secondment · Microsoft) (March 2022 – currently)
 
 ### Empire Of Bloom 
  - Role: Principal Software Developer 
