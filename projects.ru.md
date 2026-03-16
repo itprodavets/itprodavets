@@ -12,7 +12,6 @@
 - Роль: Основатель / Full-Stack разработчик
 - Описание: Open-source платформа для создания AI-powered баз знаний из технической документации. Позволяет командам загружать документы (PDF, Markdown, экспорт из Confluence), автоматически разбивать и векторизовать их, а затем задавать вопросы через чат-интерфейс с указанием источников. Поддерживает мультитенантные рабочие пространства, ролевой доступ и подключаемые LLM-бэкенды (OpenAI, Azure OpenAI, локальные модели через Ollama).
 - Технологии: Go (Golang), Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain (Go), Ollama, Docker, Docker Compose, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE (Server-Sent Events), GitHub Actions
-- Ссылка: [github.com/itprodavets/ai-docs-hub](https://github.com/itprodavets/ai-docs-hub)
 
 ---
 
