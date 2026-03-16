@@ -82,9 +82,9 @@ Currently focused on IoT platform development, AI/ML integration, and cloud-nati
 
 | Document | View | PDF |
 |----------|------|-----|
-| Resume (English) | [resume.en.md](/resume.en.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](pdf/resume.en.pdf) |
-| Resume (Russian) | [resume.ru.md](/resume.ru.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](pdf/resume.ru.pdf) |
-| Senior C# Backend (EN) | [resume-csharp-backend.md](/resume-csharp-backend.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](pdf/resume-csharp-backend.pdf) |
-| Senior C# Backend (RU) | [resume-csharp-backend.ru.md](/resume-csharp-backend.ru.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](pdf/resume-csharp-backend.ru.pdf) |
-| Projects (English) | [projects.en.md](/projects.en.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](pdf/projects.en.pdf) |
-| Projects (Russian) | [projects.ru.md](/projects.ru.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](pdf/projects.ru.pdf) |
+| Resume (English) | [resume.en.md](/resume.en.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](https://raw.githubusercontent.com/itprodavets/itprodavets/main/pdf/resume.en.pdf) |
+| Resume (Russian) | [resume.ru.md](/resume.ru.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](https://raw.githubusercontent.com/itprodavets/itprodavets/main/pdf/resume.ru.pdf) |
+| Senior C# Backend (EN) | [resume-csharp-backend.md](/resume-csharp-backend.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](https://raw.githubusercontent.com/itprodavets/itprodavets/main/pdf/resume-csharp-backend.pdf) |
+| Senior C# Backend (RU) | [resume-csharp-backend.ru.md](/resume-csharp-backend.ru.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](https://raw.githubusercontent.com/itprodavets/itprodavets/main/pdf/resume-csharp-backend.ru.pdf) |
+| Projects (English) | [projects.en.md](/projects.en.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](https://raw.githubusercontent.com/itprodavets/itprodavets/main/pdf/projects.en.pdf) |
+| Projects (Russian) | [projects.ru.md](/projects.ru.md) | [![PDF](https://img.shields.io/badge/Download-PDF-red?style=flat-square&logo=adobeacrobatreader)](https://raw.githubusercontent.com/itprodavets/itprodavets/main/pdf/projects.ru.pdf) |
