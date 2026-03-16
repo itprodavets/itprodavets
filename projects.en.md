@@ -12,7 +12,6 @@
 - Role: Founder / Full-Stack Developer
 - Description: Open-source platform for creating AI-powered knowledge bases from technical documentation. Allows teams to upload documents (PDF, Markdown, Confluence exports), automatically chunk and embed them, and query via a chat interface with source citations. Supports multi-tenant workspaces, role-based access, and pluggable LLM backends (OpenAI, Azure OpenAI, local models via Ollama).
 - Technologies: Go (Golang), Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain (Go), Ollama, Docker, Docker Compose, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE (Server-Sent Events), GitHub Actions
-- Link: [github.com/itprodavets/ai-docs-hub](https://github.com/itprodavets/ai-docs-hub)
 
 ---
 
