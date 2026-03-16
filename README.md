@@ -7,6 +7,7 @@ Currently focused on IoT platform development, AI/ML integration, and cloud-nati
 ## Links
 
 - [Resume (English)](/resume.en.md) | [Resume (Russian)](/resume.ru.md)
+- [Resume — Senior C# Backend Developer](/resume-csharp-backend.md)
 - [Projects (English)](/projects.en.md) | [Projects (Russian)](/projects.ru.md)
 
 ## Contact
