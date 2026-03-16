@@ -21,41 +21,41 @@ Professional Qualities:
 - Telegram: [@itprodavets](https://t.me/itprodavets)
 
 ## Skills
-  * **Languages:** Go (Golang), C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash, VBA
-  * **Backend:** .NET Framework/.NET Core, ASP.NET (MVC/WEBAPI/Core), Node.js, Express/Nest, AWS/Azure/Google Cloud, Gin/Echo, gRPC, RabbitMQ
-  * **Fullstack:** Go (Golang), .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Microservices, CI/CD (GitHub Actions)
-  * **Frontend:** Vue.js/Next.js/Nuxt.js, React/Angular/AngularJS, HTML5/CSS3 (SCSS/Stylus/SASS), jQuery/Knockout, WebSocket
+  * **Languages:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
+  * **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ
+  * **Fullstack:** Go, .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Microservices, CI/CD
+  * **Frontend:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, jQuery/Knockout, WebSocket
   * **Databases:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB
   * **Integrations:** MQTT, RabbitMQ, SignalR, gRPC, REST API
-  * **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG (Retrieval-Augmented Generation), Vector Databases (Qdrant, pgvector), Embeddings, Prompt Engineering
-  * **Architecture & DevOps:** Cloud-native apps, Distributed systems, High-load solutions, Terraform, Prometheus/Grafana, Kubernetes operators
+  * **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
+  * **Architecture & DevOps:** Cloud-native, Distributed systems, High-load, Terraform, Prometheus/Grafana, Kubernetes operators
 
 ## Professional Experience
 
 ### Lead Developer - GZ DKH Innovation Technology (Secondment · Microsoft) (March 2022 – Present)
 
-Designed microservice architecture and developed full-stack solutions in IoT and e-commerce: from low-level FreeRTOS firmware (C/C++) for device coordination within containers, to server-side on .NET and Go (REST API, gRPC, SignalR), telemetry collection and storage, and frontend on Vue 3, Next.js, and React. Built an AI-powered operations assistant using RAG architecture with Azure OpenAI and vector search for diagnostics and incident reporting.
+Designed microservice architecture and developed full-stack solutions in IoT and e-commerce: from low-level FreeRTOS firmware (C/C++) for device coordination within containers, to server-side on .NET and Go (REST API, gRPC, SignalR), telemetry collection and storage, and frontend on Vue 3, Next.js, and React. Built an AI operations assistant using RAG with Azure OpenAI and vector search for diagnostics and incident reporting.
 
-- **Languages:** Go (Golang), C, C++, C#, JavaScript, TypeScript
-- **Backend:** .NET Core/.NET 8/.NET 9, Entity Framework Core, gRPC, REST API
-- **Embedded systems:** FreeRTOS, C/C++ (low-level programming)
+- **Languages:** Go, C, C++, C#, JavaScript, TypeScript
+- **Backend:** .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API
+- **Embedded:** FreeRTOS, C/C++
 - **Frontend:** Vue 3, Pinia, Next.js, React, Leaflet.js
-- **Communication Protocols:** Industrial: Modbus, IoT: MQTT (Mosquitto), Message Brokers: RabbitMQ, SignalR, gRPC
-- **Software Architecture:** CQRS, Domain-Driven Design (DDD), Microservices
+- **Protocols:** Modbus, MQTT, RabbitMQ, SignalR, gRPC
+- **Architecture:** CQRS, DDD, Microservices
 - **Databases:** PostgreSQL, TimescaleDB, Redis
-- **AI/ML:** Semantic Kernel, Azure OpenAI (GPT-4o), RAG, Qdrant, pgvector, Embeddings
+- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana
 
 ---
 
-### Lead C# / Backend Developer - GZ DKH Innovation Technology (Secondment · Huawei) (September 2019 – March 2022)
+### Lead Backend Developer - GZ DKH Innovation Technology (Secondment · Huawei) (September 2019 – March 2022)
 
 Designed and developed backend solutions in marketing, dealer sales, and production automation. Integrated IoT sensors via MQTT, implemented real-time data exchange through SignalR, built asynchronous service communication via RabbitMQ, and integrated with ERP systems. Mentored junior developers, conducted code reviews, collaborated with business on requirements.
 
-- **Languages:** Go (Golang), C#, JavaScript, TypeScript
-- **Backend:** .NET Core, Entity Framework (EF Core), Message Brokers: RabbitMQ, SignalR, MQTT: MQTTnet (client implementation)
-- **Frontend:** Vue 3 (Composition API, Vite), Pinia, TypeScript, D3.js, Chart.js
-- **Software Architecture:** CQRS (Command Query Responsibility Segregation), Domain-Driven Design (DDD)
+- **Languages:** Go, C#, JavaScript, TypeScript
+- **Backend:** .NET Core, EF Core, RabbitMQ, SignalR, MQTT
+- **Frontend:** Vue 3, Pinia, TypeScript, D3.js, Chart.js
+- **Architecture:** CQRS, DDD
 - **Databases:** PostgreSQL
 - **DevOps:** Docker
 
@@ -66,9 +66,9 @@ Designed and developed backend solutions in marketing, dealer sales, and product
 Designed architecture and developed tax reporting automation and tax process optimization platforms for tax authorities worldwide. Built backend on ASP.NET with REST API and OData endpoints, frontend on Angular with D3.js data visualization. Migrated the codebase from .NET Framework to .NET Core. Led the development team, conducted code reviews.
 
 - **Languages:** C#, JavaScript, TypeScript
-- **Backend:** .NET Framework/.NET Core, ASP.NET (MVC/WebAPI), Entity Framework/EF Core, LINQ, OData, REST
-- **Frontend:** AngularJS, Angular 8+, HTML5, TypeScript, D3.js, Material Design, DevExpress
-- **Software Architecture:** CQRS, Domain-Driven Design (DDD), Repository, Unit of Work
+- **Backend:** .NET Framework/.NET Core, ASP.NET, EF/EF Core, LINQ, OData, REST
+- **Frontend:** AngularJS, Angular 8+, TypeScript, D3.js, Material Design, DevExpress
+- **Architecture:** CQRS, DDD, Repository, Unit of Work
 - **Databases:** MS SQL
 - **DevOps:** Git (GitFlow), IIS, PowerShell
 
@@ -76,14 +76,14 @@ Designed architecture and developed tax reporting automation and tax process opt
 
 ### Senior Full-Stack Developer - Dom PK LLC (April 2015 – April 2017)
 
-Developed information and analytical systems for government institutions (Ministries of Education, Health, and Energy). Built REST APIs, web applications, and interactive dashboards with data visualization. Specialized in MSSQL: schema design, query optimization, stored procedure development. Integrated CryptoPro digital signatures for document workflows. All projects delivered on time; many systems remain in active use.
+Developed information and analytical systems for government institutions (Ministries of Education, Health, and Energy). Built REST APIs, web applications, and interactive dashboards with data visualization. Specialized in MSSQL: schema design, query optimization, stored procedures. Integrated CryptoPro digital signatures for document workflows.
 
 - **Languages:** C#, JavaScript, Transact-SQL
-- **Backend:** .NET Framework, ASP.NET Web API, ASP.NET Web Forms, Entity Framework, Dapper, ADO.NET, LINQ, AutoMapper, Autofac
-- **Frontend:** HTML5, CSS3, jQuery, Bootstrap, Angular.JS, Knockout JS, D3.js, Telerik, DevExpress
-- **Databases:** MSSQL (Transact-SQL, stored procedures)
-- **Security:** CryptoPro CSP, CryptoPro .NET
-- **DevOps:** TeamCity, Tortoise SVN, IIS, PowerShell, Unit Testing
+- **Backend:** .NET Framework, ASP.NET Web API/Web Forms, EF, Dapper, ADO.NET, AutoMapper, Autofac
+- **Frontend:** jQuery, Bootstrap, AngularJS, Knockout JS, D3.js, Telerik, DevExpress
+- **Databases:** MSSQL
+- **Security:** CryptoPro CSP/NET
+- **DevOps:** TeamCity, SVN, IIS, PowerShell
 
 ---
 
@@ -93,8 +93,8 @@ Built the company's first budget planning system on ASP.NET WebForms. Maintained
 
 - **Languages:** C#, JavaScript, SQL
 - **Backend:** .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
-- **Frontend:** HTML5, jQuery, Bootstrap, Telerik
-- **Databases:** MS SQL Server, Transact-SQL
+- **Frontend:** jQuery, Bootstrap, Telerik
+- **Databases:** MS SQL Server
 - **Infrastructure:** TFS, IIS
 
 ---

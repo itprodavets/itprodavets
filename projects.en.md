@@ -4,65 +4,66 @@
 
 ### thetea.app
 - Role: Founder / Full-Stack Architect
-- Description: Multi-tenant SaaS platform for launching and managing branded tea stores in Telegram. The system includes a Telegram Mini App for customers, an admin panel for store management, 9+ microservices with event-driven architecture, gRPC service-to-service communication, and REST gateways (BFF). Features include product catalog, shopping cart with stock reservations, order management, review system, multi-language support (EN/RU), 6 built-in storefront themes, and Telegram Bot API integration.
-- Technologies: C# 14, .NET 10, Entity Framework Core, Dapper, MediatR (CQRS), FluentValidation, PostgreSQL, Redis, RabbitMQ (Outbox Pattern), gRPC, REST API, Keycloak (OIDC/OAuth2), JWT, Serilog, OpenTelemetry, Docker, Docker Compose, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, Feature-Sliced Design, Domain-Driven Design, xUnit, FluentAssertions, GitLab CI/CD, GitHub Actions
+- Description: Multi-tenant SaaS platform for launching branded tea stores in Telegram. Includes Telegram Mini App, admin panel, 9+ microservices with event-driven architecture, gRPC inter-service communication, and REST gateways (BFF). Features: product catalog, cart with stock reservations, orders, reviews, i18n (EN/RU), 6 storefront themes, Telegram Bot API integration.
+- Technologies: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions
 - Link: [thetea.app](https://thetea.app)
 
 ### ai-docs-hub
 - Role: Founder / Full-Stack Developer
-- Description: Open-source platform for creating AI-powered knowledge bases from technical documentation. Allows teams to upload documents (PDF, Markdown, Confluence exports), automatically chunk and embed them, and query via a chat interface with source citations. Supports multi-tenant workspaces, role-based access, and pluggable LLM backends (OpenAI, Azure OpenAI, local models via Ollama).
-- Technologies: Go (Golang), Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain (Go), Ollama, Docker, Docker Compose, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE (Server-Sent Events), GitHub Actions
+- Description: Open-source platform for AI-powered knowledge bases from technical documentation. Upload documents (PDF, Markdown, Confluence), auto-chunk and embed them, query via chat with source citations. Supports multi-tenant workspaces, RBAC, and pluggable LLM backends (OpenAI, Azure OpenAI, Ollama).
+- Technologies: Go, Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain, Ollama, Docker, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE, GitHub Actions
+- Link: [github.com/itprodavets/ai-docs-hub](https://github.com/itprodavets/ai-docs-hub)
 
 ---
 
 ## GZ DKH Innovation Technology (Secondment · Microsoft) (March 2022 – currently)
 
-### Empire Of Bloom 
- - Role: Principal Software Developer 
- - Description: The central control unit responsible for coordinating and managing the operation of all internal devices within the container.
- - Technologies: C, C++, C#, FreeRTOS, .NET Core, EF Core (Entity Framework Core), MQTTnet, CQRS (Command Query Responsibility Segregation), Domain Driven Design, PostgreSQL, Modbus, MQTT, Mosquitto (MQTT Broker), RabbitMQ (Message Broker), SignalR, JavaScript, TypeScript, Vue 3 (JavaScript Framework), Pinia (State Management for Vue)
+### Empire Of Bloom
+- Role: Principal Software Developer
+- Description: Central control unit for coordinating all internal devices within smart containers.
+- Technologies: C, C++, C#, FreeRTOS, .NET Core, EF Core, PostgreSQL, Modbus, MQTT, Mosquitto, RabbitMQ, SignalR, CQRS, DDD, TypeScript, Vue 3, Pinia
 
 ### eCommerce
 - Role: Lead Developer
-- Description: Spearheaded the development of a multifaceted eCommerce solution, optimized for deployment on multiple platforms to enhance market penetration and drive sales growth.
-- Technologies: C#, .NET 8, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, TypeScript, NextJS 14, React
+- Description: Multi-platform eCommerce solution optimized for market penetration and sales growth.
+- Technologies: C#, .NET 8, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, TypeScript, Next.js 14, React
 
 ### Fleet Tracking Platform
 - Role: Lead Developer
-- Description: Real-time tracking and management platform for a fleet of smart containers. The system aggregates device telemetry (GPS, temperature, humidity, door status), visualizes routes, and generates analytical reports for logistics operators.
-- Technologies: Go (Golang), PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Pinia, Leaflet.js
+- Description: Real-time tracking platform for smart container fleet. Aggregates telemetry (GPS, temperature, humidity, door status), visualizes routes, generates analytical reports.
+- Technologies: Go, PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Pinia, Leaflet.js
 
 ### Container Diagnostics Service
 - Role: Lead Developer
-- Description: Microservice for remote diagnostics of smart containers. Provides device log collection, firmware health analysis, remote firmware updates (OTA), and engineer alerting for critical failures through a notification system.
+- Description: Remote diagnostics microservice for smart containers. Log collection, firmware health analysis, OTA updates, critical failure alerting.
 - Technologies: C#, .NET 9, gRPC, SignalR, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Grafana
 
 ### AI Operations Assistant
 - Role: Lead Developer
-- Description: Internal AI-powered assistant for container fleet operations. Uses RAG architecture over technical documentation, maintenance logs, and telemetry data to help engineers quickly diagnose issues, find relevant procedures, and generate incident reports. Integrates with Azure OpenAI for LLM inference, Qdrant for vector search, and existing microservices via gRPC.
-- Technologies: C#, .NET 9, Semantic Kernel, Azure OpenAI (GPT-4o), Qdrant, pgvector, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js
+- Description: AI assistant for container fleet operations. RAG over technical docs, maintenance logs, and telemetry for diagnostics, procedure lookup, and incident report generation.
+- Technologies: C#, .NET 9, Semantic Kernel, Azure OpenAI, Qdrant, pgvector, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js
 
 ---
 
 ## GZ DKH Innovation Technology (Secondment · Huawei) (September 2019 – March 2022)
 
 ### Marketing Campaign Manager
-- Role: Lead C# / Backend Developer
+- Role: Lead Backend Developer
 - Duration: 2021/01 - 2022/03
-- Description: Marketing campaign management platform for promoting Huawei products across various markets. The system enabled planning, launching, and analyzing advertising campaigns, managing budgets, segmenting target audiences, and tracking conversions in real time.
-- Technologies: C#, .NET Core, EF Core, CQRS, Domain-Driven Design, PostgreSQL, RabbitMQ, SignalR, TypeScript, Vue 3, Pinia, Chart.js
+- Description: Platform for planning, launching, and analyzing Huawei marketing campaigns. Budget management, audience segmentation, real-time conversion tracking.
+- Technologies: C#, .NET Core, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, SignalR, TypeScript, Vue 3, Pinia, Chart.js
 
 ### Dealer Portal
-- Role: Lead C# / Backend Developer
+- Role: Lead Backend Developer
 - Duration: 2020/03 - 2021/06
-- Description: Portal for Huawei dealers and partners, providing order management, shipment tracking, access to marketing materials, and loyalty programs. Included integration with internal ERP systems and document workflow automation.
-- Technologies: C#, .NET Core, EF Core, PostgreSQL, RabbitMQ, MQTT (MQTTnet), TypeScript, Vue 3, Vite, Pinia
+- Description: Portal for Huawei dealers: order management, shipment tracking, marketing materials, loyalty programs. ERP integration and document workflow automation.
+- Technologies: C#, .NET Core, EF Core, PostgreSQL, RabbitMQ, MQTT, TypeScript, Vue 3, Vite, Pinia
 
 ### Production Line Monitor
-- Role: Lead C# / Backend Developer
+- Role: Lead Backend Developer
 - Duration: 2019/09 - 2020/06
-- Description: Real-time production line monitoring system. Collected data from IoT sensors, visualized key production metrics (OEE, downtime, output yield), and generated reports for production site management.
-- Technologies: C#, .NET Core, SignalR, MQTT (MQTTnet), PostgreSQL, Go (Golang), TypeScript, Vue 3, D3.js, Docker
+- Description: Real-time production line monitoring. IoT sensor data collection, production metrics visualization (OEE, downtime, yield), management reporting.
+- Technologies: C#, .NET Core, SignalR, MQTT, PostgreSQL, Go, TypeScript, Vue 3, D3.js, Docker
 
 ---
 
@@ -71,72 +72,69 @@
 ### BEPS Automation Tool
 - Role: Full-Stack Developer
 - Duration: 2017/05 - 2018/03
-- Description: BEPS Automation Tool is used to get tax notifications, prepare tax reports for tax authorities around the world. In this project, I've been the role of architect, team leader and senior developer of the web application.
-- Technologies: C#, .NET Framework, ASP.NET, EF (Entity Framework), LINQ, OData, CQRS (Command Query Responsibility Segregation), Domain Driven Design, MS SQL, JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js, Material Design, DevExpress, Git, Internet Information Services (IIS), PowerShell
+- Description: Tax notification and reporting platform for tax authorities worldwide. Acted as architect, team lead, and senior developer.
+- Technologies: C#, .NET Framework, ASP.NET, EF, LINQ, OData, CQRS, DDD, MS SQL, TypeScript, AngularJS, Angular 8, D3.js, Material Design, DevExpress
 
 ### Smart Tax Solution
- - Role: Team Lead
- - Duration: 2018/03 - 2019/09
- - Description: Smart Tax Solution is a web-based service designed for optimizing tax processes and ensuring compliance.
- - Technologies: C#, .NET Core, ASP.NET, EF Core (Entity Framework Core), LINQ, OData, CQRS (Command Query Responsibility Segregation), Domain Driven Design, MS SQL, JavaScript, TypeScript, Angular.JS, Angular 8, HTML5, D3.js, Material Design, DevExpress, Git, Internet Information Services (IIS), PowerShell
+- Role: Team Lead
+- Duration: 2018/03 - 2019/09
+- Description: Web service for tax process optimization and compliance.
+- Technologies: C#, .NET Core, ASP.NET, EF Core, LINQ, OData, CQRS, DDD, MS SQL, TypeScript, AngularJS, Angular 8, D3.js, Material Design, DevExpress
 
 ---
 
-## ООО «Дом ПК» (April 2015 – april 2017)
+## Dom PK LLC (April 2015 – April 2017)
 
-### Information and analytic system
+### Information and Analytic System
 - Role: Team Lead
 - Duration: 2016/05 - 2018/03
-- Description: Software for information analysis, exchange and maintenance of regulatory reference information of Joint Information DB. Is used to follow main principles of blood donation, including: donor blood safety, voluntariness of blood donation, donors' health care, donors' social support and rights' protection, encouragement and support of blood donation.
-- Technologies: C#, ASP.NET Web API, .Net Framework, AutoMapper, Autofac, EF (Entity Framework), LINQ, MSSQL, Transact-SQL,JavaScript, JQuery, Bootstrap, HTML, HTML5, Telerik, DevExpress, Tortoise SVN, Team City, Internet Information Services (IIS), PowerShell, Unit Testing.
+- Description: Information analysis and regulatory reference data management for blood donation services.
+- Technologies: C#, .NET Framework, ASP.NET Web API, EF, LINQ, MSSQL, jQuery, Bootstrap, Telerik, DevExpress, TeamCity, SVN, IIS
 
-### Monitoring of social and political situation in Russia
+### Monitoring of Social and Political Situation
 - Role: Full-Stack Developer
 - Duration: 2016/09 - 2017/03
-- Description: Information and analytical system, used for monitoring of different metrics of social, economical and political situation in Russia, used for decision support of Russian officials. System allows to:
-    - Systematize data in form of single metric passport.
-    - Monitor achievement of target indicators and critical indicator values.
-- Technologies: C#, ASP.NET Web API, .Net Framework, Dapper, MSSQL, Transact-SQL, LINQ, AutoMapper, Autofac, JavaScript, JQuery, D3js, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing.
+- Description: Analytical system for monitoring social, economic, and political metrics. Metric passport systematization and target indicator tracking.
+- Technologies: C#, .NET Framework, ASP.NET Web API, Dapper, MSSQL, jQuery, D3.js, SVN, IIS
 
-### Balancing market portal
+### Balancing Market Portal
 - Role: Full-Stack Developer
 - Duration: 2015/09 - 2016/09
-- Description: Balancing market portal is used to notify market makers about operational data, documents and news, provide them with interfaces to create requests, provide stats of energy markets to.
-- Technologies: C#, .Net Framework, ASP.NET Web Forms, EF (Entity Framework), MSSQL, Transact-SQL, LINQ, AutoMapper, Autofac, JavaScript, JQuery, Telerik, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing, CryptoPro CSP, CryptoPro .Net.
+- Description: Portal for energy market participants: operational data, news, request interfaces, market statistics.
+- Technologies: C#, .NET Framework, ASP.NET Web Forms, EF, MSSQL, jQuery, Telerik, Bootstrap, CryptoPro, SVN, IIS
 
-### System to prepare data for operational planning
+### System for Operational Planning Data
 - Role: Full-Stack Developer
 - Duration: 2015/09 - 2016/09
-- Description: System is used to automate and speed up preparing actual calculated models, used in auction on balancing market of first sync zone of Energy System of Russia.
-- Technologies: C#, .Net Framework, ASP.NET Web API, Dapper, MSSQL, Transact-SQL, LINQ, AutoMapper, JavaScript, Angular.JS, JQuery, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing, CryptoPro CSP, CryptoPro .Net.
+- Description: Automation of calculated model preparation for balancing market auctions.
+- Technologies: C#, .NET Framework, ASP.NET Web API, Dapper, MSSQL, AngularJS, jQuery, Bootstrap, CryptoPro, SVN, IIS
 
-### РОН ФИС ГИА 2015 ОВСУП
+### Federal Exam Processing System
 - Role: Full-Stack Developer
 - Duration: 2015/04 - 2016/04
-- Description: Federal Information System for processing joint government exam and attestation to colleges and universities
-- Technologies: C#, .Net Framework, ASP.NET Web API, ADO.NET, MSSQL, Transact-SQL, LINQ, JavaScript, JQuery, Knockout JS, Bootstrap, HTML, HTML5, CSS, CSS 3, Tortoise SVN, Internet Information Services (IIS), PowerShell, Unit Testing
+- Description: Federal information system for processing government exam results and university attestation.
+- Technologies: C#, .NET Framework, ASP.NET Web API, ADO.NET, MSSQL, jQuery, Knockout JS, Bootstrap, SVN, IIS
 
 ---
 
-## Европейская медиагруппа (ЕМГ) (July 2013 – april 2015)
+## European Media Group (EMG) (July 2013 – April 2015)
 
 ### Web Expenses
-Duration: 2013/08 - 2015/09
-Role: Full-Stack Developer
-Description: Budget planning system, used for distribute budget to company's projects, tasks and employees' requests.
-Technologies: C#, .Net Framework, ASP.NET Web Forms, ADO.NET, MSSQL, Transact-SQL, LINQ, JavaScript, JQuery, Bootstrap, HTML, HTML5, CSS, CSS 3, TFS, Internet Information Services (IIS)
+- Role: Full-Stack Developer
+- Duration: 2013/08 - 2015/09
+- Description: Budget planning system for distributing budget across projects, tasks, and employee requests.
+- Technologies: C#, .NET Framework, ASP.NET Web Forms, ADO.NET, MSSQL, jQuery, Bootstrap, TFS, IIS
 
 ### ITpedia
-Duration: 2014/05 - 2014/09
-Role: Developer
-Description: ITpedia is used for smart solution search, based on provided knowledge base and given user's situation definition.
-Technologies: C#, .Net Framework, WinForms, Telerik, ADO.NET, MSSQL, Transact-SQL, SQL, TFS
-Tools: Visual Studio 2012, Management Studio
+- Role: Developer
+- Duration: 2014/05 - 2014/09
+- Description: Knowledge base search system for smart solution lookup based on user situation.
+- Technologies: C#, .NET Framework, WinForms, Telerik, ADO.NET, MSSQL, TFS
 
 ### HelpDesk
-Duration: 2013/07 - 2014/07
-Role: Developer
-Description: Helpdesk and request-serving system for internal needs.
-Technologies: C#, .Net Framework, WinForms, Telerik, ADO.NET, MSSQL, Transact-SQL, SQL, TFS.
+- Role: Developer
+- Duration: 2013/07 - 2014/07
+- Description: Internal helpdesk and request management system.
+- Technologies: C#, .NET Framework, WinForms, Telerik, ADO.NET, MSSQL, TFS
 
 ---
