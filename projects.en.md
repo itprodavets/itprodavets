@@ -6,13 +6,13 @@
 - Role: Founder / Full-Stack Architect
 - Description: Multi-tenant SaaS platform for launching branded tea stores in Telegram. Includes Telegram Mini App, admin panel, 9+ microservices with event-driven architecture, gRPC inter-service communication, and REST gateways (BFF). Features: product catalog, cart with stock reservations, orders, reviews, i18n (EN/RU), 6 storefront themes, Telegram Bot API integration.
 - Technologies: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions
-- Link: [thetea.app](https://thetea.app)
+
 
 ### ai-docs-hub
 - Role: Founder / Full-Stack Developer
 - Description: Open-source platform for AI-powered knowledge bases from technical documentation. Upload documents (PDF, Markdown, Confluence), auto-chunk and embed them, query via chat with source citations. Supports multi-tenant workspaces, RBAC, and pluggable LLM backends (OpenAI, Azure OpenAI, Ollama).
 - Technologies: Go, Gin, PostgreSQL, pgvector, Redis, OpenAI API, LangChain, Ollama, Docker, TypeScript, Next.js 15, React 19, Tailwind CSS, Shadcn/UI, TanStack Query, SSE, GitHub Actions
-- Link: [github.com/itprodavets/ai-docs-hub](https://github.com/itprodavets/ai-docs-hub)
+
 
 ---
 
