@@ -38,13 +38,17 @@ const I18N = {
     download: 'Download PDF',
     viewSource: 'View source',
     loadError: 'Failed to load resume',
-    loadErrorHint: 'Please check your connection and try again'
+    loadErrorHint: 'Please check your connection and try again',
+    summary: 'Professional Summary',
+    expertise: 'Technical Expertise'
   },
   ru: {
     download: 'Скачать PDF',
     viewSource: 'Исходник',
     loadError: 'Не удалось загрузить резюме',
-    loadErrorHint: 'Проверьте подключение и попробуйте снова'
+    loadErrorHint: 'Проверьте подключение и попробуйте снова',
+    summary: 'О себе',
+    expertise: 'Технические навыки'
   }
 };
 
@@ -98,14 +102,13 @@ function setupMarked() {
 
   /*
    * H1: "Denis Kharchenko — Senior C# Backend Developer"
-   * Split on " — " to get Name + Subtitle
+   * → Name block with subtitle and separator
    */
   renderer.heading = function (data) {
     const text = typeof data === 'object' ? data.text : data;
     const depth = typeof data === 'object' ? data.depth : arguments[1];
 
     if (depth === 1) {
-      // Split name and role on " — " or " — "
       const separators = [' — ', ' — ', ' - '];
       let name = text;
       let subtitle = '';
@@ -119,10 +122,14 @@ function setupMarked() {
         }
       }
 
-      let html = `<h1>${escapeHtml(name)}</h1>`;
+      let html = '<div class="resume-header">';
+      html += `<h1 class="resume-name">${escapeHtml(name)}</h1>`;
       if (subtitle) {
-        html += `<div class="resume-subtitle">${escapeHtml(subtitle)}</div>`;
+        html += `<div class="resume-role">${escapeHtml(subtitle)}</div>`;
       }
+      html += `<div class="resume-contact">GitHub: <a href="https://github.com/itprodavets" target="_blank">github.com/itprodavets</a> · LinkedIn: <a href="https://linkedin.com/in/itprodavets" target="_blank">/in/itprodavets</a> · Telegram: <a href="https://t.me/itprodavets" target="_blank">@itprodavets</a></div>`;
+      html += '</div>';
+      html += '<hr class="header-separator">';
       return html;
     }
 
@@ -131,8 +138,8 @@ function setupMarked() {
     }
 
     /*
-     * H3: "Lead Developer — GZ DKH Innovation Technology (Secondment · Microsoft) | Mar 2022 – Present"
-     * Split on " | " to get Title/Company + Dates
+     * H3: "Lead Developer — Company | Mar 2022 – Present"
+     * → Job title left, dates right
      */
     if (depth === 3) {
       const pipeIdx = text.lastIndexOf(' | ');
@@ -141,11 +148,9 @@ function setupMarked() {
         const datesPart = text.substring(pipeIdx + 3);
         return `<div class="job-header"><div class="job-title">${titlePart}</div><div class="job-dates">${escapeHtml(datesPart)}</div></div>`;
       }
-      // Fallback: no pipe separator
       return `<h3>${text}</h3>`;
     }
 
-    // H4+
     return `<h${depth}>${text}</h${depth}>`;
   };
 
@@ -177,6 +182,64 @@ function setupMarked() {
   });
 }
 
+/* ===== Post-processing: add section headers ===== */
+function postProcessResume(container) {
+  const strings = I18N[state.currentLang];
+  const headerBlock = container.querySelector('.resume-header');
+  if (!headerBlock) return;
+
+  const separator = headerBlock.nextElementSibling; // <hr>
+  if (!separator) return;
+
+  // Collect elements between the separator and the first <h2>
+  const introElements = [];
+  let el = separator.nextElementSibling;
+  while (el && el.tagName !== 'H2') {
+    introElements.push(el);
+    el = el.nextElementSibling;
+  }
+
+  if (introElements.length === 0) return;
+
+  // Find first paragraph(s) and first <ul> before first H2
+  const paragraphs = [];
+  let techList = null;
+  let contactLine = null;
+
+  for (const item of introElements) {
+    // Skip standalone link lines (like "[GitHub](...) · [LinkedIn](...)")
+    if (item.tagName === 'P' && item.querySelectorAll('a').length >= 2 && item.textContent.includes('·')) {
+      contactLine = item;
+      continue;
+    }
+    if (item.tagName === 'P') {
+      paragraphs.push(item);
+    }
+    if (item.tagName === 'UL' && !techList) {
+      techList = item;
+    }
+  }
+
+  // Insert "PROFESSIONAL SUMMARY" h2 before first paragraph
+  if (paragraphs.length > 0) {
+    const summaryH2 = document.createElement('h2');
+    summaryH2.textContent = strings.summary;
+    paragraphs[0].before(summaryH2);
+  }
+
+  // Insert "TECHNICAL EXPERTISE" h2 before the tech list
+  if (techList) {
+    const expertiseH2 = document.createElement('h2');
+    expertiseH2.textContent = strings.expertise;
+    techList.before(expertiseH2);
+  }
+
+  // Hide the standalone contact link line (already shown in header)
+  if (contactLine) {
+    contactLine.style.display = 'none';
+  }
+}
+
 /* ===== Render navigation ===== */
 function renderNav() {
   const navList = $('#navList');
@@ -205,18 +268,6 @@ function renderNav() {
   }
 }
 
-/* ===== Update active nav ===== */
-function updateActiveNav() {
-  $$('.nav-item a').forEach(a => {
-    const href = a.getAttribute('href');
-    if (href && href.includes(state.currentResume)) {
-      a.classList.add('active');
-    } else {
-      a.classList.remove('active');
-    }
-  });
-}
-
 /* ===== Render resume ===== */
 async function renderResume() {
   const resume = RESUMES[state.currentResume];
@@ -233,12 +284,15 @@ async function renderResume() {
     const markdown = await fetchMarkdown(filename);
     const html = marked.parse(markdown);
     content.innerHTML = html;
+
+    // Post-process: add section headers like in the PDF template
+    postProcessResume(content);
+
     content.classList.remove('hidden');
 
     // Update GitHub link
     $('#githubLink').href = GITHUB_BASE + filename;
 
-    // Scroll to top
     window.scrollTo({ top: 0 });
   } catch (err) {
     const strings = I18N[state.currentLang];
@@ -292,7 +346,6 @@ function setupLangToggle() {
       if (lang === state.currentLang) return;
 
       state.currentLang = lang;
-
       $$('.lang-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
@@ -318,15 +371,9 @@ function syncLangButtons() {
 function setupSidebar() {
   const toggle = $('#menuToggle');
   const overlay = $('#sidebarOverlay');
-
   toggle.addEventListener('click', () => {
-    if (state.sidebarOpen) {
-      closeSidebar();
-    } else {
-      openSidebar();
-    }
+    state.sidebarOpen ? closeSidebar() : openSidebar();
   });
-
   overlay.addEventListener('click', closeSidebar);
 }
 
@@ -344,16 +391,14 @@ function closeSidebar() {
   $('#menuToggle').classList.remove('active');
 }
 
-/* ===== Keyboard navigation ===== */
+/* ===== Keyboard ===== */
 function setupKeyboard() {
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && state.sidebarOpen) {
-      closeSidebar();
-    }
+    if (e.key === 'Escape' && state.sidebarOpen) closeSidebar();
   });
 }
 
-/* ===== Hash change handler ===== */
+/* ===== Hash change ===== */
 function setupHashChange() {
   window.addEventListener('popstate', () => {
     parseURL();
