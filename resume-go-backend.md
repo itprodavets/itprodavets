@@ -60,7 +60,7 @@ Developed analytical systems for government ministries, budget planning systems,
 
 **Academy of Marketing and Social Information Technologies (IMSIT)**, Krasnodar — Specialist Degree (Engineer), 2013 · Higher Education
 
-**Krasnodar College of Management, Informatization and Service** — Technician, 2009
+**Krasnodar College of Management, Informatization and Service**, Krasnodar — Technician, 2009 · Secondary Vocational Education
 
 ## Languages
 
