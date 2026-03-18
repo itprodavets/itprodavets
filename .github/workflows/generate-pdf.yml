@@ -13,8 +13,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Noto fonts
-        run: apk add --no-cache font-noto font-noto-cjk
+      - name: Install git and Noto fonts
+        run: apk add --no-cache git font-noto font-noto-cjk
 
       - name: Clean and create output directory
         run: |
