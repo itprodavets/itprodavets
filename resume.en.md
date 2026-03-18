@@ -119,7 +119,7 @@ Developed a business process automation system on C#, .NET Framework, WinForms w
 
 ## Education
 
-**Academy of Marketing and Social Information Technologies (IMSIT)**, Krasnodar — Specialist (Engineer), 2013
+**Academy of Marketing and Social Information Technologies (IMSIT)**, Krasnodar — Specialist Degree (Engineer), 2013 · Higher Education
 
 **Krasnodar College of Management, Informatization and Service** — Technician, 2009
 
