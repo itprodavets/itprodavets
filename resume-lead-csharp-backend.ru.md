@@ -1,0 +1,68 @@
+# Денис Харченко — Lead C# Backend Developer
+
+[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets) · [Telegram](https://t.me/itprodavets)
+
+Технический лидер с 15+ годами опыта в C#/.NET, 7+ лет руководства backend-командами. Принимаю архитектурные решения, выстраиваю инженерные стандарты и поставляю сложные распределённые системы под ключ. Практический опыт создания микросервисов, высоконагруженных API и AI-пайплайнов. Менторинг разработчиков, кросс-функциональное взаимодействие и масштабирование команд в IoT, e-commerce, fintech и госсекторе.
+
+- **Основное:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
+- **Архитектура:** Микросервисы, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
+- **Обмен сообщениями:** RabbitMQ, Kafka, MQTT, SignalR, gRPC streaming
+- **Базы данных:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis, pgvector
+- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, Embeddings
+- **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
+- **Лидерство:** Менторинг команды, культура код-ревью, архитектурное управление, Agile/Scrum, техническая стратегия
+
+## Коммерческий опыт
+
+### Ведущий разработчик — GZ DKH Innovation Technology (Secondment · Microsoft) | Март 2022 – настоящее время
+
+Руководил backend-командой IoT-платформы управления парком умных контейнеров. Определял микросервисную архитектуру, устанавливал стандарты кодирования, принимал ключевые технические решения. Проектировал REST API и gRPC-сервисы на .NET 8/9, пайплайн приёма телеметрии, real-time коммуникацию через SignalR. Инициировал и создал AI-ассистент на Semantic Kernel с RAG (Azure OpenAI + Qdrant). Руководил бэкендом e-commerce платформы с CQRS и DDD.
+
+- Руководил проектированием архитектуры 5+ микросервисов с событийным взаимодействием через RabbitMQ
+- Выстроил процесс код-ревью и инженерные практики в команде
+- Инициировал внедрение AI/RAG-пайплайна для автоматической генерации отчётов об инцидентах
+- Поставил систему телеметрии на PostgreSQL + TimescaleDB с обработкой миллионов записей
+
+**Стек:** C#, .NET 8/.NET 9, EF Core, gRPC, REST API, SignalR, RabbitMQ, MQTT, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, Docker, Kubernetes
+
+### Ведущий Backend разработчик — GZ DKH Innovation Technology (Secondment · Huawei) | Сентябрь 2019 – Март 2022
+
+Руководил backend-командой платформ маркетинга, дилерских продаж и мониторинга производства. Определял техническую стратегию, управлял распределением задач, проводил регулярные код-ревью. Вырастил 3+ junior-разработчиков до уровня middle. Интегрировал IoT-датчики (MQTT), real-time обмен данными (SignalR), асинхронное взаимодействие (RabbitMQ) и ERP-системы.
+
+- Вырастил backend-команду с 2 до 5 разработчиков
+- Выстроил CI/CD-пайплайны и стандарты деплоя
+- Поставил 3 production-платформы в срок с высоким качеством кода
+- Реализовал мониторинг производственных линий со сбором данных с IoT-датчиков
+
+**Стек:** C#, .NET Core, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, SignalR, MQTT, Docker
+
+### Ведущий разработчик — KPMG | Май 2017 – Сентябрь 2019
+
+Руководил командой разработки платформ автоматизации налоговой отчётности для налоговых органов по всему миру. Управлял командой из 4+ разработчиков, определял архитектуру, проводил код-ревью, координировал работу со стейкхолдерами. Выполнил миграцию с .NET Framework на .NET Core. Реализовал бэкенд с REST API и OData.
+
+- Управлял полным циклом разработки от требований до production-деплоя
+- Руководил успешной миграцией legacy-кодовой базы с .NET Framework на .NET Core
+- Поставил инструмент BEPS-отчётности, принятый налоговыми органами глобально
+- Внедрил паттерны CQRS/DDD, улучшив поддерживаемость кодовой базы
+
+**Стек:** C#, .NET Framework/.NET Core, ASP.NET, EF/EF Core, LINQ, OData, CQRS, DDD, MS SQL
+
+### Старший разработчик — ООО «Дом ПК» | Апрель 2015 – Апрель 2017
+
+Разрабатывал аналитические системы для министерств (образования, здравоохранения, энергетики). Создавал REST API, пайплайны обработки данных, сложную отчётность. Руководил оптимизацией MSSQL: проектирование схем, хранимые процедуры, тюнинг запросов.
+
+**Стек:** C#, .NET Framework, ASP.NET Web API, EF, Dapper, ADO.NET, MSSQL, CryptoPro
+
+### Разработчик — ЕМГ / DEPO Computers / ООО «Химоил» | 2008 – 2015
+
+Разрабатывал системы бюджетного планирования, helpdesk, отчётности и автоматизации бизнес-процессов на стеке C#/.NET/MSSQL.
+
+## Личные проекты
+
+**thetea.app** — Мультитенантная SaaS-платформа (9+ микросервисов) для магазинов в Telegram. C# 14, .NET 10, EF Core, RabbitMQ, gRPC, PostgreSQL, Redis, Keycloak, DDD, Docker.
+
+**ai-docs-hub** — AI-платформа баз знаний с RAG. Go, PostgreSQL, pgvector, OpenAI API, LangChain, Ollama.
+
+**thetea-mcp** — MCP-сервер для thetea.app, интеграция AI-ассистентов с каталогом, заказами и аналитикой. TypeScript, MCP SDK, REST API, Node.js.
+
+**tea-assistant** — AI чат-бот консультант по чаю с RAG: сорта, заваривание, церемонии, путешествия, сочетания. TypeScript, Next.js, OpenAI API, pgvector, PostgreSQL.

@@ -41,7 +41,7 @@ jobs:
 
       - name: Generate one-page backend resume PDFs
         run: |
-          for file in resume-csharp-backend.md resume-csharp-backend.ru.md resume-go-backend.md resume-go-backend.ru.md; do
+          for file in resume-csharp-backend.md resume-csharp-backend.ru.md resume-lead-csharp-backend.md resume-lead-csharp-backend.ru.md resume-go-backend.md resume-go-backend.ru.md; do
             if [ -f "$file" ]; then
               echo "Converting $file (compact)..."
               pandoc "$file" \
