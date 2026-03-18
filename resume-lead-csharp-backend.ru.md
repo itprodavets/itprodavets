@@ -1,7 +1,5 @@
 # Денис Харченко — Lead C# Backend Developer
 
-[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets) · [Telegram](https://t.me/itprodavets)
-
 Технический лидер с 15+ годами опыта в C#/.NET, 7+ лет руководства backend-командами. Принимаю архитектурные решения, выстраиваю инженерные стандарты и поставляю сложные распределённые системы под ключ. Практический опыт создания микросервисов, высоконагруженных API и AI-пайплайнов. Менторинг разработчиков, кросс-функциональное взаимодействие и масштабирование команд в IoT, e-commerce, fintech и госсекторе.
 
 - **Основное:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ

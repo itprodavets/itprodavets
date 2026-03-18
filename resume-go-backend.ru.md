@@ -1,7 +1,5 @@
 # Денис Харченко — Senior Go Backend Developer
 
-[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets) · [Telegram](https://t.me/itprodavets)
-
 Backend-разработчик с 15+ годами опыта в создании высоконагруженных распределённых систем. Использую Go в продакшене для микросервисов, REST/gRPC API и data-intensive пайплайнов. Глубокий опыт в микросервисной архитектуре, событийно-ориентированных системах и DevOps-практиках. Опыт руководства командами и поставки enterprise-решений в IoT, e-commerce, fintech и госсекторе.
 
 - **Основное:** Go (Gin, Echo, net/http), C#, TypeScript, SQL, Bash
