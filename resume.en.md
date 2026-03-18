@@ -116,3 +116,13 @@ Developed a business process automation system on C#, .NET Framework, WinForms w
 
 - Site moderation;
 - Monitoring the site, SMS server, and internet connection status.
+
+## Education
+
+**Academy of Marketing and Social Information Technologies (IMSIT)**, Krasnodar — Specialist (Engineer), 2013
+
+**Krasnodar College of Management, Informatization and Service** — Technician, 2009
+
+## Languages
+
+Russian (Native) · English (B2) · Chinese (HSK4)

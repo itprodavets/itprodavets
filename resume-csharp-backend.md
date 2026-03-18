@@ -62,3 +62,13 @@ Developed budget planning systems, helpdesk applications, reporting tools, and b
 **thetea-mcp** — MCP server for thetea.app, enabling AI assistants to browse catalog, manage orders, and get analytics. TypeScript, MCP SDK, REST API, Node.js.
 
 **tea-assistant** — AI tea consultant chatbot with RAG over tea knowledge base: varieties, brewing, ceremonies, travel, pairing. TypeScript, Next.js, OpenAI API, pgvector, PostgreSQL.
+
+## Education
+
+**Academy of Marketing and Social Information Technologies (IMSIT)**, Krasnodar — Specialist (Engineer), 2013
+
+**Krasnodar College of Management, Informatization and Service** — Technician, 2009
+
+## Languages
+
+Russian (Native) · English (B2) · Chinese (HSK4)
