@@ -4,31 +4,31 @@ const RESUMES = {
     en: 'resume.en.md',
     ru: 'resume.ru.md',
     label: { en: 'Full Resume', ru: 'Полное резюме' },
-    icon: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>'
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>'
   },
   'csharp-backend': {
     en: 'resume-csharp-backend.md',
     ru: 'resume-csharp-backend.ru.md',
     label: { en: 'Senior C# Backend', ru: 'Senior C# Backend' },
-    icon: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>'
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>'
   },
   'lead-csharp-backend': {
     en: 'resume-lead-csharp-backend.md',
     ru: 'resume-lead-csharp-backend.ru.md',
     label: { en: 'Lead C# Backend', ru: 'Lead C# Backend' },
-    icon: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
   },
   'go-backend': {
     en: 'resume-go-backend.md',
     ru: 'resume-go-backend.ru.md',
     label: { en: 'Senior Go Backend', ru: 'Senior Go Backend' },
-    icon: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>'
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>'
   },
   'projects': {
     en: 'projects.en.md',
     ru: 'projects.ru.md',
     label: { en: 'Projects', ru: 'Проекты' },
-    icon: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>'
+    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>'
   }
 };
 
@@ -60,7 +60,7 @@ const state = {
 const RAW_BASE = 'https://raw.githubusercontent.com/itprodavets/itprodavets/main/';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/';
 
-/* ===== DOM Elements ===== */
+/* ===== DOM Helpers ===== */
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
 
@@ -87,19 +87,75 @@ function mapMdFileToHash(href) {
   return null;
 }
 
-/* ===== Configure marked.js ===== */
+/* ===== Escape HTML ===== */
+function escapeHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+/* ===== Configure marked.js with custom renderers ===== */
 function setupMarked() {
   const renderer = new marked.Renderer();
 
-  const originalLink = renderer.link.bind(renderer);
+  /*
+   * H1: "Denis Kharchenko — Senior C# Backend Developer"
+   * Split on " — " to get Name + Subtitle
+   */
+  renderer.heading = function (data) {
+    const text = typeof data === 'object' ? data.text : data;
+    const depth = typeof data === 'object' ? data.depth : arguments[1];
+
+    if (depth === 1) {
+      // Split name and role on " — " or " — "
+      const separators = [' — ', ' — ', ' - '];
+      let name = text;
+      let subtitle = '';
+
+      for (const sep of separators) {
+        const idx = text.indexOf(sep);
+        if (idx > 0) {
+          name = text.substring(0, idx);
+          subtitle = text.substring(idx + sep.length);
+          break;
+        }
+      }
+
+      let html = `<h1>${escapeHtml(name)}</h1>`;
+      if (subtitle) {
+        html += `<div class="resume-subtitle">${escapeHtml(subtitle)}</div>`;
+      }
+      return html;
+    }
+
+    if (depth === 2) {
+      return `<h2>${text}</h2>`;
+    }
+
+    /*
+     * H3: "Lead Developer — GZ DKH Innovation Technology (Secondment · Microsoft) | Mar 2022 – Present"
+     * Split on " | " to get Title/Company + Dates
+     */
+    if (depth === 3) {
+      const pipeIdx = text.lastIndexOf(' | ');
+      if (pipeIdx > 0) {
+        const titlePart = text.substring(0, pipeIdx);
+        const datesPart = text.substring(pipeIdx + 3);
+        return `<div class="job-header"><div class="job-title">${titlePart}</div><div class="job-dates">${escapeHtml(datesPart)}</div></div>`;
+      }
+      // Fallback: no pipe separator
+      return `<h3>${text}</h3>`;
+    }
+
+    // H4+
+    return `<h${depth}>${text}</h${depth}>`;
+  };
+
+  /* Links: internal .md -> SPA hash, external -> new tab */
   renderer.link = function (data) {
     const href = typeof data === 'object' ? data.href : data;
     const text = typeof data === 'object' ? data.text : arguments[2];
     const title = typeof data === 'object' ? data.title : arguments[1];
-
     const hrefStr = href || '';
 
-    // Internal .md links -> SPA navigation
     if (hrefStr.endsWith('.md')) {
       const mapped = mapMdFileToHash(hrefStr);
       if (mapped) {
@@ -107,12 +163,10 @@ function setupMarked() {
       }
     }
 
-    // External links -> new tab
     if (hrefStr.startsWith('http')) {
       return `<a href="${hrefStr}" target="_blank" rel="noopener noreferrer"${title ? ` title="${title}"` : ''}>${text || ''}</a>`;
     }
 
-    // Fallback
     return `<a href="${hrefStr}"${title ? ` title="${title}"` : ''}>${text || ''}</a>`;
   };
 
@@ -172,7 +226,6 @@ async function renderResume() {
   const content = $('#resumeContent');
   const loading = $('#loading');
 
-  // Show loading
   content.classList.add('hidden');
   loading.classList.add('active');
 
@@ -240,7 +293,6 @@ function setupLangToggle() {
 
       state.currentLang = lang;
 
-      // Update active button
       $$('.lang-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
@@ -295,7 +347,6 @@ function closeSidebar() {
 /* ===== Keyboard navigation ===== */
 function setupKeyboard() {
   document.addEventListener('keydown', (e) => {
-    // Escape closes sidebar
     if (e.key === 'Escape' && state.sidebarOpen) {
       closeSidebar();
     }
