@@ -1,25 +1,20 @@
 name: Generate PDF Resumes
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "resume*.md"
-      - "projects*.md"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: pandoc/extra:latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install pandoc and fonts
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-fonts-extra fonts-noto fonts-noto-cjk
+      - name: Install Noto fonts
+        run: apk add --no-cache font-noto font-noto-cjk
 
       - name: Clean and create output directory
         run: |
@@ -46,7 +41,7 @@ jobs:
 
       - name: Generate one-page backend resume PDFs
         run: |
-          for file in resume-csharp-backend.md resume-csharp-backend.ru.md; do
+          for file in resume-csharp-backend.md resume-csharp-backend.ru.md resume-go-backend.md resume-go-backend.ru.md; do
             if [ -f "$file" ]; then
               echo "Converting $file (compact)..."
               pandoc "$file" \
@@ -65,6 +60,7 @@ jobs:
 
       - name: Commit and push PDFs
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add pdf/ --all
