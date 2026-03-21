@@ -14,7 +14,7 @@ Backend developer with 15+ years of experience in C# and .NET ecosystem. Special
 
 ### Lead Developer — GZ DKH Innovation Technology | Sep 2019 – Present
 
-Designed and developed C#/.NET backend solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Developed REST API and gRPC services, telemetry ingestion pipelines, and real-time communication. Integrated IoT sensors, asynchronous messaging, and ERP systems. Built AI operations assistant using Semantic Kernel with RAG architecture. Mentored junior developers, conducted code reviews.
+Designed and developed C#/.NET backend solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Developed REST API and gRPC services, telemetry ingestion pipelines, and real-time communication. Integrated IoT sensors, asynchronous messaging, and ERP systems. Built AI operations assistant using Semantic Kernel with RAG architecture. Conducted business analysis: led stakeholder interviews and requirements workshops, formalized requirements as user stories with acceptance criteria, authored SRS documents, API contracts (OpenAPI), sequence and BPMN diagrams. Validated hypotheses through prototypes and MVPs, ran review sessions with business stakeholders to confirm requirements and prioritize the backlog. Mentored junior developers, conducted code reviews.
 
 - Built marketing campaign platform with real-time conversion tracking
 - Developed dealer portal with order management and ERP integration
