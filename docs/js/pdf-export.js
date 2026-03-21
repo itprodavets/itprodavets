@@ -40,12 +40,31 @@ async function downloadPDF() {
       }
     };
 
-    // Clone content to avoid modifying the displayed version
+    // Clone content and inject compact styles for PDF rendering
     const clone = content.cloneNode(true);
     clone.style.maxWidth = '800px';
     clone.style.padding = '0';
     clone.style.fontSize = '8.5pt';
-    clone.style.lineHeight = '1.35';
+    clone.style.lineHeight = '1.3';
+
+    // Inject a <style> block so all child elements render compactly
+    const style = document.createElement('style');
+    style.textContent = `
+      h1, .resume-name { font-size: 16pt !important; margin-bottom: 1px !important; }
+      .resume-role { font-size: 9pt !important; margin-bottom: 3px !important; }
+      .resume-contact { font-size: 7.5pt !important; }
+      hr.header-separator { margin: 6px 0 3px 0 !important; }
+      h2 { font-size: 10pt !important; margin-top: 10px !important; margin-bottom: 4px !important; padding-bottom: 2px !important; }
+      h3, .job-header { font-size: 9pt !important; margin-top: 8px !important; margin-bottom: 2px !important; }
+      .job-title { font-size: 9pt !important; }
+      .job-dates { font-size: 8pt !important; }
+      p { font-size: 8.5pt !important; margin-bottom: 3px !important; line-height: 1.3 !important; }
+      ul, ol { margin-bottom: 3px !important; padding-left: 14px !important; }
+      li { font-size: 8.5pt !important; margin-bottom: 1px !important; line-height: 1.3 !important; }
+      hr { margin: 8px 0 !important; }
+      strong { font-size: inherit !important; }
+    `;
+    clone.prepend(style);
 
     await html2pdf().set(options).from(clone).save();
   } catch (err) {
