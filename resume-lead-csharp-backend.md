@@ -14,9 +14,7 @@ Technical leader with 15+ years in C#/.NET, 7+ years leading backend teams. Driv
 
 ### Lead Developer — GZ DKH Innovation Technology | Sep 2019 – Present
 
-**Secondment · Huawei (2019–2022):** Led backend team for marketing, dealer sales, and production monitoring platforms. Defined technical strategy, managed task distribution, and conducted regular code reviews. Mentored 3+ junior developers to mid-level. Built integrations with IoT sensors (MQTT), real-time data exchange (SignalR), async messaging (RabbitMQ), and ERP systems.
-
-**Secondment · Microsoft (2022–present):** Led backend team building IoT platform for smart container fleet management. Defined microservice architecture, established coding standards, and drove technical decisions. Designed REST API and gRPC services on .NET 8/9, telemetry ingestion pipeline, and real-time communication via SignalR. Initiated and built AI operations assistant using Semantic Kernel with RAG (Azure OpenAI + Qdrant). Led e-commerce platform backend with CQRS and DDD.
+Led backend teams delivering C#/.NET solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Defined microservice architecture, established coding standards, and drove technical decisions. Developed REST API and gRPC services, telemetry ingestion pipelines, and real-time communication. Integrated IoT sensors, asynchronous messaging, and ERP systems. Built AI operations assistant using Semantic Kernel with RAG architecture. Grew the team from 2 to 5 developers, mentored 3+ juniors to mid-level, conducted code reviews.
 
 - Grew and mentored backend team from 2 to 5 developers
 - Established CI/CD pipelines and deployment standards

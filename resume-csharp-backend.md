@@ -14,9 +14,7 @@ Backend developer with 15+ years of experience in C# and .NET ecosystem. Special
 
 ### Lead Developer — GZ DKH Innovation Technology | Sep 2019 – Present
 
-**Secondment · Huawei (2019–2022):** Designed backend for marketing, dealer sales, and production monitoring platforms. Integrated IoT sensors via MQTT, built real-time data exchange through SignalR, async service communication via RabbitMQ, and ERP integrations. Mentored junior developers, conducted code reviews.
-
-**Secondment · Microsoft (2022–present):** Designed and built microservice backend for IoT platform managing smart container fleet. Developed REST API and gRPC services on .NET 8/9, telemetry ingestion pipeline, and real-time communication via SignalR. Built AI operations assistant using Semantic Kernel with RAG architecture (Azure OpenAI + Qdrant). Led e-commerce platform backend on .NET 8 with CQRS and DDD.
+Designed and developed C#/.NET backend solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Developed REST API and gRPC services, telemetry ingestion pipelines, and real-time communication. Integrated IoT sensors, asynchronous messaging, and ERP systems. Built AI operations assistant using Semantic Kernel with RAG architecture. Mentored junior developers, conducted code reviews.
 
 - Built marketing campaign platform with real-time conversion tracking
 - Developed dealer portal with order management and ERP integration

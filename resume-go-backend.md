@@ -14,9 +14,7 @@ Backend developer with 15+ years of experience building high-load distributed sy
 
 ### Lead Developer — GZ DKH Innovation Technology | Sep 2019 – Present
 
-**Secondment · Huawei (2019–2022):** Designed backend for marketing, dealer sales, and production monitoring platforms. Built Go microservices for data processing and integration layer. Integrated IoT sensors via MQTT, real-time data exchange through SignalR, async service communication via RabbitMQ, and ERP integrations. Mentored junior developers, conducted code reviews.
-
-**Secondment · Microsoft (2022–present):** Designed and built microservice backend for IoT platform managing smart container fleet. Developed Go and .NET services for REST API, gRPC, telemetry ingestion pipelines, and real-time communication. Built data processing services in Go for high-throughput telemetry streams. Developed AI operations assistant using RAG architecture with vector search for diagnostics and incident reporting. Led e-commerce platform backend with CQRS and DDD.
+Designed and developed backend solutions in Go and .NET for IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Developed Go microservices for data processing, telemetry ingestion pipelines, and integration layers. Integrated IoT sensors, real-time data exchange, asynchronous messaging, and ERP systems. Built AI operations assistant using RAG architecture with vector search for diagnostics and incident reporting. Mentored junior developers, conducted code reviews.
 
 - Built marketing campaign platform with real-time conversion tracking
 - Developed dealer portal with order management and ERP integration

@@ -28,9 +28,7 @@ Professional Qualities:
 
 ### Lead Developer - GZ DKH Innovation Technology (September 2019 – Present)
 
-**Secondment · Huawei (2019–2022):** Designed and developed backend solutions in marketing, dealer sales, and production automation. Integrated IoT sensors via MQTT, implemented real-time data exchange through SignalR, built asynchronous service communication via RabbitMQ, and integrated with ERP systems. Mentored junior developers, conducted code reviews, collaborated with business on requirements.
-
-**Secondment · Microsoft (2022–present):** Designed microservice architecture and developed full-stack solutions in IoT and e-commerce: from low-level FreeRTOS firmware (C/C++) for device coordination within containers, to server-side on .NET and Go (REST API, gRPC, SignalR), telemetry collection and storage, and frontend on Vue 3, Next.js, and React. Built an AI operations assistant using RAG with Azure OpenAI and vector search for diagnostics and incident reporting.
+Designed and developed backend and full-stack solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Designed microservice architecture covering the full stack — from FreeRTOS firmware for device coordination to server-side services, telemetry pipelines, and frontend. Integrated IoT sensors, real-time data exchange, asynchronous messaging, and ERP systems. Built an AI operations assistant using RAG for diagnostics and incident reporting. Mentored junior developers, conducted code reviews.
 
 - **Languages:** Go, C, C++, C#, JavaScript, TypeScript
 - **Backend:** .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, RabbitMQ, SignalR, MQTT
