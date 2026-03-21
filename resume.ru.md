@@ -26,32 +26,21 @@
 
 ## Коммерческий опыт
 
-### Ведущий программист - GZ DKH Innovation Technology (Secondment · Microsoft) (март 2022 – настоящее время)
+### Ведущий программист - GZ DKH Innovation Technology (сентябрь 2019 – настоящее время)
 
-Проектировал микросервисную архитектуру и разрабатывал полный стек решений в области IoT и e-commerce: от low-level прошивки на FreeRTOS (C/C++) для координации устройств внутри контейнеров, до серверной части на .NET и Go (REST API, gRPC, SignalR), сбора и хранения телеметрии, и фронтенда на Vue 3, Next.js и React. Разработал AI-ассистент для операций на базе RAG с Azure OpenAI и векторным поиском для диагностики и формирования отчётов об инцидентах.
+**Secondment · Huawei (2019–2022):** Проектировал и разрабатывал бэкенд-решения в сферах маркетинга, дилерских продаж и автоматизации производства. Интегрировал IoT-датчики через MQTT, реализовывал real-time обмен данными через SignalR, строил асинхронное взаимодействие сервисов через RabbitMQ и интеграцию с ERP. Менторил младших разработчиков, проводил код-ревью, взаимодействовал с бизнесом по определению требований.
+
+**Secondment · Microsoft (2022–настоящее время):** Проектировал микросервисную архитектуру и разрабатывал полный стек решений в области IoT и e-commerce: от low-level прошивки на FreeRTOS (C/C++) для координации устройств внутри контейнеров, до серверной части на .NET и Go (REST API, gRPC, SignalR), сбора и хранения телеметрии, и фронтенда на Vue 3, Next.js и React. Разработал AI-ассистент для операций на базе RAG с Azure OpenAI и векторным поиском для диагностики и формирования отчётов об инцидентах.
 
 - **Языки:** Go, C, C++, C#, JavaScript, TypeScript
-- **Бэкенд:** .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API
+- **Бэкенд:** .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, RabbitMQ, SignalR, MQTT
 - **Встраиваемые системы:** FreeRTOS, C/C++
-- **Фронтенд:** Vue 3, Pinia, Next.js, React, Leaflet.js
+- **Фронтенд:** Vue 3, Pinia, Next.js, React, Leaflet.js, D3.js, Chart.js
 - **Протоколы:** Modbus, MQTT, RabbitMQ, SignalR, gRPC
 - **Архитектура:** CQRS, DDD, Микросервисы
 - **Базы данных:** PostgreSQL, TimescaleDB, Redis
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana
-
----
-
-### Ведущий Backend разработчик - GZ DKH Innovation Technology (Secondment · Huawei) (сентябрь 2019 – март 2022)
-
-Проектировал и разрабатывал бэкенд-решения в сферах маркетинга, дилерских продаж и автоматизации производства. Интегрировал IoT-датчики через MQTT, реализовывал real-time обмен данными через SignalR, строил асинхронное взаимодействие сервисов через RabbitMQ и интеграцию с ERP. Менторил младших разработчиков, проводил код-ревью, взаимодействовал с бизнесом по определению требований.
-
-- **Языки:** Go, C#, JavaScript, TypeScript
-- **Бэкенд:** .NET Core, EF Core, RabbitMQ, SignalR, MQTT
-- **Фронтенд:** Vue 3, Pinia, TypeScript, D3.js, Chart.js
-- **Архитектура:** CQRS, DDD
-- **Базы данных:** PostgreSQL
-- **DevOps:** Docker
 
 ---
 

@@ -12,26 +12,21 @@ Backend developer with 15+ years of experience in C# and .NET ecosystem. Special
 
 ## Commercial Experience
 
-### Lead Developer — GZ DKH Innovation Technology (Secondment · Microsoft) | Mar 2022 – Present
+### Lead Developer — GZ DKH Innovation Technology | Sep 2019 – Present
 
-Designed and built microservice backend for IoT platform managing smart container fleet. Developed REST API and gRPC services on .NET 8/9, telemetry ingestion pipeline, and real-time communication via SignalR. Built AI operations assistant using Semantic Kernel with RAG architecture (Azure OpenAI + Qdrant). Led e-commerce platform backend on .NET 8 with CQRS and DDD.
+**Secondment · Huawei (2019–2022):** Designed backend for marketing, dealer sales, and production monitoring platforms. Integrated IoT sensors via MQTT, built real-time data exchange through SignalR, async service communication via RabbitMQ, and ERP integrations. Mentored junior developers, conducted code reviews.
 
+**Secondment · Microsoft (2022–present):** Designed and built microservice backend for IoT platform managing smart container fleet. Developed REST API and gRPC services on .NET 8/9, telemetry ingestion pipeline, and real-time communication via SignalR. Built AI operations assistant using Semantic Kernel with RAG architecture (Azure OpenAI + Qdrant). Led e-commerce platform backend on .NET 8 with CQRS and DDD.
+
+- Built marketing campaign platform with real-time conversion tracking
+- Developed dealer portal with order management and ERP integration
+- Implemented production line monitoring with IoT sensor data collection
 - Architected 5+ microservices with event-driven communication via RabbitMQ
 - Implemented telemetry storage on PostgreSQL + TimescaleDB handling millions of data points
 - Built diagnostic service with OTA firmware updates and alerting system
 - Integrated AI/RAG pipeline for automated incident reporting
 
-**Stack:** C#, .NET 8/.NET 9, EF Core, gRPC, REST API, SignalR, RabbitMQ, MQTT, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, Docker, Kubernetes
-
-### Lead Backend Developer — GZ DKH Innovation Technology (Secondment · Huawei) | Sep 2019 – Mar 2022
-
-Designed backend for marketing, dealer sales, and production monitoring platforms. Integrated IoT sensors via MQTT, built real-time data exchange through SignalR, async service communication via RabbitMQ, and ERP integrations. Mentored junior developers, conducted code reviews.
-
-- Built marketing campaign platform with real-time conversion tracking
-- Developed dealer portal with order management and ERP integration
-- Implemented production line monitoring with IoT sensor data collection
-
-**Stack:** C#, .NET Core, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, SignalR, MQTT, Docker
+**Stack:** C#, .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, SignalR, RabbitMQ, MQTT, CQRS, DDD, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, Docker, Kubernetes
 
 ### Lead Developer — KPMG | May 2017 – Sep 2019
 

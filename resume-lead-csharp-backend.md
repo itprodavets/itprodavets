@@ -12,27 +12,22 @@ Technical leader with 15+ years in C#/.NET, 7+ years leading backend teams. Driv
 
 ## Commercial Experience
 
-### Lead Developer — GZ DKH Innovation Technology (Secondment · Microsoft) | Mar 2022 – Present
+### Lead Developer — GZ DKH Innovation Technology | Sep 2019 – Present
 
-Led backend team building IoT platform for smart container fleet management. Defined microservice architecture, established coding standards, and drove technical decisions. Designed REST API and gRPC services on .NET 8/9, telemetry ingestion pipeline, and real-time communication via SignalR. Initiated and built AI operations assistant using Semantic Kernel with RAG (Azure OpenAI + Qdrant). Led e-commerce platform backend with CQRS and DDD.
+**Secondment · Huawei (2019–2022):** Led backend team for marketing, dealer sales, and production monitoring platforms. Defined technical strategy, managed task distribution, and conducted regular code reviews. Mentored 3+ junior developers to mid-level. Built integrations with IoT sensors (MQTT), real-time data exchange (SignalR), async messaging (RabbitMQ), and ERP systems.
 
-- Led architecture design for 5+ microservices with event-driven communication via RabbitMQ
-- Established code review process and engineering best practices across the team
-- Drove adoption of AI/RAG pipeline for automated incident reporting
-- Delivered telemetry system on PostgreSQL + TimescaleDB handling millions of data points
-
-**Stack:** C#, .NET 8/.NET 9, EF Core, gRPC, REST API, SignalR, RabbitMQ, MQTT, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, Docker, Kubernetes
-
-### Lead Backend Developer — GZ DKH Innovation Technology (Secondment · Huawei) | Sep 2019 – Mar 2022
-
-Led backend team for marketing, dealer sales, and production monitoring platforms. Defined technical strategy, managed task distribution, and conducted regular code reviews. Mentored 3+ junior developers to mid-level. Built integrations with IoT sensors (MQTT), real-time data exchange (SignalR), async messaging (RabbitMQ), and ERP systems.
+**Secondment · Microsoft (2022–present):** Led backend team building IoT platform for smart container fleet management. Defined microservice architecture, established coding standards, and drove technical decisions. Designed REST API and gRPC services on .NET 8/9, telemetry ingestion pipeline, and real-time communication via SignalR. Initiated and built AI operations assistant using Semantic Kernel with RAG (Azure OpenAI + Qdrant). Led e-commerce platform backend with CQRS and DDD.
 
 - Grew and mentored backend team from 2 to 5 developers
 - Established CI/CD pipelines and deployment standards
 - Delivered 3 production platforms on schedule with high code quality
 - Implemented production line monitoring with IoT sensor data collection
+- Led architecture design for 5+ microservices with event-driven communication via RabbitMQ
+- Established code review process and engineering best practices across the team
+- Drove adoption of AI/RAG pipeline for automated incident reporting
+- Delivered telemetry system on PostgreSQL + TimescaleDB handling millions of data points
 
-**Stack:** C#, .NET Core, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, SignalR, MQTT, Docker
+**Stack:** C#, .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, SignalR, RabbitMQ, MQTT, CQRS, DDD, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, Docker, Kubernetes
 
 ### Lead Developer — KPMG | May 2017 – Sep 2019
 

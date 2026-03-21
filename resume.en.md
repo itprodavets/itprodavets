@@ -26,32 +26,21 @@ Professional Qualities:
 
 ## Commercial Experience
 
-### Lead Developer - GZ DKH Innovation Technology (Secondment · Microsoft) (March 2022 – Present)
+### Lead Developer - GZ DKH Innovation Technology (September 2019 – Present)
 
-Designed microservice architecture and developed full-stack solutions in IoT and e-commerce: from low-level FreeRTOS firmware (C/C++) for device coordination within containers, to server-side on .NET and Go (REST API, gRPC, SignalR), telemetry collection and storage, and frontend on Vue 3, Next.js, and React. Built an AI operations assistant using RAG with Azure OpenAI and vector search for diagnostics and incident reporting.
+**Secondment · Huawei (2019–2022):** Designed and developed backend solutions in marketing, dealer sales, and production automation. Integrated IoT sensors via MQTT, implemented real-time data exchange through SignalR, built asynchronous service communication via RabbitMQ, and integrated with ERP systems. Mentored junior developers, conducted code reviews, collaborated with business on requirements.
+
+**Secondment · Microsoft (2022–present):** Designed microservice architecture and developed full-stack solutions in IoT and e-commerce: from low-level FreeRTOS firmware (C/C++) for device coordination within containers, to server-side on .NET and Go (REST API, gRPC, SignalR), telemetry collection and storage, and frontend on Vue 3, Next.js, and React. Built an AI operations assistant using RAG with Azure OpenAI and vector search for diagnostics and incident reporting.
 
 - **Languages:** Go, C, C++, C#, JavaScript, TypeScript
-- **Backend:** .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API
+- **Backend:** .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, RabbitMQ, SignalR, MQTT
 - **Embedded:** FreeRTOS, C/C++
-- **Frontend:** Vue 3, Pinia, Next.js, React, Leaflet.js
+- **Frontend:** Vue 3, Pinia, Next.js, React, Leaflet.js, D3.js, Chart.js
 - **Protocols:** Modbus, MQTT, RabbitMQ, SignalR, gRPC
 - **Architecture:** CQRS, DDD, Microservices
 - **Databases:** PostgreSQL, TimescaleDB, Redis
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana
-
----
-
-### Lead Backend Developer - GZ DKH Innovation Technology (Secondment · Huawei) (September 2019 – March 2022)
-
-Designed and developed backend solutions in marketing, dealer sales, and production automation. Integrated IoT sensors via MQTT, implemented real-time data exchange through SignalR, built asynchronous service communication via RabbitMQ, and integrated with ERP systems. Mentored junior developers, conducted code reviews, collaborated with business on requirements.
-
-- **Languages:** Go, C#, JavaScript, TypeScript
-- **Backend:** .NET Core, EF Core, RabbitMQ, SignalR, MQTT
-- **Frontend:** Vue 3, Pinia, TypeScript, D3.js, Chart.js
-- **Architecture:** CQRS, DDD
-- **Databases:** PostgreSQL
-- **DevOps:** Docker
 
 ---
 
