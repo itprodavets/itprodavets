@@ -29,13 +29,15 @@ jobs:
               pandoc "$file" \
                 -o "pdf/${file%.md}.pdf" \
                 --pdf-engine=xelatex \
-                -V geometry:margin=0.8in \
+                -V geometry:margin=0.5in \
                 -V mainfont:"Noto Sans" \
                 -V monofont:"Noto Sans Mono" \
-                -V fontsize=10pt \
+                -V fontsize=9pt \
+                -V linestretch=0.88 \
                 -V colorlinks=true \
                 -V linkcolor=blue \
-                -V urlcolor=blue
+                -V urlcolor=blue \
+                -H <(echo '\usepackage{titlesec}\titlespacing*{\section}{0pt}{8pt}{4pt}\titlespacing*{\subsection}{0pt}{6pt}{3pt}\titlespacing*{\subsubsection}{0pt}{4pt}{2pt}\setlength{\parskip}{3pt}\setlength{\parindent}{0pt}\usepackage{enumitem}\setlist{nosep,leftmargin=1.2em}')
             fi
           done
 
@@ -47,14 +49,15 @@ jobs:
               pandoc "$file" \
                 -o "pdf/${file%.md}.pdf" \
                 --pdf-engine=xelatex \
-                -V geometry:margin=0.5in \
+                -V geometry:margin=0.4in \
                 -V mainfont:"Noto Sans" \
                 -V monofont:"Noto Sans Mono" \
-                -V fontsize=8.5pt \
-                -V linestretch=0.9 \
+                -V fontsize=8pt \
+                -V linestretch=0.85 \
                 -V colorlinks=true \
                 -V linkcolor=blue \
-                -V urlcolor=blue
+                -V urlcolor=blue \
+                -H <(echo '\usepackage{titlesec}\titlespacing*{\section}{0pt}{6pt}{3pt}\titlespacing*{\subsection}{0pt}{4pt}{2pt}\titlespacing*{\subsubsection}{0pt}{3pt}{1pt}\setlength{\parskip}{2pt}\setlength{\parindent}{0pt}\usepackage{enumitem}\setlist{nosep,leftmargin=1.2em}')
             fi
           done
 

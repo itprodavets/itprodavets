@@ -22,7 +22,7 @@ async function downloadPDF() {
 
   try {
     const options = {
-      margin: [12, 12, 12, 12],
+      margin: [8, 8, 8, 8],
       filename: getFilename(),
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: {
@@ -44,8 +44,8 @@ async function downloadPDF() {
     const clone = content.cloneNode(true);
     clone.style.maxWidth = '800px';
     clone.style.padding = '0';
-    clone.style.fontSize = '10pt';
-    clone.style.lineHeight = '1.5';
+    clone.style.fontSize = '8.5pt';
+    clone.style.lineHeight = '1.35';
 
     await html2pdf().set(options).from(clone).save();
   } catch (err) {

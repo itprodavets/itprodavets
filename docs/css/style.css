@@ -761,15 +761,66 @@ hr.header-separator {
   .resume-content {
     max-width: 100%;
     padding: 0;
+    line-height: 1.35;
   }
 
   .resume-content h2 {
     border-bottom-color: var(--color-accent);
     color: var(--color-accent);
+    margin-top: 12px;
+    margin-bottom: 6px;
+    padding-bottom: 3px;
+    font-size: 0.95rem;
+  }
+
+  .resume-content h3,
+  .job-header {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 0.88rem;
+  }
+
+  .resume-content p {
+    margin-bottom: 4px;
+    font-size: 0.82rem;
+  }
+
+  .resume-content li {
+    margin-bottom: 1px;
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+
+  .resume-content ul,
+  .resume-content ol {
+    margin-bottom: 4px;
+    padding-left: 16px;
+  }
+
+  .resume-content hr {
+    margin: 10px 0;
+  }
+
+  .resume-name {
+    font-size: 1.6rem;
+    margin-bottom: 2px;
+  }
+
+  .resume-role {
+    font-size: 0.88rem;
+    margin-bottom: 4px;
+  }
+
+  .resume-contact {
+    font-size: 0.75rem;
+  }
+
+  hr.header-separator {
+    margin: 8px 0 4px 0;
   }
 
   body {
-    font-size: 10.5pt;
+    font-size: 9pt;
   }
 }
 
