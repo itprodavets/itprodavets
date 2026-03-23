@@ -1,28 +1,15 @@
 # Денис Харченко
 
-Разработчик программного обеспечения с многолетним опытом в финансовом секторе, ИТ и государственных проектах. Сфокусирован на разработке и внедрении решений для оптимизации сложных процессов и повышения эффективности бизнеса.
-
-Ключевые достижения:
-- Повышение эффективности процессов налоговой отчетности.
-- Разработка передовых систем умных контейнеров, сокращающих время обработки.
-- Создание информационно-аналитических платформ, улучшающих принятие решений.
-
-Профессиональные качества:
-- Лидерство и наставничество в командах разработчиков.
-- Решение сложных технических задач.
-- Быстрое освоение новых технологий, языков программирования и методологий, что позволяет адаптироваться к любым требованиям проектов.
-
-[Список проектов](/projects.ru.md), которые я реализовывал на различных должностях в организациях.
+Разработчик программного обеспечения с 15+ годами опыта в финтехе, IoT, e-commerce и государственном секторе. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API и full-stack разработке. Опыт поставки enterprise-решений от проектирования архитектуры до production.
 
 [GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets)
+
 - **Языки:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
-- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ, Kafka
-- **Фулстек:** Go, .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Микросервисы, CI/CD
-- **Фронтенд:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, jQuery/Knockout, WebSocket
-- **Базы данных:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB, ClickHouse
-- **Интеграции:** MQTT, RabbitMQ, Kafka, SignalR, gRPC, REST API
+- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
+- **Фронтенд:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, WebSocket
+- **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, Redis, MongoDB
 - **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
-- **Архитектура и DevOps:** Cloud-native, Распределённые системы, Высоконагруженные решения, Terraform, Prometheus/Grafana, Kubernetes operators
+- **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Terraform, Prometheus/Grafana, CI/CD
 
 ## Коммерческий опыт
 

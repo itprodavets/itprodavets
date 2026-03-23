@@ -1,28 +1,15 @@
 # Denis Kharchenko
 
-Software developer with years of hands-on experience in the financial sector, IT, and government projects. Focused on developing and implementing solutions to optimize complex processes and improve business efficiency.
-
-Key Achievements:
-- Increased efficiency in tax reporting processes.
-- Developed advanced smart container systems, reducing processing time.
-- Created information and analytical platforms that improved decision-making.
-
-Professional Qualities:
-- Leadership and mentoring in developer teams.
-- Solving complex technical challenges.
-- Quickly adopting new technologies, programming languages, and methodologies, enabling adaptability to any project requirements.
-
-[List of projects](/projects.en.md) that I have implemented in various positions at organizations.
+Software developer with 15+ years of experience across fintech, IoT, e-commerce, and government sectors. Specialize in designing distributed systems, building high-load APIs, and full-stack development. Proven track record delivering enterprise solutions from architecture to production.
 
 [GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets)
-  * **Languages:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
-  * **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Express/Nest, Gin/Echo, gRPC, RabbitMQ, Kafka
-  * **Fullstack:** Go, .NET Core, Node.js, TypeScript, REST/GraphQL, Docker/Kubernetes, Microservices, CI/CD
-  * **Frontend:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, jQuery/Knockout, WebSocket
-  * **Databases:** PostgreSQL/MySQL/MSSQL, Azure SQL, Redis, MongoDB, ClickHouse
-  * **Integrations:** MQTT, RabbitMQ, Kafka, SignalR, gRPC, REST API
-  * **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
-  * **Architecture & DevOps:** Cloud-native, Distributed systems, High-load, Terraform, Prometheus/Grafana, Kubernetes operators
+
+- **Languages:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
+- **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
+- **Frontend:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, WebSocket
+- **Databases:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, Redis, MongoDB
+- **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
+- **Architecture & DevOps:** Microservices, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Terraform, Prometheus/Grafana, CI/CD
 
 ## Commercial Experience
 
