@@ -12,7 +12,7 @@ Backend developer with 15+ years of experience building high-load distributed sy
 
 ## Commercial Experience
 
-### Lead Developer — GZ DKH Innovation Technology | Sep 2019 – Present
+### Senior Go Developer — GZ DKH Innovation Technology | Sep 2019 – Present
 
 Designed and developed backend solutions in Go and .NET for IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Developed Go microservices for data processing, telemetry ingestion pipelines, and integration layers. Integrated IoT sensors, real-time data exchange, asynchronous messaging, and ERP systems. Built AI operations assistant using RAG architecture with vector search for diagnostics and incident reporting. Conducted business analysis: led stakeholder interviews and requirements workshops, formalized requirements as user stories with acceptance criteria, authored SRS documents, API contracts (OpenAPI), sequence and BPMN diagrams. Validated hypotheses through prototypes and MVPs, ran review sessions with business stakeholders to confirm requirements and prioritize the backlog. Mentored junior developers, conducted code reviews.
 
