@@ -10,9 +10,7 @@ I design microservice architectures, build full-stack solutions, and lead develo
 Currently focused on IoT platform development, AI/ML integration, and cloud-native systems.
 
 [![Resume Site](https://img.shields.io/badge/Resume_Site-0066CC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://itprodavets.github.io/itprodavets/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itprodavets/)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/itprodavets)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:itprodavets@gmail.com)
+[![Email](https://img.shields.io/badge/dkharchenko@dkh.hk-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:dkharchenko@dkh.hk)
 
 </div>
 
