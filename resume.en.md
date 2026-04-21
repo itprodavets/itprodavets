@@ -2,7 +2,7 @@
 
 Software developer with 15+ years of experience across fintech, IoT, e-commerce, and government sectors. Specialize in designing distributed systems, building high-load APIs, and full-stack development. Proven track record delivering enterprise solutions from architecture to production.
 
-[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets)
+[dkharchenko@dkh.hk](mailto:dkharchenko@dkh.hk)
 
 - **Languages:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
 - **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
@@ -83,13 +83,6 @@ Developed a business process automation system on C#, .NET Framework, WinForms w
 - **Languages:** C#, Transact-SQL
 - **Backend:** ADO.NET, .NET
 - **Databases:** MSSQL
-
----
-
-### PC Operator - Profit-K LLC (May 2008 – November 2008)
-
-- Site moderation;
-- Monitoring the site, SMS server, and internet connection status.
 
 ## Education
 

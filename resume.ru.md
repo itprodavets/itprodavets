@@ -2,7 +2,7 @@
 
 Разработчик программного обеспечения с 15+ годами опыта в финтехе, IoT, e-commerce и государственном секторе. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API и full-stack разработке. Опыт поставки enterprise-решений от проектирования архитектуры до production.
 
-[GitHub](https://github.com/itprodavets) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets)
+[dkharchenko@dkh.hk](mailto:dkharchenko@dkh.hk)
 
 - **Языки:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
 - **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
@@ -83,13 +83,6 @@
 - **Языки:** C#, Transact-SQL
 - **Бэкенд:** ADO.NET, .NET
 - **Базы данных:** MSSQL
-
----
-
-### Оператор ПК - ООО «Профит-К» (май 2008 – ноябрь 2008)
-
-- Модерация сайта;
-- Мониторинг состояния сайта, SMS-сервера и интернет-соединения.
 
 ## Образование
 

@@ -1,5 +1,7 @@
 # Denis Kharchenko — Lead C# Backend Developer
 
+[dkharchenko@dkh.hk](mailto:dkharchenko@dkh.hk)
+
 Technical leader with 15+ years in C#/.NET, 7+ years leading backend teams. Drive architecture decisions, establish engineering standards, and deliver complex distributed systems end-to-end. Hands-on experience building microservices, high-load APIs, and AI-powered pipelines. Proven ability to mentor developers, manage cross-functional collaboration, and scale teams in IoT, e-commerce, fintech, and government sectors.
 
 - **Core:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ

@@ -1,5 +1,7 @@
 # Denis Kharchenko — Senior Go Backend Developer
 
+[dkharchenko@dkh.hk](mailto:dkharchenko@dkh.hk)
+
 Backend developer with 15+ years of experience building high-load distributed systems. Working with Go in production for microservices, REST/gRPC APIs, and data-intensive pipelines. Strong background in microservice architecture, event-driven systems, and DevOps practices. Proven track record leading teams and delivering enterprise solutions in IoT, e-commerce, fintech, and government sectors.
 
 - **Core:** Go (Gin, Echo, net/http), C#, TypeScript, SQL, Bash

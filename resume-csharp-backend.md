@@ -1,5 +1,7 @@
 # Denis Kharchenko — Senior C# Backend Developer
 
+[dkharchenko@dkh.hk](mailto:dkharchenko@dkh.hk)
+
 Backend developer with 15+ years of experience in C# and .NET ecosystem. Specialize in designing microservice architectures, building high-load APIs, and integrating complex distributed systems. Proven track record leading teams and delivering enterprise solutions in IoT, e-commerce, fintech, and government sectors.
 
 - **Core:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ

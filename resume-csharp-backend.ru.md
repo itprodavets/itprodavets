@@ -1,5 +1,7 @@
 # Денис Харченко — Senior C# Backend Developer
 
+[dkharchenko@dkh.hk](mailto:dkharchenko@dkh.hk)
+
 Backend-разработчик с 15+ годами опыта в экосистеме C# и .NET. Специализируюсь на проектировании микросервисных архитектур, создании высоконагруженных API и интеграции сложных распределённых систем. Опыт руководства командами и поставки enterprise-решений в IoT, e-commerce, fintech и госсекторе.
 
 - **Основное:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
