@@ -127,7 +127,7 @@ function setupMarked() {
       if (subtitle) {
         html += `<div class="resume-role">${escapeHtml(subtitle)}</div>`;
       }
-      html += `<div class="resume-contact">GitHub: <a href="https://github.com/itprodavets" target="_blank">github.com/itprodavets</a> · LinkedIn: <a href="https://linkedin.com/in/itprodavets" target="_blank">/in/itprodavets</a> · Telegram: <a href="https://t.me/itprodavets" target="_blank">@itprodavets</a></div>`;
+      html += `<div class="resume-contact">Email: <a href="mailto:dkharchenko@dkh.hk">dkharchenko@dkh.hk</a></div>`;
       html += '</div>';
       html += '<hr class="header-separator">';
       return html;
@@ -207,10 +207,17 @@ function postProcessResume(container) {
   let contactLine = null;
 
   for (const item of introElements) {
-    // Skip standalone link lines (like "[GitHub](...) · [LinkedIn](...)")
-    if (item.tagName === 'P' && item.querySelectorAll('a').length >= 2 && item.textContent.includes('·')) {
-      contactLine = item;
-      continue;
+    // Skip standalone contact lines:
+    //   legacy: "[GitHub](...) · [LinkedIn](...) · ..."
+    //   current: "[email@example.com](mailto:email@example.com)"
+    if (item.tagName === 'P') {
+      const links = item.querySelectorAll('a');
+      const isLegacyContact = links.length >= 2 && item.textContent.includes('·');
+      const isMailtoOnly = links.length === 1 && links[0].getAttribute('href')?.startsWith('mailto:');
+      if (isLegacyContact || isMailtoOnly) {
+        contactLine = item;
+        continue;
+      }
     }
     if (item.tagName === 'P') {
       paragraphs.push(item);
