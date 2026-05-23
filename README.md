@@ -8,9 +8,11 @@ Forward Deployed Engineer with 15+ years embedded in enterprise clients across I
 
 Currently building DKH multi-tenant commerce platform + thetea.app + Empire of Bloom (smart containers).
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-itprodavets-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itprodavets/)
-[![Resume Site](https://img.shields.io/badge/Resume_Site-0066CC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://itprodavets.github.io/itprodavets/)
 [![Email](https://img.shields.io/badge/itprodavets@gmail.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:itprodavets@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-itprodavets-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itprodavets/)
+[![Telegram](https://img.shields.io/badge/Telegram-itprodavets-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/itprodavets)
+[![Reddit](https://img.shields.io/badge/Reddit-itprodavets-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/itprodavets/)
+[![Resume Site](https://img.shields.io/badge/Resume_Site-0066CC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://itprodavets.github.io/itprodavets/)
 
 </div>
 
