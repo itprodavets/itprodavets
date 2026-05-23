@@ -1,0 +1,41 @@
+name: Purge jsdelivr CDN cache
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.md'
+
+permissions:
+  contents: read
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect changed .md files
+        id: changed
+        run: |
+          set -euo pipefail
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            FILES=$(git diff --name-only --diff-filter=ACMRT HEAD^ HEAD -- '*.md' | tr '\n' ' ')
+          else
+            FILES=$(git ls-tree --name-only -r HEAD -- '*.md' | tr '\n' ' ')
+          fi
+          echo "files=$FILES" >> "$GITHUB_OUTPUT"
+          echo "Changed .md files: $FILES"
+
+      - name: Purge jsdelivr cache for changed files
+        if: steps.changed.outputs.files != ''
+        run: |
+          set -euo pipefail
+          for file in ${{ steps.changed.outputs.files }}; do
+            url="https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$file"
+            echo "Purging: $url"
+            curl -sf "$url" | head -c 200 || echo "  (purge failed, continuing)"
+            echo
+          done

@@ -1,0 +1,14 @@
+# Tool / IDE caches
+.claude/
+.playwright-mcp/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.swp
+*.bak
