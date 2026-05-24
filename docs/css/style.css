@@ -1103,4 +1103,39 @@ body {
   /* Anchor markers for in-PDF jumps — invisible but addressable */
   #pdf-appendix-projects, #pdf-appendix-skills,
   .resume-content a[id]:empty { display: block; height: 0; overflow: hidden; }
+
+  /* Compact skills inside the appendix.
+     The per-chip project lists (.skill-projects with the "Production projects"
+     header) are redundant in PDF — the same projects are detailed on the
+     prior pages in the Projects appendix. Hide them and tighten chip layout
+     so the entire skill matrix fits in 1–2 pages instead of sprawling. */
+  .pdf-appendix-section .skill-projects { display: none !important; }
+  .pdf-appendix-section .skill-chip {
+    font-size: 9pt;
+    padding: 1pt 6pt;
+    margin: 1pt 2pt 1pt 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .pdf-appendix-section .skill-chip-meta { font-size: 8pt; margin-left: 3pt; }
+  .pdf-appendix-section ul.skill-grid { margin: 4pt 0 8pt; }
+  .pdf-appendix-section h2.tier-heading {
+    font-size: 11pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #c7472d !important;
+    margin: 10pt 0 4pt;
+    padding-bottom: 2pt;
+    border-bottom: 1px solid #f0d6cb;
+  }
+  .pdf-appendix-section h2.tier-heading + p {
+    font-size: 8.5pt;
+    color: #6b6b6b !important;
+    margin: 0 0 4pt;
+    font-style: italic;
+  }
+  /* Intro paragraph of the skills section ("Stack organized by..."): redundant
+     for print — the heading + tier descriptors carry the same info. */
+  .pdf-appendix-section section + p,
+  .pdf-appendix-section > h2 + p { display: none; }
 }

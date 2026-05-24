@@ -151,6 +151,31 @@ function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+/* ===== Years meta formatter =====
+   Skill bullets in skills.md use a `since YYYY` token instead of hard-coded
+   "X лет" / "X yr" so the years auto-update each calendar year — no manual
+   bumps required. This helper expands a `since YYYY` token into the correct
+   localized phrase for display, with proper Russian plural handling.
+
+   Existing legacy markdown that still hard-codes "X лет" / "X yr" / "current"
+   passes through unchanged. */
+function formatYearsMeta(meta, lang) {
+  const m = meta.match(/^since\s+(\d{4})$/i);
+  if (!m) return meta;
+  const startYear = parseInt(m[1], 10);
+  const years = Math.max(1, new Date().getFullYear() - startYear);
+  if (lang === 'ru') {
+    const mod10 = years % 10;
+    const mod100 = years % 100;
+    let suffix;
+    if (mod10 === 1 && mod100 !== 11) suffix = 'год';
+    else if (mod10 >= 2 && mod10 <= 4 && (mod100 < 10 || mod100 >= 20)) suffix = 'года';
+    else suffix = 'лет';
+    return `${years} ${suffix}`;
+  }
+  return `${years} yr`;
+}
+
 /* ===== Configure marked.js with custom renderers ===== */
 function setupMarked() {
   const renderer = new marked.Renderer();
@@ -409,13 +434,18 @@ function enhanceContent(container) {
 
       for (const li of Array.from(ul.children)) {
         if (li.tagName !== 'LI') continue;
-        // Format: "<strong>Name</strong> · <years> yr · <projects, comma separated>"
-        // Years token may be "X yr" / "X лет" / "X год" or "current"
+        // Format: "<strong>Name</strong> · <years token> · <projects, comma separated>"
+        // The years token may be one of:
+        //   "since YYYY" — single source of truth, auto-computed below so the
+        //      page doesn't go stale when a new year rolls over
+        //   "X yr" / "X лет" / "X год" — literal hard-coded value (legacy)
+        //   "current" — open-ended (rendered as-is)
         const parts = li.textContent.split('·').map(s => s.trim());
         if (parts.length < 2) continue;
 
         const name = parts[0].trim();
-        const meta = parts.length >= 3 ? parts[1] : '';
+        let meta = parts.length >= 3 ? parts[1] : '';
+        meta = formatYearsMeta(meta, state.currentLang);
         const projectsText = parts.slice(meta ? 2 : 1).join(' · ');
         const projects = projectsText.split(',').map(s => s.trim()).filter(Boolean);
 
