@@ -1082,4 +1082,25 @@ body {
 
   /* HR between job entries */
   hr { margin: 8pt 0; border: none; border-top: 1px solid #ccc; }
+
+  /* Appendix: Projects + Skills sections appended to job-resume PDFs by
+     pdf-export.js so the file is self-contained. Each section starts on a
+     fresh page; its H2 reads as the section title ("Projects — details" /
+     "Skills — details"). */
+  .pdf-appendix-section { page-break-before: always; break-before: page; }
+  .pdf-appendix-section > h2 {
+    font-size: 14pt;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #c7472d !important;
+    margin: 0 0 8pt;
+    padding-bottom: 4pt;
+    border-bottom: 2px solid #c7472d;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Anchor markers for in-PDF jumps — invisible but addressable */
+  #pdf-appendix-projects, #pdf-appendix-skills,
+  .resume-content a[id]:empty { display: block; height: 0; overflow: hidden; }
 }

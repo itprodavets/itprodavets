@@ -70,6 +70,43 @@ const state = {
 };
 window.state = state;
 
+/* ===== Render API for PDF export =====
+   pdf-export.js appends the Projects and Skills sections to job-resume PDFs
+   so the printed file is self-contained. It calls renderSection(key, lang)
+   to get a fully-rendered, enhanceContent-processed HTMLElement, then
+   appends it to the DOM right before window.print().
+
+   We strip the auto-generated "resume-header" div from the appended content
+   because the parent resume already has its own H1+contact block — a second
+   one would read as a doubled header. */
+window.renderSection = async function (resumeKey, lang) {
+  const resume = RESUMES[resumeKey];
+  if (!resume) return null;
+  const filename = resume[lang];
+  const markdown = await fetchMarkdown(filename);
+  const html = marked.parse(markdown);
+
+  const container = document.createElement('div');
+  container.innerHTML = html;
+
+  const header = container.querySelector('.resume-header');
+  if (header) header.remove();
+  const hr = container.querySelector('hr.header-separator');
+  if (hr) hr.remove();
+
+  // enhanceContent reads state.currentResume to decide how to wrap content
+  // (project cards on projects page, skill chips on skills page). Swap it in
+  // temporarily so the appendix gets rendered with the right enhancements.
+  const prevResume = state.currentResume;
+  state.currentResume = resumeKey;
+  try {
+    enhanceContent(container);
+  } finally {
+    state.currentResume = prevResume;
+  }
+  return container;
+};
+
 /* ===== Constants ===== */
 const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
 const RAW_BASE = IS_LOCAL
