@@ -2,12 +2,12 @@
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-Backend-разработчик с 15+ годами опыта в создании высоконагруженных распределённых систем, embedded в enterprise клиентах как Forward Deployed Engineer. Использую Go в продакшене для микросервисов, REST/gRPC API и data-intensive пайплайнов. Глубокий опыт в микросервисной архитектуре, событийно-ориентированных системах, DevOps-практиках и shipping production AI (RAG, MCP, Semantic Kernel). Опыт руководства командами и поставки enterprise-решений в IoT, e-commerce, fintech и госсекторе.
+Backend-разработчик с 15+ годами опыта в создании высоконагруженных распределённых систем, embedded в enterprise клиентах как Forward Deployed Engineer. Использую Go в продакшене для микросервисов, REST/gRPC API и data-intensive пайплайнов. Глубокий опыт в микросервисной архитектуре, событийно-ориентированных системах, DevOps-практиках и shipping production AI (RAG, MCP, Semantic Kernel). Опыт руководства командами и поставки enterprise-решений в IoT, e-commerce, fintech, здравоохранении и госсекторе.
 
 - **Основное:** Go (Gin, Echo, net/http), C#, TypeScript, SQL, Bash
 - **Архитектура:** Микросервисы, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
 - **Обмен сообщениями:** Kafka, RabbitMQ, MQTT, gRPC streaming, SignalR
-- **Базы данных:** PostgreSQL, ClickHouse, TimescaleDB, MSSQL, Redis, MongoDB, pgvector
+- **Базы данных:** PostgreSQL, ClickHouse, TimescaleDB, MSSQL, MySQL, Redis, MongoDB, pgvector
 - **AI/ML:** OpenAI API, LangChain, RAG, pgvector, Embeddings, Ollama
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, Terraform, CI/CD (GitHub Actions, GitLab CI)
 - **Прочее:** Keycloak (OIDC/OAuth2), OpenTelemetry, Protobuf, Swagger/OpenAPI

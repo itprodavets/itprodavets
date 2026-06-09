@@ -6,9 +6,9 @@ Stack organized by how I use it today — not by self-rated proficiency. Click a
 
 Daily drivers. I lead architectural decisions on these.
 
-- **C#** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, Dom PK government systems, EMG Web Expenses, Himoil business automation
-- **.NET (Framework 3.5 → .NET 10)** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG, Dom PK, EMG, Himoil
-- **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Dom PK, EMG
+- **C#** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, Dom PK government systems, EMG Web Expenses, Himoil business automation, Blueberry (Remedi, GEMS)
+- **.NET (Framework 3.5 → .NET 10)** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG, Dom PK, EMG, Himoil, Blueberry
+- **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Dom PK, EMG, Blueberry
 - **TypeScript** · since 2018 · DKH (admin + storefront UIs), thetea.app, GZ DKH client engagements, KPMG, Blueberry GEMS
 - **Microservices / DDD / CQRS** · since 2019 · DKH (24+ services), thetea.app, Empire of Bloom, KPMG
 - **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, GZ DKH client engagements

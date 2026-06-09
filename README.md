@@ -4,7 +4,7 @@
 
 **Forward Deployed Engineer · Microservices Architect · Applied AI**
 
-Forward Deployed Engineer with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo.
+Forward Deployed Engineer with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, healthcare, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo.
 
 Currently building DKH multi-tenant commerce platform + thetea.app + Empire of Bloom (smart containers).
 

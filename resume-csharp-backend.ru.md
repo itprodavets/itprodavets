@@ -2,12 +2,12 @@
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-Backend-разработчик с 15+ годами опыта в экосистеме C# и .NET, embedded в enterprise клиентах как Forward Deployed Engineer. Специализируюсь на проектировании микросервисных архитектур, создании высоконагруженных API, интеграции сложных распределённых систем и shipping production AI (RAG, MCP, Semantic Kernel). Опыт руководства командами и поставки enterprise-решений в IoT, e-commerce, fintech и госсекторе.
+Backend-разработчик с 15+ годами опыта в экосистеме C# и .NET, embedded в enterprise клиентах как Forward Deployed Engineer. Специализируюсь на проектировании микросервисных архитектур, создании высоконагруженных API, интеграции сложных распределённых систем и shipping production AI (RAG, MCP, Semantic Kernel). Опыт руководства командами и поставки enterprise-решений в IoT, e-commerce, fintech, здравоохранении и госсекторе.
 
 - **Основное:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
 - **Архитектура:** Микросервисы, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
 - **Обмен сообщениями:** RabbitMQ, Kafka, MQTT, SignalR, gRPC streaming
-- **Базы данных:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis, pgvector
+- **Базы данных:** PostgreSQL, MSSQL, MySQL, TimescaleDB, ClickHouse, Redis, pgvector
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, Embeddings
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
 - **Прочее:** Go, TypeScript, Keycloak (OIDC/OAuth2), OpenTelemetry, Serilog

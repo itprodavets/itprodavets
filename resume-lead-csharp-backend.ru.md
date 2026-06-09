@@ -2,12 +2,12 @@
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-Технический лидер с 15+ годами опыта в C#/.NET, 7+ лет руководства backend-командами. Forward Deployed Engineering practitioner — embedded в enterprise клиентах, принимаю архитектурные решения, выстраиваю инженерные стандарты и поставляю сложные распределённые системы под ключ. Практический опыт создания микросервисов, высоконагруженных API и production AI-пайплайнов (RAG, MCP, Semantic Kernel). Менторинг разработчиков, кросс-функциональное взаимодействие и масштабирование команд в IoT, e-commerce, fintech и госсекторе.
+Технический лидер с 15+ годами опыта в C#/.NET, 7+ лет руководства backend-командами. Forward Deployed Engineering practitioner — embedded в enterprise клиентах, принимаю архитектурные решения, выстраиваю инженерные стандарты и поставляю сложные распределённые системы под ключ. Практический опыт создания микросервисов, высоконагруженных API и production AI-пайплайнов (RAG, MCP, Semantic Kernel). Менторинг разработчиков, кросс-функциональное взаимодействие и масштабирование команд в IoT, e-commerce, fintech, здравоохранении и госсекторе.
 
 - **Основное:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
 - **Архитектура:** Микросервисы, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
 - **Обмен сообщениями:** RabbitMQ, Kafka, MQTT, SignalR, gRPC streaming
-- **Базы данных:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis, pgvector
+- **Базы данных:** PostgreSQL, MSSQL, MySQL, TimescaleDB, ClickHouse, Redis, pgvector
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, Embeddings
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
 - **Лидерство:** Менторинг команды, культура код-ревью, архитектурное управление, Agile/Scrum, техническая стратегия

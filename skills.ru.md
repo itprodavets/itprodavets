@@ -6,9 +6,9 @@
 
 Ежедневно использую, веду архитектурные решения.
 
-- **C#** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, государственные системы Дом ПК, Web Expenses (ЕМГ), автоматизация Химоил
-- **.NET (Framework 3.5 → .NET 10)** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG, Дом ПК, ЕМГ, Химоил
-- **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Дом ПК, ЕМГ
+- **C#** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, государственные системы Дом ПК, Web Expenses (ЕМГ), автоматизация Химоил, Blueberry (Remedi, GEMS)
+- **.NET (Framework 3.5 → .NET 10)** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG, Дом ПК, ЕМГ, Химоил, Blueberry
+- **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Дом ПК, ЕМГ, Blueberry
 - **TypeScript** · since 2018 · DKH (admin + storefront UI), thetea.app, клиентские проекты GZ DKH, KPMG, Blueberry GEMS
 - **Микросервисы / DDD / CQRS** · since 2019 · DKH (24+ сервисов), thetea.app, Empire of Bloom, KPMG
 - **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, клиентские проекты GZ DKH

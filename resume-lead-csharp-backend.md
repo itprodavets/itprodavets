@@ -2,12 +2,12 @@
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-Technical leader with 15+ years in C#/.NET, 7+ years leading backend teams. Forward Deployed Engineering practitioner — embedded in enterprise clients, driving architecture decisions, establishing engineering standards, and delivering complex distributed systems end-to-end. Hands-on experience building microservices, high-load APIs, and production AI pipelines (RAG, MCP, Semantic Kernel). Proven ability to mentor developers, manage cross-functional collaboration, and scale teams in IoT, e-commerce, fintech, and government sectors.
+Technical leader with 15+ years in C#/.NET, 7+ years leading backend teams. Forward Deployed Engineering practitioner — embedded in enterprise clients, driving architecture decisions, establishing engineering standards, and delivering complex distributed systems end-to-end. Hands-on experience building microservices, high-load APIs, and production AI pipelines (RAG, MCP, Semantic Kernel). Proven ability to mentor developers, manage cross-functional collaboration, and scale teams in IoT, e-commerce, fintech, healthcare, and government sectors.
 
 - **Core:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
 - **Architecture:** Microservices, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
 - **Messaging & Real-time:** RabbitMQ, Kafka, MQTT, SignalR, gRPC streaming
-- **Databases:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis, pgvector
+- **Databases:** PostgreSQL, MSSQL, MySQL, TimescaleDB, ClickHouse, Redis, pgvector
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, Embeddings
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
 - **Leadership:** Team mentoring, code review culture, architecture governance, Agile/Scrum, technical roadmaps

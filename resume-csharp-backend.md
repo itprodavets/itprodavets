@@ -2,12 +2,12 @@
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-Backend developer with 15+ years of experience in C# and .NET ecosystem, embedded in enterprise clients as Forward Deployed Engineer. Specialize in designing microservice architectures, building high-load APIs, integrating complex distributed systems, and shipping production AI (RAG, MCP, Semantic Kernel). Proven track record leading teams and delivering enterprise solutions in IoT, e-commerce, fintech, and government sectors.
+Backend developer with 15+ years of experience in C# and .NET ecosystem, embedded in enterprise clients as Forward Deployed Engineer. Specialize in designing microservice architectures, building high-load APIs, integrating complex distributed systems, and shipping production AI (RAG, MCP, Semantic Kernel). Proven track record leading teams and delivering enterprise solutions in IoT, e-commerce, fintech, healthcare, and government sectors.
 
 - **Core:** C#, .NET Framework / .NET Core / .NET 8–10, ASP.NET (MVC, Web API, Minimal API), Entity Framework Core, Dapper, LINQ
 - **Architecture:** Microservices, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
 - **Messaging & Real-time:** RabbitMQ, Kafka, MQTT, SignalR, gRPC streaming
-- **Databases:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis, pgvector
+- **Databases:** PostgreSQL, MSSQL, MySQL, TimescaleDB, ClickHouse, Redis, pgvector
 - **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, Embeddings
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, CI/CD (GitHub Actions, GitLab CI)
 - **Other:** Go, TypeScript, Keycloak (OIDC/OAuth2), OpenTelemetry, Serilog

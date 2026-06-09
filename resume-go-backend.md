@@ -2,12 +2,12 @@
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-Backend developer with 15+ years of experience building high-load distributed systems, embedded in enterprise clients as Forward Deployed Engineer. Working with Go in production for microservices, REST/gRPC APIs, and data-intensive pipelines. Strong background in microservice architecture, event-driven systems, DevOps practices, and shipping production AI (RAG, MCP, Semantic Kernel). Proven track record leading teams and delivering enterprise solutions in IoT, e-commerce, fintech, and government sectors.
+Backend developer with 15+ years of experience building high-load distributed systems, embedded in enterprise clients as Forward Deployed Engineer. Working with Go in production for microservices, REST/gRPC APIs, and data-intensive pipelines. Strong background in microservice architecture, event-driven systems, DevOps practices, and shipping production AI (RAG, MCP, Semantic Kernel). Proven track record leading teams and delivering enterprise solutions in IoT, e-commerce, fintech, healthcare, and government sectors.
 
 - **Core:** Go (Gin, Echo, net/http), C#, TypeScript, SQL, Bash
 - **Architecture:** Microservices, CQRS, DDD, Event-Driven Architecture, REST API, gRPC, OData
 - **Messaging & Streaming:** Kafka, RabbitMQ, MQTT, gRPC streaming, SignalR
-- **Databases:** PostgreSQL, ClickHouse, TimescaleDB, MSSQL, Redis, MongoDB, pgvector
+- **Databases:** PostgreSQL, ClickHouse, TimescaleDB, MSSQL, MySQL, Redis, MongoDB, pgvector
 - **AI/ML:** OpenAI API, LangChain, RAG, pgvector, Embeddings, Ollama
 - **DevOps:** Docker, Kubernetes, Prometheus, Grafana, Terraform, CI/CD (GitHub Actions, GitLab CI)
 - **Other:** Keycloak (OIDC/OAuth2), OpenTelemetry, Protobuf, Swagger/OpenAPI
