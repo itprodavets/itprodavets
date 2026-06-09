@@ -9,7 +9,7 @@ Daily drivers. I lead architectural decisions on these.
 - **C#** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, Dom PK government systems, EMG Web Expenses, Himoil business automation
 - **.NET (Framework 3.5 → .NET 10)** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG, Dom PK, EMG, Himoil
 - **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Dom PK, EMG
-- **TypeScript** · since 2018 · DKH (admin + storefront UIs), thetea.app, GZ DKH client engagements, KPMG
+- **TypeScript** · since 2018 · DKH (admin + storefront UIs), thetea.app, GZ DKH client engagements, KPMG, Blueberry GEMS
 - **Microservices / DDD / CQRS** · since 2019 · DKH (24+ services), thetea.app, Empire of Bloom, KPMG
 - **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, GZ DKH client engagements
 - **REST API** · since 2015 · every backend role since Dom PK
@@ -43,15 +43,15 @@ Regular production use, ship features end-to-end.
 - **GitHub Actions** · since 2022 · DKH (mirror sync), itprodavets sites
 - **Serilog** · since 2020 · DKH, thetea.app, KPMG
 - **OpenTelemetry** · since 2023 · DKH, thetea.app
-- **MS SQL (2008 → 2022)** · since 2009 · KPMG, Dom PK, EMG, Himoil, DEPO
+- **MS SQL (2008 → 2022)** · since 2009 · KPMG, Dom PK, EMG, Himoil, DEPO, Blueberry GEMS
 
 ## Familiar
 
 Used in past or sporadically — can ramp up quickly.
 
 - **Vue 3** · since 2021 · GZ DKH Marketing Campaign Manager, Fleet Tracking, Dealer Portal, Production Line Monitor
-- **Angular (2 → 8+)** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS Automation, Dom PK TESLA
-- **AngularJS (1)** · since 2021 · KPMG BEPS (early), Dom PK Energy Balancing Market Portal
+- **Angular (2 → 8+)** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS Automation, Dom PK TESLA, Blueberry Remedi
+- **AngularJS (1)** · since 2021 · KPMG BEPS (early), Dom PK Energy Balancing Market Portal, Blueberry (GEMS, Remedi)
 - **D3.js** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS, Dom PK Metrics Dashboard, Production Line Monitor
 - **Tailwind CSS (3)** · since 2023 · DKH UIs, thetea.app
 - **Kafka** · since 2023 · GZ DKH client engagements (Fleet Tracking)

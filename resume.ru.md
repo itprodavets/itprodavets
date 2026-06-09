@@ -37,6 +37,20 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
+### Full-Stack Engineer (Contract) - Blueberry Consultants Ltd (Декабрь 2019 – Февраль 2020)
+
+*Подробнее о проектах → [Remedi, GEMS](./projects.ru.md#blueberry)*
+
+Краткосрочный проектный контракт параллельно основной занятости — full-stack разработка двух enterprise SaaS-платформ. **Remedi** (CRM для заказа медикаментов и управления домами престарелого ухода; AngularJS/Angular, .NET Core, MySQL) — разрабатывал бэкенд-функциональность и API-интеграции, участвовал в улучшении архитектуры. **GEMS** (высоконагруженная HR/recruitment CRM; сотни компаний-клиентов и тысячи пользователей ежедневно; AngularJS, TypeScript, .NET, MS SQL Server) — реализовывал фичи на фронтенде и бэкенде и высокопроизводительную бизнес-логику, создал внутреннюю библиотеку для гибкого взаимодействия Kendo UI с БД, разработал инструменты парсинга CV/резюме (обработка DOC/DOCX, просмотр и конвертация PDF), реализовал GDPR-функциональность и интеграции со сторонними БД, Web API и сервисами поиска адресов/почтовых индексов.
+
+- **Языки:** C#, JavaScript, TypeScript
+- **Бэкенд:** .NET / .NET Core, ASP.NET Core, Web API, REST API
+- **Фронтенд:** AngularJS, Angular, TypeScript, Kendo UI, HTML, CSS
+- **Базы данных:** MS SQL Server, MySQL
+- **Прочее:** Обработка документов (DOC/DOCX, PDF), GDPR, интеграции Web API, поиск адресов/индексов
+
+---
+
 ### Ведущий программист - KPMG (май 2017 – сентябрь 2019)
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*

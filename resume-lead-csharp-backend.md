@@ -37,6 +37,20 @@ Led backend teams delivering C#/.NET solutions in IoT, e-commerce, marketing, an
 
 **Stack:** C#, .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, SignalR, RabbitMQ, MQTT, CQRS, DDD, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, Docker, Kubernetes
 
+### Full-Stack Engineer (Contract) — Blueberry Consultants Ltd | Dec 2019 – Feb 2020
+
+*Detailed projects → [Remedi, GEMS](./projects.en.md#blueberry)*
+
+Short-term UK contract alongside primary employment — C#/.NET full-stack development of enterprise SaaS platforms. Built backend functionality, API integrations, and high-performance business logic for two products: healthcare CRM **Remedi** (medicine ordering and Care Homes management) and high-load recruitment CRM **GEMS**.
+
+- Developed backend functionality and API integrations for the Remedi healthcare platform (.NET Core, MySQL)
+- Implemented high-performance business logic and API integrations in the GEMS recruitment CRM (.NET, MS SQL Server)
+- Created an internal library for flexible Kendo UI ↔ database interaction
+- Built CV/resume parsing tools (DOC/DOCX processing, PDF viewing and conversion)
+- Implemented GDPR functionality and integrations with third-party databases, Web APIs, and address/postcode search
+
+**Stack:** C#, .NET / .NET Core, ASP.NET Core, Web API, REST API, MS SQL Server, MySQL, AngularJS, Angular, TypeScript, Kendo UI
+
 ### Lead Developer — KPMG | May 2017 – Sep 2019
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*

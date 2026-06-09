@@ -120,6 +120,24 @@ Three rotating deliveries over 2.5 years:
 
 ---
 
+<a id="blueberry"></a>
+
+## Blueberry Consultants Ltd — enterprise SaaS contract (December 2019 – February 2020)
+
+Short-term contract (UK software consultancy) alongside primary employment — full-stack contribution to two enterprise platforms.
+
+### Remedi — Healthcare / Care Homes Management Platform
+- Role: Full-Stack Engineer (Contract)
+- Description: CRM platform for medicine ordering and Care Homes management. Developed backend functionality and API integrations, contributed to architecture and system improvements.
+- Technologies: AngularJS, Angular, .NET Core, ASP.NET Core, MySQL, REST API, Web API
+
+### GEMS — HR / Recruitment CRM Platform
+- Role: Full-Stack Engineer (Contract)
+- Description: High-performance recruitment CRM used by hundreds of companies and thousands of users daily. Built frontend and backend features and high-performance business logic, created an internal library for flexible Kendo UI ↔ database interaction, developed CV/resume parsing tools (DOC/DOCX processing, PDF viewing and conversion), and implemented GDPR functionality plus integrations with third-party databases, Web APIs, and address/postcode search services.
+- Technologies: AngularJS, TypeScript, .NET, ASP.NET, MS SQL Server, Kendo UI, REST API, Web API, DOC/DOCX processing, PDF processing, GDPR
+
+---
+
 <a id="emg"></a>
 
 ## European Media Group (EMG) — internal automation for media holding (July 2013 – April 2015)

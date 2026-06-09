@@ -37,6 +37,20 @@ Designed and developed backend and full-stack solutions in IoT, e-commerce, mark
 
 ---
 
+### Full-Stack Engineer (Contract) - Blueberry Consultants Ltd (December 2019 – February 2020)
+
+*Detailed projects → [Remedi, GEMS](./projects.en.md#blueberry)*
+
+Short-term project contract alongside primary employment — full-stack development of two enterprise SaaS platforms. **Remedi** (CRM for medicine ordering and Care Homes management; AngularJS/Angular, .NET Core, MySQL) — developed backend functionality and API integrations, contributed to architecture improvements. **GEMS** (high-performance HR/recruitment CRM; hundreds of client companies and thousands of daily users; AngularJS, TypeScript, .NET, MS SQL Server) — built frontend and backend features and high-performance business logic, created an internal library for flexible Kendo UI ↔ database interaction, developed CV/resume parsing tools (DOC/DOCX processing, PDF viewing and conversion), and implemented GDPR functionality plus integrations with third-party databases, Web APIs, and address/postcode search services.
+
+- **Languages:** C#, JavaScript, TypeScript
+- **Backend:** .NET / .NET Core, ASP.NET Core, Web API, REST API
+- **Frontend:** AngularJS, Angular, TypeScript, Kendo UI, HTML, CSS
+- **Databases:** MS SQL Server, MySQL
+- **Other:** Document processing (DOC/DOCX, PDF), GDPR, Web API integrations, address/postcode search
+
+---
+
 ### Lead Developer - KPMG (May 2017 – September 2019)
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*

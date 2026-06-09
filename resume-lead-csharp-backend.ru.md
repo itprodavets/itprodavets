@@ -37,6 +37,20 @@
 
 **Стек:** C#, .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, SignalR, RabbitMQ, MQTT, CQRS, DDD, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, Docker, Kubernetes
 
+### Full-Stack Engineer (Contract) — Blueberry Consultants Ltd | Декабрь 2019 – Февраль 2020
+
+*Подробнее о проектах → [Remedi, GEMS](./projects.ru.md#blueberry)*
+
+Краткосрочный контракт (UK) параллельно основной занятости — C#/.NET full-stack разработка enterprise SaaS-платформ. Разрабатывал бэкенд-функциональность, API-интеграции и высокопроизводительную бизнес-логику для двух продуктов: healthcare CRM **Remedi** (заказ медикаментов и управление домами престарелого ухода) и высоконагруженной recruitment CRM **GEMS**.
+
+- Разработал бэкенд-функциональность и API-интеграции для healthcare-платформы Remedi (.NET Core, MySQL)
+- Реализовал высокопроизводительную бизнес-логику и API-интеграции в recruitment CRM GEMS (.NET, MS SQL Server)
+- Создал внутреннюю библиотеку для гибкого взаимодействия Kendo UI с БД
+- Разработал инструменты парсинга CV/резюме (обработка DOC/DOCX, просмотр и конвертация PDF)
+- Реализовал GDPR-функциональность и интеграции со сторонними БД, Web API и сервисами поиска адресов
+
+**Стек:** C#, .NET / .NET Core, ASP.NET Core, Web API, REST API, MS SQL Server, MySQL, AngularJS, Angular, TypeScript, Kendo UI
+
 ### Ведущий разработчик — KPMG | Май 2017 – Сентябрь 2019
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*

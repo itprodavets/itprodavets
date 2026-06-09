@@ -9,7 +9,7 @@
 - **C#** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, государственные системы Дом ПК, Web Expenses (ЕМГ), автоматизация Химоил
 - **.NET (Framework 3.5 → .NET 10)** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG, Дом ПК, ЕМГ, Химоил
 - **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Дом ПК, ЕМГ
-- **TypeScript** · since 2018 · DKH (admin + storefront UI), thetea.app, клиентские проекты GZ DKH, KPMG
+- **TypeScript** · since 2018 · DKH (admin + storefront UI), thetea.app, клиентские проекты GZ DKH, KPMG, Blueberry GEMS
 - **Микросервисы / DDD / CQRS** · since 2019 · DKH (24+ сервисов), thetea.app, Empire of Bloom, KPMG
 - **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, клиентские проекты GZ DKH
 - **REST API** · since 2015 · каждая backend-роль начиная с Дом ПК
@@ -43,15 +43,15 @@
 - **GitHub Actions** · since 2022 · DKH (зеркало), сайты itprodavets
 - **Serilog** · since 2020 · DKH, thetea.app, KPMG
 - **OpenTelemetry** · since 2023 · DKH, thetea.app
-- **MS SQL (2008 → 2022)** · since 2009 · KPMG, Дом ПК, ЕМГ, Химоил, DEPO
+- **MS SQL (2008 → 2022)** · since 2009 · KPMG, Дом ПК, ЕМГ, Химоил, DEPO, Blueberry GEMS
 
 ## Familiar
 
 Использовал в прошлом или эпизодически — могу быстро вернуться.
 
 - **Vue 3** · since 2021 · Marketing Campaign Manager, Fleet Tracking, Dealer Portal, Production Line Monitor
-- **Angular (2 → 8+)** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS Automation, Дом ПК TESLA
-- **AngularJS (1)** · since 2021 · KPMG BEPS (ранние версии), Дом ПК Портал балансирующего рынка
+- **Angular (2 → 8+)** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS Automation, Дом ПК TESLA, Blueberry Remedi
+- **AngularJS (1)** · since 2021 · KPMG BEPS (ранние версии), Дом ПК Портал балансирующего рынка, Blueberry (GEMS, Remedi)
 - **D3.js** · since 2019 · KPMG Smart Tax, KPMG BEPS, Дом ПК Дашборд метрик, Production Line Monitor
 - **Tailwind CSS (3)** · since 2023 · DKH UI, thetea.app
 - **Kafka** · since 2023 · клиентские проекты GZ DKH (Fleet Tracking)

@@ -36,6 +36,14 @@ Designed and developed backend solutions in Go and .NET for IoT, e-commerce, mar
 
 **Stack:** Go, C#, gRPC, REST API, RabbitMQ, Kafka, MQTT, PostgreSQL, TimescaleDB, ClickHouse, Redis, Docker, Kubernetes, Prometheus, Grafana
 
+### Full-Stack Engineer (Contract) — Blueberry Consultants Ltd | Dec 2019 – Feb 2020
+
+*Detailed projects → [Remedi, GEMS](./projects.en.md#blueberry)*
+
+Short-term UK contract alongside primary employment — C#/.NET full-stack development of enterprise SaaS platforms: healthcare CRM **Remedi** (.NET Core, MySQL) and high-load recruitment CRM **GEMS** (.NET, MS SQL Server). Backend functionality, API integrations, high-performance business logic, document processing tools (DOC/DOCX, PDF), GDPR.
+
+**Stack:** C#, .NET / .NET Core, ASP.NET, REST API, Web API, MS SQL Server, MySQL, TypeScript, AngularJS, Angular
+
 ### Lead Developer — KPMG | May 2017 – Sep 2019
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
