@@ -11,14 +11,14 @@
 - **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Дом ПК, ЕМГ, Blueberry
 - **TypeScript** · since 2018 · DKH (admin + storefront UI), thetea.app, клиентские проекты GZ DKH, KPMG, Blueberry GEMS
 - **Микросервисы / DDD / CQRS** · since 2019 · DKH (24+ сервисов), thetea.app, Empire of Bloom, KPMG
-- **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, клиентские проекты GZ DKH
+- **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, клиентские проекты GZ DKH, PPC Entourage
 - **REST API** · since 2015 · каждая backend-роль начиная с Дом ПК
 - **gRPC** · since 2021 · DKH inter-service, thetea.app, Empire of Bloom, Container Diagnostics Service
 - **RabbitMQ** · since 2020 · DKH event bus, thetea.app, Empire of Bloom, Marketing Campaign Manager
 - **Entity Framework / EF Core** · since 2016 · DKH, thetea.app, KPMG, Дом ПК
 - **Docker** · since 2019 · DKH, thetea.app, Empire of Bloom, клиентские проекты GZ DKH
 - **Next.js (13 → 16)** · since 2022 · DKH admin + storefront, thetea.app, AI Operations Assistant
-- **React (16 → 19)** · since 2020 · DKH UI, thetea.app, AI Operations Assistant
+- **React (16 → 19)** · since 2020 · DKH UI, thetea.app, AI Operations Assistant, PPC Entourage
 
 ## Working
 
@@ -62,10 +62,11 @@
 - **Mosquitto (MQTT broker)** · since 2022 · IoT backbone Empire of Bloom
 - **MongoDB (3 → 7)** · since 2022 · клиентские проекты GZ DKH
 - **ClickHouse** · since 2023 · аналитика GZ DKH
-- **Node.js (14 → 22)** · since 2021 · thetea-mcp, ai-docs-hub
+- **Node.js (14 → 22)** · since 2021 · thetea-mcp, ai-docs-hub, PPC Entourage
 - **Gin / Echo (Go)** · since 2022 · ai-docs-hub, Fleet Tracking Platform
 - **MCP (Model Context Protocol)** · since 2025 · open-source thetea-mcp сервер
 - **Terraform** · since 2024 · DKH инфраструктура
+- **AWS** · since 2021 · PPC Entourage
 - **OData** · since 2019 · KPMG BEPS Automation, KPMG Smart Tax Solution
 - **Dapper** · since 2016 · Дом ПК (Дашборд метрик, Автоматизация энергорынка)
 

@@ -51,6 +51,20 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
+### Software Engineer (Contract) - PPC Entourage (сентябрь 2021 – декабрь 2021)
+
+*Подробнее о проектах → [PPC Entourage](./projects.ru.md#ppc-entourage)*
+
+Краткосрочный контракт параллельно основной занятости — инженерия производительности для SaaS оптимизации рекламы Amazon поверх Amazon Advertising и Seller API. Профилировал и оптимизировал продукт, чтобы он работал легче (снизив стоимость инфраструктуры), и улучшил отзывчивость интерфейса для более быстрого клиентского опыта.
+
+- **Языки:** JavaScript, TypeScript
+- **Фронтенд:** React
+- **Бэкенд:** Node.js
+- **Базы данных:** PostgreSQL
+- **Облако:** AWS
+
+---
+
 ### Ведущий программист - KPMG (май 2017 – сентябрь 2019)
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*

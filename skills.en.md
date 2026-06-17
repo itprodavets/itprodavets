@@ -11,14 +11,14 @@ Daily drivers. I lead architectural decisions on these.
 - **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2014 · DKH, thetea.app, KPMG, Dom PK, EMG, Blueberry
 - **TypeScript** · since 2018 · DKH (admin + storefront UIs), thetea.app, GZ DKH client engagements, KPMG, Blueberry GEMS
 - **Microservices / DDD / CQRS** · since 2019 · DKH (24+ services), thetea.app, Empire of Bloom, KPMG
-- **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, GZ DKH client engagements
+- **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, GZ DKH client engagements, PPC Entourage
 - **REST API** · since 2015 · every backend role since Dom PK
 - **gRPC** · since 2021 · DKH inter-service, thetea.app, Empire of Bloom, Container Diagnostics Service
 - **RabbitMQ** · since 2020 · DKH event bus, thetea.app, Empire of Bloom, Marketing Campaign Manager
 - **Entity Framework / EF Core** · since 2016 · DKH, thetea.app, KPMG, Dom PK
 - **Docker** · since 2019 · DKH, thetea.app, Empire of Bloom, GZ DKH client engagements
 - **Next.js (13 → 16)** · since 2022 · DKH admin + storefront, thetea.app, GZ DKH AI Operations Assistant
-- **React (16 → 19)** · since 2020 · DKH UIs, thetea.app, GZ DKH AI Operations Assistant
+- **React (16 → 19)** · since 2020 · DKH UIs, thetea.app, GZ DKH AI Operations Assistant, PPC Entourage
 
 ## Working
 
@@ -62,10 +62,11 @@ Used in past or sporadically — can ramp up quickly.
 - **Mosquitto (MQTT broker)** · since 2022 · Empire of Bloom IoT backbone
 - **MongoDB (3 → 7)** · since 2022 · GZ DKH client engagements
 - **ClickHouse** · since 2023 · GZ DKH analytics workloads
-- **Node.js (14 → 22)** · since 2021 · thetea-mcp, ai-docs-hub
+- **Node.js (14 → 22)** · since 2021 · thetea-mcp, ai-docs-hub, PPC Entourage
 - **Gin / Echo (Go)** · since 2022 · ai-docs-hub, Fleet Tracking Platform
 - **MCP (Model Context Protocol)** · since 2025 · thetea-mcp open-source server
 - **Terraform** · since 2024 · DKH infrastructure
+- **AWS** · since 2021 · PPC Entourage
 - **OData** · since 2019 · KPMG BEPS Automation, KPMG Smart Tax Solution
 - **Dapper** · since 2016 · Dom PK (Metrics Dashboard, Energy Market Planning)
 

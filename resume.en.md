@@ -51,6 +51,20 @@ Short-term project contract alongside primary employment — full-stack developm
 
 ---
 
+### Software Engineer (Contract) - PPC Entourage (September 2021 – December 2021)
+
+*Detailed projects → [PPC Entourage](./projects.en.md#ppc-entourage)*
+
+Short-term contract alongside primary employment — performance engineering on an Amazon advertising optimization SaaS running against Amazon's Advertising and Seller APIs. Profiled and optimized the product to run leaner, reducing infrastructure cost, and improved interface responsiveness for a faster customer experience.
+
+- **Languages:** JavaScript, TypeScript
+- **Frontend:** React
+- **Backend:** Node.js
+- **Databases:** PostgreSQL
+- **Cloud:** AWS
+
+---
+
 ### Lead Developer - KPMG (May 2017 – September 2019)
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
