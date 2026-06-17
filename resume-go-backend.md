@@ -9,7 +9,7 @@ Backend developer with 15+ years of experience building high-load distributed sy
 - **Messaging & Streaming:** Kafka, RabbitMQ, MQTT, gRPC streaming, SignalR
 - **Databases:** PostgreSQL, ClickHouse, TimescaleDB, MSSQL, MySQL, Redis, MongoDB, pgvector
 - **AI/ML:** OpenAI API, LangChain, RAG, pgvector, Embeddings, Ollama
-- **DevOps:** Docker, Kubernetes, Prometheus, Grafana, Terraform, CI/CD (GitHub Actions, GitLab CI)
+- **Cloud & DevOps:** AWS, Docker, Kubernetes, Prometheus, Grafana, Terraform, CI/CD (GitHub Actions, GitLab CI)
 - **Other:** Keycloak (OIDC/OAuth2), OpenTelemetry, Protobuf, Swagger/OpenAPI
 
 ## Personal Projects

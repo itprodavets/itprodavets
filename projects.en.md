@@ -138,6 +138,20 @@ Short-term contract (UK software consultancy) alongside primary employment — f
 
 ---
 
+<a id="ppc-entourage"></a>
+
+## PPC Entourage — Amazon advertising optimization (September 2021 – December 2021)
+
+Short-term contract alongside primary employment — performance-focused engineering on a SaaS platform for Amazon PPC optimization.
+
+### PPC Entourage — Amazon Ads & Seller API Platform
+- Role: Software Engineer (Contract)
+- Duration: September 2021 – December 2021
+- Description: Amazon advertising optimization platform for Amazon sellers — automated campaign and bid management, ACoS reduction, custom analytics, and FBA reimbursement recovery, so sellers can scale ads without living in spreadsheets. Runs against Amazon's Advertising and Seller APIs, pulling ad-performance data at scale and pushing automated optimizations back. My focus was performance: profiled and optimized the product to run leaner — reducing infrastructure cost — and improved interface responsiveness so the app felt noticeably faster for customers.
+- Technologies: React, Node.js, PostgreSQL, AWS
+
+---
+
 <a id="emg"></a>
 
 ## European Media Group (EMG) — internal automation for media holding (July 2013 – April 2015)
