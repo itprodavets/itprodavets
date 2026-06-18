@@ -15,7 +15,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ### Forward Deployed AI Engineer - GZ DKH Innovation Technology (сентябрь 2019 – настоящее время)
 
-*Вырос от Senior Software Developer → Tech Lead → Forward Deployed AI Engineer*
+*Вырос от Senior Full-Stack Engineer → Tech Lead → Forward Deployed AI Engineer*
 
 *Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 
