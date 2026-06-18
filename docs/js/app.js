@@ -103,9 +103,14 @@ window.renderSection = async function (resumeKey, lang) {
 
 /* ===== Constants ===== */
 const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+/* Serve markdown from GitHub raw, not jsDelivr: raw always reflects the latest
+   @main commit with no CDN propagation lag (jsDelivr's per-edge branch→commit
+   resolution lagged minutes and repeatedly served stale résumé content). raw
+   sends CORS (access-control-allow-origin: *); the ?t= token in fetchMarkdown
+   bypasses its 5-min browser cache. */
 const RAW_BASE = IS_LOCAL
   ? location.pathname.replace(/\/docs\/?$/, '/').replace(/\/docs\/[^/]*$/, '/')
-  : 'https://cdn.jsdelivr.net/gh/itprodavets/itprodavets@main/';
+  : 'https://raw.githubusercontent.com/itprodavets/itprodavets/main/';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/';
 
 /* ===== DOM Helpers ===== */
