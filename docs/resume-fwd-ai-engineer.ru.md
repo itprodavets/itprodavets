@@ -14,7 +14,7 @@ Forward Deployed AI Engineer с 15+ годами опыта embedded в enterpri
 
 ## Коммерческий опыт
 
-### Forward Deployed AI Engineer — GZ DKH Innovation Technology | Сентябрь 2019 – настоящее время
+### Lead Forward Deployed AI Engineer — GZ DKH Innovation Technology | Сентябрь 2019 – настоящее время
 
 *Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 
