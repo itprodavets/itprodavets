@@ -1,6 +1,6 @@
 # Denis Kharchenko
 
-Forward Deployed Engineer with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, healthcare, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, and integrating production AI (RAG, MCP, Semantic Kernel). Currently building DKH multi-tenant commerce platform + thetea.app + Empire of Bloom (smart containers).
+Forward Deployed Engineer with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, healthcare, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, and integrating production AI (RAG, MCP, Semantic Kernel). Currently building DKH multi-tenant commerce platform + thetea.app.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 

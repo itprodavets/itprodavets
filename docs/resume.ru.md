@@ -1,6 +1,6 @@
 # Денис Харченко
 
-Forward Deployed Engineer с 15+ годами опыта embedded в enterprise клиентах в области IoT, e-commerce, финтеха, здравоохранения и государственного сектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю DKH multi-tenant commerce platform + thetea.app + Empire of Bloom (smart containers).
+Forward Deployed Engineer с 15+ годами опыта embedded в enterprise клиентах в области IoT, e-commerce, финтеха, здравоохранения и государственного сектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю DKH multi-tenant commerce platform + thetea.app.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
