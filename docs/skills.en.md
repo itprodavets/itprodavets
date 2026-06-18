@@ -53,7 +53,6 @@ Used in past or sporadically — can ramp up quickly.
 - **AngularJS (1)** · since 2015 · KPMG BEPS (early), Dom PK Energy Balancing Market Portal, Blueberry (GEMS, Remedi)
 - **D3.js** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS, Dom PK Metrics Dashboard, Production Line Monitor
 - **Tailwind CSS (3)** · since 2023 · DKH UIs, thetea.app
-- **Kafka** · since 2023 · GZ DKH client engagements (Fleet Tracking)
 - **Python (3)** · since 2023 · AI tooling, automation scripts
 - **C / C++ (11 / 17)** · since 2020 · Empire of Bloom firmware
 - **FreeRTOS** · since 2022 · Empire of Bloom embedded firmware
@@ -62,9 +61,7 @@ Used in past or sporadically — can ramp up quickly.
 - **MongoDB (3 → 7)** · since 2022 · GZ DKH client engagements
 - **ClickHouse** · since 2023 · GZ DKH analytics workloads
 - **Node.js (14 → 22)** · since 2021 · PPC Entourage
-- **Gin / Echo (Go)** · since 2022 · Fleet Tracking Platform
 - **MCP (Model Context Protocol)** · since 2025 · DKH MCP gateway
-- **Terraform** · since 2024 · DKH infrastructure
 - **AWS** · since 2021 · PPC Entourage
 - **OData** · since 2019 · KPMG BEPS Automation, KPMG Smart Tax Solution
 - **Dapper** · since 2016 · Dom PK (Metrics Dashboard, Energy Market Planning)
