@@ -15,14 +15,10 @@
 - Technologies: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (desktop/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
-### thetea.app (with ecosystem: thetea-mcp, tea-assistant, ai-docs-hub)
-- Role: Founder / IT Partner (co-founded with tea expert — 20+ years in industry: plantations, supply chain, tea travel, China-direct sourcing)
-- Description: Multi-tenant SaaS platform for launching branded tea stores in Telegram. First venture built on DKH commerce platform. Co-founder brings domain depth; I bring tech.
-  - **Core platform** — Telegram Mini App + admin panel + 20+ microservices and growing, event-driven architecture, gRPC inter-service, REST gateways (BFF). Features: product catalog with structured attributes, cart with stock reservations, orders, reviews, i18n (EN/RU), 6 storefront themes, China-direct supply chain integration.
-  - **thetea-mcp** *(open-source companion)* — MCP (Model Context Protocol) server for thetea.app. Enables AI assistants (Claude, ChatGPT, other LLM agents) to browse catalog, search products, manage orders via standardized protocol. Multi-tenant scoped.
-  - **tea-assistant** *(open-source companion)* — RAG-powered chatbot trained on curated tea expertise (varieties, brewing, ceremonies, culture, history, travel destinations, food pairings). Integrated with thetea.app for in-app product advice.
-  - **ai-docs-hub** *(open-source foundation)* — Open-source platform for AI-powered knowledge bases from technical documentation. Upload PDF / Markdown / Confluence → auto-chunk + embed → query via chat with source citations. Multi-tenant workspaces, RBAC, pluggable LLM backends (OpenAI, Azure OpenAI, Ollama). Powers tea-assistant.
-- Technologies: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions. Ecosystem: Go, Gin (ai-docs-hub), TypeScript / Node / MCP SDK (thetea-mcp), OpenAI API, LangChain, Ollama, pgvector, Vercel, Shadcn/UI, SSE
+### thetea.app
+- Role: Founder / IT Partner (co-founded with a tea expert — 20+ years in industry: plantations, supply chain, tea travel, China-direct sourcing)
+- Description: The first venture launched on DKH — a branded tea store delivered as a Telegram Mini App. My co-founder brings the tea-industry domain depth; I build and run the product on the DKH platform. Storefront: product catalog with structured attributes, cart with stock reservations, orders, reviews, i18n (EN/RU), storefront themes, and China-direct sourcing.
+- Technologies: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions
 
 
 ---
@@ -106,7 +102,7 @@ Forward Deployed engineering for enterprise clients across IoT, e-commerce, mark
 - **eCommerce** — Multi-platform eCommerce solution with a marketing & lead-generation module (the marketing department's layer): captures, scores, and routes prospects from web and marketing traffic. Stack: C#, .NET 8, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, TypeScript, Next.js 14, React.
 - **Fleet Tracking Platform** — Real-time fleet telemetry, route visualization, analytical reports. Stack: Go, PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Leaflet.js.
 - **Container Diagnostics Service** — Remote diagnostics microservice for smart containers + OTA updates + critical failure alerting. Stack: C#, .NET 9, gRPC, SignalR, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Grafana.
-- **AI Operations Assistant** — AI assistant for container fleet operations. RAG over technical docs, maintenance logs, and telemetry for diagnostics + incident report generation. Stack: C#, .NET 9, Semantic Kernel, Azure OpenAI, Qdrant, pgvector, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js.
+- **AI Operations Assistant** — AI assistant for container fleet operations. RAG over technical docs, maintenance logs, and telemetry for diagnostics + incident report generation. Stack: C#, .NET 9, Semantic Kernel, Azure OpenAI, Qdrant, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js.
 
 
 ### Client engagement 2019 – 2022 (global telecom / electronics multinational)

@@ -8,7 +8,7 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 - **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
 - **Фронтенд и приложения:** Vue.js/Next.js, React/Angular, Avalonia (десктоп/мобайл), HTML5/CSS3, WebSocket
 - **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
-- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
+- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, Embeddings
 - **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
 
 ## Коммерческий опыт
@@ -38,7 +38,7 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 Разрабатываю и вывожу в прод AI, который приносит бизнес-результат — встроенный внутрь бизнеса, не vendor demo. Сейчас: AI-ассистенты и LLM-агенты, заземлённые на данных бизнеса через RAG (копайлоты для операций, поддержки и продаж), плюс маркетинговый слой и лидогенерация в составе e-commerce платформы — превращаю веб- и маркетинговый трафик в захваченных, оценённых и распределённых лидов.
 
-- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, MCP
+- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, MCP
 - **Бэкенд:** Go, C#, .NET 9, gRPC, REST API, Redis, RabbitMQ
 - **Базы данных:** PostgreSQL, TimescaleDB
 

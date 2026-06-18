@@ -8,7 +8,7 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 - **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
 - **Frontend & Apps:** Vue.js/Next.js, React/Angular, Avalonia (desktop/mobile), HTML5/CSS3, WebSocket
 - **Databases:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
-- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
+- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, Embeddings
 - **Architecture & DevOps:** Microservices, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
 
 ## Commercial Experience
@@ -38,7 +38,7 @@ Building DKH — a multi-tenant SaaS commerce platform that lets domain-expert f
 
 Build and ship production AI that drives business outcomes — embedded inside the business, not as a vendor demo. Current work: AI assistants and LLM agents grounded on the business's own data via RAG (operations, support, and sales copilots), plus the marketing and lead-generation layer of the eCommerce platform — turning web and marketing traffic into captured, scored, and routed prospects.
 
-- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, MCP
+- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, MCP
 - **Backend:** Go, C#, .NET 9, gRPC, REST API, Redis, RabbitMQ
 - **Databases:** PostgreSQL, TimescaleDB
 

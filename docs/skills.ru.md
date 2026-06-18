@@ -25,7 +25,7 @@
 Регулярная production-разработка, поставляю фичи end-to-end.
 
 - **Avalonia (desktop / Android)** · since 2025 · DKH Apps Suite — POS, Warehouse, Inspector
-- **Go (1.18 → 1.24)** · since 2022 · ai-docs-hub, Empire of Bloom Fleet Tracking Platform
+- **Go (1.18 → 1.24)** · since 2022 · Empire of Bloom Fleet Tracking Platform
 - **Redis** · since 2021 · DKH sessions + кэширование, thetea.app
 - **Kubernetes** · since 2021 · DKH, thetea.app, Empire of Bloom, Fleet Tracking
 - **Keycloak (OIDC / OAuth2)** · since 2022 · DKH, thetea.app
@@ -34,12 +34,10 @@
 - **MQTT** · since 2021 · Empire of Bloom, Production Line Monitor, Fleet Tracking, Dealer Portal
 - **TimescaleDB** · since 2022 · телеметрия Empire of Bloom, Fleet Tracking
 - **Prometheus / Grafana** · since 2021 · DKH, thetea.app, Empire of Bloom, Container Diagnostics
-- **OpenAI / Azure OpenAI** · since 2023 · AI Operations Assistant, tea-assistant, ai-docs-hub
-- **RAG (Retrieval-Augmented Generation)** · since 2023 · AI ops Empire of Bloom, tea-assistant, ai-docs-hub
+- **OpenAI / Azure OpenAI** · since 2023 · AI Operations Assistant, DKH
+- **RAG (Retrieval-Augmented Generation)** · since 2023 · AI ops Empire of Bloom, DKH
 - **Semantic Kernel** · since 2024 · AI Operations Assistant
-- **pgvector embeddings** · since 2024 · tea-assistant, ai-docs-hub
 - **Qdrant** · since 2024 · AI ops Empire of Bloom
-- **LangChain** · since 2024 · ai-docs-hub
 - **GitLab CI** · since 2021 · DKH, thetea.app, клиентские проекты GZ DKH
 - **GitHub Actions** · since 2022 · DKH (зеркало), сайты itprodavets
 - **Serilog** · since 2020 · DKH, thetea.app, KPMG
@@ -63,9 +61,9 @@
 - **Mosquitto (MQTT broker)** · since 2022 · IoT backbone Empire of Bloom
 - **MongoDB (3 → 7)** · since 2022 · клиентские проекты GZ DKH
 - **ClickHouse** · since 2023 · аналитика GZ DKH
-- **Node.js (14 → 22)** · since 2021 · thetea-mcp, ai-docs-hub, PPC Entourage
-- **Gin / Echo (Go)** · since 2022 · ai-docs-hub, Fleet Tracking Platform
-- **MCP (Model Context Protocol)** · since 2025 · open-source thetea-mcp сервер
+- **Node.js (14 → 22)** · since 2021 · PPC Entourage
+- **Gin / Echo (Go)** · since 2022 · Fleet Tracking Platform
+- **MCP (Model Context Protocol)** · since 2025 · MCP-гейтвей DKH
 - **Terraform** · since 2024 · DKH инфраструктура
 - **AWS** · since 2021 · PPC Entourage
 - **OData** · since 2019 · KPMG BEPS Automation, KPMG Smart Tax Solution

@@ -15,14 +15,10 @@
 - Технологии: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (десктоп/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
-### thetea.app (с экосистемой: thetea-mcp, tea-assistant, ai-docs-hub)
-- Роль: Founder / IT Partner (co-founded с tea-экспертом — 20+ лет в индустрии: плантации, supply chain, tea travel, China-direct sourcing)
-- Описание: Мультитенантная SaaS-платформа для запуска брендированных чайных магазинов в Telegram. Первый venture построен на DKH commerce платформе. Co-founder приносит domain depth, я приношу tech.
-  - **Основная платформа** — Telegram Mini App + админ-панель + 20+ микросервисов и растёт, событийная архитектура, gRPC между сервисами, REST-шлюзы (BFF). Возможности: каталог с структурированными атрибутами, корзина с резервированием, заказы, отзывы, i18n (EN/RU), 6 тем оформления, интеграция с China-direct supply chain.
-  - **thetea-mcp** *(open-source companion)* — MCP-сервер (Model Context Protocol) для thetea.app. Позволяет AI-ассистентам (Claude, ChatGPT, другие LLM-агенты) просматривать каталог, искать товары, управлять заказами через стандартизированный протокол. Multi-tenant scoped.
-  - **tea-assistant** *(open-source companion)* — RAG чат-бот, обученный на курированной базе знаний о чае (сорта, заваривание, церемонии, культура, история, путешествия, сочетания с едой). Интегрирован с thetea.app для in-app консультаций.
-  - **ai-docs-hub** *(open-source foundation)* — Open-source платформа для AI-powered баз знаний из технической документации. Загрузка PDF / Markdown / Confluence → автоматическое разбиение + векторизация → запросы через чат с указанием источников. Multi-tenant workspaces, RBAC, подключаемые LLM-бэкенды (OpenAI, Azure OpenAI, Ollama). Powers tea-assistant.
-- Технологии: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions. Ecosystem: Go, Gin (ai-docs-hub), TypeScript / Node / MCP SDK (thetea-mcp), OpenAI API, LangChain, Ollama, pgvector, Vercel, Shadcn/UI, SSE
+### thetea.app
+- Роль: Founder / IT Partner (со-фаундер — эксперт по чаю, 20+ лет в индустрии: плантации, цепочки поставок, чайные путешествия, China-direct закупки)
+- Описание: Первый venture, запущенный на DKH — брендированный чайный магазин в виде Telegram Mini App. Со-фаундер приносит доменную экспертизу по чаю; я строю и веду продукт на платформе DKH. Витрина: каталог товаров со структурированными атрибутами, корзина с резервированием остатков, заказы, отзывы, i18n (EN/RU), темы оформления и China-direct закупки.
+- Технологии: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions
 
 
 ---
@@ -106,7 +102,7 @@ Forward Deployed-инженерия для enterprise-клиентов в обл
 - **eCommerce** — Мультиплатформенное решение для e-commerce с маркетинговым модулем и лидогенерацией (слой отдела маркетинга): захватывает, скорит и маршрутизирует лидов из веб- и маркетингового трафика. Стек: C#, .NET 8, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, TypeScript, Next.js 14, React.
 - **Fleet Tracking Platform** — Real-time fleet telemetry, визуализация маршрутов, аналитические отчёты. Стек: Go, PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Leaflet.js.
 - **Container Diagnostics Service** — Микросервис удалённой диагностики контейнеров + OTA-обновления + алертинг при критических сбоях. Стек: C#, .NET 9, gRPC, SignalR, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Grafana.
-- **AI Operations Assistant** — AI-ассистент для операций с парком контейнеров. RAG поверх документации, журналов обслуживания и телеметрии для диагностики + генерации отчётов об инцидентах. Стек: C#, .NET 9, Semantic Kernel, Azure OpenAI, Qdrant, pgvector, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js.
+- **AI Operations Assistant** — AI-ассистент для операций с парком контейнеров. RAG поверх документации, журналов обслуживания и телеметрии для диагностики + генерации отчётов об инцидентах. Стек: C#, .NET 9, Semantic Kernel, Azure OpenAI, Qdrant, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js.
 
 
 ### Client engagement 2019 – 2022 (global telecom / electronics multinational)
