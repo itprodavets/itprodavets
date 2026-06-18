@@ -69,6 +69,8 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ### Ведущий программист - KPMG (май 2017 – сентябрь 2019)
 
+*Вырос от Senior Developer → Team Lead*
+
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 
 Спроектировал архитектуру и разработал платформы автоматизации налоговой отчётности и оптимизации налоговых процессов для налоговых органов по всему миру. Реализовал бэкенд на ASP.NET с REST API и OData-эндпоинтами, фронтенд на Angular с визуализацией данных на D3.js. Выполнил миграцию кодовой базы с .NET Framework на .NET Core. Руководил командой, проводил код-ревью.
@@ -83,6 +85,8 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 ---
 
 ### Старший разработчик полного стека - ООО «Дом ПК» (апрель 2015 – апрель 2017)
+
+*Вырос от Full-Stack Developer → Team Lead*
 
 *Подробнее о проектах → [Донорство крови, Соц.-полит. дашборд, Энергорынок, ФИС ГИА, TESLA](./projects.ru.md#dom-pk)*
 
