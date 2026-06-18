@@ -73,11 +73,23 @@ window.state = state;
    We strip the auto-generated "resume-header" div from the appended content
    because the parent resume already has its own H1+contact block — a second
    one would read as a doubled header. */
-window.renderSection = async function (resumeKey, lang) {
+/* Keep only the project sections whose <a id="..."> anchor is in `allow`
+   (order preserved). Lets the PDF appendix ship a compact Projects subset. */
+function filterMarkdownSections(markdown, allow) {
+  const parts = markdown.split(/(?=<a id=")/);
+  const kept = parts.slice(1).filter(function (sec) {
+    const m = sec.match(/^<a id="([^"]+)"/);
+    return m && allow.indexOf(m[1]) !== -1;
+  });
+  return parts[0] + kept.join('');
+}
+
+window.renderSection = async function (resumeKey, lang, sections) {
   const resume = RESUMES[resumeKey];
   if (!resume) return null;
   const filename = resume[lang];
-  const markdown = await fetchMarkdown(filename);
+  let markdown = await fetchMarkdown(filename);
+  if (sections && sections.length) markdown = filterMarkdownSections(markdown, sections);
   const html = marked.parse(markdown);
 
   const container = document.createElement('div');
