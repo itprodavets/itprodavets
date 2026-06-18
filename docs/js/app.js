@@ -122,7 +122,7 @@ window.renderSection = async function (resumeKey, lang, sections) {
    browser cache — bump it together with the ?v= on index.html's script/style
    tags on every content deploy. */
 const RAW_BASE = '';
-const ASSET_VERSION = '30';
+const ASSET_VERSION = '31';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/docs/';
 
 /* ===== DOM Helpers ===== */
