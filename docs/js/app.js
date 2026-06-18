@@ -3,20 +3,8 @@ const RESUMES = {
   'full-resume': {
     en: 'resume.en.md',
     ru: 'resume.ru.md',
-    label: { en: 'Full Resume', ru: 'Полное резюме' },
+    label: { en: 'Resume', ru: 'Резюме' },
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>'
-  },
-  'fwd-ai-engineer': {
-    en: 'resume-fwd-ai-engineer.md',
-    ru: 'resume-fwd-ai-engineer.ru.md',
-    label: { en: 'Forward Deployed AI Engineer', ru: 'Forward Deployed AI Engineer' },
-    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>'
-  },
-  'tech-lead': {
-    en: 'resume-tech-lead.md',
-    ru: 'resume-tech-lead.ru.md',
-    label: { en: 'Technical Lead', ru: 'Technical Lead' },
-    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>'
   },
   'projects': {
     en: 'projects.en.md',
@@ -122,7 +110,7 @@ window.renderSection = async function (resumeKey, lang, sections) {
    browser cache — bump it together with the ?v= on index.html's script/style
    tags on every content deploy. */
 const RAW_BASE = '';
-const ASSET_VERSION = '35';
+const ASSET_VERSION = '36';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/docs/';
 
 /* ===== DOM Helpers ===== */

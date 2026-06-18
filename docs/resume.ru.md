@@ -33,7 +33,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
-### Full-Stack Engineer (Contract) - Blueberry Consultants Ltd (Декабрь 2019 – Февраль 2020)
+### Senior Full-Stack Engineer (Contract) - Blueberry Consultants Ltd (Декабрь 2019 – Февраль 2020)
 
 *Подробнее о проектах → [Remedi, GEMS](./projects.ru.md#blueberry)*
 
@@ -64,7 +64,9 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
-### Старший разработчик - ООО «Дом ПК» (апрель 2015 – апрель 2017)
+### Technical Lead - ООО «Дом ПК» (апрель 2015 – апрель 2017)
+
+*Senior Full-Stack Engineer → Technical Lead*
 
 *Подробнее о проектах → [Донорство крови, Соц.-полит. дашборд, Энергорынок, ФИС ГИА, TESLA](./projects.ru.md#dom-pk)*
 
@@ -79,7 +81,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
-### Разработчик - Европейская медиагруппа (ЕМГ) (июль 2013 – апрель 2015)
+### Full-Stack Engineer - Европейская медиагруппа (ЕМГ) (июль 2013 – апрель 2015)
 
 *Подробнее о проектах → [Web Expenses, ITpedia, HelpDesk + AddInn](./projects.ru.md#emg)*
 
