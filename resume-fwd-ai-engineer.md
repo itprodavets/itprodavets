@@ -7,6 +7,7 @@ Forward Deployed AI Engineer with 15+ years embedded in enterprise clients — I
 - **AI/ML:** OpenAI, Azure OpenAI, LangChain, Semantic Kernel, RAG, MCP (tool servers for LLM agents), Qdrant, pgvector, embeddings, Ollama, document ingestion & parsing (PDF/DOCX)
 - **Languages (polyglot):** Go, C#, Python, TypeScript / JavaScript, C / C++, SQL, Bash
 - **Backend:** .NET / .NET Core, ASP.NET, Node.js, Gin / Echo, gRPC, REST / GraphQL, RabbitMQ, Kafka, MQTT, SignalR
+- **Frontend:** React, Next.js, Vue 3, TypeScript
 - **Architecture:** Microservices, CQRS, DDD, Event-Driven, Cloud-native
 - **Data:** PostgreSQL, TimescaleDB, ClickHouse, MSSQL, MySQL, Redis, MongoDB, pgvector
 - **Cloud & DevOps:** AWS, Docker, Kubernetes, Terraform, Prometheus / Grafana, CI/CD (GitHub Actions, GitLab CI)
@@ -19,7 +20,7 @@ Independent products built alongside commercial work: **DKH** — multi-tenant c
 
 ## Commercial Experience
 
-### Senior Software Developer (Forward Deployed) — GZ DKH Innovation Technology | Sep 2019 – Present
+### Forward Deployed AI Engineer — GZ DKH Innovation Technology | Sep 2019 – Present
 
 *Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
 
@@ -45,7 +46,7 @@ Short-term UK contract alongside primary employment — C#/.NET full-stack on tw
 
 *Detailed projects → [PPC Entourage](./projects.en.md#ppc-entourage)*
 
-Performance engineering on an Amazon advertising optimization SaaS (Amazon Ads & Seller APIs; React, Node.js, PostgreSQL on AWS) — profiled and optimized the product to run leaner, cutting infrastructure cost, and improved UI responsiveness for a faster customer experience.
+Short-term contract alongside primary employment — performance engineering on an Amazon advertising optimization SaaS (Amazon Ads & Seller APIs; React, Node.js, PostgreSQL on AWS): profiled and optimized the product to run leaner, cutting infrastructure cost, and improved UI responsiveness for a faster customer experience.
 
 **Stack:** React, Node.js, PostgreSQL, AWS
 

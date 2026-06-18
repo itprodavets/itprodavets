@@ -12,23 +12,11 @@ const RESUMES = {
     label: { en: 'Forward Deployed AI Engineer', ru: 'Forward Deployed AI Engineer' },
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>'
   },
-  'csharp-backend': {
-    en: 'resume-csharp-backend.md',
-    ru: 'resume-csharp-backend.ru.md',
-    label: { en: 'Senior C# Backend', ru: 'Senior C# Backend' },
-    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>'
-  },
-  'lead-csharp-backend': {
-    en: 'resume-lead-csharp-backend.md',
-    ru: 'resume-lead-csharp-backend.ru.md',
-    label: { en: 'Lead C# Backend', ru: 'Lead C# Backend' },
+  'engineering-lead': {
+    en: 'resume-engineering-lead.md',
+    ru: 'resume-engineering-lead.ru.md',
+    label: { en: 'Engineering Lead / Manager', ru: 'Engineering Lead / Manager' },
     icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>'
-  },
-  'go-backend': {
-    en: 'resume-go-backend.md',
-    ru: 'resume-go-backend.ru.md',
-    label: { en: 'Senior Go Backend', ru: 'Senior Go Backend' },
-    icon: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>'
   },
   'projects': {
     en: 'projects.en.md',

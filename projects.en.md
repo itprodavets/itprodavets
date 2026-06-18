@@ -158,7 +158,7 @@ Short-term contract alongside primary employment — performance-focused enginee
 
 ### Corporate Budget Planning System (Web Expenses)
 - Role: Full-Stack Developer
-- Duration: August 2013 – September 2015
+- Duration: August 2013 – April 2015
 - Description: Budget planning system for distributing company budget across projects, tasks, and employee requests. First web project in career — moved from WinForms/desktop to ASP.NET Web Forms.
 - Technologies: C#, .NET Framework, ASP.NET Web Forms, ADO.NET, MS SQL, Transact-SQL, LINQ, JavaScript, jQuery, Bootstrap, TFS, IIS
 

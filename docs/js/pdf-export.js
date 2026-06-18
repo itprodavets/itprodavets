@@ -3,9 +3,8 @@
    native print engine paginates the visible DOM into a PDF — no canvas
    rasterization, native text rendering, native links.
 
-   For *job-resume* views (full-resume / fwd-ai-engineer / csharp-backend /
-   lead-csharp-backend / go-backend) we also append the full Projects + Skills
-   sections at the
+   For *job-resume* views (full-resume / fwd-ai-engineer / engineering-lead) we
+   also append the full Projects + Skills sections at the
    end of the printed document so the resulting PDF is self-contained — a
    recruiter who opens the file offline still sees every project detail and
    the skill matrix.
@@ -20,7 +19,7 @@
   const downloadBtn = document.getElementById('downloadPdf');
   if (!downloadBtn) return;
 
-  const JOB_RESUMES = ['full-resume', 'fwd-ai-engineer', 'csharp-backend', 'lead-csharp-backend', 'go-backend'];
+  const JOB_RESUMES = ['full-resume', 'fwd-ai-engineer', 'engineering-lead'];
 
   let prePrintTitle = null;
   let preExpandedPanels = [];
