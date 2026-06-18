@@ -19,7 +19,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 #### Lead Forward Deployed AI Engineer | Сен 2024 – наст. время
 
-Внедряю production AI внутри систем enterprise-клиентов, не vendor demo. Построил AI Operations Assistant — RAG поверх техдокументации, журналов обслуживания и телеметрии для диагностики и автоматических отчётов об инцидентах (Semantic Kernel, Azure OpenAI, Qdrant / pgvector, MCP) — и веду AI/ops-слой платформы умных контейнеров на бэкенде C# / .NET 9 (gRPC, REST, Redis, RabbitMQ) поверх PostgreSQL / TimescaleDB.
+Разрабатываю и вывожу в прод AI, который приносит бизнес-результат — встроенный внутрь бизнеса, не vendor demo. Сейчас: AI-ассистенты и LLM-агенты, заземлённые на данных бизнеса через RAG (копайлоты для операций, поддержки и продаж), плюс AI-анализатор трафика и автоматические пайплайны лидогенерации, превращающие веб- и маркетинговый трафик в захваченных, оценённых и распределённых лидов. На C# / .NET 9 с Semantic Kernel / Azure OpenAI, векторным поиском (Qdrant / pgvector) и MCP tool-серверами поверх PostgreSQL / TimescaleDB.
 
 #### Technical Lead | Сен 2023 – Сен 2024
 

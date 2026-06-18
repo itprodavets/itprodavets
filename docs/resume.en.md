@@ -19,7 +19,7 @@ Forward Deployed Engineer with 15+ years embedded in enterprise clients across I
 
 #### Lead Forward Deployed AI Engineer | Sep 2024 – Present
 
-Ship production AI inside enterprise client systems, not as a vendor demo. Built an AI Operations Assistant — RAG over technical docs, maintenance logs, and telemetry for diagnostics and automated incident reports (Semantic Kernel, Azure OpenAI, Qdrant / pgvector, MCP) — and lead the AI / operations layer of the smart-container platform on a C# / .NET 9 backend (gRPC, REST, Redis, RabbitMQ) over PostgreSQL / TimescaleDB.
+Build and ship production AI that drives business outcomes — embedded inside the business, not as a vendor demo. Current work: AI assistants and LLM agents grounded on the business's own data via RAG (operations, support, and sales copilots), plus an AI traffic analyzer and automated lead-generation pipelines that turn web and marketing traffic into captured, scored, and routed prospects. Built on C# / .NET 9 with Semantic Kernel / Azure OpenAI, vector search (Qdrant / pgvector), and MCP tool servers over PostgreSQL / TimescaleDB.
 
 #### Technical Lead | Sep 2023 – Sep 2024
 
