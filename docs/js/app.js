@@ -115,11 +115,12 @@ const $$ = (sel) => document.querySelectorAll(sel);
 /* ===== Markdown fetching with cache ===== */
 async function fetchMarkdown(filename) {
   if (state.cache[filename]) return state.cache[filename];
-  // Always revalidate from the network so content edits show up without a
-  // version bump or a stale per-URL browser cache. jsDelivr @main + the purge
-  // workflow handle CDN freshness; { cache: 'reload' } defeats the browser's
-  // own HTTP cache, which is what kept serving stale résumé content before.
-  const response = await fetch(RAW_BASE + filename, { cache: 'reload' });
+  // Bust the browser cache AND jsDelivr's per-URL edge cache with a unique
+  // per-load token — the bare URL could otherwise stay stale on jsDelivr's edge
+  // even with cache:reload (purge-vs-@main-lag race). A unique query is always a
+  // cache-miss → fresh from origin. Only jsDelivr's ~1-2 min @main propagation
+  // remains. (state.cache still dedupes within a single page session.)
+  const response = await fetch(RAW_BASE + filename + '?t=' + Date.now(), { cache: 'reload' });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const text = await response.text();
   state.cache[filename] = text;
