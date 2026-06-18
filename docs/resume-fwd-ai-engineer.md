@@ -36,7 +36,7 @@ Short-term UK contract alongside primary employment — C#/.NET full-stack on tw
 
 **Stack:** C#, .NET / .NET Core, ASP.NET, REST / Web API, MS SQL Server, MySQL, TypeScript, Angular, document processing (DOC/DOCX, PDF)
 
-### Lead Developer — KPMG | May 2017 – Sep 2019
+### Technical Lead — KPMG | May 2017 – Sep 2019
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
 

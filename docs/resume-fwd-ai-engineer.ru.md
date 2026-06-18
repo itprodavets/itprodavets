@@ -36,7 +36,7 @@ Embedded с крупными технологическими заказчика
 
 **Стек:** C#, .NET / .NET Core, ASP.NET, REST / Web API, MS SQL Server, MySQL, TypeScript, Angular, обработка документов (DOC/DOCX, PDF)
 
-### Ведущий разработчик — KPMG | Май 2017 – Сентябрь 2019
+### Technical Lead — KPMG | Май 2017 – Сентябрь 2019
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 
