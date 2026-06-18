@@ -33,7 +33,7 @@ Designed and developed backend and full-stack solutions in IoT, e-commerce, mark
 
 ---
 
-### Full-Stack Engineer (Contract) - Blueberry Consultants Ltd (December 2019 – February 2020)
+### Senior Full-Stack Engineer (Contract) - Blueberry Consultants Ltd (December 2019 – February 2020)
 
 *Detailed projects → [Remedi, GEMS](./projects.en.md#blueberry)*
 
@@ -64,7 +64,9 @@ Designed architecture and developed tax reporting automation and tax process opt
 
 ---
 
-### Senior Developer - Dom PK LLC (April 2015 – April 2017)
+### Technical Lead - Dom PK LLC (April 2015 – April 2017)
+
+*Senior Full-Stack Engineer → Technical Lead*
 
 *Detailed projects → [Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
 
@@ -79,7 +81,7 @@ Developed information and analytical systems for government institutions (Minist
 
 ---
 
-### Developer - European Media Group (EMG) (July 2013 – April 2015)
+### Full-Stack Engineer - European Media Group (EMG) (July 2013 – April 2015)
 
 *Detailed projects → [Web Expenses, ITpedia, HelpDesk + AddInn](./projects.en.md#emg)*
 
