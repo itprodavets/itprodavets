@@ -972,8 +972,8 @@ body {
    - declare break-* rules so the engine keeps atomic blocks together
 */
 @media print {
-  /* Page setup: A4 portrait with generous margins for binding-safe printout */
-  @page { size: A4; margin: 14mm 12mm 16mm 12mm; }
+  /* Page setup: A4 portrait with compact but print-safe margins */
+  @page { size: A4; margin: 11mm 9mm 11mm 9mm; }
 
   /* Force light palette regardless of system theme — the dark-mode CSS-var
      overrides in @media (prefers-color-scheme: dark) would otherwise win
@@ -1021,44 +1021,44 @@ body {
 
   /* Reset main layout so resume content occupies the page edge-to-edge
      (the @page margin already provides paper-safe gutters) */
-  html, body { background: #ffffff !important; margin: 0 !important; padding: 0 !important; }
-  body { color: #1a1a1a !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html, body { background: #ffffff !important; margin: 0 !important; padding: 0 !important; height: auto !important; min-height: 0 !important; }
+  body { display: block !important; grid-template: none !important; color: #1a1a1a !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .main { padding: 0 !important; max-width: none !important; margin: 0 !important; }
 
   /* Resume content typography for A4 */
-  .resume-content { font-size: 10.5pt; line-height: 1.5; color: #1a1a1a !important; }
-  .resume-content p { margin: 0 0 6pt; orphans: 4; widows: 4; }
-  .resume-content ul, .resume-content ol { padding-left: 18pt; margin: 0 0 6pt; orphans: 4; widows: 4; }
-  .resume-content li { margin-bottom: 2pt; orphans: 2; widows: 2; }
+  .resume-content { font-size: 9.8pt; line-height: 1.36; color: #1a1a1a !important; }
+  .resume-content p { margin: 0 0 4.5pt; orphans: 4; widows: 4; }
+  .resume-content ul, .resume-content ol { padding-left: 16pt; margin: 0 0 4.5pt; orphans: 4; widows: 4; page-break-inside: avoid; break-inside: avoid; }
+  .resume-content li { margin-bottom: 1.2pt; orphans: 2; widows: 2; page-break-inside: avoid; break-inside: avoid; }
   .resume-content strong { color: #0a0a0a !important; }
   .resume-content em { color: #555555 !important; font-style: italic; }
 
   /* Headings — keep with their following content, no decoration accent bar */
   .resume-content h1 { font-size: 22pt; margin: 0 0 4pt; color: #0a0a0a !important; page-break-after: avoid; break-after: avoid; }
-  .resume-content h2 { font-size: 11pt; text-transform: uppercase; letter-spacing: 0.08em; color: #6b6b6b !important; margin: 14pt 0 6pt; padding-bottom: 3pt; border-bottom: 1px solid #ccc; page-break-after: avoid; break-after: avoid; }
+  .resume-content h2 { font-size: 10.2pt; text-transform: uppercase; letter-spacing: 0.08em; color: #6b6b6b !important; margin: 10pt 0 4.5pt; padding-bottom: 2.5pt; border-bottom: 1px solid #ccc; page-break-after: avoid; break-after: avoid; }
   .resume-content h2::before { display: none !important; }
-  .resume-content h3 { font-size: 12pt; margin: 8pt 0 3pt; color: #0a0a0a !important; page-break-after: avoid; break-after: avoid; }
+  .resume-content h3 { font-size: 11pt; margin: 6pt 0 2pt; color: #0a0a0a !important; page-break-after: avoid; break-after: avoid; }
 
   /* "Денис Харченко" header block + contact line */
   .resume-header { margin-bottom: 4pt; page-break-after: avoid; page-break-inside: avoid; break-inside: avoid; }
-  .resume-name { font-size: 22pt; color: #0a0a0a !important; line-height: 1.1; }
-  .resume-role { font-size: 12pt; color: #c7472d !important; }
-  .resume-contact { font-size: 9.5pt; color: #6b6b6b !important; }
+  .resume-name { font-size: 21pt; color: #0a0a0a !important; line-height: 1.1; }
+  .resume-role { font-size: 11.5pt; color: #c7472d !important; margin-bottom: 3pt; }
+  .resume-contact { font-size: 9.2pt; color: #6b6b6b !important; }
   .resume-contact a { color: #c7472d !important; text-decoration: none; }
   .header-separator { display: none !important; }
 
   /* Job header (.job-title left, .job-dates right) */
-  .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; margin: 10pt 0 3pt; page-break-after: avoid; page-break-inside: avoid; break-inside: avoid; }
-  .job-title { font-weight: 600; color: #0a0a0a !important; flex: 1 1 auto; }
-  .job-dates { font-size: 9pt; color: #6b6b6b !important; background: #f5f0e8; padding: 1pt 6pt; border-radius: 4pt; white-space: nowrap; }
+  .job-header { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: baseline; gap: 10pt; margin: 7pt 0 2pt; page-break-before: avoid; page-break-after: avoid; page-break-inside: avoid; break-before: avoid; break-after: avoid; break-inside: avoid; }
+  .job-title { font-size: 10.5pt; line-height: 1.25; font-weight: 600; color: #0a0a0a !important; flex: 1 1 0; min-width: 0; }
+  .job-dates { font-size: 8.5pt; color: #6b6b6b !important; background: #f5f0e8; padding: 1pt 5pt; border-radius: 4pt; white-space: nowrap; flex: 0 0 auto; }
 
   /* Sub-role under a company group — nested beneath the H3 company header */
-  .job-subrole { margin: 6pt 0 2pt; padding-left: 8pt; border-left: 1.5pt solid #c7472d; page-break-after: avoid; page-break-inside: avoid; break-inside: avoid; }
-  .job-subrole .job-title { font-size: 10.5pt; }
-  .job-subrole .job-dates { font-size: 8pt; }
+  .job-subrole { margin: 4.5pt 0 1.5pt; padding-left: 7pt; border-left: 1.5pt solid #c7472d; page-break-before: avoid; page-break-after: avoid; page-break-inside: avoid; break-before: avoid; break-after: avoid; break-inside: avoid; }
+  .job-subrole .job-title { font-size: 10pt; }
+  .job-subrole .job-dates { font-size: 7.8pt; }
 
   /* "Detailed projects → ..." banner — short single-block, keep whole */
-  .detailed-projects { background: #fef8f5; border-left: 2pt solid #c7472d; padding: 3pt 7pt; font-size: 9pt; color: #6b6b6b !important; margin: 0 0 8pt; border-radius: 0 3pt 3pt 0; page-break-inside: avoid; break-inside: avoid; }
+  .detailed-projects { background: #fef8f5; border-left: 2pt solid #c7472d; padding: 2pt 6pt; font-size: 8.5pt; color: #6b6b6b !important; margin: 0 0 5pt; border-radius: 0 3pt 3pt 0; page-break-after: avoid; page-break-inside: avoid; break-after: avoid; break-inside: avoid; }
   .detailed-projects::before { content: "→ "; color: #c7472d; font-weight: 700; }
 
   /* Inline links — accent color, no underline (printed text feels heavy) */
