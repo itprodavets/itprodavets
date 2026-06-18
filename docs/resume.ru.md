@@ -1,15 +1,15 @@
 # Денис Харченко
 
-Forward Deployed Engineer с 15+ годами опыта embedded в enterprise клиентах в области IoT, e-commerce, финтеха, здравоохранения и государственного сектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю DKH multi-tenant commerce platform + thetea.app.
+Forward Deployed Engineer с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю DKH multi-tenant commerce platform + thetea.app.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-- **Языки:** Go, C#, JavaScript, TypeScript, Python, C++, C, SQL, Bash
-- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
-- **Фронтенд:** Vue.js/Next.js/Nuxt.js, React/Angular, HTML5/CSS3, WebSocket
-- **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, Redis, MongoDB
+- **Языки:** Go, C#, JavaScript, TypeScript, C++, C, SQL, Bash
+- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST API, RabbitMQ, SignalR, MQTT
+- **Фронтенд:** Vue.js/Next.js, React/Angular, HTML5/CSS3, WebSocket
+- **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, Redis
 - **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
-- **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Terraform, Prometheus/Grafana, CI/CD
+- **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
 
 ## Коммерческий опыт
 
