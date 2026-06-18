@@ -19,7 +19,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ## Коммерческий опыт
 
-### Старший разработчик - GZ DKH Innovation Technology (сентябрь 2019 – настоящее время)
+### Forward Deployed AI Engineer - GZ DKH Innovation Technology (сентябрь 2019 – настоящее время)
 
 *Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 

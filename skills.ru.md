@@ -51,7 +51,7 @@
 
 - **Vue 3** · since 2021 · Marketing Campaign Manager, Fleet Tracking, Dealer Portal, Production Line Monitor
 - **Angular (2 → 8+)** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS Automation, Дом ПК TESLA, Blueberry Remedi
-- **AngularJS (1)** · since 2021 · KPMG BEPS (ранние версии), Дом ПК Портал балансирующего рынка, Blueberry (GEMS, Remedi)
+- **AngularJS (1)** · since 2015 · KPMG BEPS (ранние версии), Дом ПК Портал балансирующего рынка, Blueberry (GEMS, Remedi)
 - **D3.js** · since 2019 · KPMG Smart Tax, KPMG BEPS, Дом ПК Дашборд метрик, Production Line Monitor
 - **Tailwind CSS (3)** · since 2023 · DKH UI, thetea.app
 - **Kafka** · since 2023 · клиентские проекты GZ DKH (Fleet Tracking)
@@ -74,14 +74,14 @@
 
 Глубокий исторический опыт. Сейчас активно не использую, но мышечная память на месте.
 
-- **ASP.NET WebForms** · since 2022 · KPMG (ранние), Дом ПК (Энергорынок), ЕМГ (Web Expenses)
-- **WinForms** · since 2021 · автоматизация Химоил, ЕМГ (ITpedia, HelpDesk + AddInn)
-- **jQuery** · since 2021 · Дом ПК (несколько порталов), ЕМГ
-- **Telerik / DevExpress** · since 2022 · Дом ПК (Донорство, Энергорынок), ЕМГ (ITpedia, HelpDesk)
-- **CryptoPro CSP** · since 2024 · Дом ПК Портал балансирующего рынка
-- **Knockout JS** · since 2025 · Дом ПК ФИС ГИА
-- **AutoMapper / Autofac** · since 2025 · Дом ПК TESLA
-- **Bootstrap (3 / 4)** · since 2021 · Дом ПК, ЕМГ, веб-отчёты Химоил
+- **ASP.NET WebForms** · since 2013 · KPMG (ранние), Дом ПК (Энергорынок), ЕМГ (Web Expenses)
+- **WinForms** · since 2009 · автоматизация Химоил, ЕМГ (ITpedia, HelpDesk + AddInn)
+- **jQuery** · since 2013 · Дом ПК (несколько порталов), ЕМГ
+- **Telerik / DevExpress** · since 2013 · Дом ПК (Донорство, Энергорынок), ЕМГ (ITpedia, HelpDesk)
+- **CryptoPro CSP** · since 2015 · Дом ПК Портал балансирующего рынка
+- **Knockout JS** · since 2015 · Дом ПК ФИС ГИА
+- **AutoMapper / Autofac** · since 2015 · Дом ПК TESLA
+- **Bootstrap (3 / 4)** · since 2013 · Дом ПК, ЕМГ, веб-отчёты Химоил
 - **Raw ADO.NET** · since 2009 · Химоил (основной доступ к данным), ЕМГ, fallbacks
 - **T-SQL stored procedures / OLAP** · since 2009 · DEPO Computers, отчёты Дом ПК, Химоил
-- **TFS / SVN** · since 2021 · Химоил, ЕМГ, ранний Дом ПК (до Git)
+- **TFS / SVN** · since 2013 · Химоил, ЕМГ, ранний Дом ПК (до Git)

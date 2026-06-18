@@ -51,7 +51,7 @@ Used in past or sporadically — can ramp up quickly.
 
 - **Vue 3** · since 2021 · GZ DKH Marketing Campaign Manager, Fleet Tracking, Dealer Portal, Production Line Monitor
 - **Angular (2 → 8+)** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS Automation, Dom PK TESLA, Blueberry Remedi
-- **AngularJS (1)** · since 2021 · KPMG BEPS (early), Dom PK Energy Balancing Market Portal, Blueberry (GEMS, Remedi)
+- **AngularJS (1)** · since 2015 · KPMG BEPS (early), Dom PK Energy Balancing Market Portal, Blueberry (GEMS, Remedi)
 - **D3.js** · since 2019 · KPMG Smart Tax Solution, KPMG BEPS, Dom PK Metrics Dashboard, Production Line Monitor
 - **Tailwind CSS (3)** · since 2023 · DKH UIs, thetea.app
 - **Kafka** · since 2023 · GZ DKH client engagements (Fleet Tracking)
@@ -74,14 +74,14 @@ Used in past or sporadically — can ramp up quickly.
 
 Deep historical experience. Less active now, but the muscle memory is there.
 
-- **ASP.NET WebForms** · since 2022 · KPMG (early), Dom PK (Energy Balancing Market), EMG (Web Expenses)
-- **WinForms** · since 2021 · Himoil business process automation, EMG (ITpedia, HelpDesk + AddInn)
-- **jQuery** · since 2021 · Dom PK (multiple portals), EMG
-- **Telerik / DevExpress** · since 2022 · Dom PK (Blood Donation, Energy Market), EMG (ITpedia, HelpDesk)
-- **CryptoPro CSP** · since 2024 · Dom PK Energy Balancing Market Portal
-- **Knockout JS** · since 2025 · Dom PK Federal Exam Processing System (ФИС ГИА)
-- **AutoMapper / Autofac** · since 2025 · Dom PK Industry Events Portal (TESLA)
-- **Bootstrap (3 / 4)** · since 2021 · Dom PK, EMG, Himoil web reports
+- **ASP.NET WebForms** · since 2013 · KPMG (early), Dom PK (Energy Balancing Market), EMG (Web Expenses)
+- **WinForms** · since 2009 · Himoil business process automation, EMG (ITpedia, HelpDesk + AddInn)
+- **jQuery** · since 2013 · Dom PK (multiple portals), EMG
+- **Telerik / DevExpress** · since 2013 · Dom PK (Blood Donation, Energy Market), EMG (ITpedia, HelpDesk)
+- **CryptoPro CSP** · since 2015 · Dom PK Energy Balancing Market Portal
+- **Knockout JS** · since 2015 · Dom PK Federal Exam Processing System (ФИС ГИА)
+- **AutoMapper / Autofac** · since 2015 · Dom PK Industry Events Portal (TESLA)
+- **Bootstrap (3 / 4)** · since 2013 · Dom PK, EMG, Himoil web reports
 - **Raw ADO.NET** · since 2009 · Himoil (primary data access), EMG, fallbacks since
 - **T-SQL stored procedures / OLAP** · since 2009 · DEPO Computers, Dom PK reports, Himoil
-- **TFS / SVN** · since 2021 · Himoil, EMG, early Dom PK (legacy VCS before Git)
+- **TFS / SVN** · since 2013 · Himoil, EMG, early Dom PK (legacy VCS before Git)

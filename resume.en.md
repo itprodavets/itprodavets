@@ -19,7 +19,7 @@ Independent products built alongside commercial work: **DKH** — multi-tenant c
 
 ## Commercial Experience
 
-### Senior Software Developer - GZ DKH Innovation Technology (September 2019 – Present)
+### Forward Deployed AI Engineer - GZ DKH Innovation Technology (September 2019 – Present)
 
 *Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
 

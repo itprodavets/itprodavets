@@ -7,6 +7,7 @@ Forward Deployed AI Engineer с 15+ годами опыта embedded в enterpri
 - **AI/ML:** OpenAI, Azure OpenAI, LangChain, Semantic Kernel, RAG, MCP (tool-серверы для LLM-агентов), Qdrant, pgvector, embeddings, Ollama, ingestion и парсинг документов (PDF/DOCX)
 - **Языки (полиглот):** Go, C#, Python, TypeScript / JavaScript, C / C++, SQL, Bash
 - **Бэкенд:** .NET / .NET Core, ASP.NET, Node.js, Gin / Echo, gRPC, REST / GraphQL, RabbitMQ, Kafka, MQTT, SignalR
+- **Фронтенд:** React, Next.js, Vue 3, TypeScript
 - **Архитектура:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native
 - **Данные:** PostgreSQL, TimescaleDB, ClickHouse, MSSQL, MySQL, Redis, MongoDB, pgvector
 - **Cloud и DevOps:** AWS, Docker, Kubernetes, Terraform, Prometheus / Grafana, CI/CD (GitHub Actions, GitLab CI)
@@ -19,7 +20,7 @@ Forward Deployed AI Engineer с 15+ годами опыта embedded в enterpri
 
 ## Коммерческий опыт
 
-### Старший разработчик (Forward Deployed) — GZ DKH Innovation Technology | Сентябрь 2019 – настоящее время
+### Forward Deployed AI Engineer — GZ DKH Innovation Technology | Сентябрь 2019 – настоящее время
 
 *Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 
@@ -45,7 +46,7 @@ Embedded с крупными технологическими заказчика
 
 *Подробнее о проектах → [PPC Entourage](./projects.ru.md#ppc-entourage)*
 
-Инженерия производительности для SaaS оптимизации рекламы Amazon (Amazon Ads & Seller API; React, Node.js, PostgreSQL на AWS) — профилировал и оптимизировал продукт, чтобы он работал легче (снизив стоимость инфраструктуры), и улучшил отзывчивость интерфейса для более быстрого клиентского опыта.
+Краткосрочный контракт параллельно основной занятости — инженерия производительности для SaaS оптимизации рекламы Amazon (Amazon Ads & Seller API; React, Node.js, PostgreSQL на AWS): профилировал и оптимизировал продукт, чтобы он работал легче (снизив стоимость инфраструктуры), и улучшил отзывчивость интерфейса для более быстрого клиентского опыта.
 
 **Стек:** React, Node.js, PostgreSQL, AWS
 
