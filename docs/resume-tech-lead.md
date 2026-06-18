@@ -1,4 +1,4 @@
-# Denis Kharchenko — Tech Lead
+# Denis Kharchenko — Technical Lead
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
@@ -14,11 +14,11 @@ Technical lead with 15+ years building software and 5+ years in technical leader
 
 ## Commercial Experience
 
-### Tech Lead — GZ DKH Innovation Technology | Sep 2019 – Present
+### Technical Lead — GZ DKH Innovation Technology | Sep 2019 – Present
 
 *Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
 
-Progressed Senior Full-Stack Engineer → Tech Lead → Lead Forward Deployed AI Engineer. Owned architecture and technical direction for teams delivering solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Defined microservice architecture, established coding standards, and drove key technical decisions across the full stack. Built an AI operations assistant using Semantic Kernel with RAG architecture. Ran business analysis end-to-end: stakeholder interviews and requirements workshops, user stories with acceptance criteria, SRS documents, API contracts (OpenAPI), sequence and BPMN diagrams. Grew and mentored the team from 2 to 5 developers, brought 3+ juniors to mid-level, conducted code reviews.
+Progressed Senior Full-Stack Engineer → Technical Lead → Lead Forward Deployed AI Engineer. Owned architecture and technical direction for teams delivering solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Defined microservice architecture, established coding standards, and drove key technical decisions across the full stack. Built an AI operations assistant using Semantic Kernel with RAG architecture. Ran business analysis end-to-end: stakeholder interviews and requirements workshops, user stories with acceptance criteria, SRS documents, API contracts (OpenAPI), sequence and BPMN diagrams. Grew and mentored the team from 2 to 5 developers, brought 3+ juniors to mid-level, conducted code reviews.
 
 - Grew and mentored the backend team from 2 to 5 developers
 - Established CI/CD pipelines, a code-review process, and engineering best practices
@@ -42,7 +42,7 @@ Technical lead on tax automation platforms for tax authorities worldwide. Guided
 
 **Stack:** C#, .NET Core, ASP.NET, EF Core, LINQ, OData, CQRS, DDD, MS SQL, Angular, TypeScript
 
-### Senior Full-Stack Developer — Dom PK LLC | Apr 2015 – Apr 2017
+### Senior Developer — Dom PK LLC | Apr 2015 – Apr 2017
 
 *Detailed projects → [Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
 

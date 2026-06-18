@@ -15,7 +15,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ### Lead Forward Deployed AI Engineer - GZ DKH Innovation Technology (сентябрь 2019 – настоящее время)
 
-*Senior Full-Stack Engineer → Tech Lead → Lead Forward Deployed AI Engineer*
+*Senior Full-Stack Engineer → Technical Lead → Lead Forward Deployed AI Engineer*
 
 *Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 
@@ -47,23 +47,9 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
-### Software Engineer (Contract) - PPC Entourage (сентябрь 2021 – декабрь 2021)
+### Ведущий разработчик - KPMG (май 2017 – сентябрь 2019)
 
-*Подробнее о проектах → [PPC Entourage](./projects.ru.md#ppc-entourage)*
-
-Краткосрочный контракт параллельно основной занятости — инженерия производительности для SaaS оптимизации рекламы Amazon поверх Amazon Advertising и Seller API. Профилировал и оптимизировал продукт, чтобы он работал легче (снизив стоимость инфраструктуры), и улучшил отзывчивость интерфейса для более быстрого клиентского опыта.
-
-- **Языки:** JavaScript, TypeScript
-- **Фронтенд:** React
-- **Бэкенд:** Node.js
-- **Базы данных:** PostgreSQL
-- **Облако:** AWS
-
----
-
-### Ведущий программист - KPMG (май 2017 – сентябрь 2019)
-
-*Senior Developer → Team Lead*
+*Senior Full-Stack Engineer → Lead Developer*
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 
@@ -78,9 +64,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
-### Старший разработчик полного стека - ООО «Дом ПК» (апрель 2015 – апрель 2017)
-
-*Full-Stack Developer → Team Lead*
+### Старший разработчик - ООО «Дом ПК» (апрель 2015 – апрель 2017)
 
 *Подробнее о проектах → [Донорство крови, Соц.-полит. дашборд, Энергорынок, ФИС ГИА, TESLA](./projects.ru.md#dom-pk)*
 
@@ -95,7 +79,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
-### Разработчик полного стека - Европейская медиагруппа (ЕМГ) (июль 2013 – апрель 2015)
+### Разработчик - Европейская медиагруппа (ЕМГ) (июль 2013 – апрель 2015)
 
 *Подробнее о проектах → [Web Expenses, ITpedia, HelpDesk + AddInn](./projects.ru.md#emg)*
 

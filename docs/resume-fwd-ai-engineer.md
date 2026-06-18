@@ -36,14 +36,6 @@ Short-term UK contract alongside primary employment — C#/.NET full-stack on tw
 
 **Stack:** C#, .NET / .NET Core, ASP.NET, REST / Web API, MS SQL Server, MySQL, TypeScript, Angular, document processing (DOC/DOCX, PDF)
 
-### Software Engineer (Contract) — PPC Entourage | Sep 2021 – Dec 2021
-
-*Detailed projects → [PPC Entourage](./projects.en.md#ppc-entourage)*
-
-Short-term contract alongside primary employment — performance engineering on an Amazon advertising optimization SaaS (Amazon Ads & Seller APIs; React, Node.js, PostgreSQL on AWS): profiled and optimized the product to run leaner, cutting infrastructure cost, and improved UI responsiveness for a faster customer experience.
-
-**Stack:** React, Node.js, PostgreSQL, AWS
-
 ### Lead Developer — KPMG | May 2017 – Sep 2019
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*

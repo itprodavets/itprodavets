@@ -36,14 +36,6 @@ Embedded с крупными технологическими заказчика
 
 **Стек:** C#, .NET / .NET Core, ASP.NET, REST / Web API, MS SQL Server, MySQL, TypeScript, Angular, обработка документов (DOC/DOCX, PDF)
 
-### Software Engineer (Contract) — PPC Entourage | Сентябрь 2021 – Декабрь 2021
-
-*Подробнее о проектах → [PPC Entourage](./projects.ru.md#ppc-entourage)*
-
-Краткосрочный контракт параллельно основной занятости — инженерия производительности для SaaS оптимизации рекламы Amazon (Amazon Ads & Seller API; React, Node.js, PostgreSQL на AWS): профилировал и оптимизировал продукт, чтобы он работал легче (снизив стоимость инфраструктуры), и улучшил отзывчивость интерфейса для более быстрого клиентского опыта.
-
-**Стек:** React, Node.js, PostgreSQL, AWS
-
 ### Ведущий разработчик — KPMG | Май 2017 – Сентябрь 2019
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*

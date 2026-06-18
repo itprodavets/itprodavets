@@ -15,7 +15,7 @@ Forward Deployed Engineer with 15+ years embedded in enterprise clients across I
 
 ### Lead Forward Deployed AI Engineer - GZ DKH Innovation Technology (September 2019 – Present)
 
-*Senior Full-Stack Engineer → Tech Lead → Lead Forward Deployed AI Engineer*
+*Senior Full-Stack Engineer → Technical Lead → Lead Forward Deployed AI Engineer*
 
 *Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
 
@@ -47,23 +47,9 @@ Short-term project contract alongside primary employment — full-stack developm
 
 ---
 
-### Software Engineer (Contract) - PPC Entourage (September 2021 – December 2021)
-
-*Detailed projects → [PPC Entourage](./projects.en.md#ppc-entourage)*
-
-Short-term contract alongside primary employment — performance engineering on an Amazon advertising optimization SaaS running against Amazon's Advertising and Seller APIs. Profiled and optimized the product to run leaner, reducing infrastructure cost, and improved interface responsiveness for a faster customer experience.
-
-- **Languages:** JavaScript, TypeScript
-- **Frontend:** React
-- **Backend:** Node.js
-- **Databases:** PostgreSQL
-- **Cloud:** AWS
-
----
-
 ### Lead Developer - KPMG (May 2017 – September 2019)
 
-*Senior Developer → Team Lead*
+*Senior Full-Stack Engineer → Lead Developer*
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
 
@@ -78,9 +64,7 @@ Designed architecture and developed tax reporting automation and tax process opt
 
 ---
 
-### Senior Full-Stack Developer - Dom PK LLC (April 2015 – April 2017)
-
-*Full-Stack Developer → Team Lead*
+### Senior Developer - Dom PK LLC (April 2015 – April 2017)
 
 *Detailed projects → [Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
 
@@ -95,7 +79,7 @@ Developed information and analytical systems for government institutions (Minist
 
 ---
 
-### Full-Stack Developer - European Media Group (EMG) (July 2013 – April 2015)
+### Developer - European Media Group (EMG) (July 2013 – April 2015)
 
 *Detailed projects → [Web Expenses, ITpedia, HelpDesk + AddInn](./projects.en.md#emg)*
 
