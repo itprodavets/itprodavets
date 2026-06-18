@@ -5,10 +5,10 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
 - **Languages:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
-- **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
+- **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
 - **Frontend:** Vue.js/Next.js, React/Angular, HTML5/CSS3, WebSocket
-- **Databases:** PostgreSQL/MySQL/MSSQL, TimescaleDB, Redis
-- **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
+- **Databases:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
+- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Architecture & DevOps:** Microservices, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
 
 ## Commercial Experience
@@ -19,13 +19,14 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 
 #### Founder & Lead Forward Deployed AI Engineer | 2025 – Present
 
-Building DKH — a multi-tenant SaaS commerce platform that lets domain-expert founders launch e-commerce ventures without redoing the engineering: multi-tenant isolation, AI as an action layer (not just chat), Telegram-first storefronts, China-direct supply chain. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). 20+ event-driven microservices. AI services: **tea-assistant** (RAG chatbot — LangChain + OpenAI / Ollama + pgvector), **thetea-mcp** (MCP server exposing catalog/orders to LLM agents), **ai-docs-hub** (open-source RAG knowledge base, Go / Gin), plus the marketing & lead-generation analytics layer.
+Building DKH — a multi-tenant SaaS commerce platform (a .NET monorepo of 40+ services, gateways, and workers on a shared platform) that lets domain-expert founders launch e-commerce ventures without redoing the engineering: plugin architecture, multi-tenant isolation, Telegram-first storefronts, AI as an action layer. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). Built end-to-end: storefront & admin GraphQL / gRPC gateways, an **MCP gateway** exposing the platform to LLM agents, an **embedding / RAG worker** (Qdrant + OpenAI / Ollama) for AI search and assistants, a **ClickHouse analytics worker** for marketing & lead generation, Keycloak auth, RabbitMQ messaging, SignalR realtime.
 
-- **Languages:** Go, C#, Python, TypeScript
-- **Backend & API:** .NET 10, Node.js, Gin, gRPC, GraphQL, REST, Kafka, RabbitMQ, MCP
-- **AI/ML:** OpenAI API, LangChain, Ollama, RAG, Qdrant, pgvector, Embeddings
+- **Languages:** C#, TypeScript
+- **Backend & API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP
+- **AI/ML:** OpenAI, Ollama, Qdrant, RAG, Embeddings
 - **Frontend:** Next.js, React, TypeScript, Tailwind, Telegram Mini App
-- **Data & Platform:** PostgreSQL, Redis, Docker, CQRS, DDD, OpenTelemetry, CI/CD
+- **Data:** PostgreSQL, MongoDB, ClickHouse, Redis
+- **Platform & DevOps:** Keycloak, OpenTelemetry, Docker, GitLab CI, DDD, CQRS
 
 ---
 
@@ -51,7 +52,7 @@ Led architecture and the team on the Empire of Bloom smart-container IoT platfor
 
 #### Senior Full-Stack Engineer | Sep 2019 – Sep 2023
 
-Embedded in client teams shipping production code. Engagement #1 (telecom / electronics multinational): Production Line Monitor (real-time IoT line monitoring), Dealer Portal (orders, shipments, ERP integration), and Marketing Campaign Manager. From 2022 — started the Empire of Bloom platform: multi-platform eCommerce (many backend services in Go) and the real-time Fleet Tracking Platform.
+Embedded in client teams shipping production code. Engagement #1 (telecom / electronics multinational): Production Line Monitor (real-time IoT line monitoring), Dealer Portal (orders, shipments, ERP integration), and Marketing Campaign Manager. From 2022 — started the Empire of Bloom platform: multi-platform eCommerce and the real-time Fleet Tracking Platform (Go).
 
 - **Languages:** C#, Go, JavaScript, TypeScript
 - **Backend:** .NET Core, EF Core, CQRS, DDD, gRPC, RabbitMQ, SignalR, MQTT

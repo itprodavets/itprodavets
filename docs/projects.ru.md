@@ -7,7 +7,7 @@
 ### DKH — Multi-tenant Commerce Platform
 - Роль: Founder / Tech Lead (solo)
 - Описание: Мультитенантная SaaS commerce-платформа — applying Forward Deployed Engineering thinking к собственному продукту. Build как infrastructure что позволяет domain-expert founders запускать e-commerce ventures без переписывания engineering каждый раз. Первый venture, запущенный на DKH — thetea.app. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI as action layer (не chat), Telegram-first storefront, China-direct supply chain как first-class concept.
-- Технологии: Go, C# 14, .NET 10, Python, Next.js 16, React 19, TypeScript 5.9, PostgreSQL, Redis, RabbitMQ, Kafka, gRPC, GraphQL, REST API, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol)
+- Технологии: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
 ### thetea.app (с экосистемой: thetea-mcp, tea-assistant, ai-docs-hub)
@@ -98,7 +98,7 @@ Forward Deployed-инженерия для enterprise-клиентов в обл
 
 ### Empire of Bloom — Smart Container Platform (2022 – настоящее время)
 **Empire of Bloom** ([empireofbloom.com](https://www.empireofbloom.com/)) — smart-container IoT платформа для global cloud / IoT platform partner: embedded firmware (FreeRTOS, C/C++) для координации устройств в контейнере, backend-сервисы, real-time fleet telemetry (GPS, температура, влажность, двери), remote OTA, алертинг при критических сбоях и production AI operations layer — плюс мультиплатформенный commerce. Поставлено:
-- **eCommerce** — Мультиплатформенное решение для e-commerce (многие backend-сервисы на Go) с маркетинговым модулем и лидогенерацией (слой отдела маркетинга): захватывает, скорит и маршрутизирует лидов из веб- и маркетингового трафика. Стек: Go, C#, .NET 8, gRPC, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, TypeScript, Next.js 14, React.
+- **eCommerce** — Мультиплатформенное решение для e-commerce с маркетинговым модулем и лидогенерацией (слой отдела маркетинга): захватывает, скорит и маршрутизирует лидов из веб- и маркетингового трафика. Стек: C#, .NET 8, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, TypeScript, Next.js 14, React.
 - **Fleet Tracking Platform** — Real-time fleet telemetry, визуализация маршрутов, аналитические отчёты. Стек: Go, PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Leaflet.js.
 - **Container Diagnostics Service** — Микросервис удалённой диагностики контейнеров + OTA-обновления + алертинг при критических сбоях. Стек: C#, .NET 9, gRPC, SignalR, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Grafana.
 - **AI Operations Assistant** — AI-ассистент для операций с парком контейнеров. RAG поверх документации, журналов обслуживания и телеметрии для диагностики + генерации отчётов об инцидентах. Стек: C#, .NET 9, Semantic Kernel, Azure OpenAI, Qdrant, pgvector, PostgreSQL, gRPC, REST API, Redis, RabbitMQ, Docker, TypeScript, React, Next.js.
