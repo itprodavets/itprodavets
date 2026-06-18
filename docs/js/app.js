@@ -107,6 +107,10 @@ const RAW_BASE = IS_LOCAL
   ? location.pathname.replace(/\/docs\/?$/, '/').replace(/\/docs\/[^/]*$/, '/')
   : 'https://cdn.jsdelivr.net/gh/itprodavets/itprodavets@main/';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/';
+/* Cache-bust markdown the same way as JS/CSS — bump on every content change so
+   jsDelivr + browsers refetch instead of serving a stale @main copy. Keep in
+   sync with the ?v= query on the script/style tags in index.html. */
+const ASSET_VERSION = '21';
 
 /* ===== DOM Helpers ===== */
 const $ = (sel) => document.querySelector(sel);
@@ -115,7 +119,7 @@ const $$ = (sel) => document.querySelectorAll(sel);
 /* ===== Markdown fetching with cache ===== */
 async function fetchMarkdown(filename) {
   if (state.cache[filename]) return state.cache[filename];
-  const response = await fetch(RAW_BASE + filename);
+  const response = await fetch(RAW_BASE + filename + '?v=' + ASSET_VERSION);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const text = await response.text();
   state.cache[filename] = text;
