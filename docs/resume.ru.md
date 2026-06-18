@@ -47,9 +47,9 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ---
 
-### Ведущий разработчик - KPMG (май 2017 – сентябрь 2019)
+### Technical Lead - KPMG (май 2017 – сентябрь 2019)
 
-*Senior Full-Stack Engineer → Lead Developer*
+*Senior Full-Stack Engineer → Technical Lead*
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 
@@ -113,6 +113,12 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 - **Языки:** C#, Transact-SQL
 - **Бэкенд:** ADO.NET, .NET
 - **Базы данных:** MSSQL
+
+---
+
+### Оператор-ПК - ООО «Профит-К» (май 2008 – ноябрь 2008)
+
+Первая работа после колледжа — в основном IT-поддержка и эксплуатация сайта: модерация и мониторинг сайта компании, SMS-шлюза и интернет-соединения. Здесь впервые на практике соприкоснулся со скриптами и базами данных — отсюда и началась дорога в разработку.
 
 ## Образование
 

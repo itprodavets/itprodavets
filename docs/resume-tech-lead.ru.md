@@ -29,7 +29,7 @@
 
 **Стек:** Go, C#, .NET, EF Core, gRPC, REST API, RabbitMQ, MQTT, CQRS, DDD, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, AWS, Docker, Kubernetes
 
-### Ведущий разработчик — KPMG | Май 2017 – Сентябрь 2019
+### Technical Lead — KPMG | Май 2017 – Сентябрь 2019
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 

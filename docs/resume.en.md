@@ -47,9 +47,9 @@ Short-term project contract alongside primary employment — full-stack developm
 
 ---
 
-### Lead Developer - KPMG (May 2017 – September 2019)
+### Technical Lead - KPMG (May 2017 – September 2019)
 
-*Senior Full-Stack Engineer → Lead Developer*
+*Senior Full-Stack Engineer → Technical Lead*
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
 
@@ -113,6 +113,12 @@ Developed a business process automation system on C#, .NET Framework, WinForms w
 - **Languages:** C#, Transact-SQL
 - **Backend:** ADO.NET, .NET
 - **Databases:** MSSQL
+
+---
+
+### PC Operator - Profit-K LLC (May 2008 – November 2008)
+
+Entry-level role right after college — primarily IT support and website operations: moderating and monitoring the company website, SMS gateway, and internet connectivity. First hands-on contact with scripting and databases — the starting point that set me on the path to software development.
 
 ## Education
 
