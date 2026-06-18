@@ -21,6 +21,8 @@ Independent products built alongside commercial work: **DKH** — multi-tenant c
 
 ### Forward Deployed AI Engineer - GZ DKH Innovation Technology (September 2019 – Present)
 
+*Grew from Senior Software Developer → Tech Lead → Forward Deployed AI Engineer*
+
 *Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
 
 Designed and developed backend and full-stack solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Built platforms for marketing, dealer sales, production monitoring, smart container fleet management, and e-commerce. Designed microservice architecture covering the full stack — from FreeRTOS firmware for device coordination to server-side services, telemetry pipelines, and frontend. Integrated IoT sensors, real-time data exchange, asynchronous messaging, and ERP systems. Built an AI operations assistant using RAG for diagnostics and incident reporting. Conducted business analysis: led stakeholder interviews and requirements workshops, formalized requirements as user stories with acceptance criteria, authored SRS documents, API contracts (OpenAPI), sequence and BPMN diagrams. Validated hypotheses through prototypes and MVPs, ran review sessions with business stakeholders to confirm requirements and prioritize the backlog. Mentored junior developers, conducted code reviews.
