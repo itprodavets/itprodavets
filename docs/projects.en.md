@@ -7,7 +7,7 @@
 ### DKH — Multi-tenant Commerce Platform
 - Role: Founder / Tech Lead (solo)
 - Description: Multi-tenant SaaS commerce platform — applying Forward Deployed Engineering thinking to my own product. Built as infrastructure that lets domain-expert founders launch e-commerce ventures without redoing the engineering. First venture deployed on DKH — thetea.app. Multi-tenant from day 1 (tenant_id + RLS isolation), AI as action layer (not chat), Telegram-first storefront, China-direct supply chain as first-class concept.
-- Technologies: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol)
+- Technologies: Go, C# 14, .NET 10, Python, Next.js 16, React 19, TypeScript 5.9, PostgreSQL, Redis, RabbitMQ, Kafka, gRPC, GraphQL, REST API, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol)
 
 
 ### thetea.app (with ecosystem: thetea-mcp, tea-assistant, ai-docs-hub)
@@ -92,9 +92,9 @@
 
 <a id="gz-dkh"></a>
 
-## GZ DKH Innovation Technology — secondment engagements (September 2019 – present)
+## GZ DKH Innovation Technology — enterprise client engagements (September 2019 – present)
 
-Subcontract Forward Deployed work via GZ DKH Innovation Technology on enterprise client projects. Specific project details under NDA — high-level overview below.
+Forward Deployed engineering for enterprise clients across IoT, e-commerce, marketing, and industrial automation — embedded in client teams, shipping production systems end-to-end. Selected work below.
 
 ### Empire of Bloom — Smart Container Platform (2022 – present)
 **Empire of Bloom** ([empireofbloom.com](https://www.empireofbloom.com/)) — smart-container IoT platform delivered for a global cloud / IoT platform partner: embedded firmware (FreeRTOS, C/C++) coordinating in-container devices, backend services, real-time fleet telemetry (GPS, temperature, humidity, door), remote OTA updates, critical-failure alerting, and a production AI operations layer — plus multi-platform commerce. Deliverables:
