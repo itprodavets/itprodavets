@@ -110,7 +110,7 @@ window.renderSection = async function (resumeKey, lang, sections) {
    browser cache — bump it together with the ?v= on index.html's script/style
    tags on every content deploy. */
 const RAW_BASE = '';
-const ASSET_VERSION = '36';
+const ASSET_VERSION = '37';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/docs/';
 
 /* ===== DOM Helpers ===== */
@@ -232,6 +232,20 @@ function setupMarked() {
         return `<div class="job-header"><div class="job-title">${titlePart}</div><div class="job-dates">${escapeHtml(datesPart)}</div></div>`;
       }
       return `<h3>${text}</h3>`;
+    }
+
+    /*
+     * H4: a role under an H3 company group — "Technical Lead | May 2018 – Sep 2019"
+     * → sub-role header (title left, dates right), nested beneath the company.
+     */
+    if (depth === 4) {
+      const pipeIdx = text.lastIndexOf(' | ');
+      if (pipeIdx > 0) {
+        const titlePart = text.substring(0, pipeIdx);
+        const datesPart = text.substring(pipeIdx + 3);
+        return `<div class="job-header job-subrole"><div class="job-title">${titlePart}</div><div class="job-dates">${escapeHtml(datesPart)}</div></div>`;
+      }
+      return `<h4>${text}</h4>`;
     }
 
     return `<h${depth}>${text}</h${depth}>`;

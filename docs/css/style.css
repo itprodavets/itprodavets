@@ -454,6 +454,14 @@ body {
   border-radius: 6px;
 }
 
+/* Sub-role under a company group (H4) — nested beneath the H3 company, lighter than a top-level entry */
+.job-subrole { margin: 14px 0 4px; padding-left: 14px; border-left: 2px solid var(--accent); }
+.job-subrole .job-title { font-size: 16px; }
+.job-subrole .job-dates { font-size: 11px; }
+/* Company group header (H3) sits tight above its first role */
+.resume-content h3:has(+ .job-header) { margin-bottom: 4px; }
+.resume-content h3 + p { margin-bottom: 8px; }
+
 .resume-content p { margin: 0 0 12px; }
 .resume-content ul, .resume-content ol { padding-left: 22px; margin: 0 0 14px; }
 .resume-content li { margin-bottom: 5px; }
@@ -1043,6 +1051,11 @@ body {
   .job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; margin: 10pt 0 3pt; page-break-after: avoid; page-break-inside: avoid; break-inside: avoid; }
   .job-title { font-weight: 600; color: #0a0a0a !important; flex: 1 1 auto; }
   .job-dates { font-size: 9pt; color: #6b6b6b !important; background: #f5f0e8; padding: 1pt 6pt; border-radius: 4pt; white-space: nowrap; }
+
+  /* Sub-role under a company group — nested beneath the H3 company header */
+  .job-subrole { margin: 6pt 0 2pt; padding-left: 8pt; border-left: 1.5pt solid #c7472d; page-break-after: avoid; page-break-inside: avoid; break-inside: avoid; }
+  .job-subrole .job-title { font-size: 10.5pt; }
+  .job-subrole .job-dates { font-size: 8pt; }
 
   /* "Detailed projects → ..." banner — short single-block, keep whole */
   .detailed-projects { background: #fef8f5; border-left: 2pt solid #c7472d; padding: 3pt 7pt; font-size: 9pt; color: #6b6b6b !important; margin: 0 0 8pt; border-radius: 0 3pt 3pt 0; page-break-inside: avoid; break-inside: avoid; }

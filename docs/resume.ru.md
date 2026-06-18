@@ -13,112 +13,139 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ## Коммерческий опыт
 
-### Lead Forward Deployed AI Engineer - GZ DKH Innovation Technology (сентябрь 2019 – настоящее время)
-
-*Senior Full-Stack Engineer → Technical Lead → Lead Forward Deployed AI Engineer*
+### GZ DKH Innovation Technology
 
 *Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 
-Проектировал и разрабатывал бэкенд- и full-stack решения в области IoT, e-commerce, маркетинга и промышленной автоматизации для крупных технологических заказчиков. Создавал платформы маркетинга, дилерских продаж, мониторинга производства, управления парком умных контейнеров и e-commerce. Проектировал микросервисную архитектуру полного стека — от прошивки FreeRTOS для координации устройств до серверных сервисов, пайплайнов телеметрии и фронтенда. Интегрировал IoT-датчики, real-time обмен данными, асинхронное взаимодействие сервисов и ERP-системы. Создал AI-ассистент на базе RAG для диагностики и отчётности. Вёл бизнес-анализ: проводил интервью со стейкхолдерами и воркшопы по сбору требований, формализовывал требования в user stories с критериями приёмки, составлял SRS, API-контракты (OpenAPI), sequence- и BPMN-диаграммы. Валидировал гипотезы через прототипы и MVP, проводил review-сессии с бизнесом для подтверждения требований и приоритизации бэклога. Менторил младших разработчиков, проводил код-ревью.
+#### Lead Forward Deployed AI Engineer | Сен 2024 – наст. время
 
-- **Языки:** Go, C, C++, C#, JavaScript, TypeScript
-- **Бэкенд:** .NET Core/.NET 8/.NET 9, EF Core, gRPC, REST API, RabbitMQ, SignalR, MQTT
-- **Встраиваемые системы:** FreeRTOS, C/C++
-- **Фронтенд:** Vue 3, Pinia, Next.js, React, Leaflet.js, D3.js, Chart.js
-- **Протоколы:** Modbus, MQTT, RabbitMQ, SignalR, gRPC
-- **Архитектура:** CQRS, DDD, Микросервисы
+Production AI внутри систем enterprise-клиентов, не vendor demo. Построил AI Operations Assistant — RAG поверх техдокументации, журналов обслуживания и телеметрии для диагностики и автоматических отчётов об инцидентах — и веду AI/ops-слой платформы умных контейнеров.
+
+- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, MCP
+- **Бэкенд:** C#, .NET 9, gRPC, REST API, Redis, RabbitMQ
+- **Базы данных:** PostgreSQL, TimescaleDB
+
+#### Technical Lead | Сен 2023 – Сен 2024
+
+Вёл архитектуру и команду на платформе умных контейнеров Empire of Bloom — от прошивки FreeRTOS до серверных сервисов и пайплайнов телеметрии. Выпустил Container Diagnostics Service (OTA-обновления + алертинг при критических сбоях), выстроил OTA-инфраструктуру для continuous firmware delivery, менторил команду.
+
+- **Бэкенд и embedded:** C#, .NET 9, Go, FreeRTOS (C/C++), gRPC, SignalR
+- **Протоколы и DevOps:** MQTT, Modbus, RabbitMQ, Docker, Kubernetes, Prometheus, Grafana
 - **Базы данных:** PostgreSQL, TimescaleDB, Redis
-- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector
-- **DevOps:** Docker, Kubernetes, Prometheus, Grafana
+
+#### Senior Full-Stack Engineer | Сен 2019 – Сен 2023
+
+Embedded в клиентских командах, shipping production code. Engagement #1 (телеком / электроника): Production Line Monitor (real-time IoT-мониторинг линий), Dealer Portal (заказы, отгрузки, интеграция с ERP), Marketing Campaign Manager. С 2022 — начал платформу Empire of Bloom: мультиплатформенный eCommerce и real-time Fleet Tracking.
+
+- **Языки:** C#, Go, JavaScript, TypeScript
+- **Бэкенд:** .NET Core, EF Core, CQRS, DDD, gRPC, RabbitMQ, SignalR, MQTT
+- **Фронтенд:** Vue 3, Next.js, React, Chart.js, D3.js, Leaflet.js
+- **Базы данных:** PostgreSQL, TimescaleDB
 
 ---
 
-### Senior Full-Stack Engineer (Contract) - Blueberry Consultants Ltd (Декабрь 2019 – Февраль 2020)
+### Blueberry Consultants Ltd · Contract
 
 *Подробнее о проектах → [Remedi, GEMS](./projects.ru.md#blueberry)*
 
-Краткосрочный проектный контракт параллельно основной занятости — full-stack разработка двух enterprise SaaS-платформ. **Remedi** (CRM для заказа медикаментов и управления домами престарелого ухода; AngularJS/Angular, .NET Core, MySQL) — разрабатывал бэкенд-функциональность и API-интеграции, участвовал в улучшении архитектуры. **GEMS** (высоконагруженная HR/recruitment CRM; сотни компаний-клиентов и тысячи пользователей ежедневно; AngularJS, TypeScript, .NET, MS SQL Server) — реализовывал фичи на фронтенде и бэкенде и высокопроизводительную бизнес-логику, создал внутреннюю библиотеку для гибкого взаимодействия Kendo UI с БД, разработал инструменты парсинга CV/резюме (обработка DOC/DOCX, просмотр и конвертация PDF), реализовал GDPR-функциональность и интеграции со сторонними БД, Web API и сервисами поиска адресов/почтовых индексов.
+#### Senior Full-Stack Engineer | Дек 2019 – Фев 2020
+
+Краткосрочный UK-контракт параллельно основной занятости — full-stack разработка двух enterprise SaaS-платформ. **Remedi** (CRM для заказа медикаментов и управления домами престарелого ухода) — бэкенд-функциональность и API-интеграции. **GEMS** (высоконагруженная HR/recruitment CRM; сотни компаний-клиентов, тысячи пользователей в день) — фичи фронта и бэка, внутренняя библиотека для гибкого взаимодействия Kendo UI с БД, парсинг CV/резюме (DOC/DOCX, PDF), GDPR-функциональность и интеграции со сторонними БД / Web API / поиском адресов.
 
 - **Языки:** C#, JavaScript, TypeScript
 - **Бэкенд:** .NET / .NET Core, ASP.NET Core, Web API, REST API
-- **Фронтенд:** AngularJS, Angular, TypeScript, Kendo UI, HTML, CSS
+- **Фронтенд:** AngularJS, Angular, TypeScript, Kendo UI
 - **Базы данных:** MS SQL Server, MySQL
-- **Прочее:** Обработка документов (DOC/DOCX, PDF), GDPR, интеграции Web API, поиск адресов/индексов
+- **Прочее:** Обработка документов (DOC/DOCX, PDF), GDPR, поиск адресов/индексов
 
 ---
 
-### Technical Lead - KPMG (май 2017 – сентябрь 2019)
-
-*Senior Full-Stack Engineer → Technical Lead*
+### KPMG
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 
-Спроектировал архитектуру и разработал платформы автоматизации налоговой отчётности и оптимизации налоговых процессов для налоговых органов по всему миру. Реализовал бэкенд на ASP.NET с REST API и OData-эндпоинтами, фронтенд на Angular с визуализацией данных на D3.js. Выполнил миграцию кодовой базы с .NET Framework на .NET Core. Руководил командой, проводил код-ревью.
+#### Technical Lead | Май 2018 – Сен 2019
 
-- **Языки:** C#, JavaScript, TypeScript
-- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, EF/EF Core, LINQ, OData, REST
-- **Фронтенд:** AngularJS, Angular 8+, TypeScript, D3.js, Material Design, DevExpress
-- **Архитектура:** CQRS, DDD, Repository, Unit of Work
+Вёл команду и архитектуру на Smart Tax Solution — оптимизация налоговых процессов и compliance для налоговых органов по всему миру. Принимал ключевые технические решения, выполнил миграцию кодовой базы с .NET Framework на .NET Core, проводил код-ревью.
+
+- **Бэкенд:** C#, .NET Core, ASP.NET, Web API, EF Core, LINQ, OData
+- **Фронтенд:** Angular 8, TypeScript, D3.js, Material Design, DevExpress
+- **Архитектура и данные:** CQRS, DDD, MS SQL
+
+#### Senior Full-Stack Engineer | Май 2017 – Май 2018
+
+Спроектировал и построил BEPS Automation Tool — налоговые уведомления и отчётность для compliance по BEPS (Base Erosion and Profit Shifting). Бэкенд на ASP.NET с REST API и OData-эндпоинтами; фронтенд на Angular с визуализацией на D3.js.
+
+- **Бэкенд:** C#, .NET Framework, ASP.NET, Web API, EF, LINQ, OData
+- **Фронтенд:** AngularJS, Angular, TypeScript, D3.js
 - **Базы данных:** MS SQL
-- **DevOps:** Git (GitFlow), IIS, PowerShell
 
 ---
 
-### Technical Lead - ООО «Дом ПК» (апрель 2015 – апрель 2017)
-
-*Senior Full-Stack Engineer → Technical Lead*
+### ООО «Дом ПК»
 
 *Подробнее о проектах → [Донорство крови, Соц.-полит. дашборд, Энергорынок, ФИС ГИА, TESLA](./projects.ru.md#dom-pk)*
 
-Разрабатывал информационно-аналитические системы для государственных учреждений — Министерств образования, здравоохранения и энергетики. Создавал REST API, веб-приложения, интерактивные дашборды с визуализацией данных. Специализировался на MSSQL: проектирование схем, оптимизация запросов, хранимые процедуры. Интегрировал электронную подпись CryptoPro для документооборота.
+#### Technical Lead | Апр 2016 – Апр 2017
 
-- **Языки:** C#, JavaScript, Transact-SQL
-- **Бэкенд:** .NET Framework, ASP.NET Web API/Web Forms, EF, Dapper, ADO.NET, AutoMapper, Autofac
-- **Фронтенд:** jQuery, Bootstrap, AngularJS, Knockout JS, D3.js, Telerik, DevExpress
-- **Базы данных:** MSSQL
-- **Безопасность:** CryptoPro CSP/NET
-- **DevOps:** TeamCity, SVN, IIS, PowerShell
+Вёл систему регуляторных данных донорства крови (Минздрав) и дашборд социально-политических метрик — архитектуру данных, REST API, аналитические дашборды на D3.js, интеграцию регуляторного compliance.
+
+- **Бэкенд:** C#, .NET Framework, ASP.NET Web API, EF, Dapper, LINQ
+- **Фронтенд:** jQuery, D3.js, Telerik, DevExpress
+- **Данные и DevOps:** MSSQL, TeamCity, SVN, IIS
+
+#### Senior Full-Stack Engineer | Апр 2015 – Апр 2016
+
+Строил информационно-аналитические системы для госучреждений (образование, энергетика) — обработка результатов ЕГЭ (ФИС ГИА), портал отраслевых событий (TESLA), портал балансирующего энергорынка и автоматизация планирования. REST API, интерактивные дашборды, оптимизация MSSQL, электронная подпись CryptoPro.
+
+- **Бэкенд:** C#, .NET Framework, ASP.NET Web API/Web Forms, EF, Dapper, ADO.NET, LINQ
+- **Фронтенд:** AngularJS, Angular 2, Knockout JS, jQuery, Bootstrap
+- **Данные и безопасность:** MSSQL, CryptoPro
 
 ---
 
-### Full-Stack Engineer - Европейская медиагруппа (ЕМГ) (июль 2013 – апрель 2015)
+### Европейская медиагруппа (ЕМГ)
 
 *Подробнее о проектах → [Web Expenses, ITpedia, HelpDesk + AddInn](./projects.ru.md#emg)*
 
-Разработал первую в компании систему бюджетного планирования на ASP.NET WebForms. Поддерживал внутренние системы статистики радиовещания. Создавал десктопные приложения на WinForms для службы техподдержки и базы знаний.
+#### Full-Stack Engineer | Июл 2013 – Апр 2015
 
-- **Языки:** C#, JavaScript, SQL
-- **Бэкенд:** .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
+Разработал первую в компании веб-систему бюджетного планирования на ASP.NET WebForms. Поддерживал внутренние системы статистики радиовещания, создавал десктопные приложения на WinForms для службы техподдержки и базы знаний.
+
+- **Бэкенд:** C#, .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
 - **Фронтенд:** jQuery, Bootstrap, Telerik
 - **Базы данных:** MS SQL Server
-- **Инфраструктура:** TFS, IIS
 
 ---
 
-### Инженер - DEPO Computers (март 2013 – июнь 2013)
+### DEPO Computers
 
 *Подробнее о проектах → [Ранние роли](./projects.ru.md#earlier-roles)*
 
-Оптимизировал хранимые процедуры и T-SQL-запросы для обработки статистики в OLAP-кубах. Создавал системы отчётности. Администрировал базы данных MS SQL.
+#### Инженер | Мар 2013 – Июн 2013
 
-- **Языки:** Transact-SQL
-- **Базы данных:** MSSQL
+Оптимизировал хранимые процедуры и T-SQL-запросы для обработки статистики в OLAP-кубах. Создавал системы отчётности, администрировал базы данных MS SQL.
+
+- **Базы данных:** MSSQL, Transact-SQL
 
 ---
 
-### Инженер-программист - ООО «Химоил» (ноябрь 2008 – февраль 2013)
+### ООО «Химоил»
 
 *Подробнее о проектах → [Автоматизация бизнес-процессов (ХиМ)](./projects.ru.md#himoil)*
 
-Разрабатывал систему автоматизации бизнес-процессов на C#, .NET Framework, WinForms с MSSQL через ADO.NET. Внедрённая система существенно сократила время выполнения задач и улучшила качество обслуживания клиентов.
+#### Инженер-программист | Ноя 2008 – Фев 2013
 
-- **Языки:** C#, Transact-SQL
-- **Бэкенд:** ADO.NET, .NET
-- **Базы данных:** MSSQL
+Построил систему автоматизации бизнес-процессов (проект ХиМ) на C#/.NET Framework/WinForms с MSSQL через ADO.NET; внедрённая система существенно сократила время выполнения задач и улучшила качество обслуживания. Начинал системным администратором, вырос до инженера-программиста.
+
+- **Бэкенд:** C#, .NET Framework, WinForms, ADO.NET
+- **Базы данных:** MSSQL, Transact-SQL
 
 ---
 
-### Оператор-ПК - ООО «Профит-К» (май 2008 – ноябрь 2008)
+### ООО «Профит-К»
+
+#### Оператор-ПК | Май 2008 – Ноя 2008
 
 Первая работа после колледжа — в основном IT-поддержка и эксплуатация сайта: модерация и мониторинг сайта компании, SMS-шлюза и интернет-соединения. Здесь впервые на практике соприкоснулся со скриптами и базами данных — отсюда и началась дорога в разработку.
 
