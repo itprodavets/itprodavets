@@ -6,7 +6,7 @@
 
 Forward Deployed Engineer with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, healthcare, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo.
 
-Currently building DKH multi-tenant commerce platform + thetea.app + Empire of Bloom (smart containers).
+Currently building DKH multi-tenant commerce platform + thetea.app.
 
 [![Email](https://img.shields.io/badge/itprodavets@gmail.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:itprodavets@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-itprodavets-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itprodavets/)

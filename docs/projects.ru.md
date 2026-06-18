@@ -20,13 +20,6 @@
 - Технологии: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions. Ecosystem: Go, Gin (ai-docs-hub), TypeScript / Node / MCP SDK (thetea-mcp), OpenAI API, LangChain, Ollama, pgvector, Vercel, Shadcn/UI, SSE
 
 
-### Empire of Bloom — Smart Container Platform
-- Роль: Co-founder / IT Partner (co-founded с IoT-партнёром)
-- Описание: Smart container product. Я в IT partner роли — embedded firmware + backend + AI operations layer. Co-founder приносит domain expertise по smart container hardware + business side. Центральный блок управления координирует все внутренние устройства в умных контейнерах. Real-time fleet telemetry tracking (GPS, температура, влажность, состояние дверей). AI Operations Assistant для диагностики + генерации отчётов об инцидентах. Remote OTA-обновления и алертинг при критических сбоях. Same partnership pattern как thetea.app — domain expert + IT partner combination, не solo founder.
-- URL: https://www.empireofbloom.com/
-- Технологии: C, C++, FreeRTOS (firmware), .NET 8/9/10, EF Core, C#, Go, gRPC, REST API, SignalR, RabbitMQ, MQTT, Modbus, Mosquitto, PostgreSQL, TimescaleDB, Redis, Semantic Kernel, Azure OpenAI, Qdrant, pgvector, RAG, Docker, Kubernetes, Prometheus, Grafana, TypeScript, Vue 3, Pinia, React, Next.js, Leaflet.js
-
-
 ---
 
 <a id="kpmg"></a>
@@ -103,8 +96,8 @@
 
 Subcontract Forward Deployed работа via GZ DKH Innovation Technology на enterprise client projects. Specific project details под NDA — high-level overview ниже.
 
-### Client engagement 2022 – настоящее время (global cloud / IoT platform partner)
-Beyond Empire of Bloom (выше в Личных проектах), engagement покрывает smart container IoT и production AI:
+### Empire of Bloom — Smart Container Platform (2022 – настоящее время)
+**Empire of Bloom** ([empireofbloom.com](https://www.empireofbloom.com/)) — smart-container IoT платформа для global cloud / IoT platform partner: embedded firmware (FreeRTOS, C/C++) для координации устройств в контейнере, backend-сервисы, real-time fleet telemetry (GPS, температура, влажность, двери), remote OTA, алертинг при критических сбоях и production AI operations layer — плюс мультиплатформенный commerce. Поставлено:
 - **eCommerce** — Мультиплатформенное решение для e-commerce. Стек: C#, .NET 8, EF Core, CQRS, DDD, PostgreSQL, RabbitMQ, TypeScript, Next.js 14, React.
 - **Fleet Tracking Platform** — Real-time fleet telemetry, визуализация маршрутов, аналитические отчёты. Стек: Go, PostgreSQL, TimescaleDB, MQTT, RabbitMQ, gRPC, Docker, Kubernetes, TypeScript, Vue 3, Leaflet.js.
 - **Container Diagnostics Service** — Микросервис удалённой диагностики контейнеров + OTA-обновления + алертинг при критических сбоях. Стек: C#, .NET 9, gRPC, SignalR, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Grafana.
