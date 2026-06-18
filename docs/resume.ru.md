@@ -19,28 +19,15 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 #### Lead Forward Deployed AI Engineer | Сен 2024 – наст. время
 
-Production AI внутри систем enterprise-клиентов, не vendor demo. Построил AI Operations Assistant — RAG поверх техдокументации, журналов обслуживания и телеметрии для диагностики и автоматических отчётов об инцидентах — и веду AI/ops-слой платформы умных контейнеров.
-
-- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, MCP
-- **Бэкенд:** C#, .NET 9, gRPC, REST API, Redis, RabbitMQ
-- **Базы данных:** PostgreSQL, TimescaleDB
+Внедряю production AI внутри систем enterprise-клиентов, не vendor demo. Построил AI Operations Assistant — RAG поверх техдокументации, журналов обслуживания и телеметрии для диагностики и автоматических отчётов об инцидентах (Semantic Kernel, Azure OpenAI, Qdrant / pgvector, MCP) — и веду AI/ops-слой платформы умных контейнеров на бэкенде C# / .NET 9 (gRPC, REST, Redis, RabbitMQ) поверх PostgreSQL / TimescaleDB.
 
 #### Technical Lead | Сен 2023 – Сен 2024
 
-Вёл архитектуру и команду на платформе умных контейнеров Empire of Bloom — от прошивки FreeRTOS до серверных сервисов и пайплайнов телеметрии. Выпустил Container Diagnostics Service (OTA-обновления + алертинг при критических сбоях), выстроил OTA-инфраструктуру для continuous firmware delivery, менторил команду.
-
-- **Бэкенд и embedded:** C#, .NET 9, Go, FreeRTOS (C/C++), gRPC, SignalR
-- **Протоколы и DevOps:** MQTT, Modbus, RabbitMQ, Docker, Kubernetes, Prometheus, Grafana
-- **Базы данных:** PostgreSQL, TimescaleDB, Redis
+Вёл архитектуру и команду по всей платформе умных контейнеров Empire of Bloom — от прошивки FreeRTOS (C/C++) до серверных сервисов и пайплайнов телеметрии. Выпустил Container Diagnostics Service (OTA-обновления и алертинг при критических сбоях), выстроил OTA-инфраструктуру для continuous firmware delivery, задавал стандарты кода и менторил команду. Полиглот-разработка на C# / .NET 9 и Go с обменом по MQTT / Modbus и Docker / Kubernetes / Prometheus.
 
 #### Senior Full-Stack Engineer | Сен 2019 – Сен 2023
 
-Embedded в клиентских командах, shipping production code. Engagement #1 (телеком / электроника): Production Line Monitor (real-time IoT-мониторинг линий), Dealer Portal (заказы, отгрузки, интеграция с ERP), Marketing Campaign Manager. С 2022 — начал платформу Empire of Bloom: мультиплатформенный eCommerce и real-time Fleet Tracking.
-
-- **Языки:** C#, Go, JavaScript, TypeScript
-- **Бэкенд:** .NET Core, EF Core, CQRS, DDD, gRPC, RabbitMQ, SignalR, MQTT
-- **Фронтенд:** Vue 3, Next.js, React, Chart.js, D3.js, Leaflet.js
-- **Базы данных:** PostgreSQL, TimescaleDB
+Embedded в клиентских командах, shipping production code end-to-end. Engagement #1 (телеком / электроника): Production Line Monitor (real-time IoT-мониторинг линий), Dealer Portal (заказы, отгрузки, интеграция с ERP), Marketing Campaign Manager. С 2022 — начал платформу Empire of Bloom: мультиплатформенный eCommerce и real-time Fleet Tracking. Разработка по всему стеку на C#, .NET Core и Go (EF Core, CQRS / DDD, gRPC, RabbitMQ, MQTT) с Vue 3 / Next.js / React поверх PostgreSQL / TimescaleDB.
 
 ---
 
@@ -50,13 +37,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 #### Senior Full-Stack Engineer | Дек 2019 – Фев 2020
 
-Краткосрочный UK-контракт параллельно основной занятости — full-stack разработка двух enterprise SaaS-платформ. **Remedi** (CRM для заказа медикаментов и управления домами престарелого ухода) — бэкенд-функциональность и API-интеграции. **GEMS** (высоконагруженная HR/recruitment CRM; сотни компаний-клиентов, тысячи пользователей в день) — фичи фронта и бэка, внутренняя библиотека для гибкого взаимодействия Kendo UI с БД, парсинг CV/резюме (DOC/DOCX, PDF), GDPR-функциональность и интеграции со сторонними БД / Web API / поиском адресов.
-
-- **Языки:** C#, JavaScript, TypeScript
-- **Бэкенд:** .NET / .NET Core, ASP.NET Core, Web API, REST API
-- **Фронтенд:** AngularJS, Angular, TypeScript, Kendo UI
-- **Базы данных:** MS SQL Server, MySQL
-- **Прочее:** Обработка документов (DOC/DOCX, PDF), GDPR, поиск адресов/индексов
+Краткосрочный UK-контракт параллельно основной занятости — full-stack разработка двух enterprise SaaS-платформ. **Remedi** (CRM для заказа медикаментов и управления домами престарелого ухода) — бэкенд-функциональность и API-интеграции. **GEMS** (высоконагруженная HR/recruitment CRM; сотни компаний и тысячи пользователей в день) — фичи фронта и бэка, внутренняя библиотека для гибкого взаимодействия Kendo UI с БД, парсинг CV/резюме (DOC/DOCX, PDF), GDPR-функциональность и интеграции со сторонними БД / Web API / поиском адресов. На .NET / .NET Core с AngularJS / Angular поверх MS SQL Server и MySQL.
 
 ---
 
@@ -66,19 +47,11 @@ Embedded в клиентских командах, shipping production code. Eng
 
 #### Technical Lead | Май 2018 – Сен 2019
 
-Вёл команду и архитектуру на Smart Tax Solution — оптимизация налоговых процессов и compliance для налоговых органов по всему миру. Принимал ключевые технические решения, выполнил миграцию кодовой базы с .NET Framework на .NET Core, проводил код-ревью.
-
-- **Бэкенд:** C#, .NET Core, ASP.NET, Web API, EF Core, LINQ, OData
-- **Фронтенд:** Angular 8, TypeScript, D3.js, Material Design, DevExpress
-- **Архитектура и данные:** CQRS, DDD, MS SQL
+Вёл команду и архитектуру на Smart Tax Solution — оптимизация налоговых процессов и compliance для налоговых органов по всему миру. Принимал ключевые технические решения, выполнил миграцию кодовой базы с .NET Framework на .NET Core, проводил код-ревью. Бэкенд на ASP.NET / EF Core (CQRS, DDD, OData), фронтенд на Angular 8 + D3.js поверх MS SQL.
 
 #### Senior Full-Stack Engineer | Май 2017 – Май 2018
 
-Спроектировал и построил BEPS Automation Tool — налоговые уведомления и отчётность для compliance по BEPS (Base Erosion and Profit Shifting). Бэкенд на ASP.NET с REST API и OData-эндпоинтами; фронтенд на Angular с визуализацией на D3.js.
-
-- **Бэкенд:** C#, .NET Framework, ASP.NET, Web API, EF, LINQ, OData
-- **Фронтенд:** AngularJS, Angular, TypeScript, D3.js
-- **Базы данных:** MS SQL
+Спроектировал и построил BEPS Automation Tool — налоговые уведомления и отчётность для compliance по BEPS (Base Erosion and Profit Shifting). Бэкенд на ASP.NET с REST API и OData-эндпоинтами (C#, .NET Framework, EF); фронтенд на Angular с визуализацией на D3.js поверх MS SQL.
 
 ---
 
@@ -88,19 +61,11 @@ Embedded в клиентских командах, shipping production code. Eng
 
 #### Technical Lead | Апр 2016 – Апр 2017
 
-Вёл систему регуляторных данных донорства крови (Минздрав) и дашборд социально-политических метрик — архитектуру данных, REST API, аналитические дашборды на D3.js, интеграцию регуляторного compliance.
-
-- **Бэкенд:** C#, .NET Framework, ASP.NET Web API, EF, Dapper, LINQ
-- **Фронтенд:** jQuery, D3.js, Telerik, DevExpress
-- **Данные и DevOps:** MSSQL, TeamCity, SVN, IIS
+Вёл систему регуляторных данных донорства крови (Минздрав) и дашборд социально-политических метрик — архитектуру данных, REST API и аналитические дашборды на D3.js, интеграцию регуляторного compliance. На .NET Framework / ASP.NET Web API (EF, Dapper) поверх MSSQL.
 
 #### Senior Full-Stack Engineer | Апр 2015 – Апр 2016
 
-Строил информационно-аналитические системы для госучреждений (образование, энергетика) — обработка результатов ЕГЭ (ФИС ГИА), портал отраслевых событий (TESLA), портал балансирующего энергорынка и автоматизация планирования. REST API, интерактивные дашборды, оптимизация MSSQL, электронная подпись CryptoPro.
-
-- **Бэкенд:** C#, .NET Framework, ASP.NET Web API/Web Forms, EF, Dapper, ADO.NET, LINQ
-- **Фронтенд:** AngularJS, Angular 2, Knockout JS, jQuery, Bootstrap
-- **Данные и безопасность:** MSSQL, CryptoPro
+Строил информационно-аналитические системы для госучреждений (образование, энергетика) — обработка результатов ЕГЭ (ФИС ГИА), портал отраслевых событий (TESLA), портал балансирующего энергорынка и автоматизация планирования. REST API, интерактивные дашборды, оптимизация схем и запросов MSSQL, электронная подпись CryptoPro на .NET Framework / ASP.NET (Web API и Web Forms).
 
 ---
 
@@ -110,11 +75,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 #### Full-Stack Engineer | Июл 2013 – Апр 2015
 
-Разработал первую в компании веб-систему бюджетного планирования на ASP.NET WebForms. Поддерживал внутренние системы статистики радиовещания, создавал десктопные приложения на WinForms для службы техподдержки и базы знаний.
-
-- **Бэкенд:** C#, .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
-- **Фронтенд:** jQuery, Bootstrap, Telerik
-- **Базы данных:** MS SQL Server
+Разработал первую в компании веб-систему бюджетного планирования на ASP.NET WebForms (распределение бюджета по проектам, задачам и заявкам сотрудников). Поддерживал внутренние системы статистики радиовещания, администрировал отчётность в IBM Cognos и развивал модули корпоративного портала на 1С-Битрикс, с обширной работой в MSSQL (отчёты, хранимые процедуры, функции). Также создавал десктопные WinForms-инструменты для техподдержки и базы знаний.
 
 ---
 
@@ -124,9 +85,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 #### Инженер | Мар 2013 – Июн 2013
 
-Оптимизировал хранимые процедуры и T-SQL-запросы для обработки статистики в OLAP-кубах. Создавал системы отчётности, администрировал базы данных MS SQL.
-
-- **Базы данных:** MSSQL, Transact-SQL
+Анализировал и решал проблемы в приложениях, разрабатывал эффективные методы устранения недостатков для повышения производительности и функциональности. Разрабатывал системы отчётности, интегрированные в приложения, для сбора и анализа данных о деятельности компании — в поддержку принятия решений. Разрабатывал и настраивал хранимые процедуры в MS SQL; администрировал базы данных MS SQL (надёжность, безопасность, доступность).
 
 ---
 
@@ -136,10 +95,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 #### Инженер-программист | Ноя 2008 – Фев 2013
 
-Построил систему автоматизации бизнес-процессов (проект ХиМ) на C#/.NET Framework/WinForms с MSSQL через ADO.NET; внедрённая система существенно сократила время выполнения задач и улучшила качество обслуживания. Начинал системным администратором, вырос до инженера-программиста.
-
-- **Бэкенд:** C#, .NET Framework, WinForms, ADO.NET
-- **Базы данных:** MSSQL, Transact-SQL
+Работал над проектом «ХиМ» — автоматизация бизнес-процессов — разработчиком ПО на C#, .NET Framework, WinForms, ADO.NET, MSSQL и Transact-SQL (Visual Studio 2012, SQL Server Management Studio). Начинал системным администратором — мониторинг, поддержка и улучшение инфраструктуры компании, оперативная поддержка, сервисы обработки данных (резервное копирование и восстановление), отчётность и поддержка пользователей — и через год вырос до инженера-программиста. Внедрённая система существенно сократила время выполнения задач и улучшила качество обслуживания клиентов.
 
 ---
 
