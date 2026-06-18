@@ -15,7 +15,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ### Forward Deployed AI Engineer - GZ DKH Innovation Technology (сентябрь 2019 – настоящее время)
 
-*Вырос от Senior Full-Stack Engineer → Tech Lead → Forward Deployed AI Engineer*
+*Senior Full-Stack Engineer → Tech Lead → Forward Deployed AI Engineer*
 
 *Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 
@@ -63,7 +63,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ### Ведущий программист - KPMG (май 2017 – сентябрь 2019)
 
-*Вырос от Senior Developer → Team Lead*
+*Senior Developer → Team Lead*
 
 *Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 
@@ -80,7 +80,7 @@ Forward Deployed Engineer с 15+ годами опыта embedded в enterprise 
 
 ### Старший разработчик полного стека - ООО «Дом ПК» (апрель 2015 – апрель 2017)
 
-*Вырос от Full-Stack Developer → Team Lead*
+*Full-Stack Developer → Team Lead*
 
 *Подробнее о проектах → [Донорство крови, Соц.-полит. дашборд, Энергорынок, ФИС ГИА, TESLA](./projects.ru.md#dom-pk)*
 
