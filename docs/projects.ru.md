@@ -7,7 +7,7 @@
 ### DKH — Multi-tenant Commerce Platform
 - Роль: Founder / Tech Lead (solo)
 - Описание: Мультитенантная SaaS commerce-платформа — applying Forward Deployed Engineering thinking к собственному продукту. Build как infrastructure что позволяет domain-expert founders запускать e-commerce ventures без переписывания engineering каждый раз. Первый venture, запущенный на DKH — thetea.app. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI as action layer (не chat), Telegram-first storefront, China-direct supply chain как first-class concept.
-- Технологии: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol)
+- Технологии: Go, C# 14, .NET 10, Python, Next.js 16, React 19, TypeScript 5.9, PostgreSQL, Redis, RabbitMQ, Kafka, gRPC, GraphQL, REST API, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol)
 
 
 ### thetea.app (с экосистемой: thetea-mcp, tea-assistant, ai-docs-hub)
@@ -92,9 +92,9 @@
 
 <a id="gz-dkh"></a>
 
-## GZ DKH Innovation Technology — secondment engagements (Сентябрь 2019 – настоящее время)
+## GZ DKH Innovation Technology — клиентские enterprise-проекты (Сентябрь 2019 – настоящее время)
 
-Subcontract Forward Deployed работа via GZ DKH Innovation Technology на enterprise client projects. Specific project details под NDA — high-level overview ниже.
+Forward Deployed-инженерия для enterprise-клиентов в области IoT, e-commerce, маркетинга и промышленной автоматизации — embedded в клиентских командах, поставка production-систем end-to-end. Избранные работы ниже.
 
 ### Empire of Bloom — Smart Container Platform (2022 – настоящее время)
 **Empire of Bloom** ([empireofbloom.com](https://www.empireofbloom.com/)) — smart-container IoT платформа для global cloud / IoT platform partner: embedded firmware (FreeRTOS, C/C++) для координации устройств в контейнере, backend-сервисы, real-time fleet telemetry (GPS, температура, влажность, двери), remote OTA, алертинг при критических сбоях и production AI operations layer — плюс мультиплатформенный commerce. Поставлено:

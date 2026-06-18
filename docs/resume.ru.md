@@ -17,7 +17,7 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 *Подробнее о проектах → [DKH и thetea.app](./projects.ru.md#personal-projects)*
 
-#### Founder & Engineer | 2025 – наст. время
+#### Founder & Lead Forward Deployed AI Engineer | 2025 – наст. время
 
 Строю DKH — мульти-тенантную SaaS commerce-платформу, которая позволяет доменным основателям запускать e-commerce без переписывания инженерии: мульти-тенантная изоляция, AI как action-слой (не просто чат), Telegram-first витрины, China-direct поставки. Первый запущенный на ней venture — **thetea.app** (со-фаундер — эксперт по чаю 20+ лет: он — домен, я — инженерия). 20+ event-driven микросервисов. AI-сервисы: **tea-assistant** (RAG-чатбот — LangChain + OpenAI / Ollama + pgvector), **thetea-mcp** (MCP-сервер для LLM-агентов), **ai-docs-hub** (open-source RAG-база знаний, Go / Gin), плюс слой маркетинговой аналитики и лидогенерации.
 
