@@ -53,7 +53,6 @@
 - **AngularJS (1)** · since 2015 · KPMG BEPS (ранние версии), Дом ПК Портал балансирующего рынка, Blueberry (GEMS, Remedi)
 - **D3.js** · since 2019 · KPMG Smart Tax, KPMG BEPS, Дом ПК Дашборд метрик, Production Line Monitor
 - **Tailwind CSS (3)** · since 2023 · DKH UI, thetea.app
-- **Kafka** · since 2023 · клиентские проекты GZ DKH (Fleet Tracking)
 - **Python (3)** · since 2023 · AI-инструменты, скрипты автоматизации
 - **C / C++ (11 / 17)** · since 2020 · прошивка Empire of Bloom
 - **FreeRTOS** · since 2022 · embedded прошивка Empire of Bloom
@@ -62,9 +61,7 @@
 - **MongoDB (3 → 7)** · since 2022 · клиентские проекты GZ DKH
 - **ClickHouse** · since 2023 · аналитика GZ DKH
 - **Node.js (14 → 22)** · since 2021 · PPC Entourage
-- **Gin / Echo (Go)** · since 2022 · Fleet Tracking Platform
 - **MCP (Model Context Protocol)** · since 2025 · MCP-гейтвей DKH
-- **Terraform** · since 2024 · DKH инфраструктура
 - **AWS** · since 2021 · PPC Entourage
 - **OData** · since 2019 · KPMG BEPS Automation, KPMG Smart Tax Solution
 - **Dapper** · since 2016 · Дом ПК (Дашборд метрик, Автоматизация энергорынка)
