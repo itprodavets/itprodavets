@@ -85,7 +85,7 @@ Built the company's first web-based budget planning system on ASP.NET WebForms (
 
 #### Engineer | Mar 2013 – Jun 2013
 
-Analyzed and resolved application issues, building efficient fixes to improve performance and functionality. Developed reporting systems integrated into the applications for collecting and analyzing company-activity data to support decision-making. Developed and tuned stored procedures in MS SQL and administered MS SQL databases for reliability, security, and availability.
+Optimized T-SQL stored procedures and queries for OLAP-cube statistics processing, and built reporting systems for collecting and analyzing company activity to support decision-making. Resolved application performance issues and administered MS SQL databases for reliability and availability.
 
 ---
 
@@ -95,7 +95,7 @@ Analyzed and resolved application issues, building efficient fixes to improve pe
 
 #### Software Engineer | Nov 2008 – Feb 2013
 
-Worked on project ХиМ — business process automation — as a software engineer using C#, .NET Framework, WinForms, ADO.NET, and MSSQL / Transact-SQL (Visual Studio 2012, SQL Server Management Studio). Started as a system administrator — monitoring, supporting, and improving company infrastructure, operational support, data-processing services including backup and restore, reporting, and user support — and within a year grew into the software engineer role. The deployed system significantly reduced task-completion time and improved customer-service quality.
+Designed and built a business-process automation system (project ХиМ) on C# / .NET Framework / WinForms with MSSQL — significantly cutting task-completion time and improving customer-service quality. Started as a system administrator (infrastructure, backups, reporting, user support) and grew into the software-engineer role within a year.
 
 ---
 
