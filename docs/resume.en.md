@@ -17,9 +17,9 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 
 *Detailed projects → [DKH & thetea.app](./projects.en.md#personal-projects)*
 
-#### Founder & Lead Forward Deployed AI Engineer | 2025 – Present
+#### Founder | 2025 – Present
 
-Building DKH — a multi-tenant SaaS commerce platform (a .NET monorepo of 40+ services, gateways, and workers on a shared platform) that lets domain-expert founders launch e-commerce ventures without redoing the engineering: plugin architecture, multi-tenant isolation, a **Shopify-style storefront builder** (visual editor + a `dkh-theme` CLI), Telegram-first storefronts, and AI as an action layer. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). Built end-to-end and hands-on: storefront & admin GraphQL / gRPC gateways, an **MCP gateway** exposing the platform to LLM agents, an **embedding / RAG worker** (Qdrant + OpenAI / Ollama) for AI search and assistants, a **ClickHouse analytics worker** for marketing & lead generation, and **cross-platform device apps** — an Avalonia desktop/Android staff suite (POS, Warehouse, Inspector) with barcode scanning and ESC/POS receipt + ZPL label printing, plus a print agent driving physical printers over TCP / USB / BLE. Keycloak auth, RabbitMQ messaging, SignalR realtime. Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
+Building DKH — a multi-tenant SaaS commerce platform that lets domain-expert founders launch e-commerce ventures without redoing the engineering. I design and build it end-to-end: the multi-tenant platform and gateways, a Shopify-style storefront builder, an AI action layer (MCP + RAG), and cross-platform device apps. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
 
 - **Languages:** C#, TypeScript
 - **Backend & API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP

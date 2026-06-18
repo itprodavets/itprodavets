@@ -5,8 +5,13 @@
 ## Personal Projects
 
 ### DKH — Multi-tenant Commerce Platform
-- Role: Founder / Tech Lead (solo)
-- Description: Multi-tenant SaaS commerce platform — applying Forward Deployed Engineering thinking to my own product. Built as infrastructure that lets domain-expert founders launch e-commerce ventures without redoing the engineering. First venture deployed on DKH — thetea.app. Multi-tenant from day 1 (tenant_id + RLS isolation), AI as action layer (not chat), Telegram-first storefront, a Shopify-style storefront builder (visual editor + `dkh-theme` CLI), cross-platform Avalonia device apps (POS, Warehouse, Inspector) with ESC/POS receipt and ZPL label printing, and China-direct supply chain as a first-class concept. Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
+- Role: Founder (solo)
+- Description: Multi-tenant SaaS commerce platform — applying Forward Deployed Engineering thinking to my own product. Infrastructure that lets domain-expert founders launch e-commerce ventures without redoing the engineering. Multi-tenant from day 1 (tenant_id + RLS isolation), AI as an action layer (not chat), Telegram-first, China-direct supply chain as a first-class concept. First venture deployed on it — thetea.app. Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
+  - **Platform & gateways** — a .NET monorepo of 40+ services, gateways, and workers on a shared platform (plugin architecture, multi-tenant isolation); storefront & admin GraphQL / gRPC gateways; Keycloak auth, RabbitMQ messaging, SignalR realtime.
+  - **Storefront builder (Shopify-style)** — a visual storefront editor in the admin panel plus a `dkh-theme` CLI (dev / push / pull, mirroring the Shopify CLI mental model).
+  - **AI layer** — an MCP gateway exposing the platform to LLM agents, and an embedding / RAG worker (Qdrant + OpenAI / Ollama) for AI search and in-app assistants.
+  - **Marketing & lead generation** — a ClickHouse analytics worker turning web and marketing traffic into captured, scored, and routed prospects.
+  - **Device apps** — a cross-platform Avalonia desktop/Android staff suite (POS, Warehouse, Inspector) with barcode scanning and ESC/POS receipt + ZPL label printing, plus a print agent driving physical printers over TCP / USB / BLE.
 - Technologies: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (desktop/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 

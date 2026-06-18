@@ -5,8 +5,13 @@
 ## Личные проекты
 
 ### DKH — Multi-tenant Commerce Platform
-- Роль: Founder / Tech Lead (solo)
-- Описание: Мультитенантная SaaS commerce-платформа — applying Forward Deployed Engineering thinking к собственному продукту. Build как infrastructure что позволяет domain-expert founders запускать e-commerce ventures без переписывания engineering каждый раз. Первый venture, запущенный на DKH — thetea.app. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI as action layer (не chat), Telegram-first storefront, конструктор витрин в стиле Shopify (визуальный редактор + CLI `dkh-theme`), кроссплатформенные приложения для устройств на Avalonia (POS, склад, приёмка) с печатью чеков ESC/POS и этикеток ZPL, China-direct supply chain как first-class concept. Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
+- Роль: Founder (solo)
+- Описание: Мультитенантная SaaS commerce-платформа — applying Forward Deployed Engineering thinking к собственному продукту. Инфраструктура, которая позволяет domain-expert founders запускать e-commerce без переписывания engineering каждый раз. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI как action layer (не chat), Telegram-first, China-direct supply chain как first-class concept. Первый запущенный на ней venture — thetea.app. Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
+  - **Платформа и гейтвеи** — .NET-монорепо из 40+ сервисов, гейтвеев и воркеров на общей платформе (plugin-архитектура, мульти-тенантная изоляция); storefront- и admin-гейтвеи на GraphQL / gRPC; Keycloak-аутентификация, RabbitMQ, SignalR realtime.
+  - **Конструктор витрин (в стиле Shopify)** — визуальный редактор витрин в админке + CLI `dkh-theme` (dev / push / pull, по модели Shopify CLI).
+  - **AI-слой** — MCP-гейтвей (доступ LLM-агентам к платформе) и embedding / RAG-воркер (Qdrant + OpenAI / Ollama) для AI-поиска и встроенных ассистентов.
+  - **Маркетинг и лидогенерация** — ClickHouse-воркер аналитики, превращающий веб- и маркетинговый трафик в захваченных, оценённых и распределённых лидов.
+  - **Приложения для устройств** — кроссплатформенный десктоп/Android-набор на Avalonia (POS, склад, приёмка) со сканированием штрихкодов и печатью чеков ESC/POS и этикеток ZPL, плюс print-агент, управляющий физическими принтерами по TCP / USB / BLE.
 - Технологии: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (десктоп/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
