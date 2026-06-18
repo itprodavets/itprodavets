@@ -12,12 +12,6 @@ Technical lead with 15+ years building software and 5+ years in technical leader
 - **Data:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis
 - **Cloud & DevOps:** AWS, Docker, Kubernetes, Prometheus / Grafana, CI/CD (GitHub Actions, GitLab CI)
 
-## Personal Projects
-
-*Detailed projects → [DKH, thetea.app, Empire of Bloom](./projects.en.md#personal-projects)*
-
-Independent products built alongside commercial work: **DKH** — multi-tenant commerce platform (founder / tech lead); **thetea.app** — Telegram-first tea storefront (co-founder / IT partner); **Empire of Bloom** — smart container IoT platform (co-founder / IT partner). Forward Deployed approach applied to my own ventures — from FreeRTOS firmware through production AI (RAG, MCP, Semantic Kernel).
-
 ## Commercial Experience
 
 ### Tech Lead — GZ DKH Innovation Technology | Sep 2019 – Present

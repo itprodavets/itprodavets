@@ -12,12 +12,6 @@ Forward Deployed AI Engineer with 15+ years embedded in enterprise clients — I
 - **Data:** PostgreSQL, TimescaleDB, ClickHouse, MSSQL, MySQL, Redis, MongoDB, pgvector
 - **Cloud & DevOps:** AWS, Docker, Kubernetes, Terraform, Prometheus / Grafana, CI/CD (GitHub Actions, GitLab CI)
 
-## Personal Projects
-
-*Detailed projects → [DKH, thetea.app, Empire of Bloom](./projects.en.md#personal-projects)*
-
-Independent products built alongside commercial work: **DKH** — multi-tenant commerce platform (founder / tech lead); **thetea.app** — Telegram-first tea storefront (co-founder / IT partner); **Empire of Bloom** — smart container IoT platform (co-founder / IT partner). Forward Deployed approach applied to my own ventures — from FreeRTOS firmware through production AI (RAG, MCP, Semantic Kernel).
-
 ## Commercial Experience
 
 ### Forward Deployed AI Engineer — GZ DKH Innovation Technology | Sep 2019 – Present

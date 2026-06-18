@@ -12,12 +12,6 @@
 - **Данные:** PostgreSQL, MSSQL, TimescaleDB, ClickHouse, Redis
 - **Cloud и DevOps:** AWS, Docker, Kubernetes, Prometheus / Grafana, CI/CD (GitHub Actions, GitLab CI)
 
-## Личные проекты
-
-*Подробнее → [DKH, thetea.app, Empire of Bloom](./projects.ru.md#personal-projects)*
-
-Веду параллельно с коммерческой занятостью: **DKH** — multi-tenant commerce-платформа (founder / tech lead), **thetea.app** — Telegram-first витрина чая (co-founder / IT partner), **Empire of Bloom** — IoT-платформа умных контейнеров (co-founder / IT partner). Forward Deployed подход — от FreeRTOS прошивки до production AI (RAG, MCP, Semantic Kernel).
-
 ## Коммерческий опыт
 
 ### Tech Lead — GZ DKH Innovation Technology | Сентябрь 2019 – настоящее время
