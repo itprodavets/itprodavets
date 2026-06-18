@@ -3,11 +3,10 @@
    native print engine paginates the visible DOM into a PDF — no canvas
    rasterization, native text rendering, native links.
 
-   For *job-resume* views (full-resume / fwd-ai-engineer / tech-lead) we
-   also append the full Projects + Skills sections at the
-   end of the printed document so the resulting PDF is self-contained — a
-   recruiter who opens the file offline still sees every project detail and
-   the skill matrix.
+   For *job-resume* views (full-resume / fwd-ai-engineer / tech-lead) we also
+   append a compact Projects subset (personal projects + the current GZ DKH
+   engagement) and the full Skills matrix, so the PDF stays self-contained but
+   recruiter-length. Older roles remain summarised in the résumé body.
 
    Internal "Подробнее → ..." links in the resume use SPA-style hashes
    (`#/projects/ru?anchor=gz-dkh`). Before printing we rewrite those to
@@ -42,8 +41,13 @@
       // #/<key>/<lang>?anchor=<id>
       const anchored = href.match(/^#\/(?:projects|skills)\/[a-z]+\?anchor=([^&]+)$/);
       if (anchored) {
+        const id = decodeURIComponent(anchored[1]);
         rewrittenLinks.push({ el: a, original: href });
-        a.setAttribute('href', '#' + decodeURIComponent(anchored[1]));
+        // In-PDF jump if the section is in the (trimmed) appendix; otherwise
+        // point at the live site so the link isn't dead.
+        a.setAttribute('href', document.getElementById(id)
+          ? '#' + id
+          : location.origin + location.pathname + href);
         return;
       }
       // #/<key>/<lang> — link to whole section, jump to its appendix anchor
@@ -71,8 +75,10 @@
       ? { projects: 'Проекты — детали', skills: 'Навыки — детали' }
       : { projects: 'Projects — details', skills: 'Skills — details' };
 
-    // Projects
-    const projects = await window.renderSection('projects', currentLang);
+    // Projects — compact subset for the appendix: personal projects + the
+    // current GZ DKH engagement. Older roles stay summarised in the résumé
+    // body; their "Detailed projects →" links point to the live site.
+    const projects = await window.renderSection('projects', currentLang, ['personal-projects', 'gz-dkh']);
     if (projects) {
       const section = document.createElement('section');
       section.className = 'pdf-appendix-section';
