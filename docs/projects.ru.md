@@ -6,8 +6,8 @@
 
 ### DKH — Multi-tenant Commerce Platform
 - Роль: Founder / Tech Lead (solo)
-- Описание: Мультитенантная SaaS commerce-платформа — applying Forward Deployed Engineering thinking к собственному продукту. Build как infrastructure что позволяет domain-expert founders запускать e-commerce ventures без переписывания engineering каждый раз. Первый venture, запущенный на DKH — thetea.app. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI as action layer (не chat), Telegram-first storefront, China-direct supply chain как first-class concept.
-- Технологии: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
+- Описание: Мультитенантная SaaS commerce-платформа — applying Forward Deployed Engineering thinking к собственному продукту. Build как infrastructure что позволяет domain-expert founders запускать e-commerce ventures без переписывания engineering каждый раз. Первый venture, запущенный на DKH — thetea.app. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI as action layer (не chat), Telegram-first storefront, конструктор витрин в стиле Shopify (визуальный редактор + CLI `dkh-theme`), кроссплатформенные приложения для устройств на Avalonia (POS, склад, приёмка) с печатью чеков ESC/POS и этикеток ZPL, China-direct supply chain как first-class concept. Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
+- Технологии: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (десктоп/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
 ### thetea.app (с экосистемой: thetea-mcp, tea-assistant, ai-docs-hub)

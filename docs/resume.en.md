@@ -6,7 +6,7 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 
 - **Languages:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
 - **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
-- **Frontend:** Vue.js/Next.js, React/Angular, HTML5/CSS3, WebSocket
+- **Frontend & Apps:** Vue.js/Next.js, React/Angular, Avalonia (desktop/mobile), HTML5/CSS3, WebSocket
 - **Databases:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
 - **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Architecture & DevOps:** Microservices, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
@@ -19,12 +19,12 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 
 #### Founder & Lead Forward Deployed AI Engineer | 2025 – Present
 
-Building DKH — a multi-tenant SaaS commerce platform (a .NET monorepo of 40+ services, gateways, and workers on a shared platform) that lets domain-expert founders launch e-commerce ventures without redoing the engineering: plugin architecture, multi-tenant isolation, Telegram-first storefronts, AI as an action layer. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). Built end-to-end: storefront & admin GraphQL / gRPC gateways, an **MCP gateway** exposing the platform to LLM agents, an **embedding / RAG worker** (Qdrant + OpenAI / Ollama) for AI search and assistants, a **ClickHouse analytics worker** for marketing & lead generation, Keycloak auth, RabbitMQ messaging, SignalR realtime.
+Building DKH — a multi-tenant SaaS commerce platform (a .NET monorepo of 40+ services, gateways, and workers on a shared platform) that lets domain-expert founders launch e-commerce ventures without redoing the engineering: plugin architecture, multi-tenant isolation, a **Shopify-style storefront builder** (visual editor + a `dkh-theme` CLI), Telegram-first storefronts, and AI as an action layer. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). Built end-to-end and hands-on: storefront & admin GraphQL / gRPC gateways, an **MCP gateway** exposing the platform to LLM agents, an **embedding / RAG worker** (Qdrant + OpenAI / Ollama) for AI search and assistants, a **ClickHouse analytics worker** for marketing & lead generation, and **cross-platform device apps** — an Avalonia desktop/Android staff suite (POS, Warehouse, Inspector) with barcode scanning and ESC/POS receipt + ZPL label printing, plus a print agent driving physical printers over TCP / USB / BLE. Keycloak auth, RabbitMQ messaging, SignalR realtime. Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
 
 - **Languages:** C#, TypeScript
 - **Backend & API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP
 - **AI/ML:** OpenAI, Ollama, Qdrant, RAG, Embeddings
-- **Frontend:** Next.js, React, TypeScript, Tailwind, Telegram Mini App
+- **Frontend & Apps:** Next.js, React, TypeScript, Tailwind, Telegram Mini App, Avalonia (desktop/Android)
 - **Data:** PostgreSQL, MongoDB, ClickHouse, Redis
 - **Platform & DevOps:** Keycloak, OpenTelemetry, Docker, GitLab CI, DDD, CQRS
 
