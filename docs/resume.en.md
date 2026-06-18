@@ -1,17 +1,33 @@
 # Denis Kharchenko
 
-Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in enterprise clients across IoT, e-commerce, healthcare, and government. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, and integrating production AI (RAG, MCP, Semantic Kernel). Currently building DKH multi-tenant commerce platform + thetea.app.
+Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in enterprise clients across IoT, e-commerce, healthcare, and government. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, and integrating production AI (RAG, MCP, Semantic Kernel). Currently building DKH — a multi-tenant commerce platform — with thetea.app the first venture live on it.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-- **Languages:** Go, C#, JavaScript, TypeScript, C++, C, SQL, Bash
-- **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST API, RabbitMQ, SignalR, MQTT
+- **Languages:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
+- **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
 - **Frontend:** Vue.js/Next.js, React/Angular, HTML5/CSS3, WebSocket
 - **Databases:** PostgreSQL/MySQL/MSSQL, TimescaleDB, Redis
 - **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Architecture & DevOps:** Microservices, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
 
 ## Commercial Experience
+
+### DKH — Multi-tenant Commerce Platform (own product)
+
+*Detailed projects → [DKH & thetea.app](./projects.en.md#personal-projects)*
+
+#### Founder & Engineer | 2025 – Present
+
+Building DKH — a multi-tenant SaaS commerce platform that lets domain-expert founders launch e-commerce ventures without redoing the engineering: multi-tenant isolation, AI as an action layer (not just chat), Telegram-first storefronts, China-direct supply chain. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). 20+ event-driven microservices. AI services: **tea-assistant** (RAG chatbot — LangChain + OpenAI / Ollama + pgvector), **thetea-mcp** (MCP server exposing catalog/orders to LLM agents), **ai-docs-hub** (open-source RAG knowledge base, Go / Gin), plus the marketing & lead-generation analytics layer.
+
+- **Languages:** Go, C#, Python, TypeScript
+- **Backend & API:** .NET 10, Node.js, Gin, gRPC, GraphQL, REST, Kafka, RabbitMQ, MCP
+- **AI/ML:** OpenAI API, LangChain, Ollama, RAG, Qdrant, pgvector, Embeddings
+- **Frontend:** Next.js, React, TypeScript, Tailwind, Telegram Mini App
+- **Data & Platform:** PostgreSQL, Redis, Docker, CQRS, DDD, OpenTelemetry, CI/CD
+
+---
 
 ### GZ DKH Innovation Technology
 

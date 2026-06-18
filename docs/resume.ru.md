@@ -1,17 +1,33 @@
 # Денис Харченко
 
-Forward Deployed Engineer с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю DKH multi-tenant commerce platform + thetea.app.
+Forward Deployed Engineer с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю DKH — мульти-тенантную commerce-платформу — с thetea.app как первым запущенным на ней venture.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-- **Языки:** Go, C#, JavaScript, TypeScript, C++, C, SQL, Bash
-- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST API, RabbitMQ, SignalR, MQTT
+- **Языки:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
+- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
 - **Фронтенд:** Vue.js/Next.js, React/Angular, HTML5/CSS3, WebSocket
 - **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, Redis
 - **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
 
 ## Коммерческий опыт
+
+### DKH — мульти-тенантная commerce-платформа (свой продукт)
+
+*Подробнее о проектах → [DKH и thetea.app](./projects.ru.md#personal-projects)*
+
+#### Founder & Engineer | 2025 – наст. время
+
+Строю DKH — мульти-тенантную SaaS commerce-платформу, которая позволяет доменным основателям запускать e-commerce без переписывания инженерии: мульти-тенантная изоляция, AI как action-слой (не просто чат), Telegram-first витрины, China-direct поставки. Первый запущенный на ней venture — **thetea.app** (со-фаундер — эксперт по чаю 20+ лет: он — домен, я — инженерия). 20+ event-driven микросервисов. AI-сервисы: **tea-assistant** (RAG-чатбот — LangChain + OpenAI / Ollama + pgvector), **thetea-mcp** (MCP-сервер для LLM-агентов), **ai-docs-hub** (open-source RAG-база знаний, Go / Gin), плюс слой маркетинговой аналитики и лидогенерации.
+
+- **Языки:** Go, C#, Python, TypeScript
+- **Бэкенд и API:** .NET 10, Node.js, Gin, gRPC, GraphQL, REST, Kafka, RabbitMQ, MCP
+- **AI/ML:** OpenAI API, LangChain, Ollama, RAG, Qdrant, pgvector, Embeddings
+- **Фронтенд:** Next.js, React, TypeScript, Tailwind, Telegram Mini App
+- **Данные и платформа:** PostgreSQL, Redis, Docker, CQRS, DDD, OpenTelemetry, CI/CD
+
+---
 
 ### GZ DKH Innovation Technology
 
