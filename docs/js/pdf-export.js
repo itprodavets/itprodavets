@@ -3,26 +3,18 @@
    native print engine paginates the visible DOM into a PDF — no canvas
    rasterization, native text rendering, native links.
 
-   For *job-resume* views (full-resume / fwd-ai-engineer / tech-lead) we also
-   append a compact Projects subset (personal projects + the current GZ DKH
-   engagement) and the full Skills matrix, so the PDF stays self-contained but
-   recruiter-length. Older roles remain summarised in the résumé body.
-
-   Internal "Подробнее → ..." links in the resume use SPA-style hashes
-   (`#/projects/ru?anchor=gz-dkh`). Before printing we rewrite those to
-   plain anchors (`#gz-dkh`) so clicks inside the PDF jump to the matching
-   `<a id="gz-dkh">` marker in the appended Projects section. Originals
-   are restored on the `afterprint` event. */
+   The PDF is the résumé BODY only — Projects and Skills are NOT appended, to
+   keep the file recruiter-length. Those sections live on the web; the résumé's
+   "Detailed projects → ..." links (SPA hashes like #/projects/ru?anchor=gz-dkh)
+   are rewritten to absolute live-site URLs before printing so they stay
+   clickable in the PDF, and restored on the `afterprint` event. */
 
 (function () {
   const downloadBtn = document.getElementById('downloadPdf');
   if (!downloadBtn) return;
 
-  const JOB_RESUMES = ['full-resume', 'fwd-ai-engineer', 'tech-lead'];
-
   let prePrintTitle = null;
   let preExpandedPanels = [];
-  let appendixEl = null;
   let rewrittenLinks = []; // [{ el, original }]
 
   function getCurrent() {
@@ -31,31 +23,16 @@
     return { currentResume, currentLang };
   }
 
-  // Walk every <a href> in the resume + appendix, rewrite SPA hash links
-  // (#/projects/<lang>?anchor=<id>, #/skills/<lang>?anchor=<id>) to plain
-  // (#<id>) anchors so they work as in-PDF jumps.
+  // Rewrite the résumé's SPA hash links to Projects/Skills (#/projects/...,
+  // #/skills/...) into absolute live-site URLs so they open the web page —
+  // those sections aren't embedded in the PDF.
   function rewriteSpaLinks(root) {
     root.querySelectorAll('a[href]').forEach(a => {
       const href = a.getAttribute('href');
       if (!href) return;
-      // #/<key>/<lang>?anchor=<id>
-      const anchored = href.match(/^#\/(?:projects|skills)\/[a-z]+\?anchor=([^&]+)$/);
-      if (anchored) {
-        const id = decodeURIComponent(anchored[1]);
+      if (/^#\/(?:projects|skills)\//.test(href)) {
         rewrittenLinks.push({ el: a, original: href });
-        // In-PDF jump if the section is in the (trimmed) appendix; otherwise
-        // point at the live site so the link isn't dead.
-        a.setAttribute('href', document.getElementById(id)
-          ? '#' + id
-          : location.origin + location.pathname + href);
-        return;
-      }
-      // #/<key>/<lang> — link to whole section, jump to its appendix anchor
-      const sectionLink = href.match(/^#\/(projects|skills)\/[a-z]+$/);
-      if (sectionLink) {
-        rewrittenLinks.push({ el: a, original: href });
-        a.setAttribute('href', '#pdf-appendix-' + sectionLink[1]);
-        return;
+        a.setAttribute('href', location.origin + location.pathname + href);
       }
     });
   }
@@ -65,84 +42,18 @@
     rewrittenLinks = [];
   }
 
-  async function buildAppendix(currentLang) {
-    if (typeof window.renderSection !== 'function') return null;
-
-    const appendix = document.createElement('div');
-    appendix.id = 'pdf-appendix';
-
-    const labels = currentLang === 'ru'
-      ? { projects: 'Проекты — детали', skills: 'Навыки — детали' }
-      : { projects: 'Projects — details', skills: 'Skills — details' };
-
-    // Projects — compact subset for the appendix: personal projects + the
-    // current GZ DKH engagement. Older roles stay summarised in the résumé
-    // body; their "Detailed projects →" links point to the live site.
-    const projects = await window.renderSection('projects', currentLang, ['personal-projects', 'gz-dkh']);
-    if (projects) {
-      const section = document.createElement('section');
-      section.className = 'pdf-appendix-section';
-      // Anchor target for in-PDF "jump to projects" links
-      const anchor = document.createElement('a');
-      anchor.id = 'pdf-appendix-projects';
-      section.appendChild(anchor);
-      const h2 = document.createElement('h2');
-      h2.textContent = labels.projects;
-      section.appendChild(h2);
-      while (projects.firstChild) section.appendChild(projects.firstChild);
-      appendix.appendChild(section);
-    }
-
-    // Skills
-    const skills = await window.renderSection('skills', currentLang);
-    if (skills) {
-      const section = document.createElement('section');
-      section.className = 'pdf-appendix-section';
-      const anchor = document.createElement('a');
-      anchor.id = 'pdf-appendix-skills';
-      section.appendChild(anchor);
-      const h2 = document.createElement('h2');
-      h2.textContent = labels.skills;
-      section.appendChild(h2);
-      while (skills.firstChild) section.appendChild(skills.firstChild);
-      appendix.appendChild(section);
-    }
-
-    return appendix;
-  }
-
-  async function preparePrint() {
+  function preparePrint() {
     const { currentResume, currentLang } = getCurrent();
 
     prePrintTitle = document.title;
     document.title = `${currentResume}-${currentLang}`;
 
-    // Skills page: skill-projects panels start collapsed (hidden attribute).
-    // The @media print stylesheet shows them, but clear the attribute now so
-    // the print preview captures them visible (some engines snapshot DOM
-    // state for print rather than re-running CSS).
+    // Expand collapsed skill panels (matters on the /skills page) so they print.
     preExpandedPanels = Array.from(document.querySelectorAll('.skill-projects[hidden]'));
     preExpandedPanels.forEach(p => p.removeAttribute('hidden'));
 
-    // Append Projects + Skills only for job-resume views — on /projects and
-    // /skills the relevant content is already the primary view.
-    if (JOB_RESUMES.includes(currentResume)) {
-      const main = document.getElementById('resumeContent');
-      if (main) {
-        appendixEl = await buildAppendix(currentLang);
-        if (appendixEl) {
-          main.appendChild(appendixEl);
-          // Expand any newly-appended skill-projects panels too
-          appendixEl.querySelectorAll('.skill-projects[hidden]').forEach(p => {
-            preExpandedPanels.push(p);
-            p.removeAttribute('hidden');
-          });
-        }
-      }
-    }
-
-    // Rewrite SPA hash links to plain in-PDF anchors (covers both the main
-    // resume content and the freshly-appended appendix).
+    // No Projects/Skills appendix — the résumé PDF is body-only, kept
+    // recruiter-length; those sections stay on the web and are linked from it.
     rewriteSpaLinks(document.body);
   }
 
@@ -153,10 +64,6 @@
     }
     preExpandedPanels.forEach(p => p.setAttribute('hidden', ''));
     preExpandedPanels = [];
-    if (appendixEl && appendixEl.parentNode) {
-      appendixEl.parentNode.removeChild(appendixEl);
-      appendixEl = null;
-    }
     restoreLinks();
   }
 
@@ -164,16 +71,15 @@
   // place to restore the document.
   window.addEventListener('afterprint', restoreAfterPrint);
 
-  downloadBtn.addEventListener('click', async () => {
+  downloadBtn.addEventListener('click', () => {
     try {
-      await preparePrint();
+      preparePrint();
     } catch (err) {
       console.error('PDF prepare failed:', err);
       restoreAfterPrint();
       return;
     }
-    // Defer print() one task so the appended DOM is committed to layout
-    // before the browser captures the print preview.
+    // Defer print() one task so DOM changes are committed to layout first.
     setTimeout(() => { window.print(); }, 0);
   });
 })();
