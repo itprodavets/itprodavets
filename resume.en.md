@@ -15,7 +15,7 @@ Forward Deployed Engineer with 15+ years embedded in enterprise clients across I
 
 ### Forward Deployed AI Engineer - GZ DKH Innovation Technology (September 2019 – Present)
 
-*Grew from Senior Full-Stack Engineer → Tech Lead → Forward Deployed AI Engineer*
+*Senior Full-Stack Engineer → Tech Lead → Forward Deployed AI Engineer*
 
 *Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
 
@@ -63,7 +63,7 @@ Short-term contract alongside primary employment — performance engineering on 
 
 ### Lead Developer - KPMG (May 2017 – September 2019)
 
-*Grew from Senior Developer → Team Lead*
+*Senior Developer → Team Lead*
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
 
@@ -80,7 +80,7 @@ Designed architecture and developed tax reporting automation and tax process opt
 
 ### Senior Full-Stack Developer - Dom PK LLC (April 2015 – April 2017)
 
-*Grew from Full-Stack Developer → Team Lead*
+*Full-Stack Developer → Team Lead*
 
 *Detailed projects → [Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
 
