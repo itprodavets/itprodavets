@@ -5,10 +5,10 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
 - **Языки:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
-- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, Gin/Echo, gRPC, REST/GraphQL, RabbitMQ, Kafka, SignalR, MQTT
+- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
 - **Фронтенд:** Vue.js/Next.js, React/Angular, HTML5/CSS3, WebSocket
-- **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, Redis
-- **AI/ML:** OpenAI API, Azure OpenAI, LangChain, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
+- **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
+- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
 
 ## Коммерческий опыт
@@ -19,13 +19,14 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 #### Founder & Lead Forward Deployed AI Engineer | 2025 – наст. время
 
-Строю DKH — мульти-тенантную SaaS commerce-платформу, которая позволяет доменным основателям запускать e-commerce без переписывания инженерии: мульти-тенантная изоляция, AI как action-слой (не просто чат), Telegram-first витрины, China-direct поставки. Первый запущенный на ней venture — **thetea.app** (со-фаундер — эксперт по чаю 20+ лет: он — домен, я — инженерия). 20+ event-driven микросервисов. AI-сервисы: **tea-assistant** (RAG-чатбот — LangChain + OpenAI / Ollama + pgvector), **thetea-mcp** (MCP-сервер для LLM-агентов), **ai-docs-hub** (open-source RAG-база знаний, Go / Gin), плюс слой маркетинговой аналитики и лидогенерации.
+Строю DKH — мульти-тенантную SaaS commerce-платформу (.NET-монорепо из 40+ сервисов, гейтвеев и воркеров на общей платформе), которая позволяет доменным основателям запускать e-commerce без переписывания инженерии: plugin-архитектура, мульти-тенантная изоляция, Telegram-first витрины, AI как action-слой. Первый запущенный на ней venture — **thetea.app** (со-фаундер — эксперт по чаю 20+ лет: он — домен, я — инженерия). Построил end-to-end: storefront- и admin-гейтвеи на GraphQL / gRPC, **MCP-гейтвей** (доступ LLM-агентам к платформе), **embedding / RAG-воркер** (Qdrant + OpenAI / Ollama) для AI-поиска и ассистентов, **ClickHouse-воркер аналитики** для маркетинга и лидогенерации, Keycloak-аутентификация, RabbitMQ, SignalR realtime.
 
-- **Языки:** Go, C#, Python, TypeScript
-- **Бэкенд и API:** .NET 10, Node.js, Gin, gRPC, GraphQL, REST, Kafka, RabbitMQ, MCP
-- **AI/ML:** OpenAI API, LangChain, Ollama, RAG, Qdrant, pgvector, Embeddings
+- **Языки:** C#, TypeScript
+- **Бэкенд и API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP
+- **AI/ML:** OpenAI, Ollama, Qdrant, RAG, Embeddings
 - **Фронтенд:** Next.js, React, TypeScript, Tailwind, Telegram Mini App
-- **Данные и платформа:** PostgreSQL, Redis, Docker, CQRS, DDD, OpenTelemetry, CI/CD
+- **Данные:** PostgreSQL, MongoDB, ClickHouse, Redis
+- **Платформа и DevOps:** Keycloak, OpenTelemetry, Docker, GitLab CI, DDD, CQRS
 
 ---
 
@@ -51,7 +52,7 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 #### Senior Full-Stack Engineer | Сен 2019 – Сен 2023
 
-Embedded в клиентских командах, shipping production code. Engagement #1 (телеком / электроника): Production Line Monitor (real-time IoT-мониторинг линий), Dealer Portal (заказы, отгрузки, интеграция с ERP), Marketing Campaign Manager. С 2022 — начал платформу Empire of Bloom: мультиплатформенный eCommerce (многие backend-сервисы на Go) и real-time Fleet Tracking.
+Embedded в клиентских командах, shipping production code. Engagement #1 (телеком / электроника): Production Line Monitor (real-time IoT-мониторинг линий), Dealer Portal (заказы, отгрузки, интеграция с ERP), Marketing Campaign Manager. С 2022 — начал платформу Empire of Bloom: мультиплатформенный eCommerce и real-time Fleet Tracking (Go).
 
 - **Языки:** C#, Go, JavaScript, TypeScript
 - **Бэкенд:** .NET Core, EF Core, CQRS, DDD, gRPC, RabbitMQ, SignalR, MQTT
