@@ -114,18 +114,16 @@ window.renderSection = async function (resumeKey, lang, sections) {
 };
 
 /* ===== Constants ===== */
-const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-/* Markdown is served from jsDelivr (a real CDN) for reliability under load —
-   GitHub raw rate-limits and isn't built for traffic, which caused "Failed to
-   load resume" errors for users. A ?v= version query busts the cache on each
-   deploy (bump ASSET_VERSION below in lockstep with the ?v= on the script/style
-   tags in index.html); the purge-jsdelivr workflow also refreshes @main files
-   on every .md change, so content stays current within a minute or two. */
-const RAW_BASE = IS_LOCAL
-  ? location.pathname.replace(/\/docs\/?$/, '/').replace(/\/docs\/[^/]*$/, '/')
-  : 'https://cdn.jsdelivr.net/gh/itprodavets/itprodavets@main/';
-const ASSET_VERSION = '29';
-const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/';
+/* Markdown is served same-origin from this GitHub Pages site — the .md files
+   live alongside the app under docs/, so fetches are relative. Pages purges its
+   own CDN on every deploy, so content is fresh immediately and reliably: no
+   third-party CDN rate-limits (GitHub raw) or stale branch resolution (jsDelivr
+   @main), both of which broke the site. The ?v=ASSET_VERSION query busts the
+   browser cache — bump it together with the ?v= on index.html's script/style
+   tags on every content deploy. */
+const RAW_BASE = '';
+const ASSET_VERSION = '30';
+const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/docs/';
 
 /* ===== DOM Helpers ===== */
 const $ = (sel) => document.querySelector(sel);
