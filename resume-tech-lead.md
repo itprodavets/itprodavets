@@ -1,10 +1,10 @@
-# Denis Kharchenko — Engineering Lead / Manager
+# Denis Kharchenko — Tech Lead
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
-Engineering leader with 15+ years building software and 5+ years leading backend teams. Forward Deployed practitioner — embedded in enterprise clients, driving architecture decisions, establishing engineering standards, and delivering complex distributed systems end-to-end. Polyglot (Go, C#, Python, TypeScript) and hands-on with production AI (RAG, MCP, Semantic Kernel). Proven track record growing and mentoring teams, running a code-review culture, translating ambiguous business requirements into shipped product, and scaling delivery across IoT, e-commerce, fintech, healthcare, and government.
+Technical lead with 15+ years building software and 5+ years in technical leadership. Forward Deployed practitioner — embedded in enterprise clients, owning architecture decisions, setting engineering standards, mentoring developers, and delivering complex distributed systems end-to-end while staying hands-on in the code. Polyglot (Go, C#, Python, TypeScript) with production AI (RAG, MCP, Semantic Kernel). Track record of driving technical direction, growing and mentoring teams, running a code-review culture, and translating ambiguous business requirements into shipped product across IoT, e-commerce, fintech, healthcare, and government.
 
-- **Leadership:** team building & mentoring, hiring, code-review culture, architecture governance, Agile/Scrum, delivery management, technical roadmaps
+- **Technical leadership:** architecture governance, technical roadmaps, code-review culture, mentoring, cross-team technical direction, Agile/Scrum
 - **Languages:** Go, C#, Python, TypeScript / JavaScript, C / C++, SQL
 - **Architecture:** Microservices, CQRS, DDD, Event-Driven Architecture, REST API, gRPC
 - **AI/ML:** RAG, MCP, Semantic Kernel, OpenAI / Azure OpenAI, Qdrant, pgvector, embeddings
@@ -20,11 +20,11 @@ Independent products built alongside commercial work: **DKH** — multi-tenant c
 
 ## Commercial Experience
 
-### Engineering Lead — GZ DKH Innovation Technology | Sep 2019 – Present
+### Tech Lead — GZ DKH Innovation Technology | Sep 2019 – Present
 
 *Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
 
-Progressed Senior Software Developer → Lead Software Developer → Forward Deployed AI Engineer. Led backend teams delivering solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Defined microservice architecture, established coding standards, and drove technical decisions across the full stack. Built an AI operations assistant using Semantic Kernel with RAG architecture. Ran business analysis end-to-end: stakeholder interviews and requirements workshops, user stories with acceptance criteria, SRS documents, API contracts (OpenAPI), sequence and BPMN diagrams. Grew the team from 2 to 5 developers, mentored 3+ juniors to mid-level, conducted code reviews.
+Progressed Senior Software Developer → Tech Lead → Forward Deployed AI Engineer. Owned architecture and technical direction for teams delivering solutions in IoT, e-commerce, marketing, and industrial automation for major technology clients. Defined microservice architecture, established coding standards, and drove key technical decisions across the full stack. Built an AI operations assistant using Semantic Kernel with RAG architecture. Ran business analysis end-to-end: stakeholder interviews and requirements workshops, user stories with acceptance criteria, SRS documents, API contracts (OpenAPI), sequence and BPMN diagrams. Grew and mentored the team from 2 to 5 developers, brought 3+ juniors to mid-level, conducted code reviews.
 
 - Grew and mentored the backend team from 2 to 5 developers
 - Established CI/CD pipelines, a code-review process, and engineering best practices
@@ -39,9 +39,9 @@ Progressed Senior Software Developer → Lead Software Developer → Forward Dep
 
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
 
-Led the development team building tax automation platforms for tax authorities worldwide. Managed a team of 4+ developers, defined architecture, conducted code reviews, and coordinated with stakeholders. Led migration from .NET Framework to .NET Core.
+Technical lead on tax automation platforms for tax authorities worldwide. Guided a team of 4+ developers, defined architecture, conducted code reviews, and coordinated with stakeholders. Led migration from .NET Framework to .NET Core.
 
-- Managed the full development lifecycle from requirements to production deployment
+- Owned the technical lifecycle from requirements to production deployment
 - Led successful migration of a legacy codebase to a modern stack
 - Delivered a BEPS reporting tool adopted by tax authorities globally
 - Introduced CQRS/DDD patterns improving codebase maintainability
@@ -52,7 +52,7 @@ Led the development team building tax automation platforms for tax authorities w
 
 *Detailed projects → [Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
 
-Developed analytical systems for government ministries (Education, Health, Energy). Built REST APIs, data processing pipelines, and complex reporting. Led MSSQL optimization: schema design, stored procedures, query tuning. Team Lead on several engagements.
+Developed analytical systems for government ministries (Education, Health, Energy). Built REST APIs, data processing pipelines, and complex reporting. Led MSSQL optimization: schema design, stored procedures, query tuning. Technical lead on several engagements.
 
 **Stack:** C#, .NET Framework, ASP.NET Web API, EF, Dapper, ADO.NET, MSSQL, AngularJS, D3.js, CryptoPro
 
