@@ -69,6 +69,8 @@ Short-term contract alongside primary employment — performance engineering on 
 
 ### Lead Developer - KPMG (May 2017 – September 2019)
 
+*Grew from Senior Developer → Team Lead*
+
 *Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
 
 Designed architecture and developed tax reporting automation and tax process optimization platforms for tax authorities worldwide. Built backend on ASP.NET with REST API and OData endpoints, frontend on Angular with D3.js data visualization. Migrated the codebase from .NET Framework to .NET Core. Led the development team, conducted code reviews.
@@ -83,6 +85,8 @@ Designed architecture and developed tax reporting automation and tax process opt
 ---
 
 ### Senior Full-Stack Developer - Dom PK LLC (April 2015 – April 2017)
+
+*Grew from Full-Stack Developer → Team Lead*
 
 *Detailed projects → [Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
 

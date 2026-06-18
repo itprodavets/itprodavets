@@ -110,7 +110,7 @@ const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/';
 /* Cache-bust markdown the same way as JS/CSS — bump on every content change so
    jsDelivr + browsers refetch instead of serving a stale @main copy. Keep in
    sync with the ?v= query on the script/style tags in index.html. */
-const ASSET_VERSION = '21';
+const ASSET_VERSION = '22';
 
 /* ===== DOM Helpers ===== */
 const $ = (sel) => document.querySelector(sel);
