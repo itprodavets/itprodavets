@@ -107,10 +107,6 @@ const RAW_BASE = IS_LOCAL
   ? location.pathname.replace(/\/docs\/?$/, '/').replace(/\/docs\/[^/]*$/, '/')
   : 'https://cdn.jsdelivr.net/gh/itprodavets/itprodavets@main/';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/';
-/* Cache-bust markdown the same way as JS/CSS — bump on every content change so
-   jsDelivr + browsers refetch instead of serving a stale @main copy. Keep in
-   sync with the ?v= query on the script/style tags in index.html. */
-const ASSET_VERSION = '24';
 
 /* ===== DOM Helpers ===== */
 const $ = (sel) => document.querySelector(sel);
@@ -119,7 +115,11 @@ const $$ = (sel) => document.querySelectorAll(sel);
 /* ===== Markdown fetching with cache ===== */
 async function fetchMarkdown(filename) {
   if (state.cache[filename]) return state.cache[filename];
-  const response = await fetch(RAW_BASE + filename + '?v=' + ASSET_VERSION);
+  // Always revalidate from the network so content edits show up without a
+  // version bump or a stale per-URL browser cache. jsDelivr @main + the purge
+  // workflow handle CDN freshness; { cache: 'reload' } defeats the browser's
+  // own HTTP cache, which is what kept serving stale résumé content before.
+  const response = await fetch(RAW_BASE + filename, { cache: 'reload' });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const text = await response.text();
   state.cache[filename] = text;
