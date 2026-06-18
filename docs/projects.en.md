@@ -6,8 +6,8 @@
 
 ### DKH — Multi-tenant Commerce Platform
 - Role: Founder / Tech Lead (solo)
-- Description: Multi-tenant SaaS commerce platform — applying Forward Deployed Engineering thinking to my own product. Built as infrastructure that lets domain-expert founders launch e-commerce ventures without redoing the engineering. First venture deployed on DKH — thetea.app. Multi-tenant from day 1 (tenant_id + RLS isolation), AI as action layer (not chat), Telegram-first storefront, China-direct supply chain as first-class concept.
-- Technologies: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
+- Description: Multi-tenant SaaS commerce platform — applying Forward Deployed Engineering thinking to my own product. Built as infrastructure that lets domain-expert founders launch e-commerce ventures without redoing the engineering. First venture deployed on DKH — thetea.app. Multi-tenant from day 1 (tenant_id + RLS isolation), AI as action layer (not chat), Telegram-first storefront, a Shopify-style storefront builder (visual editor + `dkh-theme` CLI), cross-platform Avalonia device apps (POS, Warehouse, Inspector) with ESC/POS receipt and ZPL label printing, and China-direct supply chain as a first-class concept. Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
+- Technologies: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (desktop/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
 ### thetea.app (with ecosystem: thetea-mcp, tea-assistant, ai-docs-hub)

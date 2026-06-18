@@ -24,6 +24,7 @@ Daily drivers. I lead architectural decisions on these.
 
 Regular production use, ship features end-to-end.
 
+- **Avalonia (desktop / Android)** · since 2025 · DKH Apps Suite — POS, Warehouse, Inspector
 - **Go (1.18 → 1.24)** · since 2022 · ai-docs-hub, Empire of Bloom Fleet Tracking Platform
 - **Redis** · since 2021 · DKH session + caching, thetea.app
 - **Kubernetes** · since 2021 · DKH, thetea.app, Empire of Bloom, Fleet Tracking

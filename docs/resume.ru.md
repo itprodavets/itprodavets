@@ -6,7 +6,7 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 - **Языки:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
 - **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
-- **Фронтенд:** Vue.js/Next.js, React/Angular, HTML5/CSS3, WebSocket
+- **Фронтенд и приложения:** Vue.js/Next.js, React/Angular, Avalonia (десктоп/мобайл), HTML5/CSS3, WebSocket
 - **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
 - **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, pgvector, Embeddings
 - **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
@@ -19,12 +19,12 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 #### Founder & Lead Forward Deployed AI Engineer | 2025 – наст. время
 
-Строю DKH — мульти-тенантную SaaS commerce-платформу (.NET-монорепо из 40+ сервисов, гейтвеев и воркеров на общей платформе), которая позволяет доменным основателям запускать e-commerce без переписывания инженерии: plugin-архитектура, мульти-тенантная изоляция, Telegram-first витрины, AI как action-слой. Первый запущенный на ней venture — **thetea.app** (со-фаундер — эксперт по чаю 20+ лет: он — домен, я — инженерия). Построил end-to-end: storefront- и admin-гейтвеи на GraphQL / gRPC, **MCP-гейтвей** (доступ LLM-агентам к платформе), **embedding / RAG-воркер** (Qdrant + OpenAI / Ollama) для AI-поиска и ассистентов, **ClickHouse-воркер аналитики** для маркетинга и лидогенерации, Keycloak-аутентификация, RabbitMQ, SignalR realtime.
+Строю DKH — мульти-тенантную SaaS commerce-платформу (.NET-монорепо из 40+ сервисов, гейтвеев и воркеров на общей платформе), которая позволяет доменным основателям запускать e-commerce без переписывания инженерии: plugin-архитектура, мульти-тенантная изоляция, **конструктор витрин в стиле Shopify** (визуальный редактор + CLI `dkh-theme`), Telegram-first витрины, AI как action-слой. Первый запущенный на ней venture — **thetea.app** (со-фаундер — эксперт по чаю 20+ лет: он — домен, я — инженерия). Построил end-to-end своими руками: storefront- и admin-гейтвеи на GraphQL / gRPC, **MCP-гейтвей** (доступ LLM-агентам к платформе), **embedding / RAG-воркер** (Qdrant + OpenAI / Ollama) для AI-поиска и ассистентов, **ClickHouse-воркер аналитики** для маркетинга и лидогенерации, и **кроссплатформенные приложения для устройств** — десктоп/Android-набор на Avalonia (POS, склад, приёмка) со сканированием штрихкодов и печатью чеков ESC/POS и этикеток ZPL, плюс print-агент, управляющий физическими принтерами по TCP / USB / BLE. Keycloak-аутентификация, RabbitMQ, SignalR realtime. Платформу построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
 
 - **Языки:** C#, TypeScript
 - **Бэкенд и API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP
 - **AI/ML:** OpenAI, Ollama, Qdrant, RAG, Embeddings
-- **Фронтенд:** Next.js, React, TypeScript, Tailwind, Telegram Mini App
+- **Фронтенд и приложения:** Next.js, React, TypeScript, Tailwind, Telegram Mini App, Avalonia (десктоп/Android)
 - **Данные:** PostgreSQL, MongoDB, ClickHouse, Redis
 - **Платформа и DevOps:** Keycloak, OpenTelemetry, Docker, GitLab CI, DDD, CQRS
 
