@@ -19,15 +19,28 @@ Forward Deployed Engineer with 15+ years embedded in enterprise clients across I
 
 #### Lead Forward Deployed AI Engineer | Sep 2024 – Present
 
-Build and ship production AI that drives business outcomes — embedded inside the business, not as a vendor demo. Current work: AI assistants and LLM agents grounded on the business's own data via RAG (operations, support, and sales copilots), plus the marketing and lead-generation layer of the eCommerce platform — turning web and marketing traffic into captured, scored, and routed prospects. Built on C# / .NET 9 with Semantic Kernel / Azure OpenAI, vector search (Qdrant / pgvector), and MCP tool servers over PostgreSQL / TimescaleDB.
+Build and ship production AI that drives business outcomes — embedded inside the business, not as a vendor demo. Current work: AI assistants and LLM agents grounded on the business's own data via RAG (operations, support, and sales copilots), plus the marketing and lead-generation layer of the eCommerce platform — turning web and marketing traffic into captured, scored, and routed prospects.
+
+- **AI/ML:** Semantic Kernel, Azure OpenAI, RAG, Qdrant, pgvector, MCP
+- **Backend:** Go, C#, .NET 9, gRPC, REST API, Redis, RabbitMQ
+- **Databases:** PostgreSQL, TimescaleDB
 
 #### Technical Lead | Sep 2023 – Sep 2024
 
-Led architecture and the team across the Empire of Bloom smart-container IoT platform — from FreeRTOS firmware (C/C++) to backend services and telemetry pipelines. Shipped the Container Diagnostics Service (OTA updates and critical-failure alerting), built OTA infrastructure for continuous firmware delivery, set coding standards, and mentored the team. Polyglot delivery on C# / .NET 9 and Go with MQTT / Modbus messaging and Docker / Kubernetes / Prometheus.
+Led architecture and the team on the Empire of Bloom smart-container IoT platform — from FreeRTOS firmware to backend services and telemetry pipelines. Shipped the Container Diagnostics Service (OTA updates + critical-failure alerting), built OTA infrastructure for continuous firmware delivery, and mentored the team.
+
+- **Backend & Embedded:** C#, .NET 9, Go, FreeRTOS (C/C++), gRPC, SignalR
+- **Protocols & DevOps:** MQTT, Modbus, RabbitMQ, Docker, Kubernetes, Prometheus, Grafana
+- **Databases:** PostgreSQL, TimescaleDB, Redis
 
 #### Senior Full-Stack Engineer | Sep 2019 – Sep 2023
 
-Embedded in client teams shipping production code end-to-end. Engagement #1 (telecom / electronics multinational): Production Line Monitor (real-time IoT line monitoring), Dealer Portal (orders, shipments, ERP integration), and Marketing Campaign Manager. From 2022 — started the Empire of Bloom platform with multi-platform eCommerce and the real-time Fleet Tracking Platform. Built across the stack in C#, .NET Core, and Go (EF Core, CQRS / DDD, gRPC, RabbitMQ, MQTT) with Vue 3 / Next.js / React over PostgreSQL / TimescaleDB.
+Embedded in client teams shipping production code. Engagement #1 (telecom / electronics multinational): Production Line Monitor (real-time IoT line monitoring), Dealer Portal (orders, shipments, ERP integration), and Marketing Campaign Manager. From 2022 — started the Empire of Bloom platform: multi-platform eCommerce (many backend services in Go) and the real-time Fleet Tracking Platform.
+
+- **Languages:** C#, Go, JavaScript, TypeScript
+- **Backend:** .NET Core, EF Core, CQRS, DDD, gRPC, RabbitMQ, SignalR, MQTT
+- **Frontend:** Vue 3, Next.js, React, Chart.js, D3.js, Leaflet.js
+- **Databases:** PostgreSQL, TimescaleDB
 
 ---
 
@@ -37,7 +50,13 @@ Embedded in client teams shipping production code end-to-end. Engagement #1 (tel
 
 #### Senior Full-Stack Engineer | Dec 2019 – Feb 2020
 
-Short-term UK contract alongside primary employment — full-stack development of two enterprise SaaS platforms. **Remedi** (CRM for medicine ordering and Care Homes management) — backend functionality and API integrations. **GEMS** (high-load HR / recruitment CRM used by hundreds of companies and thousands of daily users) — frontend and backend features, an internal library for flexible Kendo UI ↔ database interaction, CV/résumé parsing (DOC/DOCX, PDF), GDPR functionality, and third-party database / Web API / address-search integrations. Built on .NET / .NET Core with AngularJS / Angular over MS SQL Server and MySQL.
+Short-term UK contract alongside primary employment — full-stack development of two enterprise SaaS platforms. **Remedi** (CRM for medicine ordering and Care Homes management) — backend functionality and API integrations. **GEMS** (high-load HR/recruitment CRM; hundreds of client companies and thousands of daily users) — frontend/backend features, an internal library for flexible Kendo UI ↔ database interaction, CV/résumé parsing (DOC/DOCX, PDF), GDPR functionality, and third-party DB / Web API / address-search integrations.
+
+- **Languages:** C#, JavaScript, TypeScript
+- **Backend:** .NET / .NET Core, ASP.NET Core, Web API, REST API
+- **Frontend:** AngularJS, Angular, TypeScript, Kendo UI
+- **Databases:** MS SQL Server, MySQL
+- **Other:** Document processing (DOC/DOCX, PDF), GDPR, address/postcode search
 
 ---
 
@@ -47,11 +66,19 @@ Short-term UK contract alongside primary employment — full-stack development o
 
 #### Technical Lead | May 2018 – Sep 2019
 
-Led the team and architecture on Smart Tax Solution — tax process optimization and compliance for tax authorities worldwide. Drove key technical decisions, migrated the codebase from .NET Framework to .NET Core, and conducted code reviews. Backend on ASP.NET / EF Core (CQRS, DDD, OData) with an Angular 8 + D3.js frontend over MS SQL.
+Led the team and architecture on Smart Tax Solution — tax process optimization and compliance for tax authorities worldwide. Drove key technical decisions, migrated the codebase from .NET Framework to .NET Core, and conducted code reviews.
+
+- **Backend:** C#, .NET Core, ASP.NET, Web API, EF Core, LINQ, OData
+- **Frontend:** Angular 8, TypeScript, D3.js, Material Design, DevExpress
+- **Architecture & Data:** CQRS, DDD, MS SQL
 
 #### Senior Full-Stack Engineer | May 2017 – May 2018
 
-Designed and built the BEPS Automation Tool — tax notification and reporting for BEPS (Base Erosion and Profit Shifting) compliance. Backend on ASP.NET with REST API and OData endpoints (C#, .NET Framework, EF); Angular frontend with D3.js data visualization over MS SQL.
+Designed and built the BEPS Automation Tool — tax notification and reporting for BEPS (Base Erosion and Profit Shifting) compliance. Backend on ASP.NET with REST API and OData endpoints; Angular frontend with D3.js data visualization.
+
+- **Backend:** C#, .NET Framework, ASP.NET, Web API, EF, LINQ, OData
+- **Frontend:** AngularJS, Angular, TypeScript, D3.js
+- **Databases:** MS SQL
 
 ---
 
@@ -61,11 +88,19 @@ Designed and built the BEPS Automation Tool — tax notification and reporting f
 
 #### Technical Lead | Apr 2016 – Apr 2017
 
-Led the Blood Donation regulatory data system (Ministry of Health) and the National Social & Political Metrics dashboard — data architecture, REST APIs, and analytical dashboards with D3.js, plus regulatory-compliance integration. Built on .NET Framework / ASP.NET Web API (EF, Dapper) over MSSQL.
+Led the Blood Donation regulatory data system (Ministry of Health) and the National Social & Political Metrics dashboard — data architecture, REST APIs, analytical dashboards with D3.js, and regulatory-compliance integration.
+
+- **Backend:** C#, .NET Framework, ASP.NET Web API, EF, Dapper, LINQ
+- **Frontend:** jQuery, D3.js, Telerik, DevExpress
+- **Data & DevOps:** MSSQL, TeamCity, SVN, IIS
 
 #### Senior Full-Stack Engineer | Apr 2015 – Apr 2016
 
-Built information-analytical systems for government institutions (Education, Energy) — Federal Exam Processing (ФИС ГИА), the Industry Events Portal (TESLA), and the Energy Balancing Market portal and planning automation. REST APIs, interactive dashboards, MSSQL schema/query optimization, and CryptoPro digital signatures on .NET Framework / ASP.NET (Web API and Web Forms).
+Built information-analytical systems for government institutions (Education, Energy) — Federal Exam Processing (ФИС ГИА), the Industry Events Portal (TESLA), and the Energy Balancing Market portal and planning automation. REST APIs, interactive dashboards, MSSQL optimization, and CryptoPro digital signatures.
+
+- **Backend:** C#, .NET Framework, ASP.NET Web API/Web Forms, EF, Dapper, ADO.NET, LINQ
+- **Frontend:** AngularJS, Angular 2, Knockout JS, jQuery, Bootstrap
+- **Data & Security:** MSSQL, CryptoPro
 
 ---
 
@@ -75,7 +110,11 @@ Built information-analytical systems for government institutions (Education, Ene
 
 #### Full-Stack Engineer | Jul 2013 – Apr 2015
 
-Built the company's first web-based budget planning system on ASP.NET WebForms (allocating budget across projects, tasks, and employee requests). Maintained internal broadcasting-statistics systems, administered IBM Cognos reporting, and developed corporate-portal modules on 1C-Bitrix, with extensive MSSQL work (reports, stored procedures, functions). Also built WinForms desktop tools for the helpdesk and knowledge base.
+Built the company's first web-based budget planning system on ASP.NET WebForms. Maintained internal broadcasting-statistics systems and developed WinForms desktop applications for the helpdesk and knowledge base.
+
+- **Backend:** C#, .NET Framework, ASP.NET Web Forms, WinForms, ADO.NET
+- **Frontend:** jQuery, Bootstrap, Telerik
+- **Databases:** MS SQL Server
 
 ---
 
@@ -87,6 +126,8 @@ Built the company's first web-based budget planning system on ASP.NET WebForms (
 
 Optimized T-SQL stored procedures and queries for OLAP-cube statistics processing, and built reporting systems for collecting and analyzing company activity to support decision-making. Resolved application performance issues and administered MS SQL databases for reliability and availability.
 
+- **Databases:** MSSQL, Transact-SQL
+
 ---
 
 ### Himoil LLC
@@ -96,6 +137,9 @@ Optimized T-SQL stored procedures and queries for OLAP-cube statistics processin
 #### Software Engineer | Nov 2008 – Feb 2013
 
 Designed and built a business-process automation system (project ХиМ) on C# / .NET Framework / WinForms with MSSQL — significantly cutting task-completion time and improving customer-service quality. Started as a system administrator (infrastructure, backups, reporting, user support) and grew into the software-engineer role within a year.
+
+- **Backend:** C#, .NET Framework, WinForms, ADO.NET
+- **Databases:** MSSQL, Transact-SQL
 
 ---
 
