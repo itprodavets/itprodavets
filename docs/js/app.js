@@ -115,14 +115,16 @@ window.renderSection = async function (resumeKey, lang, sections) {
 
 /* ===== Constants ===== */
 const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
-/* Serve markdown from GitHub raw, not jsDelivr: raw always reflects the latest
-   @main commit with no CDN propagation lag (jsDelivr's per-edge branch→commit
-   resolution lagged minutes and repeatedly served stale résumé content). raw
-   sends CORS (access-control-allow-origin: *); the ?t= token in fetchMarkdown
-   bypasses its 5-min browser cache. */
+/* Markdown is served from jsDelivr (a real CDN) for reliability under load —
+   GitHub raw rate-limits and isn't built for traffic, which caused "Failed to
+   load resume" errors for users. A ?v= version query busts the cache on each
+   deploy (bump ASSET_VERSION below in lockstep with the ?v= on the script/style
+   tags in index.html); the purge-jsdelivr workflow also refreshes @main files
+   on every .md change, so content stays current within a minute or two. */
 const RAW_BASE = IS_LOCAL
   ? location.pathname.replace(/\/docs\/?$/, '/').replace(/\/docs\/[^/]*$/, '/')
-  : 'https://raw.githubusercontent.com/itprodavets/itprodavets/main/';
+  : 'https://cdn.jsdelivr.net/gh/itprodavets/itprodavets@main/';
+const ASSET_VERSION = '29';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/';
 
 /* ===== DOM Helpers ===== */
@@ -132,12 +134,11 @@ const $$ = (sel) => document.querySelectorAll(sel);
 /* ===== Markdown fetching with cache ===== */
 async function fetchMarkdown(filename) {
   if (state.cache[filename]) return state.cache[filename];
-  // Bust the browser cache AND jsDelivr's per-URL edge cache with a unique
-  // per-load token — the bare URL could otherwise stay stale on jsDelivr's edge
-  // even with cache:reload (purge-vs-@main-lag race). A unique query is always a
-  // cache-miss → fresh from origin. Only jsDelivr's ~1-2 min @main propagation
-  // remains. (state.cache still dedupes within a single page session.)
-  const response = await fetch(RAW_BASE + filename + '?t=' + Date.now(), { cache: 'reload' });
+  // Version-pinned URL served from jsDelivr's CDN cache (fast, reliable, no
+  // origin hit after the first). Busted on each deploy by bumping ASSET_VERSION.
+  // Deliberately NOT a per-request token / cache:reload — that bypassed all
+  // caching and hammered the origin, causing "Failed to load" rate-limit errors.
+  const response = await fetch(RAW_BASE + filename + '?v=' + ASSET_VERSION);
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   const text = await response.text();
   state.cache[filename] = text;
