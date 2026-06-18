@@ -1028,8 +1028,9 @@ body {
   /* Resume content typography for A4 */
   .resume-content { font-size: 9.8pt; line-height: 1.36; color: #1a1a1a !important; }
   .resume-content p { margin: 0 0 4.5pt; orphans: 4; widows: 4; }
-  .resume-content ul, .resume-content ol { padding-left: 16pt; margin: 0 0 4.5pt; orphans: 4; widows: 4; page-break-inside: avoid; break-inside: avoid; }
+  .resume-content ul, .resume-content ol { padding-left: 16pt; margin: 0 0 4.5pt; orphans: 4; widows: 4; }
   .resume-content li { margin-bottom: 1.2pt; orphans: 2; widows: 2; page-break-inside: avoid; break-inside: avoid; }
+  .resume-content ul li strong:first-child { display: inline; min-width: 0; margin-right: 2pt; }
   .resume-content strong { color: #0a0a0a !important; }
   .resume-content em { color: #555555 !important; font-style: italic; }
 
