@@ -15,7 +15,7 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 
 ### DKH — Multi-tenant Commerce Platform (own product)
 
-*Detailed projects → [DKH & thetea.app](./projects.en.md#personal-projects)*
+*[DKH & thetea.app](./projects.en.md#personal-projects)*
 
 #### Founder | 2025 – Present
 
@@ -32,7 +32,7 @@ Building DKH — a multi-tenant SaaS commerce platform that lets domain-expert f
 
 ### GZ DKH Innovation Technology
 
-*Detailed projects → [GZ DKH client engagements](./projects.en.md#gz-dkh)*
+*[GZ DKH client engagements](./projects.en.md#gz-dkh)*
 
 #### Lead Forward Deployed AI Engineer | Sep 2024 – Present
 
@@ -63,7 +63,7 @@ Embedded in client teams shipping production code. Engagement #1 (telecom / elec
 
 ### Blueberry Consultants Ltd · Contract
 
-*Detailed projects → [Remedi, GEMS](./projects.en.md#blueberry)*
+*[Remedi, GEMS](./projects.en.md#blueberry)*
 
 #### Senior Full-Stack Engineer | Dec 2019 – Feb 2020
 
@@ -79,7 +79,7 @@ Short-term UK contract alongside primary employment — full-stack development o
 
 ### KPMG
 
-*Detailed projects → [Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
+*[Smart Tax Solution, BEPS Automation Tool](./projects.en.md#kpmg)*
 
 #### Technical Lead | May 2018 – Sep 2019
 
@@ -101,7 +101,7 @@ Designed and built the BEPS Automation Tool — tax notification and reporting f
 
 ### Dom PK LLC
 
-*Detailed projects → [Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
+*[Blood Donation, National Metrics Dashboard, Energy Market Portal, ФИС ГИА, TESLA](./projects.en.md#dom-pk)*
 
 #### Technical Lead | Apr 2016 – Apr 2017
 
@@ -123,7 +123,7 @@ Built information-analytical systems for government institutions (Education, Ene
 
 ### European Media Group (EMG)
 
-*Detailed projects → [Web Expenses, ITpedia, HelpDesk + AddInn](./projects.en.md#emg)*
+*[Web Expenses, ITpedia, HelpDesk + AddInn](./projects.en.md#emg)*
 
 #### Full-Stack Engineer | Jul 2013 – Apr 2015
 
@@ -137,7 +137,7 @@ Built the company's first web-based budget planning system on ASP.NET WebForms. 
 
 ### DEPO Computers
 
-*Detailed projects → [Earlier roles](./projects.en.md#earlier-roles)*
+*[Earlier roles](./projects.en.md#earlier-roles)*
 
 #### Engineer | Mar 2013 – Jun 2013
 
@@ -149,7 +149,7 @@ Optimized T-SQL stored procedures and queries for OLAP-cube statistics processin
 
 ### Himoil LLC
 
-*Detailed projects → [Business Process Automation System (ХиМ)](./projects.en.md#himoil)*
+*[Business Process Automation System (ХиМ)](./projects.en.md#himoil)*
 
 #### Software Engineer | Nov 2008 – Feb 2013
 
