@@ -15,7 +15,7 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 ### DKH — мульти-тенантная commerce-платформа (свой продукт)
 
-*Подробнее о проектах → [DKH и thetea.app](./projects.ru.md#personal-projects)*
+*[DKH и thetea.app](./projects.ru.md#personal-projects)*
 
 #### Founder | 2025 – наст. время
 
@@ -32,7 +32,7 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 ### GZ DKH Innovation Technology
 
-*Подробнее о проектах → [Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
+*[Клиентские проекты GZ DKH](./projects.ru.md#gz-dkh)*
 
 #### Lead Forward Deployed AI Engineer | Сен 2024 – наст. время
 
@@ -63,7 +63,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 ### Blueberry Consultants Ltd · Contract
 
-*Подробнее о проектах → [Remedi, GEMS](./projects.ru.md#blueberry)*
+*[Remedi, GEMS](./projects.ru.md#blueberry)*
 
 #### Senior Full-Stack Engineer | Дек 2019 – Фев 2020
 
@@ -79,7 +79,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 ### KPMG
 
-*Подробнее о проектах → [Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
+*[Smart Tax Solution, BEPS Automation Tool](./projects.ru.md#kpmg)*
 
 #### Technical Lead | Май 2018 – Сен 2019
 
@@ -101,7 +101,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 ### ООО «Дом ПК»
 
-*Подробнее о проектах → [Донорство крови, Соц.-полит. дашборд, Энергорынок, ФИС ГИА, TESLA](./projects.ru.md#dom-pk)*
+*[Донорство крови, Соц.-полит. дашборд, Энергорынок, ФИС ГИА, TESLA](./projects.ru.md#dom-pk)*
 
 #### Technical Lead | Апр 2016 – Апр 2017
 
@@ -123,7 +123,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 ### Европейская медиагруппа (ЕМГ)
 
-*Подробнее о проектах → [Web Expenses, ITpedia, HelpDesk + AddInn](./projects.ru.md#emg)*
+*[Web Expenses, ITpedia, HelpDesk + AddInn](./projects.ru.md#emg)*
 
 #### Full-Stack Engineer | Июл 2013 – Апр 2015
 
@@ -137,7 +137,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 ### DEPO Computers
 
-*Подробнее о проектах → [Ранние роли](./projects.ru.md#earlier-roles)*
+*[Ранние роли](./projects.ru.md#earlier-roles)*
 
 #### Инженер | Мар 2013 – Июн 2013
 
@@ -149,7 +149,7 @@ Embedded в клиентских командах, shipping production code. Eng
 
 ### ООО «Химоил»
 
-*Подробнее о проектах → [Автоматизация бизнес-процессов (ХиМ)](./projects.ru.md#himoil)*
+*[Автоматизация бизнес-процессов (ХиМ)](./projects.ru.md#himoil)*
 
 #### Инженер-программист | Ноя 2008 – Фев 2013
 
