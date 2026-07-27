@@ -9,7 +9,8 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 - **Фронтенд и приложения:** Vue.js/Next.js, React/Angular, Avalonia (десктоп/мобайл), HTML5/CSS3, WebSocket
 - **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
 - **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, Embeddings
-- **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Docker, Kubernetes, Prometheus/Grafana, CI/CD
+- **Облачные платформы:** Production — AWS (PPC Entourage), Azure OpenAI; карта сервисов на уровне архитектуры — AWS EC2/EKS/Lambda/S3/RDS, Azure AKS/Functions/App Service/Blob Storage/Service Bus, GCP GKE/Cloud Run/Cloud SQL/Pub/Sub/BigQuery/Vertex AI
+- **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Terraform, Docker, Kubernetes, IAM/VPC networking, Prometheus/Grafana, OpenTelemetry, CI/CD
 
 ## Коммерческий опыт
 

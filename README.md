@@ -50,6 +50,14 @@ Currently building DKH multi-tenant commerce platform + thetea.app.
 ![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
+### Cloud Platforms
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+
+- **Production-backed:** AWS (PPC Entourage), Azure OpenAI (Empire of Bloom AI Operations Assistant)
+- **Architecture-level service mapping:** AWS — EC2, ECS/EKS/ECR, Lambda, API Gateway, S3, RDS/Aurora, DynamoDB, SQS/SNS/EventBridge, VPC, IAM/Secrets Manager, CloudFront/Route 53, CloudWatch, Bedrock/SageMaker, CloudFormation; Azure — AKS/ACR, Container Apps/App Service, Functions/API Management, Blob Storage, Azure SQL/Cosmos DB, Service Bus/Event Hubs, Key Vault, Entra ID, VNet, Front Door, Azure Monitor/Application Insights, Azure OpenAI/AI Foundry/AI Search, Bicep; GCP — GKE/Artifact Registry, Cloud Run, Compute Engine, Cloud Functions/API Gateway, Cloud Storage, Cloud SQL/Firestore, Pub/Sub, BigQuery, Vertex AI, VPC, IAM/Secret Manager, Cloud CDN/DNS, Cloud Monitoring
+
 ### DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
