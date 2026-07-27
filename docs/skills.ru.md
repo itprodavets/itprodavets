@@ -2,6 +2,15 @@
 
 Стек организован по тому, как я его использую сегодня — не по самооцениваемому уровню. **«Since YEAR»** — навык в активном использовании; **диапазон лет (например, 2015–2020)** — навык из прошлых проектов, который я больше не практикую регулярно. Кликни любую технологию, чтобы увидеть production-проекты где я её внедрял.
 
+## Облачные платформы и сервисы
+
+Cloud-стек указан с разделением по подтверждённому уровню: AWS и Azure подкреплены production-проектами, Google Cloud — знакомство с экосистемой на уровне архитектуры. Карта сервисов охватывает managed building blocks, которые чаще всего ожидают в cloud-вакансиях США.
+
+- **AWS — production exposure:** PPC Entourage (конкретные managed services не раскрыты). Карта сервисов: EC2, ECS/EKS/ECR, Lambda, API Gateway, S3, RDS/Aurora, DynamoDB, SQS/SNS/EventBridge, VPC, IAM/Secrets Manager, CloudFront/Route 53, CloudWatch, Bedrock/SageMaker, CloudFormation
+- **Microsoft Azure — production:** Azure OpenAI в AI Operations Assistant Empire of Bloom. Карта экосистемы: AKS/ACR, Container Apps/App Service, Functions/API Management, Blob Storage, Azure SQL/Cosmos DB, Service Bus/Event Hubs, Key Vault, Entra ID, VNet, Front Door, Azure Monitor/Application Insights, Azure OpenAI/AI Foundry/AI Search, Bicep
+- **Google Cloud (GCP) — знакомство на уровне архитектуры:** GKE/Artifact Registry, Cloud Run, Compute Engine, Cloud Functions/API Gateway, Cloud Storage, Cloud SQL/Firestore, Pub/Sub, BigQuery, Vertex AI, VPC, IAM/Secret Manager, Cloud CDN/DNS, Cloud Monitoring
+- **Cross-cloud foundation:** Terraform/IaC; подтверждённые production-стеком Docker, Kubernetes, GitLab CI, GitHub Actions, OpenTelemetry, Prometheus/Grafana; переносимые паттерны IAM, networking, secrets, observability и CI/CD
+
 ## Primary
 
 Ежедневно использую, веду архитектурные решения.
@@ -63,7 +72,6 @@
 - **D3.js** · 2016–2022 · Дом ПК Дашборд метрик, KPMG Smart Tax, KPMG BEPS, Production Line Monitor
 - **MS SQL (2008 → 2019)** · 2009–2020 · KPMG, Дом ПК, ЕМГ, Химоил, DEPO, Blueberry GEMS
 - **Node.js (14 → 18)** · 2021 · PPC Entourage
-- **AWS** · 2021 · PPC Entourage
 - **OData** · 2017–2019 · KPMG BEPS Automation, KPMG Smart Tax Solution
 
 ## Legacy

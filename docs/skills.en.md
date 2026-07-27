@@ -2,6 +2,15 @@
 
 Stack organized by how I use it today — not by self-rated proficiency. **"Since YEAR"** marks a skill still in active use; **a year range (e.g. 2015–2020)** marks one I shipped on past projects and no longer practice day-to-day. Click any skill to see the production projects where I shipped it.
 
+## Cloud Platforms & Services
+
+Cloud coverage is stated by evidence level: AWS and Azure have production backing; Google Cloud is architecture-level ecosystem familiarity. The service map covers the managed building blocks most often expected in US cloud roles.
+
+- **AWS — production exposure:** PPC Entourage (managed services not disclosed). Architecture mapping: EC2, ECS/EKS/ECR, Lambda, API Gateway, S3, RDS/Aurora, DynamoDB, SQS/SNS/EventBridge, VPC, IAM/Secrets Manager, CloudFront/Route 53, CloudWatch, Bedrock/SageMaker, CloudFormation
+- **Microsoft Azure — production:** Azure OpenAI on Empire of Bloom AI Operations Assistant. Ecosystem mapping: AKS/ACR, Container Apps/App Service, Functions/API Management, Blob Storage, Azure SQL/Cosmos DB, Service Bus/Event Hubs, Key Vault, Entra ID, VNet, Front Door, Azure Monitor/Application Insights, Azure OpenAI/AI Foundry/AI Search, Bicep
+- **Google Cloud (GCP) — architecture familiarity:** GKE/Artifact Registry, Cloud Run, Compute Engine, Cloud Functions/API Gateway, Cloud Storage, Cloud SQL/Firestore, Pub/Sub, BigQuery, Vertex AI, VPC, IAM/Secret Manager, Cloud CDN/DNS, Cloud Monitoring
+- **Cross-cloud foundation:** Terraform/IaC; production-backed Docker, Kubernetes, GitLab CI, GitHub Actions, OpenTelemetry, Prometheus/Grafana; portable IAM, networking, secrets, observability, and CI/CD patterns
+
 ## Primary
 
 Daily drivers. I lead architectural decisions on these.
@@ -63,7 +72,6 @@ Occasional or past use — can ramp up quickly.
 - **D3.js** · 2016–2022 · Dom PK Metrics Dashboard, KPMG Smart Tax Solution, KPMG BEPS, Production Line Monitor
 - **MS SQL (2008 → 2019)** · 2009–2020 · KPMG, Dom PK, EMG, Himoil, DEPO, Blueberry GEMS
 - **Node.js (14 → 18)** · 2021 · PPC Entourage
-- **AWS** · 2021 · PPC Entourage
 - **OData** · 2017–2019 · KPMG BEPS Automation, KPMG Smart Tax Solution
 
 ## Legacy
