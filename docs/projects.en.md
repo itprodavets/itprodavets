@@ -4,9 +4,10 @@
 
 ## Personal Projects
 
-### DKH — Multi-tenant Commerce Platform
+### Xnata — Multi-tenant Commerce/Content Platform
 - Role: Founder (solo)
-- Description: Multi-tenant SaaS commerce platform — applying Forward Deployed Engineering thinking to my own product. Infrastructure that lets domain-expert founders launch e-commerce ventures without redoing the engineering. Multi-tenant from day 1 (tenant_id + RLS isolation), AI as an action layer (not chat), Telegram-first, China-direct supply chain as a first-class concept. First venture deployed on it — thetea.app. Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
+- Site: [xnata.com](https://xnata.com)
+- Description: Multi-tenant SaaS platform for commerce and content storefronts — applying Forward Deployed Engineering thinking to my own product. Infrastructure that lets domain-expert founders launch e-commerce, wiki, and marketplace-like products without redoing the engineering. Multi-tenant from day 1 (tenant_id + RLS isolation), AI as an action layer (not chat), Telegram-first, China-direct supply chain as a first-class concept. Live storefronts today: [tea.community](https://tea.community) — a tea wiki; [tea.express](https://tea.express) — a China-local store shipping worldwide. Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
   - **Platform & gateways** — a .NET monorepo of 40+ services, gateways, and workers on a shared platform (plugin architecture, multi-tenant isolation); storefront & admin GraphQL / gRPC gateways; Keycloak auth, RabbitMQ messaging, SignalR realtime.
   - **Storefront builder (Shopify-style)** — a visual storefront editor in the admin panel plus a `dkh-theme` CLI (dev / push / pull, mirroring the Shopify CLI mental model).
   - **AI layer** — an MCP gateway exposing the platform to LLM agents, and an embedding / RAG worker (Qdrant + OpenAI / Ollama) for AI search and in-app assistants.
@@ -15,9 +16,9 @@
 - Technologies: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (desktop/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
-### thetea.app
+### XNATA Tea — tea.community and tea.express
 - Role: Founder / IT Partner (co-founded with a tea expert — 20+ years in industry: plantations, supply chain, tea travel, China-direct sourcing)
-- Description: The first venture launched on DKH — a branded tea store delivered as a Telegram Mini App. My co-founder brings the tea-industry domain depth; I build and run the product on the DKH platform. Storefront: product catalog with structured attributes, cart with stock reservations, orders, reviews, i18n (EN/RU), storefront themes, and China-direct sourcing.
+- Description: Tea-focused product line launched on Xnata. My co-founder brings the tea-industry domain depth; I build and run the product on the Xnata platform. Live public storefronts: [tea.community](https://tea.community) as a tea wiki / knowledge base and [tea.express](https://tea.express) as a China-local store shipping worldwide. Functionality: product and article catalog with structured attributes, cart with stock reservations, orders, reviews, i18n (EN/RU), storefront themes, Telegram Mini App, and China-direct sourcing.
 - Technologies: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions
 
 

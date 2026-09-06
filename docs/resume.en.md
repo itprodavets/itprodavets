@@ -1,6 +1,6 @@
 # Denis Kharchenko
 
-Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in enterprise clients across IoT, e-commerce, healthcare, and government. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, and integrating production AI (RAG, MCP, Semantic Kernel). Currently building DKH — a multi-tenant commerce platform — with thetea.app the first venture live on it.
+Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years in software — the last 6+ embedded in enterprise clients across IoT, e-commerce, healthcare, and government. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, and integrating production AI (RAG, MCP, Semantic Kernel). Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with live storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
@@ -14,13 +14,13 @@ Forward Deployed Engineer with 15+ years in software — the last 6+ embedded in
 
 ## Commercial Experience
 
-### DKH — Multi-tenant Commerce Platform (own product)
+### Xnata — Multi-tenant Commerce/Content Platform (own product)
 
-*[DKH & thetea.app](./projects.en.md#personal-projects)*
+*[Xnata, tea.community & tea.express](./projects.en.md#personal-projects)*
 
 #### Founder | 2025 – Present
 
-Building DKH — a multi-tenant SaaS commerce platform that lets domain-expert founders launch e-commerce ventures without redoing the engineering. I design and build it end-to-end: the multi-tenant platform and gateways, a Shopify-style storefront builder, an AI action layer (MCP + RAG), and cross-platform device apps. First venture live on it: **thetea.app** (co-founded with a 20+ year tea-industry expert — domain depth, my engineering). Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
+Building Xnata — a multi-tenant SaaS platform for commerce and content storefronts that lets domain-expert founders launch e-commerce, wiki, and marketplace-like products without redoing the engineering. I design and build it end-to-end: the multi-tenant platform and gateways, a Shopify-style storefront builder, an AI action layer (MCP + RAG), and cross-platform device apps. Public platform site: **xnata.com**. Live storefronts: **tea.community** (tea wiki) and **tea.express** (China-local tea store shipping worldwide). Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
 
 - **Languages:** C#, TypeScript
 - **Backend & API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP

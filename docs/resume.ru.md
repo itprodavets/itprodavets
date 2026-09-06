@@ -1,6 +1,6 @@
 # Денис Харченко
 
-Forward Deployed Engineer с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю DKH — мульти-тенантную commerce-платформу — с thetea.app как первым запущенным на ней venture.
+Lead Forward Deployed AI Engineer / Applied AI Lead с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю Xnata ([xnata.com](https://xnata.com)) — мульти-тенантную commerce/content-платформу с работающими витринами [tea.community](https://tea.community) как чайной wiki и [tea.express](https://tea.express) как локальным магазином в Китае с отправкой по всему миру.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
@@ -14,13 +14,13 @@ Forward Deployed Engineer с 15+ годами в разработке — пос
 
 ## Коммерческий опыт
 
-### DKH — мульти-тенантная commerce-платформа (свой продукт)
+### Xnata — мульти-тенантная commerce/content-платформа (свой продукт)
 
-*[DKH и thetea.app](./projects.ru.md#personal-projects)*
+*[Xnata, tea.community и tea.express](./projects.ru.md#personal-projects)*
 
 #### Founder | 2025 – наст. время
 
-Строю DKH — мульти-тенантную SaaS commerce-платформу, которая позволяет доменным основателям запускать e-commerce без переписывания инженерии. Проектирую и делаю систему end-to-end: мульти-тенантную платформу и гейтвеи, конструктор витрин в стиле Shopify, AI action-слой (MCP + RAG) и кроссплатформенные приложения для устройств. Первый запущенный на ней venture — **thetea.app** (со-фаундер — эксперт по чаю 20+ лет: он — домен, я — инженерия). Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
+Строю Xnata — мульти-тенантную SaaS-платформу для commerce и content-витрин, которая позволяет доменным основателям запускать e-commerce, wiki и marketplace-подобные проекты без переписывания инженерии. Проектирую и делаю систему end-to-end: мульти-тенантную платформу и гейтвеи, конструктор витрин в стиле Shopify, AI action-слой (MCP + RAG) и кроссплатформенные приложения для устройств. Публичный сайт платформы — **xnata.com**. Уже работают витрины **tea.community** (чайная wiki) и **tea.express** (локальный магазин в Китае с отправкой по всему миру). Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
 
 - **Языки:** C#, TypeScript
 - **Бэкенд и API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP

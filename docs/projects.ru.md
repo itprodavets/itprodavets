@@ -4,9 +4,10 @@
 
 ## Личные проекты
 
-### DKH — Multi-tenant Commerce Platform
+### Xnata — Multi-tenant Commerce/Content Platform
 - Роль: Founder (solo)
-- Описание: Мультитенантная SaaS commerce-платформа — applying Forward Deployed Engineering thinking к собственному продукту. Инфраструктура, которая позволяет domain-expert founders запускать e-commerce без переписывания engineering каждый раз. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI как action layer (не chat), Telegram-first, China-direct supply chain как first-class concept. Первый запущенный на ней venture — thetea.app. Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
+- Сайт: [xnata.com](https://xnata.com)
+- Описание: Мультитенантная SaaS-платформа для commerce и content-витрин — applying Forward Deployed Engineering thinking к собственному продукту. Инфраструктура, которая позволяет domain-expert founders запускать e-commerce, wiki и marketplace-подобные проекты без переписывания engineering каждый раз. Multi-tenant с дня 1 (tenant_id + RLS isolation), AI как action layer (не chat), Telegram-first, China-direct supply chain как first-class concept. Рабочие витрины сейчас: [tea.community](https://tea.community) — чайная wiki; [tea.express](https://tea.express) — локальный магазин в Китае с отправкой по всему миру. Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
   - **Платформа и гейтвеи** — .NET-монорепо из 40+ сервисов, гейтвеев и воркеров на общей платформе (plugin-архитектура, мульти-тенантная изоляция); storefront- и admin-гейтвеи на GraphQL / gRPC; Keycloak-аутентификация, RabbitMQ, SignalR realtime.
   - **Конструктор витрин (в стиле Shopify)** — визуальный редактор витрин в админке + CLI `dkh-theme` (dev / push / pull, по модели Shopify CLI).
   - **AI-слой** — MCP-гейтвей (доступ LLM-агентам к платформе) и embedding / RAG-воркер (Qdrant + OpenAI / Ollama) для AI-поиска и встроенных ассистентов.
@@ -15,9 +16,9 @@
 - Технологии: C# 14, .NET 10, Next.js 16, React 19, TypeScript 5.9, Avalonia (десктоп/Android), GraphQL, gRPC, REST API, RabbitMQ, SignalR, Quartz, MongoDB, PostgreSQL, ClickHouse, Redis, Qdrant, OpenAI, Ollama, ESC/POS, ZPL, Keycloak (JWT), Serilog, OpenTelemetry, Docker, DDD, CQRS, MCP (Model Context Protocol), Telegram
 
 
-### thetea.app
+### XNATA Tea — tea.community и tea.express
 - Роль: Founder / IT Partner (со-фаундер — эксперт по чаю, 20+ лет в индустрии: плантации, цепочки поставок, чайные путешествия, China-direct закупки)
-- Описание: Первый venture, запущенный на DKH — брендированный чайный магазин в виде Telegram Mini App. Со-фаундер приносит доменную экспертизу по чаю; я строю и веду продукт на платформе DKH. Витрина: каталог товаров со структурированными атрибутами, корзина с резервированием остатков, заказы, отзывы, i18n (EN/RU), темы оформления и China-direct закупки.
+- Описание: Чайное направление, запущенное на Xnata. Со-фаундер приносит доменную экспертизу по чаю; я строю и веду продукт на платформе Xnata. Рабочие публичные витрины: [tea.community](https://tea.community) как tea wiki / knowledge base и [tea.express](https://tea.express) как локальный магазин в Китае с отправкой по всему миру. Функциональность: каталог товаров и статей со структурированными атрибутами, корзина с резервированием остатков, заказы, отзывы, i18n (EN/RU), темы оформления, Telegram Mini App и China-direct закупки.
 - Технологии: C# 14, .NET 10, EF Core, Dapper, MediatR, FluentValidation, PostgreSQL, Redis, RabbitMQ, gRPC, REST API, Keycloak, JWT, Serilog, OpenTelemetry, Docker, Next.js 16, React 19, TypeScript 5.9, Tailwind CSS, DaisyUI, TanStack Query, Zod, next-intl, Telegram Mini App SDK, DDD, xUnit, GitLab CI/CD, GitHub Actions
 
 

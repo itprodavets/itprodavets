@@ -15,46 +15,46 @@ Cloud coverage is stated by evidence level: AWS and Azure have production backin
 
 Daily drivers. I lead architectural decisions on these.
 
-- **C#** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, Dom PK government systems, EMG Web Expenses, Himoil business automation, Blueberry (Remedi, GEMS)
-- **.NET (Framework 3.5 → .NET 10)** · since 2009 · DKH, thetea.app, Empire of Bloom, KPMG, Dom PK, EMG, Himoil, Blueberry
-- **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2013 · DKH, thetea.app, KPMG, Dom PK, EMG, Blueberry
-- **TypeScript** · since 2018 · DKH (admin + storefront UIs), thetea.app, GZ DKH client engagements, KPMG, Blueberry GEMS
-- **Microservices / DDD / CQRS** · since 2019 · DKH (40+ services), thetea.app, Empire of Bloom, KPMG
-- **PostgreSQL** · since 2020 · DKH, thetea.app, Empire of Bloom, GZ DKH client engagements, PPC Entourage
+- **C#** · since 2009 · Xnata, tea.community, tea.express, Empire of Bloom, KPMG BEPS Automation, KPMG Smart Tax Solution, Dom PK government systems, EMG Web Expenses, Himoil business automation, Blueberry (Remedi, GEMS)
+- **.NET (Framework 3.5 → .NET 10)** · since 2009 · Xnata, tea.community, tea.express, Empire of Bloom, KPMG, Dom PK, EMG, Himoil, Blueberry
+- **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2013 · Xnata, tea.community, tea.express, KPMG, Dom PK, EMG, Blueberry
+- **TypeScript** · since 2018 · Xnata (admin + storefront UIs), tea.community, tea.express, GZ DKH client engagements, KPMG, Blueberry GEMS
+- **Microservices / DDD / CQRS** · since 2019 · Xnata (40+ services), tea.community, tea.express, Empire of Bloom, KPMG
+- **PostgreSQL** · since 2020 · Xnata, tea.community, tea.express, Empire of Bloom, GZ DKH client engagements, PPC Entourage
 - **REST API** · since 2015 · every backend role since Dom PK
-- **gRPC** · since 2021 · DKH inter-service, thetea.app, Empire of Bloom, Container Diagnostics Service
-- **RabbitMQ** · since 2020 · DKH event bus, thetea.app, Empire of Bloom, Marketing Campaign Manager
-- **Entity Framework / EF Core** · since 2016 · DKH, thetea.app, KPMG, Dom PK
-- **Docker** · since 2019 · DKH, thetea.app, Empire of Bloom, GZ DKH client engagements
-- **Next.js (13 → 16)** · since 2022 · DKH admin + storefront, thetea.app, GZ DKH AI Operations Assistant
-- **React (16 → 19)** · since 2020 · DKH UIs, thetea.app, GZ DKH AI Operations Assistant, PPC Entourage
+- **gRPC** · since 2021 · Xnata inter-service, tea.community, tea.express, Empire of Bloom, Container Diagnostics Service
+- **RabbitMQ** · since 2020 · Xnata event bus, tea.community, tea.express, Empire of Bloom, Marketing Campaign Manager
+- **Entity Framework / EF Core** · since 2016 · Xnata, tea.community, tea.express, KPMG, Dom PK
+- **Docker** · since 2019 · Xnata, tea.community, tea.express, Empire of Bloom, GZ DKH client engagements
+- **Next.js (13 → 16)** · since 2022 · Xnata admin + storefront, tea.community, tea.express, GZ DKH AI Operations Assistant
+- **React (16 → 19)** · since 2020 · Xnata UIs, tea.community, tea.express, GZ DKH AI Operations Assistant, PPC Entourage
 
 ## Working
 
 Regular production use, ship features end-to-end.
 
-- **Avalonia (desktop / Android)** · since 2025 · DKH Apps Suite — POS, Warehouse, Inspector
-- **Tailwind CSS (3)** · since 2023 · DKH UIs, thetea.app
+- **Avalonia (desktop / Android)** · since 2025 · Xnata Apps Suite — POS, Warehouse, Inspector
+- **Tailwind CSS (3)** · since 2023 · Xnata UIs, tea.community, tea.express
 - **Go (1.18 → 1.24)** · since 2022 · Empire of Bloom Fleet Tracking Platform
-- **Redis** · since 2021 · DKH session + caching, thetea.app
-- **MongoDB (3 → 7)** · since 2022 · DKH, GZ DKH client engagements
-- **ClickHouse** · since 2023 · DKH analytics worker, GZ DKH analytics workloads
-- **Kubernetes** · since 2021 · DKH, thetea.app, Empire of Bloom, Fleet Tracking
-- **Keycloak (OIDC / OAuth2)** · since 2022 · DKH, thetea.app
-- **JWT** · since 2018 · DKH, thetea.app, KPMG, every backend with auth since
-- **SignalR** · since 2020 · DKH, thetea.app, Empire of Bloom, Container Diagnostics Service
+- **Redis** · since 2021 · Xnata session + caching, tea.community, tea.express
+- **MongoDB (3 → 7)** · since 2022 · Xnata, GZ DKH client engagements
+- **ClickHouse** · since 2023 · Xnata analytics worker, GZ DKH analytics workloads
+- **Kubernetes** · since 2021 · Xnata, tea.community, tea.express, Empire of Bloom, Fleet Tracking
+- **Keycloak (OIDC / OAuth2)** · since 2022 · Xnata, tea.community, tea.express
+- **JWT** · since 2018 · Xnata, tea.community, tea.express, KPMG, every backend with auth since
+- **SignalR** · since 2020 · Xnata, tea.community, tea.express, Empire of Bloom, Container Diagnostics Service
 - **MQTT** · since 2021 · Empire of Bloom, Fleet Tracking, Production Line Monitor, Dealer Portal
 - **TimescaleDB** · since 2022 · Empire of Bloom telemetry, Fleet Tracking
-- **Prometheus / Grafana** · since 2021 · DKH, thetea.app, Empire of Bloom, Container Diagnostics
-- **OpenAI / Azure OpenAI** · since 2023 · DKH, Empire of Bloom AI Operations Assistant
-- **RAG (Retrieval-Augmented Generation)** · since 2023 · DKH, Empire of Bloom AI ops
+- **Prometheus / Grafana** · since 2021 · Xnata, tea.community, tea.express, Empire of Bloom, Container Diagnostics
+- **OpenAI / Azure OpenAI** · since 2023 · Xnata, Empire of Bloom AI Operations Assistant
+- **RAG (Retrieval-Augmented Generation)** · since 2023 · Xnata, Empire of Bloom AI ops
 - **Semantic Kernel** · since 2024 · Empire of Bloom AI Operations Assistant
-- **Qdrant** · since 2024 · DKH, Empire of Bloom AI ops
-- **MCP (Model Context Protocol)** · since 2025 · DKH MCP gateway
-- **GitLab CI** · since 2021 · DKH, thetea.app, GZ DKH client engagements
-- **GitHub Actions** · since 2022 · DKH (mirror sync), itprodavets sites
-- **Serilog** · since 2020 · DKH, thetea.app, KPMG
-- **OpenTelemetry** · since 2023 · DKH, thetea.app
+- **Qdrant** · since 2024 · Xnata, Empire of Bloom AI ops
+- **MCP (Model Context Protocol)** · since 2025 · Xnata MCP gateway
+- **GitLab CI** · since 2021 · Xnata, tea.community, tea.express, GZ DKH client engagements
+- **GitHub Actions** · since 2022 · Xnata (mirror sync), itprodavets sites
+- **Serilog** · since 2020 · Xnata, tea.community, tea.express, KPMG
+- **OpenTelemetry** · since 2023 · Xnata, tea.community, tea.express
 
 ## Familiar
 
@@ -65,7 +65,7 @@ Occasional or past use — can ramp up quickly.
 - **FreeRTOS** · since 2022 · Empire of Bloom embedded firmware
 - **Modbus** · since 2022 · Empire of Bloom, Production Line Monitor
 - **Mosquitto (MQTT broker)** · since 2022 · Empire of Bloom IoT backbone
-- **Dapper** · since 2016 · thetea.app, Dom PK (Metrics Dashboard, Energy Market Planning)
+- **Dapper** · since 2016 · Xnata, tea.express, Dom PK (Metrics Dashboard, Energy Market Planning)
 - **Vue 3** · 2021–2022 · GZ DKH Marketing Campaign Manager, Fleet Tracking, Dealer Portal, Production Line Monitor
 - **Angular (2 → 8)** · 2015–2020 · Dom PK TESLA, KPMG Smart Tax Solution, KPMG BEPS Automation, Blueberry Remedi
 - **AngularJS (1)** · 2015–2020 · Dom PK Energy Balancing Market Portal, KPMG BEPS (early), Blueberry (GEMS, Remedi)

@@ -2,11 +2,11 @@
 
 # Denis Kharchenko
 
-**Forward Deployed Engineer · Microservices Architect · Applied AI**
+**Lead Forward Deployed AI Engineer / Applied AI Lead · Microservices Architect**
 
-Forward Deployed Engineer with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, healthcare, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo.
+Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, healthcare, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo.
 
-Currently building DKH multi-tenant commerce platform + thetea.app.
+Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with live tea storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
 
 [![Email](https://img.shields.io/badge/itprodavets@gmail.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:itprodavets@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-itprodavets-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itprodavets/)
@@ -40,7 +40,6 @@ Currently building DKH multi-tenant commerce platform + thetea.app.
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
 ### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
