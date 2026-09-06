@@ -1,14 +1,14 @@
 # Денис Харченко
 
-Lead Forward Deployed AI Engineer / Applied AI Lead с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel). Сейчас строю Xnata ([xnata.com](https://xnata.com)) — мульти-тенантную commerce/content-платформу с работающими витринами [tea.community](https://tea.community) как чайной wiki и [tea.express](https://tea.express) как локальным магазином в Китае с отправкой по всему миру.
+Lead Forward Deployed AI Engineer / Applied AI Lead с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel) и создании платформенных продуктов end-to-end. Сейчас строю Xnata ([xnata.com](https://xnata.com)) — мульти-тенантную commerce/content-платформу с работающими витринами [tea.community](https://tea.community) как чайной wiki и [tea.express](https://tea.express) как локальным магазином в Китае с отправкой по всему миру.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
 - **Языки:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
-- **Бэкенд:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
-- **Фронтенд и приложения:** Vue.js/Next.js, React/Angular, Avalonia (десктоп/мобайл), HTML5/CSS3, WebSocket
+- **Бэкенд:** .NET Framework/.NET Core/.NET 10, ASP.NET Core, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT, MediatR, FluentValidation
+- **Фронтенд и приложения:** Next.js 16, React 19, TypeScript, Vue.js, Angular, Tailwind CSS 4, DaisyUI, Avalonia (десктоп/мобайл), Telegram Mini App, WebSocket
 - **Базы данных:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
-- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, Embeddings
+- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, MCP, Qdrant, Embeddings, semantic search
 - **Облачные платформы:** Production — AWS (PPC Entourage), Azure OpenAI; карта сервисов на уровне архитектуры — AWS EC2/EKS/Lambda/S3/RDS, Azure AKS/Functions/App Service/Blob Storage/Service Bus, GCP GKE/Cloud Run/Cloud SQL/Pub/Sub/BigQuery/Vertex AI
 - **Архитектура и DevOps:** Микросервисы, CQRS, DDD, Event-Driven, Cloud-native, Terraform, Docker, Kubernetes, IAM/VPC networking, Prometheus/Grafana, OpenTelemetry, CI/CD
 
@@ -20,14 +20,15 @@ Lead Forward Deployed AI Engineer / Applied AI Lead с 15+ годами в ра�
 
 #### Founder | 2025 – наст. время
 
-Строю Xnata — мульти-тенантную SaaS-платформу для commerce и content-витрин, которая позволяет доменным основателям запускать e-commerce, wiki и marketplace-подобные проекты без переписывания инженерии. Проектирую и делаю систему end-to-end: мульти-тенантную платформу и гейтвеи, конструктор витрин в стиле Shopify, AI action-слой (MCP + RAG) и кроссплатформенные приложения для устройств. Публичный сайт платформы — **xnata.com**. Уже работают витрины **tea.community** (чайная wiki) и **tea.express** (локальный магазин в Китае с отправкой по всему миру). Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
+Строю Xnata — мульти-тенантную SaaS-платформу для commerce и content-витрин, которая позволяет доменным основателям запускать e-commerce, wiki и marketplace-подобные проекты без переписывания инженерии. В текущем workspace подтверждён runtime-портфель из 41 проекта: 29 backend-сервисов, 3 gateway, 3 UI-поверхности и 6 workers/tools. Проектирую и делаю систему end-to-end: platform libraries, service boundaries, gRPC-контракты, gateway/BFF слой, Shopify-style theme/editor runtime, Liquid SSR, AI/MCP/search слой, operations apps, deployment и observability. Публичный сайт платформы — **xnata.com**. Уже работают витрины **tea.community** (чайная wiki) и **tea.express** (локальный магазин в Китае с отправкой по всему миру). Построил с нуля своими руками и продолжаю развивать — теперь во многом через AI-ассистированную разработку.
 
 - **Языки:** C#, TypeScript
-- **Бэкенд и API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP
-- **AI/ML:** OpenAI, Ollama, Qdrant, RAG, Embeddings
-- **Фронтенд и приложения:** Next.js, React, TypeScript, Tailwind, Telegram Mini App, Avalonia (десктоп/Android)
-- **Данные:** PostgreSQL, MongoDB, ClickHouse, Redis
-- **Платформа и DevOps:** Keycloak, OpenTelemetry, Docker, GitLab CI, DDD, CQRS
+- **Бэкенд и API:** .NET 10, C# 14, ASP.NET Core, gRPC/Protocol Buffers, REST/BFF, GraphQL, MediatR, FluentValidation, EF Core, Dapper, RabbitMQ, SignalR, Outbox/Inbox, MCP
+- **Storefront/theme runtime:** Liquid, Shopify-style themes-as-code, StorefrontService, StorefrontGateway, `dkh-theme` CLI, Live/Draft/Backup themes, custom domains/SSL, metaobjects, app-blocks, SEO/structured data
+- **AI/search/analytics:** OpenAI, Ollama, Qdrant, RAG/embeddings, semantic retrieval, SearchService, AssistantService, EmbeddingWorker, ClickHouse
+- **Фронтенд и приложения:** Next.js 16, React 19, TypeScript 5.9, Tailwind CSS 4, DaisyUI 5, TanStack Query, React Hook Form, Zod, Orval, Lexical, Monaco, Telegram Mini App/PWA, Avalonia desktop/Android
+- **Данные и инфраструктура:** PostgreSQL, MongoDB, Redis, RabbitMQ, S3/MinIO, Keycloak/OIDC/PKCE, Docker, Cloudflare Tunnel/Workers, Serilog, OpenTelemetry, Prometheus/Grafana/Seq, GitLab CI
+- **Operations/devices:** Cart/Order/Inventory/Logistics/Delivery/Warehouse/Customs, Media/Notification/Broadcast/Telegram services, ESC/POS, ZPL, PrintAgent, Telegram.Bot/MTProto
 
 ---
 

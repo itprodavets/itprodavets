@@ -9,7 +9,7 @@ Cloud coverage is stated by evidence level: AWS and Azure have production backin
 - **AWS — production exposure:** PPC Entourage (managed services not disclosed). Architecture mapping: EC2, ECS/EKS/ECR, Lambda, API Gateway, S3, RDS/Aurora, DynamoDB, SQS/SNS/EventBridge, VPC, IAM/Secrets Manager, CloudFront/Route 53, CloudWatch, Bedrock/SageMaker, CloudFormation
 - **Microsoft Azure — production:** Azure OpenAI on Empire of Bloom AI Operations Assistant. Ecosystem mapping: AKS/ACR, Container Apps/App Service, Functions/API Management, Blob Storage, Azure SQL/Cosmos DB, Service Bus/Event Hubs, Key Vault, Entra ID, VNet, Front Door, Azure Monitor/Application Insights, Azure OpenAI/AI Foundry/AI Search, Bicep
 - **Google Cloud (GCP) — architecture familiarity:** GKE/Artifact Registry, Cloud Run, Compute Engine, Cloud Functions/API Gateway, Cloud Storage, Cloud SQL/Firestore, Pub/Sub, BigQuery, Vertex AI, VPC, IAM/Secret Manager, Cloud CDN/DNS, Cloud Monitoring
-- **Cross-cloud foundation:** Terraform/IaC; production-backed Docker, Kubernetes, GitLab CI, GitHub Actions, OpenTelemetry, Prometheus/Grafana; portable IAM, networking, secrets, observability, and CI/CD patterns
+- **Cross-cloud foundation:** Terraform/IaC; production-backed Docker, Kubernetes, Cloudflare Tunnel/Workers, GitLab CI, GitHub Actions, OpenTelemetry, Prometheus/Grafana; portable IAM, networking, secrets, observability, and CI/CD patterns
 
 ## Primary
 
@@ -19,7 +19,8 @@ Daily drivers. I lead architectural decisions on these.
 - **.NET (Framework 3.5 → .NET 10)** · since 2009 · Xnata, tea.community, tea.express, Empire of Bloom, KPMG, Dom PK, EMG, Himoil, Blueberry
 - **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2013 · Xnata, tea.community, tea.express, KPMG, Dom PK, EMG, Blueberry
 - **TypeScript** · since 2018 · Xnata (admin + storefront UIs), tea.community, tea.express, GZ DKH client engagements, KPMG, Blueberry GEMS
-- **Microservices / DDD / CQRS** · since 2019 · Xnata (40+ services), tea.community, tea.express, Empire of Bloom, KPMG
+- **Microservices / DDD / CQRS** · since 2019 · Xnata (41 runtime projects: 29 backend services, 3 gateways, 3 UIs, 6 workers/tools), tea.community, tea.express, Empire of Bloom, KPMG
+- **MediatR / FluentValidation** · since 2023 · Xnata platform services, tea.community, tea.express
 - **PostgreSQL** · since 2020 · Xnata, tea.community, tea.express, Empire of Bloom, GZ DKH client engagements, PPC Entourage
 - **REST API** · since 2015 · every backend role since Dom PK
 - **gRPC** · since 2021 · Xnata inter-service, tea.community, tea.express, Empire of Bloom, Container Diagnostics Service
@@ -28,13 +29,18 @@ Daily drivers. I lead architectural decisions on these.
 - **Docker** · since 2019 · Xnata, tea.community, tea.express, Empire of Bloom, GZ DKH client engagements
 - **Next.js (13 → 16)** · since 2022 · Xnata admin + storefront, tea.community, tea.express, GZ DKH AI Operations Assistant
 - **React (16 → 19)** · since 2020 · Xnata UIs, tea.community, tea.express, GZ DKH AI Operations Assistant, PPC Entourage
+- **Liquid / Shopify-style themes-as-code** · since 2025 · Xnata StorefrontService, `dkh-theme` CLI, `xnata-tea`, tea.community, tea.express
+- **OpenAPI / Orval / typed API clients** · since 2025 · Xnata Admin Web UI and Storefront Web UI
 
 ## Working
 
 Regular production use, ship features end-to-end.
 
 - **Avalonia (desktop / Android)** · since 2025 · Xnata Apps Suite — POS, Warehouse, Inspector
-- **Tailwind CSS (3)** · since 2023 · Xnata UIs, tea.community, tea.express
+- **Tailwind CSS (3 → 4) / DaisyUI (5)** · since 2023 · Xnata UIs, tea.community, tea.express
+- **TanStack Query / React Hook Form / Zod** · since 2024 · Xnata Admin Web UI and Storefront Web UI
+- **Lexical rich text / Monaco Editor** · since 2025 · Xnata storefront editor and notification/template tooling
+- **Playwright / Vitest / Jest** · since 2023 · Xnata UI test stack, tea.community, tea.express, itprodavets site
 - **Go (1.18 → 1.24)** · since 2022 · Empire of Bloom Fleet Tracking Platform
 - **Redis** · since 2021 · Xnata session + caching, tea.community, tea.express
 - **MongoDB (3 → 7)** · since 2022 · Xnata, GZ DKH client engagements
@@ -47,10 +53,15 @@ Regular production use, ship features end-to-end.
 - **TimescaleDB** · since 2022 · Empire of Bloom telemetry, Fleet Tracking
 - **Prometheus / Grafana** · since 2021 · Xnata, tea.community, tea.express, Empire of Bloom, Container Diagnostics
 - **OpenAI / Azure OpenAI** · since 2023 · Xnata, Empire of Bloom AI Operations Assistant
+- **Ollama** · since 2025 · Xnata EmbeddingWorker local/primary embedding path
 - **RAG (Retrieval-Augmented Generation)** · since 2023 · Xnata, Empire of Bloom AI ops
 - **Semantic Kernel** · since 2024 · Empire of Bloom AI Operations Assistant
 - **Qdrant** · since 2024 · Xnata, Empire of Bloom AI ops
 - **MCP (Model Context Protocol)** · since 2025 · Xnata MCP gateway
+- **S3 / MinIO-compatible storage** · since 2025 · Xnata MediaService and storefront assets
+- **Testcontainers** · since 2025 · Xnata integration testing
+- **Telegram.Bot / MTProto / Telegram Mini App SDK** · since 2025 · Xnata Telegram services, storefront mini-app shell, tea.community, tea.express
+- **ESC/POS / ZPL printing** · since 2025 · Xnata Apps Suite and PrintAgent
 - **GitLab CI** · since 2021 · Xnata, tea.community, tea.express, GZ DKH client engagements
 - **GitHub Actions** · since 2022 · Xnata (mirror sync), itprodavets sites
 - **Serilog** · since 2020 · Xnata, tea.community, tea.express, KPMG

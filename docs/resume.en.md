@@ -1,14 +1,14 @@
 # Denis Kharchenko
 
-Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years in software — the last 6+ embedded in enterprise clients across IoT, e-commerce, healthcare, and government. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, and integrating production AI (RAG, MCP, Semantic Kernel). Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with live storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
+Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years in software — the last 6+ embedded in enterprise clients across IoT, e-commerce, healthcare, and government. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, integrating production AI (RAG, MCP, Semantic Kernel), and building product platforms end-to-end. Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with live storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
 
 [itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
 - **Languages:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
-- **Backend:** .NET Framework/.NET Core, ASP.NET, Node.js, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT
-- **Frontend & Apps:** Vue.js/Next.js, React/Angular, Avalonia (desktop/mobile), HTML5/CSS3, WebSocket
+- **Backend:** .NET Framework/.NET Core/.NET 10, ASP.NET Core, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT, MediatR, FluentValidation
+- **Frontend & Apps:** Next.js 16, React 19, TypeScript, Vue.js, Angular, Tailwind CSS 4, DaisyUI, Avalonia (desktop/mobile), Telegram Mini App, WebSocket
 - **Databases:** PostgreSQL/MySQL/MSSQL, TimescaleDB, ClickHouse, MongoDB, Redis
-- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, Qdrant, Embeddings
+- **AI/ML:** OpenAI API, Azure OpenAI, Ollama, Semantic Kernel, RAG, MCP, Qdrant, Embeddings, semantic search
 - **Cloud:** Production — AWS (PPC Entourage), Azure OpenAI; architecture-level service mapping — AWS EC2/EKS/Lambda/S3/RDS, Azure AKS/Functions/App Service/Blob Storage/Service Bus, GCP GKE/Cloud Run/Cloud SQL/Pub/Sub/BigQuery/Vertex AI
 - **Architecture & DevOps:** Microservices, CQRS, DDD, Event-Driven, Cloud-native, Terraform, Docker, Kubernetes, IAM/VPC networking, Prometheus/Grafana, OpenTelemetry, CI/CD
 
@@ -20,14 +20,15 @@ Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years in software �
 
 #### Founder | 2025 – Present
 
-Building Xnata — a multi-tenant SaaS platform for commerce and content storefronts that lets domain-expert founders launch e-commerce, wiki, and marketplace-like products without redoing the engineering. I design and build it end-to-end: the multi-tenant platform and gateways, a Shopify-style storefront builder, an AI action layer (MCP + RAG), and cross-platform device apps. Public platform site: **xnata.com**. Live storefronts: **tea.community** (tea wiki) and **tea.express** (China-local tea store shipping worldwide). Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
+Building Xnata — a multi-tenant SaaS platform for commerce and content storefronts that lets domain-expert founders launch e-commerce, wiki, and marketplace-like products without redoing the engineering. The current workspace confirms a 41-project runtime portfolio: 29 backend services, 3 gateways, 3 UI surfaces, and 6 workers/tools. I design and build it end-to-end: platform libraries, service boundaries, gRPC contracts, gateway/BFF layer, Shopify-style theme/editor runtime, Liquid SSR, AI/MCP/search layer, operations apps, deployment, and observability. Public platform site: **xnata.com**. Live storefronts: **tea.community** (tea wiki) and **tea.express** (China-local tea store shipping worldwide). Built by hand from the ground up and still growing — now developed largely through AI-assisted engineering.
 
 - **Languages:** C#, TypeScript
-- **Backend & API:** .NET 10, GraphQL, gRPC, REST, RabbitMQ, SignalR, Quartz, MCP
-- **AI/ML:** OpenAI, Ollama, Qdrant, RAG, Embeddings
-- **Frontend & Apps:** Next.js, React, TypeScript, Tailwind, Telegram Mini App, Avalonia (desktop/Android)
-- **Data:** PostgreSQL, MongoDB, ClickHouse, Redis
-- **Platform & DevOps:** Keycloak, OpenTelemetry, Docker, GitLab CI, DDD, CQRS
+- **Backend & API:** .NET 10, C# 14, ASP.NET Core, gRPC/Protocol Buffers, REST/BFF, GraphQL, MediatR, FluentValidation, EF Core, Dapper, RabbitMQ, SignalR, Outbox/Inbox, MCP
+- **Storefront/theme runtime:** Liquid, Shopify-style themes-as-code, StorefrontService, StorefrontGateway, `dkh-theme` CLI, Live/Draft/Backup themes, custom domains/SSL, metaobjects, app-blocks, SEO/structured data
+- **AI/search/analytics:** OpenAI, Ollama, Qdrant, RAG/embeddings, semantic retrieval, SearchService, AssistantService, EmbeddingWorker, ClickHouse
+- **Frontend & Apps:** Next.js 16, React 19, TypeScript 5.9, Tailwind CSS 4, DaisyUI 5, TanStack Query, React Hook Form, Zod, Orval, Lexical, Monaco, Telegram Mini App/PWA, Avalonia desktop/Android
+- **Data & infrastructure:** PostgreSQL, MongoDB, Redis, RabbitMQ, S3/MinIO, Keycloak/OIDC/PKCE, Docker, Cloudflare Tunnel/Workers, Serilog, OpenTelemetry, Prometheus/Grafana/Seq, GitLab CI
+- **Operations/devices:** Cart/Order/Inventory/Logistics/Delivery/Warehouse/Customs, Media/Notification/Broadcast/Telegram services, ESC/POS, ZPL, PrintAgent, Telegram.Bot/MTProto
 
 ---
 

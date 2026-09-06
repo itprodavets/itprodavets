@@ -6,7 +6,7 @@
 
 Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years embedded in enterprise clients across IoT, e-commerce, fintech, healthcare, and government sectors. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo.
 
-Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with live tea storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
+Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with 41 runtime projects, Shopify-style Liquid themes-as-code, MCP/RAG/search, staff operations apps, and live tea storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
 
 [![Email](https://img.shields.io/badge/itprodavets@gmail.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:itprodavets@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-itprodavets-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itprodavets/)
@@ -27,7 +27,7 @@ Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant com
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=google&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square&logo=keycloak&logoColor=white)
 
 ### Frontend
 ![Vue.js](https://img.shields.io/badge/Vue_3-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
@@ -35,11 +35,15 @@ Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant com
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Liquid](https://img.shields.io/badge/Liquid_Themes-95BF47?style=flat-square&logo=shopify&logoColor=white)
 
 ### AI / ML
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=protocols.io&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=databricks&logoColor=white)
 
 ### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -64,6 +68,7 @@ Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant com
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 ### Embedded
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)

@@ -9,7 +9,7 @@ Cloud-стек указан с разделением по подтверждё�
 - **AWS — production exposure:** PPC Entourage (конкретные managed services не раскрыты). Карта сервисов: EC2, ECS/EKS/ECR, Lambda, API Gateway, S3, RDS/Aurora, DynamoDB, SQS/SNS/EventBridge, VPC, IAM/Secrets Manager, CloudFront/Route 53, CloudWatch, Bedrock/SageMaker, CloudFormation
 - **Microsoft Azure — production:** Azure OpenAI в AI Operations Assistant Empire of Bloom. Карта экосистемы: AKS/ACR, Container Apps/App Service, Functions/API Management, Blob Storage, Azure SQL/Cosmos DB, Service Bus/Event Hubs, Key Vault, Entra ID, VNet, Front Door, Azure Monitor/Application Insights, Azure OpenAI/AI Foundry/AI Search, Bicep
 - **Google Cloud (GCP) — знакомство на уровне архитектуры:** GKE/Artifact Registry, Cloud Run, Compute Engine, Cloud Functions/API Gateway, Cloud Storage, Cloud SQL/Firestore, Pub/Sub, BigQuery, Vertex AI, VPC, IAM/Secret Manager, Cloud CDN/DNS, Cloud Monitoring
-- **Cross-cloud foundation:** Terraform/IaC; подтверждённые production-стеком Docker, Kubernetes, GitLab CI, GitHub Actions, OpenTelemetry, Prometheus/Grafana; переносимые паттерны IAM, networking, secrets, observability и CI/CD
+- **Cross-cloud foundation:** Terraform/IaC; подтверждённые production-стеком Docker, Kubernetes, Cloudflare Tunnel/Workers, GitLab CI, GitHub Actions, OpenTelemetry, Prometheus/Grafana; переносимые паттерны IAM, networking, secrets, observability и CI/CD
 
 ## Primary
 
@@ -19,7 +19,8 @@ Cloud-стек указан с разделением по подтверждё�
 - **.NET (Framework 3.5 → .NET 10)** · since 2009 · Xnata, tea.community, tea.express, Empire of Bloom, KPMG, Дом ПК, ЕМГ, Химоил, Blueberry
 - **ASP.NET (WebForms → MVC → Web API → Core → Minimal API)** · since 2013 · Xnata, tea.community, tea.express, KPMG, Дом ПК, ЕМГ, Blueberry
 - **TypeScript** · since 2018 · Xnata (admin + storefront UI), tea.community, tea.express, клиентские проекты GZ DKH, KPMG, Blueberry GEMS
-- **Микросервисы / DDD / CQRS** · since 2019 · Xnata (40+ сервисов), tea.community, tea.express, Empire of Bloom, KPMG
+- **Микросервисы / DDD / CQRS** · since 2019 · Xnata (41 runtime-проект: 29 backend-сервисов, 3 gateway, 3 UI, 6 workers/tools), tea.community, tea.express, Empire of Bloom, KPMG
+- **MediatR / FluentValidation** · since 2023 · Xnata platform services, tea.community, tea.express
 - **PostgreSQL** · since 2020 · Xnata, tea.community, tea.express, Empire of Bloom, клиентские проекты GZ DKH, PPC Entourage
 - **REST API** · since 2015 · каждая backend-роль начиная с Дом ПК
 - **gRPC** · since 2021 · Xnata inter-service, tea.community, tea.express, Empire of Bloom, Container Diagnostics Service
@@ -28,13 +29,18 @@ Cloud-стек указан с разделением по подтверждё�
 - **Docker** · since 2019 · Xnata, tea.community, tea.express, Empire of Bloom, клиентские проекты GZ DKH
 - **Next.js (13 → 16)** · since 2022 · Xnata admin + storefront, tea.community, tea.express, AI Operations Assistant
 - **React (16 → 19)** · since 2020 · Xnata UI, tea.community, tea.express, AI Operations Assistant, PPC Entourage
+- **Liquid / Shopify-style themes-as-code** · since 2025 · Xnata StorefrontService, `dkh-theme` CLI, `xnata-tea`, tea.community, tea.express
+- **OpenAPI / Orval / typed API clients** · since 2025 · Xnata Admin Web UI и Storefront Web UI
 
 ## Working
 
 Регулярная production-разработка, поставляю фичи end-to-end.
 
 - **Avalonia (desktop / Android)** · since 2025 · Xnata Apps Suite — POS, Warehouse, Inspector
-- **Tailwind CSS (3)** · since 2023 · Xnata UI, tea.community, tea.express
+- **Tailwind CSS (3 → 4) / DaisyUI (5)** · since 2023 · Xnata UI, tea.community, tea.express
+- **TanStack Query / React Hook Form / Zod** · since 2024 · Xnata Admin Web UI и Storefront Web UI
+- **Lexical rich text / Monaco Editor** · since 2025 · Xnata storefront editor and notification/template tooling
+- **Playwright / Vitest / Jest** · since 2023 · Xnata UI test stack, tea.community, tea.express, itprodavets site
 - **Go (1.18 → 1.24)** · since 2022 · Empire of Bloom Fleet Tracking Platform
 - **Redis** · since 2021 · Xnata sessions + кэширование, tea.community, tea.express
 - **MongoDB (3 → 7)** · since 2022 · Xnata, клиентские проекты GZ DKH
@@ -47,10 +53,15 @@ Cloud-стек указан с разделением по подтверждё�
 - **TimescaleDB** · since 2022 · телеметрия Empire of Bloom, Fleet Tracking
 - **Prometheus / Grafana** · since 2021 · Xnata, tea.community, tea.express, Empire of Bloom, Container Diagnostics
 - **OpenAI / Azure OpenAI** · since 2023 · Xnata, AI Operations Assistant Empire of Bloom
+- **Ollama** · since 2025 · Xnata EmbeddingWorker local/primary embedding path
 - **RAG (Retrieval-Augmented Generation)** · since 2023 · Xnata, AI ops Empire of Bloom
 - **Semantic Kernel** · since 2024 · AI Operations Assistant Empire of Bloom
 - **Qdrant** · since 2024 · Xnata, AI ops Empire of Bloom
 - **MCP (Model Context Protocol)** · since 2025 · Xnata MCP-гейтвей
+- **S3 / MinIO-compatible storage** · since 2025 · Xnata MediaService and storefront assets
+- **Testcontainers** · since 2025 · Xnata integration testing
+- **Telegram.Bot / MTProto / Telegram Mini App SDK** · since 2025 · Xnata Telegram services, storefront mini-app shell, tea.community, tea.express
+- **ESC/POS / ZPL printing** · since 2025 · Xnata Apps Suite and PrintAgent
 - **GitLab CI** · since 2021 · Xnata, tea.community, tea.express, клиентские проекты GZ DKH
 - **GitHub Actions** · since 2022 · Xnata (зеркало), сайты itprodavets
 - **Serilog** · since 2020 · Xnata, tea.community, tea.express, KPMG
