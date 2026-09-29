@@ -2,7 +2,7 @@
 
 Lead Forward Deployed AI Engineer / Applied AI Lead с 15+ годами в разработке — последние 6+ embedded в enterprise-клиентах в области IoT, e-commerce, здравоохранения и госсектора. Помогаю бизнесу автоматизировать операции через AI — shipping production code внутри клиентских реалий, а не vendor demo. Специализируюсь на проектировании распределённых систем, создании высоконагруженных API, full-stack и embedded разработке, интеграции production AI (RAG, MCP, Semantic Kernel) и создании платформенных продуктов end-to-end. Сейчас строю Xnata ([xnata.com](https://xnata.com)) — мульти-тенантную commerce/content-платформу с работающими витринами [tea.community](https://tea.community) как чайной wiki и [tea.express](https://tea.express) как локальным магазином в Китае с отправкой по всему миру.
 
-[itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [WhatsApp +852 9153 4925](https://wa.me/85291534925) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
+[itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [WhatsApp](https://wa.me/85291534925) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
 - **Языки:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
 - **Бэкенд:** .NET Framework/.NET Core/.NET 10, ASP.NET Core, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT, MediatR, FluentValidation
