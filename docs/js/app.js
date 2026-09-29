@@ -110,7 +110,7 @@ window.renderSection = async function (resumeKey, lang, sections) {
    browser cache — bump it together with the ?v= on index.html's script/style
    tags on every content deploy. */
 const RAW_BASE = '';
-const ASSET_VERSION = '58';
+const ASSET_VERSION = '59';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/docs/';
 
 /* ===== DOM Helpers ===== */
@@ -210,7 +210,7 @@ function setupMarked() {
       if (subtitle) {
         html += `<div class="resume-role">${escapeHtml(subtitle)}</div>`;
       }
-      html += `<div class="resume-contact"><a href="mailto:itprodavets@gmail.com">itprodavets@gmail.com</a> · <a href="https://www.linkedin.com/in/itprodavets/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://t.me/itprodavets" target="_blank" rel="noopener noreferrer">Telegram</a> · <a href="https://www.reddit.com/user/itprodavets/" target="_blank" rel="noopener noreferrer">Reddit</a></div>`;
+      html += `<div class="resume-contact"><a href="mailto:itprodavets@gmail.com">itprodavets@gmail.com</a> · <a href="https://wa.me/85291534925" target="_blank" rel="noopener noreferrer">WhatsApp +852 9153 4925</a> · <a href="https://www.linkedin.com/in/itprodavets/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://t.me/itprodavets" target="_blank" rel="noopener noreferrer">Telegram</a> · <a href="https://www.reddit.com/user/itprodavets/" target="_blank" rel="noopener noreferrer">Reddit</a></div>`;
       html += '</div>';
       html += '<hr class="header-separator">';
       return html;

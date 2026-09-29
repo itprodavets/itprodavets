@@ -9,6 +9,7 @@ Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years embedded in e
 Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with 41 runtime projects, Shopify-style Liquid themes-as-code, MCP/RAG/search, staff operations apps, and live tea storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
 
 [![Email](https://img.shields.io/badge/itprodavets@gmail.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:itprodavets@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B852%209153%204925-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/85291534925)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-itprodavets-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itprodavets/)
 [![Telegram](https://img.shields.io/badge/Telegram-itprodavets-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/itprodavets)
 [![Reddit](https://img.shields.io/badge/Reddit-itprodavets-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/user/itprodavets/)

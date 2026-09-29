@@ -2,7 +2,7 @@
 
 Lead Forward Deployed AI Engineer / Applied AI Lead with 15+ years in software — the last 6+ embedded in enterprise clients across IoT, e-commerce, healthcare, and government. I help businesses automate operations through AI — shipping production code inside customer realities, not as a vendor demo. Specialize in designing distributed systems, building high-load APIs, full-stack and embedded development, integrating production AI (RAG, MCP, Semantic Kernel), and building product platforms end-to-end. Currently building Xnata ([xnata.com](https://xnata.com)) — a multi-tenant commerce/content platform with live storefronts: [tea.community](https://tea.community) as a tea wiki and [tea.express](https://tea.express) as a China-local store shipping worldwide.
 
-[itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
+[itprodavets@gmail.com](mailto:itprodavets@gmail.com) · [WhatsApp +852 9153 4925](https://wa.me/85291534925) · [LinkedIn](https://www.linkedin.com/in/itprodavets/) · [Telegram](https://t.me/itprodavets) · [Reddit](https://www.reddit.com/user/itprodavets/)
 
 - **Languages:** Go, C#, Python, JavaScript, TypeScript, C++, C, SQL, Bash
 - **Backend:** .NET Framework/.NET Core/.NET 10, ASP.NET Core, gRPC, REST/GraphQL, RabbitMQ, SignalR, MQTT, MediatR, FluentValidation
