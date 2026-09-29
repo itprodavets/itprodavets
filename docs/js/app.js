@@ -110,7 +110,7 @@ window.renderSection = async function (resumeKey, lang, sections) {
    browser cache — bump it together with the ?v= on index.html's script/style
    tags on every content deploy. */
 const RAW_BASE = '';
-const ASSET_VERSION = '60';
+const ASSET_VERSION = '61';
 const GITHUB_BASE = 'https://github.com/itprodavets/itprodavets/blob/main/docs/';
 
 /* ===== DOM Helpers ===== */
@@ -210,7 +210,22 @@ function setupMarked() {
       if (subtitle) {
         html += `<div class="resume-role">${escapeHtml(subtitle)}</div>`;
       }
-      html += `<div class="resume-contact"><a href="mailto:itprodavets@gmail.com">itprodavets@gmail.com</a> · <a href="https://wa.me/85291534925" target="_blank" rel="noopener noreferrer">WhatsApp</a> · <a href="https://www.linkedin.com/in/itprodavets/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://t.me/itprodavets" target="_blank" rel="noopener noreferrer">Telegram</a> · <a href="https://www.reddit.com/user/itprodavets/" target="_blank" rel="noopener noreferrer">Reddit</a></div>`;
+      html += '<div class="resume-contact" aria-label="Contact links">';
+      html += '<a class="resume-contact-link email" href="mailto:itprodavets@gmail.com" aria-label="Email" title="Email">';
+      html += '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>';
+      html += '</a>';
+      html += '<a class="resume-contact-link whatsapp" href="https://wa.me/85291534925" aria-label="WhatsApp" title="WhatsApp" target="_blank" rel="noopener noreferrer">';
+      html += '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-9 8.38 8.5 8.5 0 0 1-3.8-.9L3 20l1.1-4.9A8.5 8.5 0 1 1 21 11.5z"/><path d="M8.5 8.5c.2-.4.4-.4.7-.4h.4c.2 0 .3.1.4.4l.5 1.2c.1.2.1.4-.1.6l-.4.5c-.1.1-.1.2 0 .4.3.6 1 1.3 1.6 1.6.2.1.3.1.4 0l.5-.5c.2-.2.4-.2.6-.1l1.2.5c.3.1.4.2.4.4v.4c0 .3 0 .5-.4.7-.4.2-1.1.3-1.8 0-1-.4-2.1-1.1-2.9-1.9-.8-.8-1.5-1.9-1.9-2.9-.3-.7-.2-1.4 0-1.8z"/></svg>';
+      html += '</a>';
+      html += '<a class="resume-contact-link linkedin" href="https://www.linkedin.com/in/itprodavets/" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">';
+      html += '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>';
+      html += '</a>';
+      html += '<a class="resume-contact-link telegram" href="https://t.me/itprodavets" aria-label="Telegram" title="Telegram" target="_blank" rel="noopener noreferrer">';
+      html += '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>';
+      html += '</a>';
+      html += '<a class="resume-contact-link reddit" href="https://www.reddit.com/user/itprodavets/" aria-label="Reddit" title="Reddit" target="_blank" rel="noopener noreferrer">';
+      html += '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>';
+      html += '</a></div>';
       html += '</div>';
       html += '<hr class="header-separator">';
       return html;
